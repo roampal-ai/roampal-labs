@@ -1,0 +1,16 @@
+Retrying 190 unknown questions...
+  20/190 — fixed: 20, still unknown: 0
+  40/190 — fixed: 40, still unknown: 0
+  60/190 — fixed: 60, still unknown: 0
+  80/190 — fixed: 80, still unknown: 0
+  100/190 — fixed: 100, still unknown: 0
+  120/190 — fixed: 120, still unknown: 0
+  140/190 — fixed: 140, still unknown: 0
+  160/190 — fixed: 160, still unknown: 0
+  Error: The read operation timed out
+  180/190 — fixed: 180, still unknown: 0
+
+Done. Fixed 190, still unknown: 0
+Correct: 1430, Partial: 142, Wrong: 414, Unknown: 0
+Strict: 72.0%, Lenient: 79.1%
+Upgrades: 253, Downgrades: 30

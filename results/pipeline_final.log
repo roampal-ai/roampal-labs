@@ -1,0 +1,184 @@
+Loading data...
+Loaded 10 conversations, 3015 facts
+  Character sheets: 10 conversations, 3015 facts
+  LoCoMo exam: 1986
+  Hard exam: 76
+  Poison memories: 1135
+
+============================================================
+ROAMPAL-LABS BENCHMARK PIPELINE
+============================================================
+Strategies: 2
+Steps per strategy: 3
+Already completed: 0
+============================================================
+
+
+============================================================
+STRATEGY 1/2: 01.CE+Tags
+============================================================
+
+  [01_conversation] Conversation learning (~503 turns, 3015 facts, with facts)...
+W0404 08:34:20.403386 37360 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+    01.CE+Tags: Starting Caroline (123 facts)...
+    01.CE+Tags: turn 10 | 20/3015 facts | Caroline (103 remaining)
+    01.CE+Tags: turn 20 | 40/3015 facts | Caroline (83 remaining)
+    01.CE+Tags: turn 30 | 60/3015 facts | Caroline (63 remaining)
+    01.CE+Tags: turn 40 | 80/3015 facts | Caroline (43 remaining)
+    01.CE+Tags: turn 50 | 100/3015 facts | Caroline (23 remaining)
+    01.CE+Tags: turn 60 | 120/3015 facts | Caroline (3 remaining)
+    01.CE+Tags: Caroline done (123 facts covered)
+    01.CE+Tags: Starting Melanie (114 facts)...
+    01.CE+Tags: turn 70 | 139/3015 facts | Melanie (98 remaining)
+    01.CE+Tags: turn 80 | 159/3015 facts | Melanie (78 remaining)
+    01.CE+Tags: turn 90 | 179/3015 facts | Melanie (58 remaining)
+    01.CE+Tags: turn 100 | 199/3015 facts | Melanie (38 remaining)
+    01.CE+Tags: turn 110 | 219/3015 facts | Melanie (18 remaining)
+    01.CE+Tags: Melanie done (114 facts covered)
+    01.CE+Tags: Starting Gina (74 facts)...
+    01.CE+Tags: turn 120 | 239/3015 facts | Gina (72 remaining)
+    01.CE+Tags: turn 130 | 259/3015 facts | Gina (52 remaining)
+    01.CE+Tags: turn 140 | 279/3015 facts | Gina (32 remaining)
+    01.CE+Tags: turn 150 | 299/3015 facts | Gina (12 remaining)
+    01.CE+Tags: Gina done (74 facts covered)
+    01.CE+Tags: Starting Jon (70 facts)...
+    01.CE+Tags: turn 160 | 319/3015 facts | Jon (62 remaining)
+    01.CE+Tags: turn 170 | 339/3015 facts | Jon (42 remaining)
+    01.CE+Tags: turn 180 | 359/3015 facts | Jon (22 remaining)
+    01.CE+Tags: turn 190 | 379/3015 facts | Jon (2 remaining)
+    01.CE+Tags: Jon done (70 facts covered)
+    01.CE+Tags: Starting Maria (135 facts)...
+    01.CE+Tags: turn 200 | 399/3015 facts | Maria (117 remaining)
+    01.CE+Tags: turn 210 | 419/3015 facts | Maria (97 remaining)
+    01.CE+Tags: turn 220 | 439/3015 facts | Maria (77 remaining)
+    01.CE+Tags: turn 230 | 459/3015 facts | Maria (57 remaining)
+    01.CE+Tags: turn 240 | 479/3015 facts | Maria (37 remaining)
+    01.CE+Tags: turn 250 | 499/3015 facts | Maria (17 remaining)
+    01.CE+Tags: Maria done (135 facts covered)
+    01.CE+Tags: Starting John (185 facts)...
+    01.CE+Tags: turn 260 | 518/3015 facts | John (183 remaining)
+    01.CE+Tags: turn 270 | 538/3015 facts | John (163 remaining)
+    01.CE+Tags: turn 280 | 558/3015 facts | John (143 remaining)
+    01.CE+Tags: turn 290 | 578/3015 facts | John (123 remaining)
+    01.CE+Tags: turn 300 | 598/3015 facts | John (103 remaining)
+    01.CE+Tags: turn 310 | 618/3015 facts | John (83 remaining)
+    01.CE+Tags: turn 320 | 638/3015 facts | John (63 remaining)
+    01.CE+Tags: turn 330 | 658/3015 facts | John (43 remaining)
+    01.CE+Tags: turn 340 | 678/3015 facts | John (23 remaining)
+    01.CE+Tags: turn 350 | 698/3015 facts | John (3 remaining)
+    01.CE+Tags: John done (185 facts covered)
+    01.CE+Tags: Starting Nate (186 facts)...
+    01.CE+Tags: turn 360 | 717/3015 facts | Nate (170 remaining)
+    01.CE+Tags: turn 370 | 737/3015 facts | Nate (150 remaining)
+    01.CE+Tags: turn 380 | 757/3015 facts | Nate (130 remaining)
+    01.CE+Tags: turn 390 | 777/3015 facts | Nate (110 remaining)
+    01.CE+Tags: turn 400 | 797/3015 facts | Nate (90 remaining)
+    01.CE+Tags: turn 410 | 817/3015 facts | Nate (70 remaining)
+    01.CE+Tags: turn 420 | 837/3015 facts | Nate (50 remaining)
+    01.CE+Tags: turn 430 | 857/3015 facts | Nate (30 remaining)
+    01.CE+Tags: turn 440 | 877/3015 facts | Nate (10 remaining)
+    01.CE+Tags: Nate done (186 facts covered)
+    01.CE+Tags: Starting Joanna (173 facts)...
+    01.CE+Tags: turn 450 | 897/3015 facts | Joanna (163 remaining)
+    01.CE+Tags: turn 460 | 917/3015 facts | Joanna (143 remaining)
+    01.CE+Tags: turn 470 | 937/3015 facts | Joanna (123 remaining)
+    01.CE+Tags: turn 480 | 957/3015 facts | Joanna (103 remaining)
+    01.CE+Tags: turn 490 | 977/3015 facts | Joanna (83 remaining)
+    01.CE+Tags: turn 500 | 997/3015 facts | Joanna (63 remaining)
+    01.CE+Tags: turn 510 | 1017/3015 facts | Joanna (43 remaining)
+    01.CE+Tags: turn 520 | 1037/3015 facts | Joanna (23 remaining)
+    01.CE+Tags: turn 530 | 1057/3015 facts | Joanna (3 remaining)
+    01.CE+Tags: Joanna done (173 facts covered)
+    01.CE+Tags: Starting John (202 facts)...
+    01.CE+Tags: turn 540 | 1076/3015 facts | John (186 remaining)
+    01.CE+Tags: turn 550 | 1096/3015 facts | John (166 remaining)
+    01.CE+Tags: turn 560 | 1116/3015 facts | John (146 remaining)
+    01.CE+Tags: turn 570 | 1136/3015 facts | John (126 remaining)
+    01.CE+Tags: turn 580 | 1156/3015 facts | John (106 remaining)
+    01.CE+Tags: turn 590 | 1176/3015 facts | John (86 remaining)
+    01.CE+Tags: turn 600 | 1196/3015 facts | John (66 remaining)
+    01.CE+Tags: turn 610 | 1216/3015 facts | John (46 remaining)
+    01.CE+Tags: turn 620 | 1236/3015 facts | John (26 remaining)
+    01.CE+Tags: turn 630 | 1256/3015 facts | John (6 remaining)
+    01.CE+Tags: John done (202 facts covered)
+    01.CE+Tags: Starting Tim (139 facts)...
+    01.CE+Tags: turn 640 | 1276/3015 facts | Tim (125 remaining)
+    01.CE+Tags: turn 650 | 1296/3015 facts | Tim (105 remaining)
+    01.CE+Tags: turn 660 | 1316/3015 facts | Tim (85 remaining)
+    01.CE+Tags: turn 670 | 1336/3015 facts | Tim (65 remaining)
+    01.CE+Tags: turn 680 | 1356/3015 facts | Tim (45 remaining)
+    01.CE+Tags: turn 690 | 1376/3015 facts | Tim (25 remaining)
+    01.CE+Tags: turn 700 | 1396/3015 facts | Tim (5 remaining)
+    01.CE+Tags: Tim done (139 facts covered)
+    01.CE+Tags: Starting Audrey (166 facts)...
+    01.CE+Tags: turn 710 | 1415/3015 facts | Audrey (152 remaining)
+    01.CE+Tags: turn 720 | 1435/3015 facts | Audrey (132 remaining)
+    01.CE+Tags: turn 730 | 1455/3015 facts | Audrey (112 remaining)
+    01.CE+Tags: turn 740 | 1475/3015 facts | Audrey (92 remaining)
+    01.CE+Tags: turn 750 | 1495/3015 facts | Audrey (72 remaining)
+    01.CE+Tags: turn 760 | 1515/3015 facts | Audrey (52 remaining)
+    01.CE+Tags: turn 770 | 1535/3015 facts | Audrey (32 remaining)
+    01.CE+Tags: turn 780 | 1555/3015 facts | Audrey (12 remaining)
+    01.CE+Tags: Audrey done (166 facts covered)
+    01.CE+Tags: Starting Andrew (124 facts)...
+    01.CE+Tags: turn 790 | 1575/3015 facts | Andrew (116 remaining)
+    01.CE+Tags: turn 800 | 1595/3015 facts | Andrew (96 remaining)
+    01.CE+Tags: turn 810 | 1615/3015 facts | Andrew (76 remaining)
+    01.CE+Tags: turn 820 | 1635/3015 facts | Andrew (56 remaining)
+    01.CE+Tags: turn 830 | 1655/3015 facts | Andrew (36 remaining)
+    01.CE+Tags: turn 840 | 1675/3015 facts | Andrew (16 remaining)
+    01.CE+Tags: Andrew done (124 facts covered)
+    01.CE+Tags: Starting John (125 facts)...
+    01.CE+Tags: turn 850 | 1695/3015 facts | John (121 remaining)
+    01.CE+Tags: turn 860 | 1715/3015 facts | John (101 remaining)
+    01.CE+Tags: turn 870 | 1735/3015 facts | John (81 remaining)
+    01.CE+Tags: turn 880 | 1755/3015 facts | John (61 remaining)
+    01.CE+Tags: turn 890 | 1775/3015 facts | John (41 remaining)
+    01.CE+Tags: turn 900 | 1795/3015 facts | John (21 remaining)
+    01.CE+Tags: turn 910 | 1815/3015 facts | John (1 remaining)
+    01.CE+Tags: John done (125 facts covered)
+    01.CE+Tags: Starting James (141 facts)...
+    01.CE+Tags: turn 920 | 1834/3015 facts | James (123 remaining)
+    01.CE+Tags: turn 930 | 1854/3015 facts | James (103 remaining)
+    01.CE+Tags: turn 940 | 1874/3015 facts | James (83 remaining)
+    01.CE+Tags: turn 950 | 1894/3015 facts | James (63 remaining)
+    01.CE+Tags: turn 960 | 1914/3015 facts | James (43 remaining)
+    01.CE+Tags: turn 970 | 1934/3015 facts | James (23 remaining)
+    01.CE+Tags: turn 980 | 1954/3015 facts | James (3 remaining)
+    01.CE+Tags: James done (141 facts covered)
+    01.CE+Tags: Starting Deborah (158 facts)...
+    01.CE+Tags: turn 990 | 1973/3015 facts | Deborah (142 remaining)
+    01.CE+Tags: turn 1000 | 1993/3015 facts | Deborah (122 remaining)
+    01.CE+Tags: turn 1010 | 2013/3015 facts | Deborah (102 remaining)
+    01.CE+Tags: turn 1020 | 2033/3015 facts | Deborah (82 remaining)
+    01.CE+Tags: turn 1030 | 2053/3015 facts | Deborah (62 remaining)
+    01.CE+Tags: turn 1040 | 2073/3015 facts | Deborah (42 remaining)
+    01.CE+Tags: turn 1050 | 2093/3015 facts | Deborah (22 remaining)
+    01.CE+Tags: turn 1060 | 2113/3015 facts | Deborah (2 remaining)
+    01.CE+Tags: Deborah done (158 facts covered)
+    01.CE+Tags: Starting Jolene (199 facts)...
+    01.CE+Tags: turn 1070 | 2133/3015 facts | Jolene (181 remaining)
+    01.CE+Tags: turn 1080 | 2153/3015 facts | Jolene (161 remaining)
+    01.CE+Tags: turn 1090 | 2173/3015 facts | Jolene (141 remaining)
+    01.CE+Tags: turn 1100 | 2193/3015 facts | Jolene (121 remaining)
+    01.CE+Tags: turn 1110 | 2213/3015 facts | Jolene (101 remaining)
+    01.CE+Tags: turn 1120 | 2233/3015 facts | Jolene (81 remaining)
+    01.CE+Tags: turn 1130 | 2253/3015 facts | Jolene (61 remaining)
+    01.CE+Tags: turn 1140 | 2273/3015 facts | Jolene (41 remaining)
+    01.CE+Tags: turn 1150 | 2293/3015 facts | Jolene (21 remaining)
+    01.CE+Tags: turn 1160 | 2313/3015 facts | Jolene (1 remaining)
+    01.CE+Tags: Jolene done (199 facts covered)
+    01.CE+Tags: Starting Sam (159 facts)...
+    01.CE+Tags: turn 1170 | 2332/3015 facts | Sam (141 remaining)
+    01.CE+Tags: turn 1180 | 2352/3015 facts | Sam (121 remaining)
+    01.CE+Tags: turn 1190 | 2372/3015 facts | Sam (101 remaining)
+    01.CE+Tags: turn 1200 | 2392/3015 facts | Sam (81 remaining)
+    01.CE+Tags: turn 1210 | 2412/3015 facts | Sam (61 remaining)
+    01.CE+Tags: turn 1220 | 2432/3015 facts | Sam (41 remaining)
+    01.CE+Tags: turn 1230 | 2452/3015 facts | Sam (21 remaining)
+    01.CE+Tags: turn 1240 | 2472/3015 facts | Sam (1 remaining)
+    01.CE+Tags: Sam done (159 facts covered)
+    01.CE+Tags: Starting Evan (177 facts)...
+    01.CE+Tags: turn 1250 | 2491/3015 facts | Evan (159 remaining)
+    01.CE+Tags: turn 1260 | 2511/3015 facts | Evan (139 remaining)
+    01.CE+Tags: turn 1270 | 2531/3015 facts | Evan (119 remaining)

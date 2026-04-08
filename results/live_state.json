@@ -1,0 +1,289 @@
+{
+  "benchmark": "GPT-4o-mini MODEL SWAP",
+  "current_group": "4omini_03.CE-Only_poison",
+  "current_step": "Hard exam",
+  "current_turn": 76,
+  "total_turns": 76,
+  "total_groups": 5,
+  "completed_groups": 5,
+  "groups": {
+    "4omini_02.TagCascade_clean": {
+      "memories": 4931,
+      "exam": {
+        "correct": 24,
+        "partial": 13,
+        "wrong": 33,
+        "total": 70,
+        "accuracy": 0.3429,
+        "by_category": {
+          "aggregation": {
+            "correct": 0,
+            "partial": 10,
+            "wrong": 5,
+            "total": 15
+          },
+          "counterfactual": {
+            "correct": 14,
+            "partial": 0,
+            "wrong": 1,
+            "total": 15
+          },
+          "cross_entity": {
+            "correct": 3,
+            "partial": 3,
+            "wrong": 14,
+            "total": 20
+          },
+          "temporal_computation": {
+            "correct": 6,
+            "partial": 0,
+            "wrong": 4,
+            "total": 10
+          },
+          "temporal_ordering": {
+            "correct": 2,
+            "partial": 0,
+            "wrong": 14,
+            "total": 16
+          }
+        },
+        "progress": "70/76"
+      }
+    },
+    "4omini_03.CE-Only_clean": {
+      "memories": 4963,
+      "exam": {
+        "correct": 26,
+        "partial": 12,
+        "wrong": 32,
+        "total": 70,
+        "accuracy": 0.3714,
+        "by_category": {
+          "aggregation": {
+            "correct": 2,
+            "partial": 5,
+            "wrong": 8,
+            "total": 15
+          },
+          "counterfactual": {
+            "correct": 15,
+            "partial": 0,
+            "wrong": 0,
+            "total": 15
+          },
+          "cross_entity": {
+            "correct": 2,
+            "partial": 7,
+            "wrong": 11,
+            "total": 20
+          },
+          "temporal_computation": {
+            "correct": 4,
+            "partial": 0,
+            "wrong": 6,
+            "total": 10
+          },
+          "temporal_ordering": {
+            "correct": 4,
+            "partial": 0,
+            "wrong": 12,
+            "total": 16
+          }
+        },
+        "progress": "70/76"
+      }
+    },
+    "4omini_baseline": {
+      "memories": 1698,
+      "exam": {
+        "correct": 10,
+        "partial": 6,
+        "wrong": 54,
+        "total": 70,
+        "accuracy": 0.1429,
+        "by_category": {
+          "aggregation": {
+            "correct": 0,
+            "partial": 5,
+            "wrong": 10,
+            "total": 15
+          },
+          "counterfactual": {
+            "correct": 6,
+            "partial": 0,
+            "wrong": 9,
+            "total": 15
+          },
+          "cross_entity": {
+            "correct": 1,
+            "partial": 1,
+            "wrong": 18,
+            "total": 20
+          },
+          "temporal_computation": {
+            "correct": 3,
+            "partial": 0,
+            "wrong": 7,
+            "total": 10
+          },
+          "temporal_ordering": {
+            "correct": 0,
+            "partial": 0,
+            "wrong": 16,
+            "total": 16
+          }
+        },
+        "progress": "70/76"
+      }
+    },
+    "4omini_02.TagCascade_poison": {
+      "memories": 5827,
+      "exam": {
+        "correct": 18,
+        "partial": 11,
+        "wrong": 41,
+        "total": 70,
+        "accuracy": 0.2571,
+        "by_category": {
+          "aggregation": {
+            "correct": 1,
+            "partial": 6,
+            "wrong": 8,
+            "total": 15
+          },
+          "counterfactual": {
+            "correct": 11,
+            "partial": 0,
+            "wrong": 4,
+            "total": 15
+          },
+          "cross_entity": {
+            "correct": 2,
+            "partial": 5,
+            "wrong": 13,
+            "total": 20
+          },
+          "temporal_computation": {
+            "correct": 3,
+            "partial": 0,
+            "wrong": 7,
+            "total": 10
+          },
+          "temporal_ordering": {
+            "correct": 1,
+            "partial": 0,
+            "wrong": 15,
+            "total": 16
+          }
+        },
+        "progress": "70/76"
+      }
+    },
+    "4omini_03.CE-Only_poison": {
+      "memories": 5707,
+      "exam": {
+        "correct": 24,
+        "partial": 8,
+        "wrong": 38,
+        "total": 70,
+        "accuracy": 0.3429,
+        "by_category": {
+          "aggregation": {
+            "correct": 1,
+            "partial": 4,
+            "wrong": 10,
+            "total": 15
+          },
+          "counterfactual": {
+            "correct": 12,
+            "partial": 0,
+            "wrong": 3,
+            "total": 15
+          },
+          "cross_entity": {
+            "correct": 4,
+            "partial": 4,
+            "wrong": 12,
+            "total": 20
+          },
+          "temporal_computation": {
+            "correct": 6,
+            "partial": 0,
+            "wrong": 4,
+            "total": 10
+          },
+          "temporal_ordering": {
+            "correct": 2,
+            "partial": 0,
+            "wrong": 14,
+            "total": 16
+          }
+        },
+        "progress": "70/76"
+      }
+    }
+  },
+  "feed": [
+    {
+      "group": "EXAM 4omini_03.CE-Only_poison",
+      "turn": 71,
+      "query": "Put these events in chronological order: Jolene bought a new aquarium for Seraphim, Jolene gift her partner a new console, Deborah go for her first morning jog in a nearby park, Jolene had a dinner and drinks with her friends",
+      "answer": "1. Deborah goes for her first morning jog in a nearby park.\n2. Jolene gifts her partner a new console.\n3. Jolene buys a new aquarium for Seraphim.\n4. Jolene has dinner and drinks with her friends.",
+      "judgment": "wrong",
+      "followup": "Ground truth: Jolene had a dinner and drinks with her friends -> Deborah go for her first morning jog in a nearby park -> Jolene bought a new aquarium for Seraphim -> Jolene gift her partner a new console",
+      "memories": 8,
+      "retrieval_ms": 1575.9
+    },
+    {
+      "group": "EXAM 4omini_03.CE-Only_poison",
+      "turn": 72,
+      "query": "Put these events in chronological order: Deborah met Anna, Jolene had a dinner and drinks with her friends, Deborah's father pass away, Deborah receive an appreciation letter from her community",
+      "answer": "1. Deborah met Anna (31 January 2023).\n2. Jolene had dinner and drinks with her friends (21 February 2023).\n3. Deborah's father passed away (date not specified, but it occurred after the previous events).\n4. Deborah received an appreciation letter from her community (date not specified, but it occurred after the previous events).",
+      "judgment": "wrong",
+      "followup": "Ground truth: Deborah's father pass away -> Deborah received an appreciation letter from her community -> Deborah met Anna -> Jolene had a dinner and drinks with her friends",
+      "memories": 8,
+      "retrieval_ms": 1599.8
+    },
+    {
+      "group": "EXAM 4omini_03.CE-Only_poison",
+      "turn": 73,
+      "query": "Put these events in chronological order: Sam started working out at the gym, Evan had a drunken night with his friends, When Evan got back from a vacation with his SO, Sam and his friend decide to try kayaking",
+      "answer": "1. Evan had a drunken night with his friends on January 9, 2023.\n2. When Evan got back from a vacation with his SO.\n3. Sam started working out at the gym on July 28, 2023.\n4. Sam and his friend decide to try kayaking.",
+      "judgment": "wrong",
+      "followup": "Ground truth: Evan had a drunken night with his friends -> Sam started working out at the gym -> When Evan got back from a vacation with his SO -> Sam and his friend decided to tried kayaking",
+      "memories": 8,
+      "retrieval_ms": 1553.0
+    },
+    {
+      "group": "EXAM 4omini_03.CE-Only_poison",
+      "turn": 74,
+      "query": "Put these events in chronological order: Calvin attend a gala in Boston, Calvin visited some of the sights in Boston with a former high school friend, Calvin met with local artists in Boston",
+      "answer": "1. Calvin visited some of the sights in Boston with a former high school friend (October 2023).\n2. Calvin met with local artists in Boston (October 3, 2023).\n3. Calvin attended a gala in Boston (November 16, 2023).",
+      "judgment": "wrong",
+      "followup": "Ground truth: Calvin met with local artists in Boston -> Calvin visited some of the sights in Boston with a former high school friend -> Calvin attend a gala in Boston",
+      "memories": 8,
+      "retrieval_ms": 1597.8
+    },
+    {
+      "group": "EXAM 4omini_03.CE-Only_poison",
+      "turn": 75,
+      "query": "Put these events in chronological order: Calvin record a podcast with his friends, Dave started his car maintenance shop, Dave return from San Francisco, Calvin met with the creative team for his new album",
+      "answer": "1. Dave started his car maintenance shop (around 1 June 2023).\n2. Calvin met with the creative team for his new album (early May 2023).\n3. Calvin recorded a podcast with his friends (August 21, 2023).\n4. Dave returned from San Francisco (date not specified, but after June 2023).",
+      "judgment": "correct",
+      "followup": "Ground truth: Dave started his car maintenance shop -> Calvin met with the creative team for his new album -> Calvin record a podcast with his friends -> Dave return from San Francisco",
+      "memories": 8,
+      "retrieval_ms": 1547.0
+    },
+    {
+      "group": "EXAM 4omini_03.CE-Only_poison",
+      "turn": 76,
+      "query": "Put these events in chronological order: Calvin's album released, Calvin met with local artists in Boston, Dave had a great jam session with his band, Dave return from San Francisco",
+      "answer": "1. Dave returned from San Francisco.\n2. Dave had a great jam session with his band.\n3. Calvin met with local artists in Boston.\n4. Calvin's album was released.",
+      "judgment": "wrong",
+      "followup": "Ground truth: Dave return from San Francisco -> Calvin's album released -> Dave had a great jam session with his band -> Calvin met with local artists in Boston",
+      "memories": 8,
+      "retrieval_ms": 1623.3
+    }
+  ],
+  "updated_at": 1775610703.9410555
+}

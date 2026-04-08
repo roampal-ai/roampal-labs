@@ -1,0 +1,1088 @@
+Loading data...
+Loaded 10 conversations, 3015 facts
+  Character sheets: 10 conversations, 3015 facts
+  LoCoMo exam: 1986
+  Hard exam: 76
+  Poison memories: 1135
+
+============================================================
+ROAMPAL-LABS BENCHMARK PIPELINE
+============================================================
+Strategies: 3
+Steps per strategy: 3
+Already completed: 1
+============================================================
+
+
+============================================================
+STRATEGY 1/3: 01.CE+Tags
+============================================================
+
+  [01_conversation] SKIP (already completed)
+
+  [02_locomo_off] Exam (1986 Qs, learning=OFF)...
+W0405 00:35:55.650760 31160 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+    Resuming exam from question 700
+    EXAM 01.CE+Tags: 710/1986 -- 469c/147w  66.1%
+    EXAM 01.CE+Tags: 720/1986 -- 471c/154w  65.4%
+    EXAM 01.CE+Tags: 730/1986 -- 473c/162w  64.8%
+    EXAM 01.CE+Tags: 740/1986 -- 475c/170w  64.2%
+    EXAM 01.CE+Tags: 750/1986 -- 478c/177w  63.7%
+    EXAM 01.CE+Tags: 760/1986 -- 483c/181w  63.6%
+    EXAM 01.CE+Tags: 770/1986 -- 488c/184w  63.4%
+    EXAM 01.CE+Tags: 780/1986 -- 495c/186w  63.5%
+    EXAM 01.CE+Tags: 790/1986 -- 503c/186w  63.7%
+    EXAM 01.CE+Tags: 800/1986 -- 510c/186w  63.7%
+    EXAM 01.CE+Tags: 810/1986 -- 516c/187w  63.7%
+    EXAM 01.CE+Tags: 820/1986 -- 524c/188w  63.9%
+    EXAM 01.CE+Tags: 830/1986 -- 531c/191w  64.0%
+    EXAM 01.CE+Tags: 840/1986 -- 541c/191w  64.4%
+    EXAM 01.CE+Tags: 850/1986 -- 549c/192w  64.6%
+    EXAM 01.CE+Tags: 860/1986 -- 555c/193w  64.5%
+    EXAM 01.CE+Tags: 870/1986 -- 564c/193w  64.8%
+    EXAM 01.CE+Tags: 880/1986 -- 569c/196w  64.7%
+    EXAM 01.CE+Tags: 890/1986 -- 577c/198w  64.8%
+    EXAM 01.CE+Tags: 900/1986 -- 585c/200w  65.0%
+    EXAM 01.CE+Tags: 910/1986 -- 595c/200w  65.4%
+    EXAM 01.CE+Tags: 920/1986 -- 601c/202w  65.3%
+    EXAM 01.CE+Tags: 930/1986 -- 607c/203w  65.3%
+    EXAM 01.CE+Tags: 940/1986 -- 612c/207w  65.1%
+    EXAM 01.CE+Tags: 950/1986 -- 617c/212w  64.9%
+    EXAM 01.CE+Tags: 960/1986 -- 624c/215w  65.0%
+    EXAM 01.CE+Tags: 970/1986 -- 626c/223w  64.5%
+    EXAM 01.CE+Tags: 980/1986 -- 631c/228w  64.4%
+    EXAM 01.CE+Tags: 990/1986 -- 637c/232w  64.3%
+    EXAM 01.CE+Tags: 1000/1986 -- 642c/236w  64.2%
+    EXAM 01.CE+Tags: 1010/1986 -- 651c/236w  64.5%
+    EXAM 01.CE+Tags: 1020/1986 -- 658c/237w  64.5%
+    EXAM 01.CE+Tags: 1030/1986 -- 665c/237w  64.6%
+    EXAM 01.CE+Tags: 1040/1986 -- 671c/237w  64.5%
+    EXAM 01.CE+Tags: 1050/1986 -- 678c/240w  64.6%
+    EXAM 01.CE+Tags: 1060/1986 -- 685c/242w  64.6%
+    EXAM 01.CE+Tags: 1070/1986 -- 695c/242w  65.0%
+    EXAM 01.CE+Tags: 1080/1986 -- 704c/243w  65.2%
+    EXAM 01.CE+Tags: 1090/1986 -- 712c/244w  65.3%
+    EXAM 01.CE+Tags: 1100/1986 -- 720c/244w  65.5%
+    EXAM 01.CE+Tags: 1110/1986 -- 724c/247w  65.2%
+    EXAM 01.CE+Tags: 1120/1986 -- 732c/247w  65.4%
+    EXAM 01.CE+Tags: 1130/1986 -- 734c/254w  65.0%
+    EXAM 01.CE+Tags: 1140/1986 -- 736c/262w  64.6%
+    EXAM 01.CE+Tags: 1150/1986 -- 737c/271w  64.1%
+    EXAM 01.CE+Tags: 1160/1986 -- 739c/278w  63.7%
+    EXAM 01.CE+Tags: 1170/1986 -- 747c/280w  63.8%
+    EXAM 01.CE+Tags: 1180/1986 -- 754c/282w  63.9%
+    EXAM 01.CE+Tags: 1190/1986 -- 762c/283w  64.0%
+    EXAM 01.CE+Tags: 1200/1986 -- 770c/284w  64.2%
+    EXAM 01.CE+Tags: 1210/1986 -- 778c/286w  64.3%
+    EXAM 01.CE+Tags: 1220/1986 -- 784c/289w  64.3%
+    EXAM 01.CE+Tags: 1230/1986 -- 793c/289w  64.5%
+    EXAM 01.CE+Tags: 1240/1986 -- 803c/289w  64.8%
+    EXAM 01.CE+Tags: 1250/1986 -- 811c/291w  64.9%
+    EXAM 01.CE+Tags: 1260/1986 -- 818c/293w  64.9%
+    EXAM 01.CE+Tags: 1270/1986 -- 827c/294w  65.1%
+    EXAM 01.CE+Tags: 1280/1986 -- 836c/295w  65.3%
+    EXAM 01.CE+Tags: 1290/1986 -- 846c/295w  65.6%
+    EXAM 01.CE+Tags: 1300/1986 -- 852c/297w  65.5%
+    EXAM 01.CE+Tags: 1310/1986 -- 860c/298w  65.6%
+    EXAM 01.CE+Tags: 1320/1986 -- 864c/304w  65.5%
+    EXAM 01.CE+Tags: 1330/1986 -- 870c/307w  65.4%
+    EXAM 01.CE+Tags: 1340/1986 -- 875c/312w  65.3%
+    EXAM 01.CE+Tags: 1350/1986 -- 882c/315w  65.3%
+    EXAM 01.CE+Tags: 1360/1986 -- 892c/315w  65.6%
+    EXAM 01.CE+Tags: 1370/1986 -- 899c/316w  65.6%
+    EXAM 01.CE+Tags: 1380/1986 -- 906c/318w  65.7%
+    EXAM 01.CE+Tags: 1390/1986 -- 913c/320w  65.7%
+    EXAM 01.CE+Tags: 1400/1986 -- 921c/322w  65.8%
+    EXAM 01.CE+Tags: 1410/1986 -- 927c/325w  65.7%
+    EXAM 01.CE+Tags: 1420/1986 -- 936c/325w  65.9%
+    EXAM 01.CE+Tags: 1430/1986 -- 942c/328w  65.9%
+    EXAM 01.CE+Tags: 1440/1986 -- 947c/330w  65.8%
+    EXAM 01.CE+Tags: 1450/1986 -- 952c/333w  65.7%
+    EXAM 01.CE+Tags: 1460/1986 -- 960c/335w  65.8%
+    EXAM 01.CE+Tags: 1470/1986 -- 967c/337w  65.8%
+    EXAM 01.CE+Tags: 1480/1986 -- 976c/337w  65.9%
+    EXAM 01.CE+Tags: 1490/1986 -- 982c/339w  65.9%
+    EXAM 01.CE+Tags: 1500/1986 -- 992c/339w  66.1%
+    EXAM 01.CE+Tags: 1510/1986 -- 998c/341w  66.1%
+    EXAM 01.CE+Tags: 1520/1986 -- 1006c/341w  66.2%
+    EXAM 01.CE+Tags: 1530/1986 -- 1013c/343w  66.2%
+    EXAM 01.CE+Tags: 1540/1986 -- 1020c/344w  66.2%
+    EXAM 01.CE+Tags: 1550/1986 -- 1024c/350w  66.1%
+    EXAM 01.CE+Tags: 1560/1986 -- 1025c/359w  65.7%
+    EXAM 01.CE+Tags: 1570/1986 -- 1028c/366w  65.5%
+    EXAM 01.CE+Tags: 1580/1986 -- 1030c/374w  65.2%
+    EXAM 01.CE+Tags: 1590/1986 -- 1034c/379w  65.0%
+    EXAM 01.CE+Tags: 1600/1986 -- 1043c/380w  65.2%
+    EXAM 01.CE+Tags: 1610/1986 -- 1048c/382w  65.1%
+    EXAM 01.CE+Tags: 1620/1986 -- 1056c/383w  65.2%
+    EXAM 01.CE+Tags: 1630/1986 -- 1062c/385w  65.2%
+    EXAM 01.CE+Tags: 1640/1986 -- 1067c/388w  65.1%
+    EXAM 01.CE+Tags: 1650/1986 -- 1072c/390w  65.0%
+    EXAM 01.CE+Tags: 1660/1986 -- 1082c/390w  65.2%
+    EXAM 01.CE+Tags: 1670/1986 -- 1090c/391w  65.3%
+    EXAM 01.CE+Tags: 1680/1986 -- 1098c/392w  65.4%
+    EXAM 01.CE+Tags: 1690/1986 -- 1107c/393w  65.5%
+    EXAM 01.CE+Tags: 1700/1986 -- 1116c/394w  65.6%
+    EXAM 01.CE+Tags: 1710/1986 -- 1124c/395w  65.7%
+    EXAM 01.CE+Tags: 1720/1986 -- 1131c/396w  65.8%
+    EXAM 01.CE+Tags: 1730/1986 -- 1140c/397w  65.9%
+    EXAM 01.CE+Tags: 1740/1986 -- 1149c/398w  66.0%
+    EXAM 01.CE+Tags: 1750/1986 -- 1151c/406w  65.8%
+    EXAM 01.CE+Tags: 1760/1986 -- 1152c/415w  65.5%
+    EXAM 01.CE+Tags: 1770/1986 -- 1153c/424w  65.1%
+    EXAM 01.CE+Tags: 1780/1986 -- 1153c/433w  64.8%
+    EXAM 01.CE+Tags: 1790/1986 -- 1158c/436w  64.7%
+    EXAM 01.CE+Tags: 1800/1986 -- 1166c/436w  64.8%
+    EXAM 01.CE+Tags: 1810/1986 -- 1174c/437w  64.9%
+    EXAM 01.CE+Tags: 1820/1986 -- 1181c/439w  64.9%
+    EXAM 01.CE+Tags: 1830/1986 -- 1188c/441w  64.9%
+    EXAM 01.CE+Tags: 1840/1986 -- 1194c/442w  64.9%
+    EXAM 01.CE+Tags: 1850/1986 -- 1198c/444w  64.8%
+    EXAM 01.CE+Tags: 1860/1986 -- 1205c/444w  64.8%
+    EXAM 01.CE+Tags: 1870/1986 -- 1214c/445w  64.9%
+    EXAM 01.CE+Tags: 1880/1986 -- 1223c/445w  65.1%
+    EXAM 01.CE+Tags: 1890/1986 -- 1232c/446w  65.2%
+    EXAM 01.CE+Tags: 1900/1986 -- 1240c/447w  65.3%
+    EXAM 01.CE+Tags: 1910/1986 -- 1246c/449w  65.2%
+    EXAM 01.CE+Tags: 1920/1986 -- 1252c/452w  65.2%
+    EXAM 01.CE+Tags: 1930/1986 -- 1256c/454w  65.1%
+    EXAM 01.CE+Tags: 1940/1986 -- 1265c/454w  65.2%
+    EXAM 01.CE+Tags: 1950/1986 -- 1270c/459w  65.1%
+    EXAM 01.CE+Tags: 1960/1986 -- 1274c/465w  65.0%
+    EXAM 01.CE+Tags: 1970/1986 -- 1281c/468w  65.0%
+    EXAM 01.CE+Tags: 1980/1986 -- 1283c/476w  64.8%
+  [02_locomo_off] Done: 1285/1986 = 64.7%
+  [02_locomo_off] Transcript saved: exam_01.CE+Tags_02_locomo_off.json
+  [02_locomo_off] SAVED to resume state
+
+  [03_hard_off] Exam (76 Qs, learning=OFF)...
+    EXAM 01.CE+Tags: 10/76 -- 0c/4w  0.0%
+    EXAM 01.CE+Tags: 20/76 -- 5c/8w  25.0%
+    EXAM 01.CE+Tags: 30/76 -- 14c/9w  46.7%
+    EXAM 01.CE+Tags: 40/76 -- 16c/14w  40.0%
+    EXAM 01.CE+Tags: 50/76 -- 18c/19w  36.0%
+    EXAM 01.CE+Tags: 60/76 -- 23c/24w  38.3%
+    EXAM 01.CE+Tags: 70/76 -- 24c/33w  34.3%
+  [03_hard_off] Done: 25/76 = 32.9%
+  [03_hard_off] Transcript saved: exam_01.CE+Tags_03_hard_off.json
+  [03_hard_off] SAVED to resume state
+
+  === 01.CE+Tags COMPLETE ===
+
+============================================================
+STRATEGY 2/3: 02.TagCascade
+============================================================
+
+  [01_conversation] Conversation learning (~503 turns, 3015 facts, with facts)...
+    02.TagCascade: Starting Caroline (123 facts)...
+    02.TagCascade: turn 10 | 20/3015 facts | Caroline (103 remaining)
+    02.TagCascade: turn 20 | 40/3015 facts | Caroline (83 remaining)
+    02.TagCascade: turn 30 | 60/3015 facts | Caroline (63 remaining)
+    02.TagCascade: turn 40 | 80/3015 facts | Caroline (43 remaining)
+    02.TagCascade: turn 50 | 100/3015 facts | Caroline (23 remaining)
+    02.TagCascade: turn 60 | 120/3015 facts | Caroline (3 remaining)
+    02.TagCascade: Caroline done (123 facts covered)
+    02.TagCascade: Starting Melanie (114 facts)...
+    02.TagCascade: turn 70 | 139/3015 facts | Melanie (98 remaining)
+    02.TagCascade: turn 80 | 159/3015 facts | Melanie (78 remaining)
+    02.TagCascade: turn 90 | 179/3015 facts | Melanie (58 remaining)
+    02.TagCascade: turn 100 | 199/3015 facts | Melanie (38 remaining)
+    02.TagCascade: turn 110 | 219/3015 facts | Melanie (18 remaining)
+    02.TagCascade: Melanie done (114 facts covered)
+    02.TagCascade: Starting Gina (74 facts)...
+    02.TagCascade: turn 120 | 239/3015 facts | Gina (72 remaining)
+    02.TagCascade: turn 130 | 259/3015 facts | Gina (52 remaining)
+    02.TagCascade: turn 140 | 279/3015 facts | Gina (32 remaining)
+    02.TagCascade: turn 150 | 299/3015 facts | Gina (12 remaining)
+    02.TagCascade: Gina done (74 facts covered)
+    02.TagCascade: Starting Jon (70 facts)...
+    02.TagCascade: turn 160 | 319/3015 facts | Jon (62 remaining)
+    02.TagCascade: turn 170 | 339/3015 facts | Jon (42 remaining)
+    02.TagCascade: turn 180 | 359/3015 facts | Jon (22 remaining)
+    02.TagCascade: turn 190 | 379/3015 facts | Jon (2 remaining)
+    02.TagCascade: Jon done (70 facts covered)
+    02.TagCascade: Starting Maria (135 facts)...
+    02.TagCascade: turn 200 | 399/3015 facts | Maria (117 remaining)
+    02.TagCascade: turn 210 | 419/3015 facts | Maria (97 remaining)
+    02.TagCascade: turn 220 | 439/3015 facts | Maria (77 remaining)
+    02.TagCascade: turn 230 | 459/3015 facts | Maria (57 remaining)
+    02.TagCascade: turn 240 | 479/3015 facts | Maria (37 remaining)
+    02.TagCascade: turn 250 | 499/3015 facts | Maria (17 remaining)
+    02.TagCascade: Maria done (135 facts covered)
+    02.TagCascade: Starting John (185 facts)...
+    02.TagCascade: turn 260 | 518/3015 facts | John (183 remaining)
+    02.TagCascade: turn 270 | 538/3015 facts | John (163 remaining)
+    02.TagCascade: turn 280 | 558/3015 facts | John (143 remaining)
+    02.TagCascade: turn 290 | 578/3015 facts | John (123 remaining)
+    02.TagCascade: turn 300 | 598/3015 facts | John (103 remaining)
+    02.TagCascade: turn 310 | 618/3015 facts | John (83 remaining)
+    02.TagCascade: turn 320 | 638/3015 facts | John (63 remaining)
+    02.TagCascade: turn 330 | 658/3015 facts | John (43 remaining)
+    02.TagCascade: turn 340 | 678/3015 facts | John (23 remaining)
+    02.TagCascade: turn 350 | 698/3015 facts | John (3 remaining)
+    02.TagCascade: John done (185 facts covered)
+    02.TagCascade: Starting Nate (186 facts)...
+    02.TagCascade: turn 360 | 717/3015 facts | Nate (170 remaining)
+    02.TagCascade: turn 370 | 737/3015 facts | Nate (150 remaining)
+    02.TagCascade: turn 380 | 757/3015 facts | Nate (130 remaining)
+    02.TagCascade: turn 390 | 777/3015 facts | Nate (110 remaining)
+    02.TagCascade: turn 400 | 797/3015 facts | Nate (90 remaining)
+    02.TagCascade: turn 410 | 817/3015 facts | Nate (70 remaining)
+    02.TagCascade: turn 420 | 837/3015 facts | Nate (50 remaining)
+    02.TagCascade: turn 430 | 857/3015 facts | Nate (30 remaining)
+    02.TagCascade: turn 440 | 877/3015 facts | Nate (10 remaining)
+    02.TagCascade: Nate done (186 facts covered)
+    02.TagCascade: Starting Joanna (173 facts)...
+    02.TagCascade: turn 450 | 897/3015 facts | Joanna (163 remaining)
+    02.TagCascade: turn 460 | 917/3015 facts | Joanna (143 remaining)
+    02.TagCascade: turn 470 | 937/3015 facts | Joanna (123 remaining)
+    02.TagCascade: turn 480 | 957/3015 facts | Joanna (103 remaining)
+    02.TagCascade: turn 490 | 977/3015 facts | Joanna (83 remaining)
+    02.TagCascade: turn 500 | 997/3015 facts | Joanna (63 remaining)
+    02.TagCascade: turn 510 | 1017/3015 facts | Joanna (43 remaining)
+    02.TagCascade: turn 520 | 1037/3015 facts | Joanna (23 remaining)
+    02.TagCascade: turn 530 | 1057/3015 facts | Joanna (3 remaining)
+    02.TagCascade: Joanna done (173 facts covered)
+    02.TagCascade: Starting John (202 facts)...
+    02.TagCascade: turn 540 | 1076/3015 facts | John (186 remaining)
+    02.TagCascade: turn 550 | 1096/3015 facts | John (166 remaining)
+    02.TagCascade: turn 560 | 1116/3015 facts | John (146 remaining)
+    02.TagCascade: turn 570 | 1136/3015 facts | John (126 remaining)
+    02.TagCascade: turn 580 | 1156/3015 facts | John (106 remaining)
+    02.TagCascade: turn 590 | 1176/3015 facts | John (86 remaining)
+    02.TagCascade: turn 600 | 1196/3015 facts | John (66 remaining)
+    02.TagCascade: turn 610 | 1216/3015 facts | John (46 remaining)
+    02.TagCascade: turn 620 | 1236/3015 facts | John (26 remaining)
+    02.TagCascade: turn 630 | 1256/3015 facts | John (6 remaining)
+    02.TagCascade: John done (202 facts covered)
+    02.TagCascade: Starting Tim (139 facts)...
+    02.TagCascade: turn 640 | 1276/3015 facts | Tim (125 remaining)
+    02.TagCascade: turn 650 | 1296/3015 facts | Tim (105 remaining)
+    02.TagCascade: turn 660 | 1316/3015 facts | Tim (85 remaining)
+    02.TagCascade: turn 670 | 1336/3015 facts | Tim (65 remaining)
+    02.TagCascade: turn 680 | 1356/3015 facts | Tim (45 remaining)
+    02.TagCascade: turn 690 | 1376/3015 facts | Tim (25 remaining)
+    02.TagCascade: turn 700 | 1396/3015 facts | Tim (5 remaining)
+    02.TagCascade: Tim done (139 facts covered)
+    02.TagCascade: Starting Audrey (166 facts)...
+    02.TagCascade: turn 710 | 1415/3015 facts | Audrey (152 remaining)
+    02.TagCascade: turn 720 | 1435/3015 facts | Audrey (132 remaining)
+    02.TagCascade: turn 730 | 1455/3015 facts | Audrey (112 remaining)
+    02.TagCascade: turn 740 | 1475/3015 facts | Audrey (92 remaining)
+    02.TagCascade: turn 750 | 1495/3015 facts | Audrey (72 remaining)
+    02.TagCascade: turn 760 | 1515/3015 facts | Audrey (52 remaining)
+    02.TagCascade: turn 770 | 1535/3015 facts | Audrey (32 remaining)
+    02.TagCascade: turn 780 | 1555/3015 facts | Audrey (12 remaining)
+    02.TagCascade: Audrey done (166 facts covered)
+    02.TagCascade: Starting Andrew (124 facts)...
+    02.TagCascade: turn 790 | 1575/3015 facts | Andrew (116 remaining)
+    02.TagCascade: turn 800 | 1595/3015 facts | Andrew (96 remaining)
+    02.TagCascade: turn 810 | 1615/3015 facts | Andrew (76 remaining)
+    02.TagCascade: turn 820 | 1635/3015 facts | Andrew (56 remaining)
+    02.TagCascade: turn 830 | 1655/3015 facts | Andrew (36 remaining)
+    02.TagCascade: turn 840 | 1675/3015 facts | Andrew (16 remaining)
+    02.TagCascade: Andrew done (124 facts covered)
+    02.TagCascade: Starting John (125 facts)...
+    02.TagCascade: turn 850 | 1695/3015 facts | John (121 remaining)
+    02.TagCascade: turn 860 | 1715/3015 facts | John (101 remaining)
+    02.TagCascade: turn 870 | 1735/3015 facts | John (81 remaining)
+    02.TagCascade: turn 880 | 1755/3015 facts | John (61 remaining)
+    02.TagCascade: turn 890 | 1775/3015 facts | John (41 remaining)
+    02.TagCascade: turn 900 | 1795/3015 facts | John (21 remaining)
+    02.TagCascade: turn 910 | 1815/3015 facts | John (1 remaining)
+    02.TagCascade: John done (125 facts covered)
+    02.TagCascade: Starting James (141 facts)...
+    02.TagCascade: turn 920 | 1834/3015 facts | James (123 remaining)
+    02.TagCascade: turn 930 | 1854/3015 facts | James (103 remaining)
+    02.TagCascade: turn 940 | 1874/3015 facts | James (83 remaining)
+    02.TagCascade: turn 950 | 1894/3015 facts | James (63 remaining)
+    02.TagCascade: turn 960 | 1914/3015 facts | James (43 remaining)
+    02.TagCascade: turn 970 | 1934/3015 facts | James (23 remaining)
+    02.TagCascade: turn 980 | 1954/3015 facts | James (3 remaining)
+    02.TagCascade: James done (141 facts covered)
+    02.TagCascade: Starting Deborah (158 facts)...
+    02.TagCascade: turn 990 | 1973/3015 facts | Deborah (142 remaining)
+    02.TagCascade: turn 1000 | 1993/3015 facts | Deborah (122 remaining)
+    02.TagCascade: turn 1010 | 2013/3015 facts | Deborah (102 remaining)
+    02.TagCascade: turn 1020 | 2033/3015 facts | Deborah (82 remaining)
+    02.TagCascade: turn 1030 | 2053/3015 facts | Deborah (62 remaining)
+    02.TagCascade: turn 1040 | 2073/3015 facts | Deborah (42 remaining)
+    02.TagCascade: turn 1050 | 2093/3015 facts | Deborah (22 remaining)
+    02.TagCascade: turn 1060 | 2113/3015 facts | Deborah (2 remaining)
+    02.TagCascade: Deborah done (158 facts covered)
+    02.TagCascade: Starting Jolene (199 facts)...
+    02.TagCascade: turn 1070 | 2133/3015 facts | Jolene (181 remaining)
+    02.TagCascade: turn 1080 | 2153/3015 facts | Jolene (161 remaining)
+    02.TagCascade: turn 1090 | 2173/3015 facts | Jolene (141 remaining)
+    02.TagCascade: turn 1100 | 2193/3015 facts | Jolene (121 remaining)
+    02.TagCascade: turn 1110 | 2213/3015 facts | Jolene (101 remaining)
+    02.TagCascade: turn 1120 | 2233/3015 facts | Jolene (81 remaining)
+    02.TagCascade: turn 1130 | 2253/3015 facts | Jolene (61 remaining)
+    02.TagCascade: turn 1140 | 2273/3015 facts | Jolene (41 remaining)
+    02.TagCascade: turn 1150 | 2293/3015 facts | Jolene (21 remaining)
+    02.TagCascade: turn 1160 | 2313/3015 facts | Jolene (1 remaining)
+    02.TagCascade: Jolene done (199 facts covered)
+    02.TagCascade: Starting Sam (159 facts)...
+    02.TagCascade: turn 1170 | 2332/3015 facts | Sam (141 remaining)
+    02.TagCascade: turn 1180 | 2352/3015 facts | Sam (121 remaining)
+    02.TagCascade: turn 1190 | 2372/3015 facts | Sam (101 remaining)
+    02.TagCascade: turn 1200 | 2392/3015 facts | Sam (81 remaining)
+    02.TagCascade: turn 1210 | 2412/3015 facts | Sam (61 remaining)
+    02.TagCascade: turn 1220 | 2432/3015 facts | Sam (41 remaining)
+    02.TagCascade: turn 1230 | 2452/3015 facts | Sam (21 remaining)
+    02.TagCascade: turn 1240 | 2472/3015 facts | Sam (1 remaining)
+    02.TagCascade: Sam done (159 facts covered)
+    02.TagCascade: Starting Evan (177 facts)...
+    02.TagCascade: turn 1250 | 2491/3015 facts | Evan (159 remaining)
+    02.TagCascade: turn 1260 | 2511/3015 facts | Evan (139 remaining)
+    02.TagCascade: turn 1270 | 2531/3015 facts | Evan (119 remaining)
+    02.TagCascade: turn 1280 | 2551/3015 facts | Evan (99 remaining)
+    02.TagCascade: turn 1290 | 2571/3015 facts | Evan (79 remaining)
+    02.TagCascade: turn 1300 | 2591/3015 facts | Evan (59 remaining)
+    02.TagCascade: turn 1310 | 2611/3015 facts | Evan (39 remaining)
+    02.TagCascade: turn 1320 | 2631/3015 facts | Evan (19 remaining)
+    02.TagCascade: turn 1330 | 2650/3015 facts | Evan (0 remaining)
+    02.TagCascade: Evan done (177 facts covered)
+    02.TagCascade: Starting Calvin (210 facts)...
+    02.TagCascade: turn 1340 | 2670/3015 facts | Calvin (190 remaining)
+    02.TagCascade: turn 1350 | 2690/3015 facts | Calvin (170 remaining)
+    02.TagCascade: turn 1360 | 2710/3015 facts | Calvin (150 remaining)
+    02.TagCascade: turn 1370 | 2730/3015 facts | Calvin (130 remaining)
+    02.TagCascade: turn 1380 | 2750/3015 facts | Calvin (110 remaining)
+    02.TagCascade: turn 1390 | 2770/3015 facts | Calvin (90 remaining)
+    02.TagCascade: turn 1400 | 2790/3015 facts | Calvin (70 remaining)
+    02.TagCascade: turn 1410 | 2810/3015 facts | Calvin (50 remaining)
+    02.TagCascade: turn 1420 | 2830/3015 facts | Calvin (30 remaining)
+    02.TagCascade: turn 1430 | 2850/3015 facts | Calvin (10 remaining)
+    02.TagCascade: Calvin done (210 facts covered)
+    02.TagCascade: Starting Dave (155 facts)...
+    02.TagCascade: turn 1440 | 2870/3015 facts | Dave (145 remaining)
+    02.TagCascade: turn 1450 | 2890/3015 facts | Dave (125 remaining)
+    02.TagCascade: turn 1460 | 2910/3015 facts | Dave (105 remaining)
+    02.TagCascade: turn 1470 | 2930/3015 facts | Dave (85 remaining)
+    02.TagCascade: turn 1480 | 2950/3015 facts | Dave (65 remaining)
+    02.TagCascade: turn 1490 | 2970/3015 facts | Dave (45 remaining)
+    02.TagCascade: turn 1500 | 2990/3015 facts | Dave (25 remaining)
+    02.TagCascade: turn 1510 | 3010/3015 facts | Dave (5 remaining)
+    02.TagCascade: Dave done (155 facts covered)
+    02.TagCascade: Conversation complete — 1513 turns, 3015 facts, 0 memories stored
+  [01_conversation] Done: 1513 turns, 0 memories stored
+  [01_conversation] SAVED to resume state
+
+  [02_locomo_off] Exam (1986 Qs, learning=OFF)...
+    EXAM 02.TagCascade: 10/1986 -- 8c/1w  80.0%
+    EXAM 02.TagCascade: 20/1986 -- 13c/6w  65.0%
+    EXAM 02.TagCascade: 30/1986 -- 19c/8w  63.3%
+    EXAM 02.TagCascade: 40/1986 -- 21c/11w  52.5%
+    EXAM 02.TagCascade: 50/1986 -- 28c/12w  56.0%
+    EXAM 02.TagCascade: 60/1986 -- 34c/13w  56.7%
+    EXAM 02.TagCascade: 70/1986 -- 42c/14w  60.0%
+    EXAM 02.TagCascade: 80/1986 -- 51c/15w  63.7%
+    EXAM 02.TagCascade: 90/1986 -- 60c/16w  66.7%
+    EXAM 02.TagCascade: 100/1986 -- 68c/16w  68.0%
+    EXAM 02.TagCascade: 110/1986 -- 75c/16w  68.2%
+    EXAM 02.TagCascade: 120/1986 -- 83c/17w  69.2%
+    EXAM 02.TagCascade: 130/1986 -- 93c/17w  71.5%
+    EXAM 02.TagCascade: 140/1986 -- 101c/19w  72.1%
+    EXAM 02.TagCascade: 150/1986 -- 105c/20w  70.0%
+    EXAM 02.TagCascade: 160/1986 -- 110c/23w  68.8%
+    EXAM 02.TagCascade: 170/1986 -- 114c/29w  67.1%
+    EXAM 02.TagCascade: 180/1986 -- 118c/35w  65.6%
+    EXAM 02.TagCascade: 190/1986 -- 121c/42w  63.7%
+    EXAM 02.TagCascade: 200/1986 -- 123c/50w  61.5%
+    EXAM 02.TagCascade: 210/1986 -- 131c/51w  62.4%
+    EXAM 02.TagCascade: 220/1986 -- 138c/53w  62.7%
+    EXAM 02.TagCascade: 230/1986 -- 145c/55w  63.0%
+    EXAM 02.TagCascade: 240/1986 -- 155c/55w  64.6%
+    EXAM 02.TagCascade: 250/1986 -- 161c/57w  64.4%
+    EXAM 02.TagCascade: 260/1986 -- 169c/59w  65.0%
+    EXAM 02.TagCascade: 270/1986 -- 176c/61w  65.2%
+    EXAM 02.TagCascade: 280/1986 -- 181c/65w  64.6%
+    EXAM 02.TagCascade: 290/1986 -- 183c/73w  63.1%
+    EXAM 02.TagCascade: 300/1986 -- 189c/77w  63.0%
+    EXAM 02.TagCascade: 310/1986 -- 195c/81w  62.9%
+    EXAM 02.TagCascade: 320/1986 -- 203c/82w  63.4%
+    EXAM 02.TagCascade: 330/1986 -- 209c/83w  63.3%
+    EXAM 02.TagCascade: 340/1986 -- 217c/83w  63.8%
+    EXAM 02.TagCascade: 350/1986 -- 222c/84w  63.4%
+    EXAM 02.TagCascade: 360/1986 -- 228c/86w  63.3%
+    EXAM 02.TagCascade: 370/1986 -- 235c/88w  63.5%
+    EXAM 02.TagCascade: 380/1986 -- 241c/90w  63.4%
+    EXAM 02.TagCascade: 390/1986 -- 247c/94w  63.3%
+    EXAM 02.TagCascade: 400/1986 -- 254c/95w  63.5%
+    EXAM 02.TagCascade: 410/1986 -- 260c/96w  63.4%
+    EXAM 02.TagCascade: 420/1986 -- 267c/97w  63.6%
+    EXAM 02.TagCascade: 430/1986 -- 273c/97w  63.5%
+    EXAM 02.TagCascade: 440/1986 -- 280c/99w  63.6%
+    EXAM 02.TagCascade: 450/1986 -- 286c/100w  63.6%
+    EXAM 02.TagCascade: 460/1986 -- 292c/104w  63.5%
+    EXAM 02.TagCascade: 470/1986 -- 295c/111w  62.8%
+    EXAM 02.TagCascade: 480/1986 -- 300c/116w  62.5%
+    EXAM 02.TagCascade: 490/1986 -- 305c/121w  62.2%
+    EXAM 02.TagCascade: 500/1986 -- 311c/124w  62.2%
+    EXAM 02.TagCascade: 510/1986 -- 319c/125w  62.5%
+    EXAM 02.TagCascade: 520/1986 -- 327c/126w  62.9%
+    EXAM 02.TagCascade: 530/1986 -- 334c/127w  63.0%
+    EXAM 02.TagCascade: 540/1986 -- 341c/129w  63.1%
+    EXAM 02.TagCascade: 550/1986 -- 348c/131w  63.3%
+    EXAM 02.TagCascade: 560/1986 -- 353c/133w  63.0%
+    EXAM 02.TagCascade: 570/1986 -- 359c/135w  63.0%
+    EXAM 02.TagCascade: 580/1986 -- 365c/135w  62.9%
+    EXAM 02.TagCascade: 590/1986 -- 373c/136w  63.2%
+    EXAM 02.TagCascade: 600/1986 -- 379c/137w  63.2%
+    EXAM 02.TagCascade: 610/1986 -- 386c/138w  63.3%
+    EXAM 02.TagCascade: 620/1986 -- 392c/141w  63.2%
+    EXAM 02.TagCascade: 630/1986 -- 400c/142w  63.5%
+    EXAM 02.TagCascade: 640/1986 -- 405c/146w  63.3%
+    EXAM 02.TagCascade: 650/1986 -- 414c/146w  63.7%
+    EXAM 02.TagCascade: 660/1986 -- 423c/146w  64.1%
+    EXAM 02.TagCascade: 670/1986 -- 431c/147w  64.3%
+    EXAM 02.TagCascade: 680/1986 -- 440c/148w  64.7%
+    EXAM 02.TagCascade: 690/1986 -- 446c/149w  64.6%
+    EXAM 02.TagCascade: 700/1986 -- 451c/152w  64.4%
+    EXAM 02.TagCascade: 710/1986 -- 455c/158w  64.1%
+    EXAM 02.TagCascade: 720/1986 -- 459c/164w  63.7%
+    EXAM 02.TagCascade: 730/1986 -- 466c/167w  63.8%
+    EXAM 02.TagCascade: 740/1986 -- 469c/174w  63.4%
+    EXAM 02.TagCascade: 750/1986 -- 473c/180w  63.1%
+    EXAM 02.TagCascade: 760/1986 -- 477c/184w  62.8%
+    EXAM 02.TagCascade: 770/1986 -- 481c/188w  62.5%
+    EXAM 02.TagCascade: 780/1986 -- 488c/190w  62.6%
+    EXAM 02.TagCascade: 790/1986 -- 497c/190w  62.9%
+    EXAM 02.TagCascade: 800/1986 -- 507c/190w  63.4%
+    EXAM 02.TagCascade: 810/1986 -- 515c/191w  63.6%
+    EXAM 02.TagCascade: 820/1986 -- 522c/192w  63.7%
+    EXAM 02.TagCascade: 830/1986 -- 531c/193w  64.0%
+    EXAM 02.TagCascade: 840/1986 -- 539c/193w  64.2%
+    EXAM 02.TagCascade: 850/1986 -- 547c/195w  64.4%
+    EXAM 02.TagCascade: 860/1986 -- 554c/198w  64.4%
+    EXAM 02.TagCascade: 870/1986 -- 562c/199w  64.6%
+    EXAM 02.TagCascade: 880/1986 -- 569c/202w  64.7%
+    EXAM 02.TagCascade: 890/1986 -- 575c/204w  64.6%
+    EXAM 02.TagCascade: 900/1986 -- 583c/205w  64.8%
+    EXAM 02.TagCascade: 910/1986 -- 592c/206w  65.1%
+    EXAM 02.TagCascade: 920/1986 -- 601c/206w  65.3%
+    EXAM 02.TagCascade: 930/1986 -- 609c/206w  65.5%
+    EXAM 02.TagCascade: 940/1986 -- 616c/208w  65.5%
+    EXAM 02.TagCascade: 950/1986 -- 623c/211w  65.6%
+    EXAM 02.TagCascade: 960/1986 -- 628c/216w  65.4%
+    EXAM 02.TagCascade: 970/1986 -- 631c/222w  65.1%
+    EXAM 02.TagCascade: 980/1986 -- 638c/225w  65.1%
+    EXAM 02.TagCascade: 990/1986 -- 642c/231w  64.8%
+    EXAM 02.TagCascade: 1000/1986 -- 646c/237w  64.6%
+    EXAM 02.TagCascade: 1010/1986 -- 652c/240w  64.6%
+    EXAM 02.TagCascade: 1020/1986 -- 658c/243w  64.5%
+    EXAM 02.TagCascade: 1030/1986 -- 666c/244w  64.7%
+    EXAM 02.TagCascade: 1040/1986 -- 675c/244w  64.9%
+    EXAM 02.TagCascade: 1050/1986 -- 684c/245w  65.1%
+    EXAM 02.TagCascade: 1060/1986 -- 692c/247w  65.3%
+    EXAM 02.TagCascade: 1070/1986 -- 700c/248w  65.4%
+    EXAM 02.TagCascade: 1080/1986 -- 708c/248w  65.6%
+    EXAM 02.TagCascade: 1090/1986 -- 716c/250w  65.7%
+    EXAM 02.TagCascade: 1100/1986 -- 725c/250w  65.9%
+    EXAM 02.TagCascade: 1110/1986 -- 731c/251w  65.9%
+    EXAM 02.TagCascade: 1120/1986 -- 737c/252w  65.8%
+    EXAM 02.TagCascade: 1130/1986 -- 741c/258w  65.6%
+    EXAM 02.TagCascade: 1140/1986 -- 743c/266w  65.2%
+    EXAM 02.TagCascade: 1150/1986 -- 744c/274w  64.7%
+    EXAM 02.TagCascade: 1160/1986 -- 748c/280w  64.5%
+    EXAM 02.TagCascade: 1170/1986 -- 757c/281w  64.7%
+    EXAM 02.TagCascade: 1180/1986 -- 765c/283w  64.8%
+    EXAM 02.TagCascade: 1190/1986 -- 773c/284w  65.0%
+    EXAM 02.TagCascade: 1200/1986 -- 782c/284w  65.2%
+    EXAM 02.TagCascade: 1210/1986 -- 791c/284w  65.4%
+    EXAM 02.TagCascade: 1220/1986 -- 798c/286w  65.4%
+    EXAM 02.TagCascade: 1230/1986 -- 805c/286w  65.4%
+    EXAM 02.TagCascade: 1240/1986 -- 813c/287w  65.6%
+    EXAM 02.TagCascade: 1250/1986 -- 820c/288w  65.6%
+    EXAM 02.TagCascade: 1260/1986 -- 829c/288w  65.8%
+    EXAM 02.TagCascade: 1270/1986 -- 838c/289w  66.0%
+    EXAM 02.TagCascade: 1280/1986 -- 847c/290w  66.2%
+    EXAM 02.TagCascade: 1290/1986 -- 855c/291w  66.3%
+    EXAM 02.TagCascade: 1300/1986 -- 861c/293w  66.2%
+    EXAM 02.TagCascade: 1310/1986 -- 869c/294w  66.3%
+    EXAM 02.TagCascade: 1320/1986 -- 874c/299w  66.2%
+    EXAM 02.TagCascade: 1330/1986 -- 878c/304w  66.0%
+    EXAM 02.TagCascade: 1340/1986 -- 881c/311w  65.7%
+    EXAM 02.TagCascade: 1350/1986 -- 889c/313w  65.9%
+    EXAM 02.TagCascade: 1360/1986 -- 898c/313w  66.0%
+    EXAM 02.TagCascade: 1370/1986 -- 906c/313w  66.1%
+    EXAM 02.TagCascade: 1380/1986 -- 915c/314w  66.3%
+    EXAM 02.TagCascade: 1390/1986 -- 920c/316w  66.2%
+    EXAM 02.TagCascade: 1400/1986 -- 929c/317w  66.4%
+    EXAM 02.TagCascade: 1410/1986 -- 937c/317w  66.5%
+    EXAM 02.TagCascade: 1420/1986 -- 946c/317w  66.6%
+    EXAM 02.TagCascade: 1430/1986 -- 954c/318w  66.7%
+    EXAM 02.TagCascade: 1440/1986 -- 960c/319w  66.7%
+    EXAM 02.TagCascade: 1450/1986 -- 968c/320w  66.8%
+    EXAM 02.TagCascade: 1460/1986 -- 975c/321w  66.8%
+    EXAM 02.TagCascade: 1470/1986 -- 983c/323w  66.9%
+    EXAM 02.TagCascade: 1480/1986 -- 991c/325w  67.0%
+    EXAM 02.TagCascade: 1490/1986 -- 996c/329w  66.8%
+    EXAM 02.TagCascade: 1500/1986 -- 1003c/330w  66.9%
+    EXAM 02.TagCascade: 1510/1986 -- 1010c/331w  66.9%
+    EXAM 02.TagCascade: 1520/1986 -- 1019c/332w  67.0%
+    EXAM 02.TagCascade: 1530/1986 -- 1026c/333w  67.1%
+    EXAM 02.TagCascade: 1540/1986 -- 1033c/335w  67.1%
+    EXAM 02.TagCascade: 1550/1986 -- 1037c/341w  66.9%
+    EXAM 02.TagCascade: 1560/1986 -- 1038c/350w  66.5%
+    EXAM 02.TagCascade: 1570/1986 -- 1042c/356w  66.4%
+    EXAM 02.TagCascade: 1580/1986 -- 1044c/364w  66.1%
+    EXAM 02.TagCascade: 1590/1986 -- 1048c/370w  65.9%
+    EXAM 02.TagCascade: 1600/1986 -- 1056c/371w  66.0%
+    EXAM 02.TagCascade: 1610/1986 -- 1061c/373w  65.9%
+    EXAM 02.TagCascade: 1620/1986 -- 1069c/374w  66.0%
+    EXAM 02.TagCascade: 1630/1986 -- 1075c/376w  66.0%
+    EXAM 02.TagCascade: 1640/1986 -- 1081c/377w  65.9%
+    EXAM 02.TagCascade: 1650/1986 -- 1087c/378w  65.9%
+    EXAM 02.TagCascade: 1660/1986 -- 1095c/380w  66.0%
+    EXAM 02.TagCascade: 1670/1986 -- 1102c/381w  66.0%
+    EXAM 02.TagCascade: 1680/1986 -- 1110c/381w  66.1%
+    EXAM 02.TagCascade: 1690/1986 -- 1118c/382w  66.2%
+    EXAM 02.TagCascade: 1700/1986 -- 1123c/387w  66.1%
+    EXAM 02.TagCascade: 1710/1986 -- 1130c/390w  66.1%
+    EXAM 02.TagCascade: 1720/1986 -- 1136c/391w  66.0%
+    EXAM 02.TagCascade: 1730/1986 -- 1143c/394w  66.1%
+    EXAM 02.TagCascade: 1740/1986 -- 1153c/394w  66.3%
+    EXAM 02.TagCascade: 1750/1986 -- 1155c/401w  66.0%
+    EXAM 02.TagCascade: 1760/1986 -- 1156c/409w  65.7%
+    EXAM 02.TagCascade: 1770/1986 -- 1159c/416w  65.5%
+    EXAM 02.TagCascade: 1780/1986 -- 1160c/425w  65.2%
+    EXAM 02.TagCascade: 1790/1986 -- 1164c/428w  65.0%
+    EXAM 02.TagCascade: 1800/1986 -- 1172c/428w  65.1%
+    EXAM 02.TagCascade: 1810/1986 -- 1180c/428w  65.2%
+    EXAM 02.TagCascade: 1820/1986 -- 1190c/428w  65.4%
+    EXAM 02.TagCascade: 1830/1986 -- 1197c/429w  65.4%
+    EXAM 02.TagCascade: 1840/1986 -- 1204c/431w  65.4%
+    EXAM 02.TagCascade: 1850/1986 -- 1210c/432w  65.4%
+    EXAM 02.TagCascade: 1860/1986 -- 1218c/433w  65.5%
+    EXAM 02.TagCascade: 1870/1986 -- 1225c/435w  65.5%
+    EXAM 02.TagCascade: 1880/1986 -- 1234c/436w  65.6%
+    EXAM 02.TagCascade: 1890/1986 -- 1244c/436w  65.8%
+    EXAM 02.TagCascade: 1900/1986 -- 1249c/437w  65.7%
+    EXAM 02.TagCascade: 1910/1986 -- 1253c/443w  65.6%
+    EXAM 02.TagCascade: 1920/1986 -- 1256c/448w  65.4%
+    EXAM 02.TagCascade: 1930/1986 -- 1261c/451w  65.3%
+    EXAM 02.TagCascade: 1940/1986 -- 1269c/451w  65.4%
+    EXAM 02.TagCascade: 1950/1986 -- 1275c/455w  65.4%
+    EXAM 02.TagCascade: 1960/1986 -- 1277c/463w  65.2%
+    EXAM 02.TagCascade: 1970/1986 -- 1281c/469w  65.0%
+    EXAM 02.TagCascade: 1980/1986 -- 1284c/476w  64.8%
+  [02_locomo_off] Done: 1287/1986 = 64.8%
+  [02_locomo_off] Transcript saved: exam_02.TagCascade_02_locomo_off.json
+  [02_locomo_off] SAVED to resume state
+
+  [03_hard_off] Exam (76 Qs, learning=OFF)...
+    EXAM 02.TagCascade: 10/76 -- 1c/2w  10.0%
+    EXAM 02.TagCascade: 20/76 -- 5c/5w  25.0%
+    EXAM 02.TagCascade: 30/76 -- 13c/7w  43.3%
+    EXAM 02.TagCascade: 40/76 -- 15c/15w  37.5%
+    EXAM 02.TagCascade: 50/76 -- 16c/22w  32.0%
+    EXAM 02.TagCascade: 60/76 -- 23c/25w  38.3%
+    EXAM 02.TagCascade: 70/76 -- 25c/33w  35.7%
+  [03_hard_off] Done: 26/76 = 34.2%
+  [03_hard_off] Transcript saved: exam_02.TagCascade_03_hard_off.json
+  [03_hard_off] SAVED to resume state
+
+  === 02.TagCascade COMPLETE ===
+
+============================================================
+STRATEGY 3/3: 03.CE-Only
+============================================================
+
+  [01_conversation] Conversation learning (~503 turns, 3015 facts, with facts)...
+    03.CE-Only: Starting Caroline (123 facts)...
+    03.CE-Only: turn 10 | 20/3015 facts | Caroline (103 remaining)
+    03.CE-Only: turn 20 | 40/3015 facts | Caroline (83 remaining)
+    03.CE-Only: turn 30 | 60/3015 facts | Caroline (63 remaining)
+    03.CE-Only: turn 40 | 80/3015 facts | Caroline (43 remaining)
+    03.CE-Only: turn 50 | 100/3015 facts | Caroline (23 remaining)
+    03.CE-Only: turn 60 | 120/3015 facts | Caroline (3 remaining)
+    03.CE-Only: Caroline done (123 facts covered)
+    03.CE-Only: Starting Melanie (114 facts)...
+    03.CE-Only: turn 70 | 139/3015 facts | Melanie (98 remaining)
+    03.CE-Only: turn 80 | 159/3015 facts | Melanie (78 remaining)
+    03.CE-Only: turn 90 | 179/3015 facts | Melanie (58 remaining)
+    03.CE-Only: turn 100 | 199/3015 facts | Melanie (38 remaining)
+    03.CE-Only: turn 110 | 219/3015 facts | Melanie (18 remaining)
+    03.CE-Only: Melanie done (114 facts covered)
+    03.CE-Only: Starting Gina (74 facts)...
+    03.CE-Only: turn 120 | 239/3015 facts | Gina (72 remaining)
+    03.CE-Only: turn 130 | 259/3015 facts | Gina (52 remaining)
+    03.CE-Only: turn 140 | 279/3015 facts | Gina (32 remaining)
+    03.CE-Only: turn 150 | 299/3015 facts | Gina (12 remaining)
+    03.CE-Only: Gina done (74 facts covered)
+    03.CE-Only: Starting Jon (70 facts)...
+    03.CE-Only: turn 160 | 319/3015 facts | Jon (62 remaining)
+    03.CE-Only: turn 170 | 339/3015 facts | Jon (42 remaining)
+    03.CE-Only: turn 180 | 359/3015 facts | Jon (22 remaining)
+    03.CE-Only: turn 190 | 379/3015 facts | Jon (2 remaining)
+    03.CE-Only: Jon done (70 facts covered)
+    03.CE-Only: Starting Maria (135 facts)...
+    03.CE-Only: turn 200 | 399/3015 facts | Maria (117 remaining)
+    03.CE-Only: turn 210 | 419/3015 facts | Maria (97 remaining)
+    03.CE-Only: turn 220 | 439/3015 facts | Maria (77 remaining)
+    03.CE-Only: turn 230 | 459/3015 facts | Maria (57 remaining)
+    03.CE-Only: turn 240 | 479/3015 facts | Maria (37 remaining)
+    03.CE-Only: turn 250 | 499/3015 facts | Maria (17 remaining)
+    03.CE-Only: Maria done (135 facts covered)
+    03.CE-Only: Starting John (185 facts)...
+    03.CE-Only: turn 260 | 518/3015 facts | John (183 remaining)
+    03.CE-Only: turn 270 | 538/3015 facts | John (163 remaining)
+    03.CE-Only: turn 280 | 558/3015 facts | John (143 remaining)
+    03.CE-Only: turn 290 | 578/3015 facts | John (123 remaining)
+    03.CE-Only: turn 300 | 598/3015 facts | John (103 remaining)
+    03.CE-Only: turn 310 | 618/3015 facts | John (83 remaining)
+    03.CE-Only: turn 320 | 638/3015 facts | John (63 remaining)
+    03.CE-Only: turn 330 | 658/3015 facts | John (43 remaining)
+    03.CE-Only: turn 340 | 678/3015 facts | John (23 remaining)
+    03.CE-Only: turn 350 | 698/3015 facts | John (3 remaining)
+    03.CE-Only: John done (185 facts covered)
+    03.CE-Only: Starting Nate (186 facts)...
+    03.CE-Only: turn 360 | 717/3015 facts | Nate (170 remaining)
+    03.CE-Only: turn 370 | 737/3015 facts | Nate (150 remaining)
+    03.CE-Only: turn 380 | 757/3015 facts | Nate (130 remaining)
+    03.CE-Only: turn 390 | 777/3015 facts | Nate (110 remaining)
+    03.CE-Only: turn 400 | 797/3015 facts | Nate (90 remaining)
+    03.CE-Only: turn 410 | 817/3015 facts | Nate (70 remaining)
+    03.CE-Only: turn 420 | 837/3015 facts | Nate (50 remaining)
+    03.CE-Only: turn 430 | 857/3015 facts | Nate (30 remaining)
+    03.CE-Only: turn 440 | 877/3015 facts | Nate (10 remaining)
+    03.CE-Only: Nate done (186 facts covered)
+    03.CE-Only: Starting Joanna (173 facts)...
+    03.CE-Only: turn 450 | 897/3015 facts | Joanna (163 remaining)
+    03.CE-Only: turn 460 | 917/3015 facts | Joanna (143 remaining)
+    03.CE-Only: turn 470 | 937/3015 facts | Joanna (123 remaining)
+    03.CE-Only: turn 480 | 957/3015 facts | Joanna (103 remaining)
+    03.CE-Only: turn 490 | 977/3015 facts | Joanna (83 remaining)
+    03.CE-Only: turn 500 | 997/3015 facts | Joanna (63 remaining)
+    03.CE-Only: turn 510 | 1017/3015 facts | Joanna (43 remaining)
+    03.CE-Only: turn 520 | 1037/3015 facts | Joanna (23 remaining)
+    03.CE-Only: turn 530 | 1057/3015 facts | Joanna (3 remaining)
+    03.CE-Only: Joanna done (173 facts covered)
+    03.CE-Only: Starting John (202 facts)...
+    03.CE-Only: turn 540 | 1076/3015 facts | John (186 remaining)
+    03.CE-Only: turn 550 | 1096/3015 facts | John (166 remaining)
+    03.CE-Only: turn 560 | 1116/3015 facts | John (146 remaining)
+    03.CE-Only: turn 570 | 1136/3015 facts | John (126 remaining)
+    03.CE-Only: turn 580 | 1156/3015 facts | John (106 remaining)
+    03.CE-Only: turn 590 | 1176/3015 facts | John (86 remaining)
+    03.CE-Only: turn 600 | 1196/3015 facts | John (66 remaining)
+    03.CE-Only: turn 610 | 1216/3015 facts | John (46 remaining)
+    03.CE-Only: turn 620 | 1236/3015 facts | John (26 remaining)
+    03.CE-Only: turn 630 | 1256/3015 facts | John (6 remaining)
+    03.CE-Only: John done (202 facts covered)
+    03.CE-Only: Starting Tim (139 facts)...
+    03.CE-Only: turn 640 | 1276/3015 facts | Tim (125 remaining)
+    03.CE-Only: turn 650 | 1296/3015 facts | Tim (105 remaining)
+    03.CE-Only: turn 660 | 1316/3015 facts | Tim (85 remaining)
+    03.CE-Only: turn 670 | 1336/3015 facts | Tim (65 remaining)
+    03.CE-Only: turn 680 | 1356/3015 facts | Tim (45 remaining)
+    03.CE-Only: turn 690 | 1376/3015 facts | Tim (25 remaining)
+    03.CE-Only: turn 700 | 1396/3015 facts | Tim (5 remaining)
+    03.CE-Only: Tim done (139 facts covered)
+    03.CE-Only: Starting Audrey (166 facts)...
+    03.CE-Only: turn 710 | 1415/3015 facts | Audrey (152 remaining)
+    03.CE-Only: turn 720 | 1435/3015 facts | Audrey (132 remaining)
+    03.CE-Only: turn 730 | 1455/3015 facts | Audrey (112 remaining)
+    03.CE-Only: turn 740 | 1475/3015 facts | Audrey (92 remaining)
+    03.CE-Only: turn 750 | 1495/3015 facts | Audrey (72 remaining)
+    03.CE-Only: turn 760 | 1515/3015 facts | Audrey (52 remaining)
+    03.CE-Only: turn 770 | 1535/3015 facts | Audrey (32 remaining)
+    03.CE-Only: turn 780 | 1555/3015 facts | Audrey (12 remaining)
+    03.CE-Only: Audrey done (166 facts covered)
+    03.CE-Only: Starting Andrew (124 facts)...
+    03.CE-Only: turn 790 | 1575/3015 facts | Andrew (116 remaining)
+    03.CE-Only: turn 800 | 1595/3015 facts | Andrew (96 remaining)
+    03.CE-Only: turn 810 | 1615/3015 facts | Andrew (76 remaining)
+    03.CE-Only: turn 820 | 1635/3015 facts | Andrew (56 remaining)
+    03.CE-Only: turn 830 | 1655/3015 facts | Andrew (36 remaining)
+    03.CE-Only: turn 840 | 1675/3015 facts | Andrew (16 remaining)
+    03.CE-Only: Andrew done (124 facts covered)
+    03.CE-Only: Starting John (125 facts)...
+    03.CE-Only: turn 850 | 1695/3015 facts | John (121 remaining)
+    03.CE-Only: turn 860 | 1715/3015 facts | John (101 remaining)
+    03.CE-Only: turn 870 | 1735/3015 facts | John (81 remaining)
+    03.CE-Only: turn 880 | 1755/3015 facts | John (61 remaining)
+    03.CE-Only: turn 890 | 1775/3015 facts | John (41 remaining)
+    03.CE-Only: turn 900 | 1795/3015 facts | John (21 remaining)
+    03.CE-Only: turn 910 | 1815/3015 facts | John (1 remaining)
+    03.CE-Only: John done (125 facts covered)
+    03.CE-Only: Starting James (141 facts)...
+    03.CE-Only: turn 920 | 1834/3015 facts | James (123 remaining)
+    SKIP turn 923: LLM A blank after 3 attempts
+    03.CE-Only: turn 930 | 1854/3015 facts | James (103 remaining)
+    03.CE-Only: turn 940 | 1874/3015 facts | James (83 remaining)
+    03.CE-Only: turn 950 | 1894/3015 facts | James (63 remaining)
+    03.CE-Only: turn 960 | 1914/3015 facts | James (43 remaining)
+    03.CE-Only: turn 970 | 1934/3015 facts | James (23 remaining)
+    03.CE-Only: turn 980 | 1954/3015 facts | James (3 remaining)
+    03.CE-Only: James done (141 facts covered)
+    03.CE-Only: Starting Deborah (158 facts)...
+    03.CE-Only: turn 990 | 1973/3015 facts | Deborah (142 remaining)
+    03.CE-Only: turn 1000 | 1993/3015 facts | Deborah (122 remaining)
+    03.CE-Only: turn 1010 | 2013/3015 facts | Deborah (102 remaining)
+    03.CE-Only: turn 1020 | 2033/3015 facts | Deborah (82 remaining)
+    03.CE-Only: turn 1030 | 2053/3015 facts | Deborah (62 remaining)
+    03.CE-Only: turn 1040 | 2073/3015 facts | Deborah (42 remaining)
+    03.CE-Only: turn 1050 | 2093/3015 facts | Deborah (22 remaining)
+    03.CE-Only: turn 1060 | 2113/3015 facts | Deborah (2 remaining)
+    03.CE-Only: Deborah done (158 facts covered)
+    03.CE-Only: Starting Jolene (199 facts)...
+    03.CE-Only: turn 1070 | 2133/3015 facts | Jolene (181 remaining)
+    03.CE-Only: turn 1080 | 2153/3015 facts | Jolene (161 remaining)
+    03.CE-Only: turn 1090 | 2173/3015 facts | Jolene (141 remaining)
+    03.CE-Only: turn 1100 | 2193/3015 facts | Jolene (121 remaining)
+    03.CE-Only: turn 1110 | 2213/3015 facts | Jolene (101 remaining)
+    03.CE-Only: turn 1120 | 2233/3015 facts | Jolene (81 remaining)
+    03.CE-Only: turn 1130 | 2253/3015 facts | Jolene (61 remaining)
+    03.CE-Only: turn 1140 | 2273/3015 facts | Jolene (41 remaining)
+    03.CE-Only: turn 1150 | 2293/3015 facts | Jolene (21 remaining)
+    03.CE-Only: turn 1160 | 2313/3015 facts | Jolene (1 remaining)
+    03.CE-Only: Jolene done (199 facts covered)
+    03.CE-Only: Starting Sam (159 facts)...
+    03.CE-Only: turn 1170 | 2332/3015 facts | Sam (141 remaining)
+    03.CE-Only: turn 1180 | 2352/3015 facts | Sam (121 remaining)
+    03.CE-Only: turn 1190 | 2372/3015 facts | Sam (101 remaining)
+    03.CE-Only: turn 1200 | 2392/3015 facts | Sam (81 remaining)
+    03.CE-Only: turn 1210 | 2412/3015 facts | Sam (61 remaining)
+    03.CE-Only: turn 1220 | 2432/3015 facts | Sam (41 remaining)
+    03.CE-Only: turn 1230 | 2452/3015 facts | Sam (21 remaining)
+    03.CE-Only: turn 1240 | 2472/3015 facts | Sam (1 remaining)
+    03.CE-Only: Sam done (159 facts covered)
+    03.CE-Only: Starting Evan (177 facts)...
+    03.CE-Only: turn 1250 | 2491/3015 facts | Evan (159 remaining)
+    03.CE-Only: turn 1260 | 2511/3015 facts | Evan (139 remaining)
+    03.CE-Only: turn 1270 | 2531/3015 facts | Evan (119 remaining)
+    03.CE-Only: turn 1280 | 2551/3015 facts | Evan (99 remaining)
+    03.CE-Only: turn 1290 | 2571/3015 facts | Evan (79 remaining)
+    03.CE-Only: turn 1300 | 2591/3015 facts | Evan (59 remaining)
+    03.CE-Only: turn 1310 | 2611/3015 facts | Evan (39 remaining)
+    03.CE-Only: turn 1320 | 2631/3015 facts | Evan (19 remaining)
+    03.CE-Only: turn 1330 | 2650/3015 facts | Evan (0 remaining)
+    03.CE-Only: Evan done (177 facts covered)
+    03.CE-Only: Starting Calvin (210 facts)...
+    03.CE-Only: turn 1340 | 2670/3015 facts | Calvin (190 remaining)
+    03.CE-Only: turn 1350 | 2690/3015 facts | Calvin (170 remaining)
+    03.CE-Only: turn 1360 | 2710/3015 facts | Calvin (150 remaining)
+    03.CE-Only: turn 1370 | 2730/3015 facts | Calvin (130 remaining)
+    03.CE-Only: turn 1380 | 2750/3015 facts | Calvin (110 remaining)
+    03.CE-Only: turn 1390 | 2770/3015 facts | Calvin (90 remaining)
+    03.CE-Only: turn 1400 | 2790/3015 facts | Calvin (70 remaining)
+    03.CE-Only: turn 1410 | 2810/3015 facts | Calvin (50 remaining)
+    03.CE-Only: turn 1420 | 2830/3015 facts | Calvin (30 remaining)
+    03.CE-Only: turn 1430 | 2850/3015 facts | Calvin (10 remaining)
+    03.CE-Only: Calvin done (210 facts covered)
+    03.CE-Only: Starting Dave (155 facts)...
+    03.CE-Only: turn 1440 | 2870/3015 facts | Dave (145 remaining)
+    03.CE-Only: turn 1450 | 2890/3015 facts | Dave (125 remaining)
+    03.CE-Only: turn 1460 | 2910/3015 facts | Dave (105 remaining)
+    03.CE-Only: turn 1470 | 2930/3015 facts | Dave (85 remaining)
+    03.CE-Only: turn 1480 | 2950/3015 facts | Dave (65 remaining)
+    03.CE-Only: turn 1490 | 2970/3015 facts | Dave (45 remaining)
+    03.CE-Only: turn 1500 | 2990/3015 facts | Dave (25 remaining)
+    03.CE-Only: turn 1510 | 3010/3015 facts | Dave (5 remaining)
+    03.CE-Only: Dave done (155 facts covered)
+    03.CE-Only: Conversation complete — 1512 turns, 3015 facts, 0 memories stored
+  [01_conversation] Done: 1512 turns, 0 memories stored
+  [01_conversation] SAVED to resume state
+
+  [02_locomo_off] Exam (1986 Qs, learning=OFF)...
+    EXAM 03.CE-Only: 10/1986 -- 6c/1w  60.0%
+    EXAM 03.CE-Only: 20/1986 -- 15c/2w  75.0%
+    EXAM 03.CE-Only: 30/1986 -- 21c/5w  70.0%
+    EXAM 03.CE-Only: 40/1986 -- 24c/8w  60.0%
+    EXAM 03.CE-Only: 50/1986 -- 32c/9w  64.0%
+    EXAM 03.CE-Only: 60/1986 -- 38c/9w  63.3%
+    EXAM 03.CE-Only: 70/1986 -- 45c/10w  64.3%
+    EXAM 03.CE-Only: 80/1986 -- 53c/10w  66.2%
+    EXAM 03.CE-Only: 90/1986 -- 60c/11w  66.7%
+    EXAM 03.CE-Only: 100/1986 -- 67c/11w  67.0%
+    EXAM 03.CE-Only: 110/1986 -- 76c/11w  69.1%
+    EXAM 03.CE-Only: 120/1986 -- 84c/13w  70.0%
+    EXAM 03.CE-Only: 130/1986 -- 94c/13w  72.3%
+    EXAM 03.CE-Only: 140/1986 -- 101c/15w  72.1%
+    EXAM 03.CE-Only: 150/1986 -- 109c/15w  72.7%
+    EXAM 03.CE-Only: 160/1986 -- 112c/22w  70.0%
+    EXAM 03.CE-Only: 170/1986 -- 114c/30w  67.1%
+    EXAM 03.CE-Only: 180/1986 -- 120c/34w  66.7%
+    EXAM 03.CE-Only: 190/1986 -- 126c/38w  66.3%
+    EXAM 03.CE-Only: 200/1986 -- 130c/43w  65.0%
+    EXAM 03.CE-Only: 210/1986 -- 137c/44w  65.2%
+    EXAM 03.CE-Only: 220/1986 -- 147c/44w  66.8%
+    EXAM 03.CE-Only: 230/1986 -- 155c/44w  67.4%
+    EXAM 03.CE-Only: 240/1986 -- 163c/46w  67.9%
+    EXAM 03.CE-Only: 250/1986 -- 169c/48w  67.6%
+    EXAM 03.CE-Only: 260/1986 -- 176c/50w  67.7%
+    EXAM 03.CE-Only: 270/1986 -- 184c/51w  68.1%
+    EXAM 03.CE-Only: 280/1986 -- 186c/56w  66.4%
+    EXAM 03.CE-Only: 290/1986 -- 189c/63w  65.2%
+    EXAM 03.CE-Only: 300/1986 -- 196c/66w  65.3%
+    EXAM 03.CE-Only: 310/1986 -- 201c/69w  64.8%
+    EXAM 03.CE-Only: 320/1986 -- 210c/70w  65.6%
+    EXAM 03.CE-Only: 330/1986 -- 217c/71w  65.8%
+    EXAM 03.CE-Only: 340/1986 -- 224c/72w  65.9%
+    EXAM 03.CE-Only: 350/1986 -- 229c/73w  65.4%
+    EXAM 03.CE-Only: 360/1986 -- 235c/75w  65.3%
+    EXAM 03.CE-Only: 370/1986 -- 242c/78w  65.4%
+    EXAM 03.CE-Only: 380/1986 -- 250c/80w  65.8%
+    EXAM 03.CE-Only: 390/1986 -- 256c/82w  65.6%
+    EXAM 03.CE-Only: 400/1986 -- 263c/85w  65.8%
+    EXAM 03.CE-Only: 410/1986 -- 271c/85w  66.1%
+    EXAM 03.CE-Only: 420/1986 -- 279c/87w  66.4%
+    EXAM 03.CE-Only: 430/1986 -- 285c/87w  66.3%
+    EXAM 03.CE-Only: 440/1986 -- 290c/90w  65.9%
+    EXAM 03.CE-Only: 450/1986 -- 298c/92w  66.2%
+    EXAM 03.CE-Only: 460/1986 -- 304c/95w  66.1%
+    EXAM 03.CE-Only: 470/1986 -- 306c/103w  65.1%
+    EXAM 03.CE-Only: 480/1986 -- 310c/109w  64.6%
+    EXAM 03.CE-Only: 490/1986 -- 313c/116w  63.9%
+    EXAM 03.CE-Only: 500/1986 -- 320c/118w  64.0%
+    EXAM 03.CE-Only: 510/1986 -- 325c/118w  63.7%
+    EXAM 03.CE-Only: 520/1986 -- 334c/119w  64.2%
+    EXAM 03.CE-Only: 530/1986 -- 342c/121w  64.5%
+    EXAM 03.CE-Only: 540/1986 -- 351c/122w  65.0%
+    EXAM 03.CE-Only: 550/1986 -- 356c/126w  64.7%
+    EXAM 03.CE-Only: 560/1986 -- 362c/129w  64.6%
+    EXAM 03.CE-Only: 570/1986 -- 369c/130w  64.7%
+    EXAM 03.CE-Only: 580/1986 -- 376c/131w  64.8%
+    EXAM 03.CE-Only: 590/1986 -- 385c/132w  65.3%
+    EXAM 03.CE-Only: 600/1986 -- 391c/135w  65.2%
+    EXAM 03.CE-Only: 610/1986 -- 399c/135w  65.4%
+    EXAM 03.CE-Only: 620/1986 -- 405c/136w  65.3%
+    EXAM 03.CE-Only: 630/1986 -- 411c/138w  65.2%
+    EXAM 03.CE-Only: 640/1986 -- 418c/140w  65.3%
+    EXAM 03.CE-Only: 650/1986 -- 427c/141w  65.7%
+    EXAM 03.CE-Only: 660/1986 -- 436c/141w  66.1%
+    EXAM 03.CE-Only: 670/1986 -- 443c/143w  66.1%
+    EXAM 03.CE-Only: 680/1986 -- 452c/144w  66.5%
+    EXAM 03.CE-Only: 690/1986 -- 460c/144w  66.7%
+    EXAM 03.CE-Only: 700/1986 -- 465c/148w  66.4%
+    EXAM 03.CE-Only: 710/1986 -- 469c/154w  66.1%
+    EXAM 03.CE-Only: 720/1986 -- 473c/160w  65.7%
+    EXAM 03.CE-Only: 730/1986 -- 477c/166w  65.3%
+    EXAM 03.CE-Only: 740/1986 -- 481c/172w  65.0%
+    EXAM 03.CE-Only: 750/1986 -- 484c/179w  64.5%
+    EXAM 03.CE-Only: 760/1986 -- 488c/183w  64.2%
+    EXAM 03.CE-Only: 770/1986 -- 493c/186w  64.0%
+    EXAM 03.CE-Only: 780/1986 -- 501c/187w  64.2%
+    EXAM 03.CE-Only: 790/1986 -- 511c/187w  64.7%
+    EXAM 03.CE-Only: 800/1986 -- 519c/188w  64.9%
+    EXAM 03.CE-Only: 810/1986 -- 528c/188w  65.2%
+    EXAM 03.CE-Only: 820/1986 -- 534c/189w  65.1%
+    EXAM 03.CE-Only: 830/1986 -- 541c/192w  65.2%
+    EXAM 03.CE-Only: 840/1986 -- 548c/194w  65.2%
+    EXAM 03.CE-Only: 850/1986 -- 554c/195w  65.2%
+    EXAM 03.CE-Only: 860/1986 -- 562c/197w  65.3%
+    EXAM 03.CE-Only: 870/1986 -- 571c/197w  65.6%
+    EXAM 03.CE-Only: 880/1986 -- 577c/201w  65.6%
+    EXAM 03.CE-Only: 890/1986 -- 582c/204w  65.4%
+    EXAM 03.CE-Only: 900/1986 -- 590c/205w  65.6%
+    EXAM 03.CE-Only: 910/1986 -- 599c/206w  65.8%
+    EXAM 03.CE-Only: 920/1986 -- 607c/208w  66.0%
+    EXAM 03.CE-Only: 930/1986 -- 615c/209w  66.1%
+    EXAM 03.CE-Only: 940/1986 -- 622c/212w  66.2%
+    EXAM 03.CE-Only: 950/1986 -- 628c/216w  66.1%
+    EXAM 03.CE-Only: 960/1986 -- 633c/221w  65.9%
+    EXAM 03.CE-Only: 970/1986 -- 636c/228w  65.6%
+    EXAM 03.CE-Only: 980/1986 -- 640c/234w  65.3%
+    EXAM 03.CE-Only: 990/1986 -- 644c/240w  65.1%
+    EXAM 03.CE-Only: 1000/1986 -- 648c/246w  64.8%
+    EXAM 03.CE-Only: 1010/1986 -- 654c/247w  64.8%
+    EXAM 03.CE-Only: 1020/1986 -- 660c/251w  64.7%
+    EXAM 03.CE-Only: 1030/1986 -- 667c/251w  64.8%
+    EXAM 03.CE-Only: 1040/1986 -- 674c/253w  64.8%
+    EXAM 03.CE-Only: 1050/1986 -- 681c/256w  64.9%
+    EXAM 03.CE-Only: 1060/1986 -- 687c/257w  64.8%
+    EXAM 03.CE-Only: 1070/1986 -- 694c/259w  64.9%
+    EXAM 03.CE-Only: 1080/1986 -- 702c/260w  65.0%
+    EXAM 03.CE-Only: 1090/1986 -- 709c/263w  65.0%
+    EXAM 03.CE-Only: 1100/1986 -- 717c/263w  65.2%
+    EXAM 03.CE-Only: 1110/1986 -- 722c/264w  65.0%
+    EXAM 03.CE-Only: 1120/1986 -- 730c/266w  65.2%
+    EXAM 03.CE-Only: 1130/1986 -- 734c/271w  65.0%
+    EXAM 03.CE-Only: 1140/1986 -- 737c/278w  64.6%
+    EXAM 03.CE-Only: 1150/1986 -- 738c/287w  64.2%
+    EXAM 03.CE-Only: 1160/1986 -- 740c/295w  63.8%
+    EXAM 03.CE-Only: 1170/1986 -- 747c/298w  63.8%
+    EXAM 03.CE-Only: 1180/1986 -- 756c/299w  64.1%
+    EXAM 03.CE-Only: 1190/1986 -- 763c/299w  64.1%
+    EXAM 03.CE-Only: 1200/1986 -- 772c/300w  64.3%
+    EXAM 03.CE-Only: 1210/1986 -- 780c/300w  64.5%
+    EXAM 03.CE-Only: 1220/1986 -- 788c/300w  64.6%
+    EXAM 03.CE-Only: 1230/1986 -- 797c/300w  64.8%
+    EXAM 03.CE-Only: 1240/1986 -- 806c/301w  65.0%
+    EXAM 03.CE-Only: 1250/1986 -- 815c/301w  65.2%
+    EXAM 03.CE-Only: 1260/1986 -- 822c/303w  65.2%
+    EXAM 03.CE-Only: 1270/1986 -- 829c/305w  65.3%
+    EXAM 03.CE-Only: 1280/1986 -- 838c/305w  65.5%
+    EXAM 03.CE-Only: 1290/1986 -- 846c/306w  65.6%
+    EXAM 03.CE-Only: 1300/1986 -- 853c/307w  65.6%
+    EXAM 03.CE-Only: 1310/1986 -- 862c/307w  65.8%
+    EXAM 03.CE-Only: 1320/1986 -- 864c/315w  65.5%
+    EXAM 03.CE-Only: 1330/1986 -- 869c/320w  65.3%
+    EXAM 03.CE-Only: 1340/1986 -- 872c/327w  65.1%
+    EXAM 03.CE-Only: 1350/1986 -- 879c/329w  65.1%
+    EXAM 03.CE-Only: 1360/1986 -- 888c/329w  65.3%
+    EXAM 03.CE-Only: 1370/1986 -- 895c/330w  65.3%
+    EXAM 03.CE-Only: 1380/1986 -- 904c/331w  65.5%
+    EXAM 03.CE-Only: 1390/1986 -- 914c/331w  65.8%
+    EXAM 03.CE-Only: 1400/1986 -- 921c/334w  65.8%
+    EXAM 03.CE-Only: 1410/1986 -- 930c/334w  66.0%
+    EXAM 03.CE-Only: 1420/1986 -- 940c/334w  66.2%
+    EXAM 03.CE-Only: 1430/1986 -- 948c/335w  66.3%
+    EXAM 03.CE-Only: 1440/1986 -- 953c/336w  66.2%
+    EXAM 03.CE-Only: 1450/1986 -- 960c/337w  66.2%
+    EXAM 03.CE-Only: 1460/1986 -- 965c/341w  66.1%
+    EXAM 03.CE-Only: 1470/1986 -- 973c/342w  66.2%
+    EXAM 03.CE-Only: 1480/1986 -- 980c/342w  66.2%
+    EXAM 03.CE-Only: 1490/1986 -- 984c/345w  66.0%
+    EXAM 03.CE-Only: 1500/1986 -- 991c/347w  66.1%
+    EXAM 03.CE-Only: 1510/1986 -- 995c/351w  65.9%
+    EXAM 03.CE-Only: 1520/1986 -- 1004c/351w  66.1%
+    EXAM 03.CE-Only: 1530/1986 -- 1008c/353w  65.9%
+    EXAM 03.CE-Only: 1540/1986 -- 1017c/353w  66.0%
+    EXAM 03.CE-Only: 1550/1986 -- 1021c/359w  65.9%
+    EXAM 03.CE-Only: 1560/1986 -- 1024c/366w  65.6%
+    EXAM 03.CE-Only: 1570/1986 -- 1026c/374w  65.4%
+    EXAM 03.CE-Only: 1580/1986 -- 1029c/381w  65.1%
+    EXAM 03.CE-Only: 1590/1986 -- 1034c/386w  65.0%
+    EXAM 03.CE-Only: 1600/1986 -- 1042c/387w  65.1%
+    EXAM 03.CE-Only: 1610/1986 -- 1051c/388w  65.3%
+    EXAM 03.CE-Only: 1620/1986 -- 1061c/388w  65.5%
+    EXAM 03.CE-Only: 1630/1986 -- 1068c/389w  65.5%
+    EXAM 03.CE-Only: 1640/1986 -- 1075c/391w  65.5%
+    EXAM 03.CE-Only: 1650/1986 -- 1082c/393w  65.6%
+    EXAM 03.CE-Only: 1660/1986 -- 1092c/393w  65.8%
+    EXAM 03.CE-Only: 1670/1986 -- 1096c/396w  65.6%
+    EXAM 03.CE-Only: 1680/1986 -- 1105c/397w  65.8%
+    EXAM 03.CE-Only: 1690/1986 -- 1114c/398w  65.9%
+    EXAM 03.CE-Only: 1700/1986 -- 1123c/399w  66.1%
+    EXAM 03.CE-Only: 1710/1986 -- 1130c/401w  66.1%
+    EXAM 03.CE-Only: 1720/1986 -- 1137c/401w  66.1%
+    EXAM 03.CE-Only: 1730/1986 -- 1147c/401w  66.3%
+    EXAM 03.CE-Only: 1740/1986 -- 1156c/402w  66.4%
+    EXAM 03.CE-Only: 1750/1986 -- 1158c/409w  66.2%
+    EXAM 03.CE-Only: 1760/1986 -- 1161c/416w  66.0%
+    EXAM 03.CE-Only: 1770/1986 -- 1163c/424w  65.7%
+    EXAM 03.CE-Only: 1780/1986 -- 1163c/434w  65.3%
+    EXAM 03.CE-Only: 1790/1986 -- 1172c/434w  65.5%
+    EXAM 03.CE-Only: 1800/1986 -- 1179c/435w  65.5%
+    EXAM 03.CE-Only: 1810/1986 -- 1187c/436w  65.6%
+    EXAM 03.CE-Only: 1820/1986 -- 1193c/437w  65.5%
+    EXAM 03.CE-Only: 1830/1986 -- 1202c/437w  65.7%
+    EXAM 03.CE-Only: 1840/1986 -- 1210c/438w  65.8%
+    EXAM 03.CE-Only: 1850/1986 -- 1214c/440w  65.6%
+    EXAM 03.CE-Only: 1860/1986 -- 1223c/440w  65.8%
+    EXAM 03.CE-Only: 1870/1986 -- 1231c/441w  65.8%
+    EXAM 03.CE-Only: 1880/1986 -- 1238c/442w  65.9%
+    EXAM 03.CE-Only: 1890/1986 -- 1247c/443w  66.0%
+    EXAM 03.CE-Only: 1900/1986 -- 1254c/445w  66.0%
+    EXAM 03.CE-Only: 1910/1986 -- 1261c/447w  66.0%
+    EXAM 03.CE-Only: 1920/1986 -- 1269c/449w  66.1%
+    EXAM 03.CE-Only: 1930/1986 -- 1272c/453w  65.9%
+    EXAM 03.CE-Only: 1940/1986 -- 1279c/454w  65.9%
+    EXAM 03.CE-Only: 1950/1986 -- 1285c/458w  65.9%
+    EXAM 03.CE-Only: 1960/1986 -- 1289c/464w  65.8%
+    EXAM 03.CE-Only: 1970/1986 -- 1294c/469w  65.7%
+    EXAM 03.CE-Only: 1980/1986 -- 1297c/476w  65.5%
+  [02_locomo_off] Done: 1299/1986 = 65.4%
+  [02_locomo_off] Transcript saved: exam_03.CE-Only_02_locomo_off.json
+  [02_locomo_off] SAVED to resume state
+
+  [03_hard_off] Exam (76 Qs, learning=OFF)...
+    EXAM 03.CE-Only: 10/76 -- 1c/6w  10.0%
+    EXAM 03.CE-Only: 20/76 -- 6c/9w  30.0%
+    EXAM 03.CE-Only: 30/76 -- 16c/9w  53.3%
+    EXAM 03.CE-Only: 40/76 -- 17c/14w  42.5%
+    EXAM 03.CE-Only: 50/76 -- 18c/20w  36.0%
+    EXAM 03.CE-Only: 60/76 -- 23c/25w  38.3%
+    EXAM 03.CE-Only: 70/76 -- 24c/34w  34.3%
+  [03_hard_off] Done: 25/76 = 32.9%
+  [03_hard_off] Transcript saved: exam_03.CE-Only_03_hard_off.json
+  [03_hard_off] SAVED to resume state
+
+  === 03.CE-Only COMPLETE ===
+
+============================================================
+ALL STRATEGIES COMPLETE
+============================================================
+Results in: results
+Run MiniMax regrading on exam transcripts for dual-grading.
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001E5DB8784C0>
+Traceback (most recent call last):
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 745, in call_soon
+    self._check_closed()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001E5DB8784C0>
+Traceback (most recent call last):
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 745, in call_soon
+    self._check_closed()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001E5DB8784C0>
+Traceback (most recent call last):
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 745, in call_soon
+    self._check_closed()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001E5DB8784C0>
+Traceback (most recent call last):
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 745, in call_soon
+    self._check_closed()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001E5DB8784C0>
+Traceback (most recent call last):
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 745, in call_soon
+    self._check_closed()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001E5DB8784C0>
+Traceback (most recent call last):
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 745, in call_soon
+    self._check_closed()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001E5DB8784C0>
+Traceback (most recent call last):
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 745, in call_soon
+    self._check_closed()
+  File "C:\Users\logte\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed

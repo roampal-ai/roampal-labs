@@ -1,0 +1,409 @@
+{
+  "seed": 99,
+  "total_sampled": 50,
+  "verified": 46,
+  "plausible": 4,
+  "wrong": 0,
+  "details": [
+    {
+      "question": "Which city in Ireland will Tim be staying in during his semester abroad?",
+      "ground_truth": "Galway",
+      "category": "commonsense",
+      "conv_idx": 4,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT terms. Chunk: [5:24 pm on 7 January, 2024]\nTim: Hey John, long time no talk. On Friday, I got great news - I'm finally in the study abroad program I applied for! Next month, I'm off to Ireland for a semester.\nJohn: Congrats, Tim! That's amazing news. So, where are you going to stay?\nTim: Thanks! I'm gonna stay in"
+    },
+    {
+      "question": "What book did Tim just finish reading on 8th December, 2023?",
+      "ground_truth": "\"A Dance with Dragons\"",
+      "category": "commonsense",
+      "conv_idx": 4,
+      "verdict": "verified",
+      "evidence": "Found 2/2 GT terms. Chunk: e know the title so I can add it to my list!\nJohn: I'm reading \"Dune\" by Frank Herbert. It's a great story about religion and human control over ecology. What about you? What's the last book that moved you?\nTim: I haven't read that yet but I've heard great things! Just finished \"A Dance with Dragons"
+    },
+    {
+      "question": "What kind of lighting does Nate's gaming room have?",
+      "ground_truth": "red and purple lighting",
+      "category": "commonsense",
+      "conv_idx": 3,
+      "verdict": "plausible",
+      "evidence": "GT terms not directly in chunks. Chunk: got a new tank! Check them out, they're so cute, right?!\nJoanna: Wow Nate, they're adorable! I can see why you enjoy spending time with them. It looks like they have so much more room to swim now!\nNat"
+    },
+    {
+      "question": "What did Jolene and Anna discuss while watching the sunset by the sea?",
+      "ground_truth": "They realized they inspire each other",
+      "category": "commonsense",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Found 4/4 GT terms. Chunk: down. \nJolene: The visualization is helpful too. Thanks for sharing!\nDeborah: I am glad, it was helpful. Let's give it a try and see if it helps you stay focused and less stressed. \nJolene: Yeah, I'll give it a go. Fingers crossed it'll help me. Thanks for the help!\nDeborah: Don't forget to take it "
+    },
+    {
+      "question": "Why does Maria think it's important for younger generations to visit military memorials?",
+      "ground_truth": "To remember and appreciate those who served",
+      "category": "commonsense",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found 4/4 GT terms. Chunk: id they react when they saw it?\nJohn: They were awestruck and humbled.\nMaria: Imagining visiting a military memorial makes me feel humble too. It's important for younger generations to remember and appreciate those who served.\nJohn: Yeah, totally! Showing them how to respect and appreciate those who"
+    },
+    {
+      "question": "How does Nate describe the stuffed animal he got for Joanna?",
+      "ground_truth": "A stuffed animal to remind you of the good vibes",
+      "category": "commonsense",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 5/5 GT terms. Chunk: Its like a dream come true seeing my dog so happy.\nJoanna: I can see why having a peaceful presence around could help relieve stress. Having someone or something to come home to for a sense of calm would be helpful for relaxation.\nNate: Yep, Joanna. It's great! Looky here, I got this new pup for you"
+    },
+    {
+      "question": "What does Nate do that he loves and can make money from?",
+      "ground_truth": "Competing in video game tournaments",
+      "category": "commonsense",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 3/4 GT terms. Chunk: [2:34 pm on 10 July, 2022]\nNate: Hey Joanna, check this out! I won my fourth video game tournament on Friday! It was awesome competing and showing off my skills - and the victory was indescribable. I'm really proud that I can make money doing what I love. This one was online!\nJoanna: Congrats, Nate!"
+    },
+    {
+      "question": "Where did John explore on a road trip last year?",
+      "ground_truth": "Pacific Northwest",
+      "category": "commonsense",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found 2/2 GT terms. Chunk: it's been tough with car trouble and money problems, but I stay positive and find a way. This picture reminds me of a road trip we took last year; even with bumps along the way, there's still beauty and hope.\nMaria: Wow, great pic! Where did you go on that road trip?\nJohn: Thanks! We explored the co"
+    },
+    {
+      "question": "What kind of modifications has Dave been working on in the car mod workshop?",
+      "ground_truth": "engine swaps, suspension modifications, and body modifications",
+      "category": "commonsense",
+      "conv_idx": 9,
+      "verdict": "verified",
+      "evidence": "Found 6/6 GT terms. Chunk: y! What kind of transformations have you done so far? How's it going with the current project?\nDave: I've been working on this car, doing engine swaps and suspension modifications. Now I'm learning about body modifications. Giving this classic muscle car a modern twist is a challenge but so fun!\nCal"
+    },
+    {
+      "question": "What does Gina's tattoo symbolize?",
+      "ground_truth": "Freedom and expressing herself through dance",
+      "category": "commonsense",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Found 3/5 GT terms. Chunk:  did you just get it?\nGina: Thanks! Got the tattoo a few years ago, it stands for freedom - dancing without worrying what people think. A reminder to follow my passions and express myself.\nJon: Nice reminder, Gina! It's so important to have freedom and express ourselves without worry. Dance gives me"
+    },
+    {
+      "question": "Which activity helps Nate escape and numbs his mind?",
+      "ground_truth": "Watching fantasy and sci-fi movies does not numb Nate's mind.",
+      "category": "adversarial",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Chunk: mething sometime! The experience at this convention is unforgetable.\nJoanna: Do writing conventions exist? I'll have to look into that, it could be fun! Thanks for the idea. Have you been up to anything tonight?\nNate: Mostly just chilling at home. Playing video games or watching movies helps me unwi"
+    },
+    {
+      "question": "What food did Evan share a photo of on 19 August, 2023?",
+      "ground_truth": "The question contains a false premise.",
+      "category": "adversarial",
+      "conv_idx": 8,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Chunk: [4:09 pm on 13 August, 2023]\nEvan: Hey Sam, long time no talk! Hope you're doing great. I just got back from a rad vacay with my new SO in Canada. Tried some awesome activities too - think hiking, biking... all that cool stuff. We loved exploring the outdoors together, it was so awesome!\nSam: Hey Ev"
+    },
+    {
+      "question": "What spice did Tim add to the soup for flavor?",
+      "ground_truth": "Tim did not make soup.",
+      "category": "adversarial",
+      "conv_idx": 4,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Chunk: ! Appreciate your encouragement. Yesterday, I tackled something new - I gave a presentation in class. I was nervous but I made it. Small step, but feels like progress.\nJohn: Cool, Tim! Taking the plunge and presenting can be tough, but awesome work! Progress is progress, keep it up. By the way, I've"
+    },
+    {
+      "question": "How often does Andrew meet up with other dog owners for tips and playdates?",
+      "ground_truth": "This question contains a false premise.",
+      "category": "adversarial",
+      "conv_idx": 5,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Chunk: t! Your four pups must have a lot of fun. How often do you hang out with the dog owners group?\nAudrey: Yeah, they're having a lot of fun. I try to meet up with other dog owners once a week for tips from other parents and so they can all play together. How about you? Have you ever thought about joini"
+    },
+    {
+      "question": "How did Jolene's mom support her yoga practice when she first started?",
+      "ground_truth": "It was Deborah's mom, not Jolene's mom, who supported her yoga practice by attending classes with her when she first started.",
+      "category": "adversarial",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Chunk: nd this old photo. That was when I first started doing yoga. My mum was my biggest fan and source of motivation. She'd often come to my classes with me.\nJolene: Our loved ones sure are supportive! When I was 10, my parents got me that and it was the start of my passion for video games.\nDeborah: Cool"
+    },
+    {
+      "question": "What kind of cookies did Deborah used to bake with someone close to her?",
+      "ground_truth": "It was Jolene, not Deborah, who used to bake chocolate chip cookies with someone close to her.",
+      "category": "adversarial",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Chunk: t would fill the house and bring us all together.\nJolene: Mmm, that looks delicious, Deb! So sweet how cooking with your mom brought everyone together. What's your best memory of cooking with her?\nDeborah: I loved it when she would bake pineapple birthday cakes for me when I was a kid. It always mad"
+    },
+    {
+      "question": "Which country did John visit in 2021?",
+      "ground_truth": "John did not visit Italy in 2021.",
+      "category": "adversarial",
+      "conv_idx": 6,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Chunk: l and the imaginary. It really sparked my creativity and motivation.\nJames: Cool! What else gives you motivation?\nJohn: I adhere to the principle that only those who rest well work well. Therefore, chilling with friends and traveling always give me motivation to work further.\nJames: I agree with you"
+    },
+    {
+      "question": "What did Caroline do after the road trip to relax?",
+      "ground_truth": "Caroline did not go on the road trip that ended badly.",
+      "category": "adversarial",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Chunk: hat recent? Looks like you all had fun!\nMelanie: Thanks, Caroline! Yup, we just did it yesterday! The kids loved it and it was a nice way to relax after the road trip.\nCaroline: Glad you got some R&R after the drive. Nature sure seems to refresh us, huh?\nMelanie: Absolutely! It really helps me reset"
+    },
+    {
+      "question": "What is Deborah's favorite book which she mentioned on 4 February, 2023?",
+      "ground_truth": "It was Jolene, not Deborah, who mentioned her favorite book \"Sapiens\" on 4 February, 2023.",
+      "category": "adversarial",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Chunk: ed to share this with you.\nDeborah: Your creativity is amazing! \nJolene: Thanks, Deb! I was inspired by my love for space and engines, so I designed these notebooks with elements like galaxies and circuitry. I think they turned out really cool!\nDeborah: You have such a knack for turning these into a"
+    },
+    {
+      "question": "What are some of the personalities of Andrew's four fur babies?",
+      "ground_truth": "This question contains two false premises.",
+      "category": "adversarial",
+      "conv_idx": 5,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Chunk: t! I should do that someday too!\nAndrew: Thanks! Seeing them so content makes me happy, it really makes me realize how special and full of love they are! Have you ever volunteered at an animal shelter? It can be so rewarding. \nAudrey: Never been to an animal shelter before, but it must be great! My "
+    },
+    {
+      "question": "Who was the new addition to Nate's family in May 2022?",
+      "ground_truth": "Max",
+      "category": "temporal",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv3 chunk dated May 20, 2022: Nate says \"I just got a new addition to the family, this is Max!\" and \"he's adopted and so full of energy.\" GT \"Max\" confirmed."
+    },
+    {
+      "question": "When did Deborah`s mother pass away?",
+      "ground_truth": "a few years before 2023",
+      "category": "temporal",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Found 1/2 GT terms. Chunk: mories, she passed away a few years ago. This is our last photo together.\nJolene: Sorry about your loss, Deb. My mother also passed away last year. This is my room in her house, I also have many memories there. Is there anything special about it you remember?\nDeborah: My mom's house had a special be"
+    },
+    {
+      "question": "Which hobby did Dave pick up in October 2023?",
+      "ground_truth": "photography",
+      "category": "temporal",
+      "conv_idx": 9,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT terms. Chunk: [10:49 am on 29 October, 2023]\nCalvin: Hey Dave! Since we last talked, I went to a networking event to meet more artists. So cool! The people I met will help me build up my fan base. Super excited about what it could lead to. You? Anything new since we last spoke?\nDave: Hey Calvin! That's cool that "
+    },
+    {
+      "question": "Where was Dave in the last two weeks of August 2023?",
+      "ground_truth": "San Francisco",
+      "category": "temporal",
+      "conv_idx": 9,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT terms. Chunk: [12:35 am on 14 August, 2023]\nDave: Hey Cal, how's it going? Something cool happened since last we talked - I got to go to a car workshop in San Francisco! So cool to dive into the world of car restoration and see all the different techniques. People were really passionate and dedicated - truly insp"
+    },
+    {
+      "question": "Where did Joanna travel to in July 2022?",
+      "ground_truth": "Woodhaven",
+      "category": "temporal",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT terms. Chunk: [2:34 pm on 10 July, 2022]\nNate: Hey Joanna, check this out! I won my fourth video game tournament on Friday! It was awesome competing and showing off my skills - and the victory was indescribable. I'm really proud that I can make money doing what I love. This one was online!\nJoanna: Congrats, Nate!"
+    },
+    {
+      "question": "How many days did James plan to spend on his trip in Canada?",
+      "ground_truth": "19 days",
+      "category": "temporal",
+      "conv_idx": 6,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT terms. Chunk: ew me one and it was awesome! We stayed up all night playing games and it really bonded us.\nJames: Wow, that sounds awesome! Do you still play with your siblings these days?\nJohn: Me and my siblings don't hang out much since we live far apart, but when we do we always try to plan a gaming night.\nJam"
+    },
+    {
+      "question": "When did John and James meet at McGee's bar?",
+      "ground_truth": "August 27, 2022",
+      "category": "temporal",
+      "conv_idx": 6,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT terms. Chunk: [1:45 pm on 6 August, 2022]\nJohn: Hey James, good catching up! Been a while huh? I made a huge call - recently left my IT job after 3 years. It was tough but I wanted something that made a difference. And now with this new job, I am happy about my decision. I am loving the new job!\nJames: Hey John! "
+    },
+    {
+      "question": "When is Joanna going to make Nate's ice cream for her family?",
+      "ground_truth": "The weekend of 24June, 2022.",
+      "category": "temporal",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 2/2 GT terms. Chunk: unds like it'd be a good recipe!\nNate: Sure thing! I can give it to you tomorrow, how does that sound?\nJoanna: Awesome! I'm going to make it for my family this weekend - can't wait!\nNate: Nice one, Joanna! Hope you and your family like it. Let me know how it went!\nJoanna: Sure thing! They love it wh"
+    },
+    {
+      "question": "When was John's old area hit with a flood?",
+      "ground_truth": "The week before 7 July 2023",
+      "category": "temporal",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found 2/3 GT terms. Chunk: [6:29 pm on 7 July, 2023]\nJohn: Maria, since we talked, it's been tough. My old area was hit by a nasty flood last week. The infrastructure wasn't great so lots of homes were ruined. It's reminding me we need to fix things up in our community.\nMaria: Sorry to hear about what happened in your area, J"
+    },
+    {
+      "question": "When did Deborah go to an art show with Anna?",
+      "ground_truth": "on 9 April, 2023",
+      "category": "temporal",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT terms. Chunk: [4:30 pm on 9 April, 2023]\nDeborah: Hey Jolene! Great to see you! Had a blast biking nearby with my neighbor last week - was so freeing and beautiful. Checked out an art show with a friend today - really cool and inspiring stuff. Reminded me of my mom.\nJolene: Hey Deborah! Sounds like you had a blas"
+    },
+    {
+      "question": "What is Joanna inspired by?",
+      "ground_truth": "Personal experiences,her own journey ofself discovery, Nate,nature, validation,stories about findingcourage and takingrisks, people she knows, stuff she sees, imagination",
+      "category": "single-hop",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 8/16 GT terms. Chunk: al and grow.\nNate: Wow, Joanna, that sounds awesome. I love stories that tackle important issues. What inspired you to this one?\nJoanna: Thanks, Nate! It was inspired by personal experiences and my own journey of self-discovery.\nNate: Wow, Joanna, that takes guts! I can't wait to see it all come tog"
+    },
+    {
+      "question": "Do both James and John have pets?",
+      "ground_truth": "No",
+      "category": "single-hop",
+      "conv_idx": 6,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv6 transcript: John explicitly says \"It's a pity that I don't have pets, I'll definitely get one someday.\" James has dogs (Max, Daisy, Ned mentioned across sessions). GT \"No\" (not both have pets) confirmed."
+    },
+    {
+      "question": "How long did it take for Jon to open his studio?",
+      "ground_truth": "six months",
+      "category": "single-hop",
+      "conv_idx": 1,
+      "verdict": "plausible",
+      "evidence": "GT terms not directly in chunks. Chunk: [3:14 pm on 11 May, 2023]\nJon: Hi! Since we last spoke I am still working on the dance studio and things are looking up!\nGina: Hi! You're so inspiring taking it on and opening your own studio!\nJon: Th"
+    },
+    {
+      "question": "What is Dave's favorite activity?",
+      "ground_truth": "Restoring cars",
+      "category": "single-hop",
+      "conv_idx": 9,
+      "verdict": "verified",
+      "evidence": "Found 2/2 GT terms. Chunk:  you proud. Remember any good memories from working on cars with your dad?\nDave: Yeah, definitely! I have fond memories of working on cars with my dad as a kid. We spent one summer restoring an old car. It was hard work, but seeing the end result and knowing that we did it together was really satisf"
+    },
+    {
+      "question": "What type of volunteering have John and Maria both done?",
+      "ground_truth": "Volunteering at a homeless shelter",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found 3/3 GT terms. Chunk: [11:01 am on 17 December, 2022]\nMaria: Hey John! Long time no see! What's up?\nJohn: Hey Maria! Good to see you. Just got back from a family road trip yesterday, it was fun! Anything exciting happening for you?\nMaria: Been busy volunteering at the homeless shelter and keeping fit. Just started doing "
+    },
+    {
+      "question": "What recurring adventure does Evan have with strangers?",
+      "ground_truth": "Helping lost tourists and experiencing unexpected adventures in the city.",
+      "category": "single-hop",
+      "conv_idx": 8,
+      "verdict": "verified",
+      "evidence": "Found 6/7 GT terms. Chunk: ve this, I had a bit of an adventure recently. Helped a lost tourist find their way, and we ended up taking an unexpected tour around the city. It was a blast!\nSam: Hey Evan, that sounds like a fun and unexpected event! It's always interesting how helping someone can turn into a little adventure of "
+    },
+    {
+      "question": "What did Audrey get wtih having so many dogs?",
+      "ground_truth": "Companionship",
+      "category": "single-hop",
+      "conv_idx": 5,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT terms. Chunk: ep running for hours!\nAndrew: That sounds like so much fun! It's great to see them happy and active.\nAudrey: Yeah, it's awesome! Seeing them happy fills my heart with joy. They bring me so much happiness.\nAndrew: Yeah, they really do bring joy don't they. It's wonderful.\nAudrey: I think i've said th"
+    },
+    {
+      "question": "Which locations does Deborah practice her yoga at?",
+      "ground_truth": "at her mother's old home, park, yoga studio, beach",
+      "category": "single-hop",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Found 5/6 GT terms. Chunk:  nature. It was always so refreshing to be outside and soak up the fresh air.\nJolene: I'm a big fan of being outside too! It's so calming and refreshing. Do you have any special spots you like to go to?\nDeborah: I love going to this park near my house - it has a nice forest trail and a beach. It's a"
+    },
+    {
+      "question": "What subject have Caroline and Melanie both painted?",
+      "ground_truth": "Sunsets",
+      "category": "single-hop",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT terms. Chunk: one I did last week. It's inspired by the sunsets. The colors make me feel calm. What have you been up to lately, artistically?\nCaroline: Wow Mel, that's stunning! Love the colors and the chilled-out sunset vibe. What made you paint it? I've been trying out abstract stuff recently. It's kinda freein"
+    },
+    {
+      "question": "What instruments does Tim play?",
+      "ground_truth": "piano, violin",
+      "category": "single-hop",
+      "conv_idx": 4,
+      "verdict": "verified",
+      "evidence": "Found 2/2 GT terms. Chunk:  learning how to play the violin now. I'm mostly into classical music but I'm keen to try out jazz and film scores too. It's a great way to chill and get creative.\nJohn: Wow! I hope I can hear you play the violin some day. How long have you been playing the piano again?\nTim: I've been playing for ab"
+    },
+    {
+      "question": "How old is Jolene?",
+      "ground_truth": "likely no more than 30; since she's in school",
+      "category": "multi-hop",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Found 2/3 GT terms. Chunk: as always! Here are new photos of Seraphim in the new aquarium that I bought the day before yesterday.\nDeborah: Where'd you get it? I'm always drawn to animals, they bring so much joy. What's its story?\nJolene:  I got her last year, she's a great pet. She always cheers me up and brings a sense of pe"
+    },
+    {
+      "question": "What fields would Caroline be likely to pursue in her educaton?",
+      "ground_truth": "Psychology, counseling certification",
+      "category": "multi-hop",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Found 1/3 GT terms. Chunk: inting! So cool you found such a helpful group. What's it done for you?\nCaroline: The support group has made me feel accepted and given me courage to embrace myself.\nMelanie: That's really cool. You've got guts. What now?\nCaroline: Gonna continue my edu and check out career options, which is pretty "
+    },
+    {
+      "question": "Does James live in Connecticut?",
+      "ground_truth": "Likely yes",
+      "category": "multi-hop",
+      "conv_idx": 6,
+      "verdict": "plausible",
+      "evidence": "GT terms not directly in chunks. Chunk:  is really enjoyable!\nJohn: That sounds really fulfilling! Combining your passions to make something new must be so exciting. Can't wait to see the outcome.\nJames: Thanks John! It's super exciting. I'"
+    },
+    {
+      "question": "What alternative career might Nate consider after gaming?",
+      "ground_truth": "an animalkeeper at a localzoo and workingwith turtles; as heknows a great dealabout turtles andhow to care for them,and he enjoys it.",
+      "category": "multi-hop",
+      "conv_idx": 3,
+      "verdict": "plausible",
+      "evidence": "Partial match 4/11 terms. Chunk: [10:57 am on 22 August, 2022]\nNate: Woah Joanna, I won an international tournament yesterday! It was wild. Gaming has brought me so much success and now I'm able to make a living at something I'm pass"
+    },
+    {
+      "question": "What is an indoor activity that Andrew would enjoy doing while make his dog happy?",
+      "ground_truth": "cook dog treats",
+      "category": "multi-hop",
+      "conv_idx": 5,
+      "verdict": "verified",
+      "evidence": "Found 1/2 GT terms. Chunk: [8:32 pm on 3 July, 2023]\nAudrey: Hey! It's been a while. I'm taking a dog training course and it's challenging but rewarding. My dogs are doing better already. What's new with you?\nAndrew: Hey great to hear from you! Life's thrown me a few curveballs lately. Still can't seem to find any dog-friendl"
+    },
+    {
+      "question": "In what country did Jolene buy snake Seraphim?",
+      "ground_truth": "In France",
+      "category": "multi-hop",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv7 transcript: \"I bought it a year ago in Paris.\" (Jolene about Seraphim the snake). Paris is in France. GT \"In France\" confirmed by raw transcript."
+    },
+    {
+      "question": "What personality traits might Melanie say Caroline has?",
+      "ground_truth": "Thoughtful, authentic, driven",
+      "category": "multi-hop",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Found 2/3 GT terms. Chunk: entity and be true to myself. It's definitely therapeutic.\nMelanie: Wow, Caroline, that's great! Art's awesome for showing us who we really are and getting in touch with ourselves. What else helps you out?\nCaroline: Thanks, Melanie. Art gives me a sense of freedom, but so does having supportive peop"
+    },
+    {
+      "question": "Was James feeling lonely before meeting Samantha?",
+      "ground_truth": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
+      "category": "multi-hop",
+      "conv_idx": 6,
+      "verdict": "verified",
+      "evidence": "Found 5/11 GT terms. Chunk: victory in the tournament. How are you?\nJohn: Feeling the tug of emotion lately. Determined and passionate on one hand, but feeling overwhelmed and stressed on the other. Balancing personal and professional is kind of a challenge. How have you been?\nJames: Yeah, staying balanced can be tough. I'm tr"
+    },
+    {
+      "question": "In what country did Jolene's mother buy her the pendant?",
+      "ground_truth": "In France",
+      "category": "multi-hop",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv7 transcript: \"she gave it to me in 2010 in Paris.\" (Jolene about mother's pendant). Paris is in France. GT \"In France\" confirmed by raw transcript."
+    },
+    {
+      "question": "What Console does Nate own?",
+      "ground_truth": "A Nintendo Switch; since the game \"Xenoblade 2\" is made for this console.",
+      "category": "multi-hop",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 3/6 GT terms. Chunk: week I won my second tournament!\nJoanna: Wow, congrats! What game were you playing?\nNate: Thanks! I usually play CS:GO, but I tried my hand at the local Street Fighter tournament this time since I play that game a lot with my friends, and turns out I'm really good!\nJoanna: Nice! That must have been "
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+Questions: 1537 (non-adversarial)
+  Building inverted index for clean... done (8493 tags)
+  clean: 7732 memories, 8493 known tags
+  Building inverted index for poison... done (9737 tags)
+  poison: 8867 memories, 9737 known tags
+W0404 18:53:12.497512 40572 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+
+Running 1537 Qs × 5 configs × 2 DBs...
+  100/1537 (0.1 Q/s, ~281min remaining)
+  200/1537 (0.1 Q/s, ~262min remaining)
+  300/1537 (0.1 Q/s, ~241min remaining)
+  400/1537 (0.1 Q/s, ~221min remaining)
+  500/1537 (0.1 Q/s, ~202min remaining)
+  600/1537 (0.1 Q/s, ~183min remaining)
+  700/1537 (0.1 Q/s, ~163min remaining)
+  800/1537 (0.1 Q/s, ~144min remaining)
+  900/1537 (0.1 Q/s, ~124min remaining)
+  1000/1537 (0.1 Q/s, ~105min remaining)
+  1100/1537 (0.1 Q/s, ~85min remaining)
+  1200/1537 (0.1 Q/s, ~65min remaining)
+  1300/1537 (0.1 Q/s, ~46min remaining)
+  1400/1537 (0.1 Q/s, ~27min remaining)
+  1500/1537 (0.1 Q/s, ~7min remaining)
+
+================================================================================
+ISOLATION TEST: tag-cascade vs overlap-sort vs pure CE
+1537 non-adversarial questions, EntityRouted DB, two-lane retrieval
+================================================================================
+
+--- CLEAN DB ---
+Config                       Hit@1    Hit@8      MRR
+pure_ce                     25.4%   69.7%   0.361
+overlap_cosine              25.8%   69.6%   0.364
+overlap_wilson              22.8%   65.4%   0.330
+tag_cascade_cosine          27.3%   70.5%   0.378
+tag_cascade_wilson          23.0%   61.7%   0.324
+
+--- POISON DB ---
+Config                       Hit@1    Hit@8      MRR
+pure_ce                     28.4%   71.8%   0.396
+overlap_cosine              28.0%   71.7%   0.390
+overlap_wilson              25.8%   67.5%   0.361
+tag_cascade_cosine          29.0%   72.4%   0.401
+tag_cascade_wilson          25.0%   64.5%   0.350
+
+================================================================================
+McNemar pairwise (Hit@1):
+
+--- CLEAN ---
+  Tag cascade+wilson vs Pure CE: pure_ce=88, tag_cascade_wilson=51, p=0.0023, Δ=2.4% → pure_ce
+  Tag cascade+cosine vs Pure CE: pure_ce=8, tag_cascade_cosine=37, p=0.0000, Δ=1.9% → tag_cascade_cosine
+  Overlap+wilson vs Pure CE: pure_ce=79, overlap_wilson=39, p=0.0003, Δ=2.6% → pure_ce
+  Wilson vs Cosine (overlap): overlap_cosine=80, overlap_wilson=34, p=0.0000, Δ=3.0% → overlap_cosine
+  Wilson vs Cosine (tag cascade): tag_cascade_cosine=101, tag_cascade_wilson=35, p=0.0000, Δ=4.3% → tag_cascade_cosine
+  Tag cascade vs Overlap (cosine): overlap_cosine=7, tag_cascade_cosine=30, p=0.0003, Δ=1.5% → tag_cascade_cosine
+  Tag cascade vs Overlap (Wilson): overlap_wilson=34, tag_cascade_wilson=37, p=0.8124, Δ=0.2% → tag_cascade_wilson
+
+--- POISON ---
+  Tag cascade+wilson vs Pure CE: pure_ce=106, tag_cascade_wilson=54, p=0.0001, Δ=3.4% → pure_ce
+  Tag cascade+cosine vs Pure CE: pure_ce=26, tag_cascade_cosine=36, p=0.2530, Δ=0.7% → tag_cascade_cosine
+  Overlap+wilson vs Pure CE: pure_ce=79, overlap_wilson=39, p=0.0003, Δ=2.6% → pure_ce
+  Wilson vs Cosine (overlap): overlap_cosine=62, overlap_wilson=28, p=0.0005, Δ=2.2% → overlap_cosine
+  Wilson vs Cosine (tag cascade): tag_cascade_cosine=96, tag_cascade_wilson=34, p=0.0000, Δ=4.0% → tag_cascade_cosine
+  Tag cascade vs Overlap (cosine): overlap_cosine=10, tag_cascade_cosine=26, p=0.0124, Δ=1.0% → tag_cascade_cosine
+  Tag cascade vs Overlap (Wilson): overlap_wilson=42, tag_cascade_wilson=30, p=0.1949, Δ=0.8% → overlap_wilson
+
+================================================================================
+KEY ANSWERS:
+
+  [CLEAN]
+  Tag cascade+wilson vs pure CE:     23.0% vs 25.4%
+  Tag cascade: Wilson vs cosine:      23.0% vs 27.3%
+  Tag cascade vs overlap-sort:        23.0% vs 22.8% (wilson)
+                                      27.3% vs 25.8% (cosine)
+  Best config: tag_cascade_cosine (27.3%)
+
+  [POISON]
+  Tag cascade+wilson vs pure CE:     25.0% vs 28.4%
+  Tag cascade: Wilson vs cosine:      25.0% vs 29.0%
+  Tag cascade vs overlap-sort:        25.0% vs 25.8% (wilson)
+                                      29.0% vs 28.0% (cosine)
+  Best config: tag_cascade_cosine (29.0%)
+
+Results saved to results/cascade_wilson_results.json

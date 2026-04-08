@@ -1,0 +1,84 @@
+Retrying 78 with 300s timeout, 5 retries, shorter prompt...
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  10/78 — fixed: 0, still bad: 10
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  20/78 — fixed: 3, still bad: 17
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  30/78 — fixed: 6, still bad: 24
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  40/78 — fixed: 6, still bad: 34
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  50/78 — fixed: 6, still bad: 44
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  60/78 — fixed: 7, still bad: 53
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  70/78 — fixed: 7, still bad: 63
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+  Unparseable response: 
+
+Done. Fixed 7, still unknown: 71
+Correct: 1372, Partial: 148, Wrong: 395, Unknown: 71
+Strict: 69.1%, Lenient: 76.5%
+Upgrades: 212, Downgrades: 99

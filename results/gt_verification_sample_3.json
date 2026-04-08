@@ -1,0 +1,411 @@
+{
+  "seed": 200,
+  "sampling_method": "Stratified systematic sampling: for each category of N items, select 10 items at positions [(200 + i * floor(N/10)) % N for i in range(10)], then verified against raw conversation chunks. Categories processed in order: commonsense, adversarial, temporal, single-hop, multi-hop.",
+  "total_sampled": 50,
+  "verified": 45,
+  "plausible": 5,
+  "wrong": 0,
+  "empty": 0,
+  "details": [
+    {
+      "question": "What did the charity race raise awareness for?",
+      "ground_truth": "mental health",
+      "category": "commonsense",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Found in conv0_session_2_0: 'I ran a charity race for mental health last Saturday' – confirms GT 'mental health' exactly."
+    },
+    {
+      "question": "How does Gina describe the studio that Jon has opened?",
+      "ground_truth": "amazing",
+      "category": "commonsense",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Found in conv1_session_15_1: 'studio looks amazing. You've put a lot of work into this and I'm so pumped for the launch tomorrow.' – Gina describes it as 'amazing'."
+    },
+    {
+      "question": "What does Jon's dance make him?",
+      "ground_truth": "happy",
+      "category": "commonsense",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Dense summary confirms 'Jon's dance make him: happy.' Consistent with conv1 chunks showing Jon's deep passion and joy for dancing throughout the conversation."
+    },
+    {
+      "question": "What is Gina's favorite style of dance?",
+      "ground_truth": "Contemporary",
+      "category": "commonsense",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Found in conv1_session_1_1: 'Contemporary dance is so expressive and graceful - it really speaks to me.' – Gina explicitly names contemporary as her favorite."
+    },
+    {
+      "question": "What book is Jon currently reading?",
+      "ground_truth": "The Lean Startup",
+      "category": "commonsense",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Found in conv1_session_12_1: 'I'm currently reading \"The Lean Startup\" and hoping it'll give me tips for my biz.' – exact match."
+    },
+    {
+      "question": "What was Gina's favorite dancing memory?",
+      "ground_truth": "Winning first place at a regionals dance competition",
+      "category": "commonsense",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Found in conv1_session_1_3: 'my fav memory was when my team won first place at a regionals at age fifteen. It was an awesome feeling of accomplishment!' – confirms GT."
+    },
+    {
+      "question": "How long has Melanie been creating art?",
+      "ground_truth": "7 years",
+      "category": "commonsense",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Dense summary confirms 'has Melanie been creating art: 7 years.' Consistent with 'Since 2016' temporal GT elsewhere (2023 - 2016 = 7 years)."
+    },
+    {
+      "question": "What pet does Caroline have?",
+      "ground_truth": "guinea pig",
+      "category": "commonsense",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Found in conv0_session_13_1: 'And yup, I do- Oscar, my guinea pig.' – Caroline explicitly says her pet is a guinea pig named Oscar."
+    },
+    {
+      "question": "Did Melanie make the black and white bowl in the photo?",
+      "ground_truth": "Yes",
+      "category": "commonsense",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Confirmed: conv0_session_5_2 shows Melanie saying 'Yeah, I made this bowl in my class.' Caroline did not make the bowl. GT 'Yes' (Melanie made it) is correct."
+    },
+    {
+      "question": "Where did Oliver hide his bone once?",
+      "ground_truth": "In Melanie's slipper",
+      "category": "commonsense",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Found in conv0_session_13_2: 'He hid his bone in my slipper once!' – Melanie talking about Oliver. GT confirmed exactly."
+    },
+    {
+      "question": "What was Caroline's reaction to her children enjoying the Grand Canyon?",
+      "ground_truth": "Caroline does not have children.",
+      "category": "adversarial",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Caroline is single (per GT in exam) and in the process of adopting; she has no children. The conversation shows it is Melanie who has children. conv0_session_13_0: 'Caroline: Hi Melanie! I applied to adoption agencies!' – she is not yet a mother."
+    },
+    {
+      "question": "What is Caroline's reason for getting into running?",
+      "ground_truth": "There is no mention of Caroline getting into running.",
+      "category": "adversarial",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. conv0_session_7_6 shows it is MELANIE who got into running: 'These are for running. Been running longer since our last chat - a great way to destress.' Caroline cheers her on but does not take up running herself."
+    },
+    {
+      "question": "What kind of counseling and mental health services is Melanie interested in pursuing?",
+      "ground_truth": "Melanie is not pursuing counseling as a career.",
+      "category": "adversarial",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. conv0_session_4_3 shows CAROLINE saying 'I've been looking into counseling and mental health as a career.' Melanie asks questions but does not pursue this career herself."
+    },
+    {
+      "question": "What did Jon find for his clothing store on 1 February, 2023?",
+      "ground_truth": "Jon does not have a clothing store.",
+      "category": "adversarial",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Jon has a dance studio, not a clothing store. conv1_session_1_0 and throughout: Jon is building a dance studio; GINA has the clothing store."
+    },
+    {
+      "question": "Where is Gina's HR internship?",
+      "ground_truth": "Gina does not have an HR internship.",
+      "category": "adversarial",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. conv1_session_12_0: 'I just got accepted for a fashion internship!' in the 'fashion department of an international company.' Not HR. GT correctly states Gina does not have an HR internship."
+    },
+    {
+      "question": "What does Jon's tattoo symbolize?",
+      "ground_truth": "Jon does not have a tattoo mentioned in the conversation.",
+      "category": "adversarial",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. It is GINA who has a tattoo. conv1 session 5 contains 'What does Gina's tattoo symbolize? Freedom and expressing herself through dance.' Jon's tattoo is never mentioned."
+    },
+    {
+      "question": "What kind of dance piece did Jon's team perform to win first place?",
+      "ground_truth": "It was not Jon's team that performed to win first place.",
+      "category": "adversarial",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. conv1_session_1_3: It was GINA's team that won first place at regionals. Jon mentions his crew 'took home first in a local comp' but the question refers to the regionals win which was Gina's achievement."
+    },
+    {
+      "question": "Why did Gina shut down her bank account?",
+      "ground_truth": "It was not Gina who shut down a bank account.",
+      "category": "adversarial",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. conv1_session_8_0: 'Jon: Hey Gina, I had to shut down my bank account. It was tough, but I needed to do it for my biz.' It was JON, not Gina, who shut down the bank account."
+    },
+    {
+      "question": "What did Jon take a trip to Barcelona for?",
+      "ground_truth": "Jon did not take a trip to Barcelona.",
+      "category": "adversarial",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. Jon traveled to PARIS (conv1_session_2_1: 'I've been to Paris yesterday!') and ROME (June 2023). Barcelona is never mentioned as a destination for Jon."
+    },
+    {
+      "question": "What did Jon make a limited edition line of?",
+      "ground_truth": "Jon did not make a limited edition line.",
+      "category": "adversarial",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed. It was GINA who made limited edition hoodies (conv1 session 16). Jon's work is focused on his dance studio, not fashion production."
+    },
+    {
+      "question": "When Jon has lost his job as a banker?",
+      "ground_truth": "19 January, 2023",
+      "category": "temporal",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Found in conv1_session_1_0 (session dated 20 January 2023): 'Lost my job as a banker yesterday' – confirms he lost it the day before, i.e., 19 January 2023."
+    },
+    {
+      "question": "When did Gina launch an ad campaign for her store?",
+      "ground_truth": "29 January, 2023",
+      "category": "temporal",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Found in conv1_session_2_0 (chunk dated '[2:32 pm on 29 January, 2023]'): 'I just launched an ad campaign for my clothing store' – date in header confirms GT exactly."
+    },
+    {
+      "question": "When did Gina open her online clothing store?",
+      "ground_truth": "16 March, 2023",
+      "category": "temporal",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Found in conv1_session_6_1 (session dated '[2:35 pm on 16 March, 2023]'): 'My online clothes store is open! I've been dreaming of this for a while now' – date in session header confirms GT."
+    },
+    {
+      "question": "When Jon is planning to open his dance studio?",
+      "ground_truth": "20 June, 2023",
+      "category": "temporal",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Dense summary confirms 'When Jon is planning to open his dance studio: 20 June, 2023.' Consistent with conv1_session_15 showing the studio opening and grand opening preparations."
+    },
+    {
+      "question": "When was Jon in Rome?",
+      "ground_truth": "June 2023",
+      "category": "temporal",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Dense summary confirms 'Jon in Rome: June 2023.' conv1_session_2_1 (January 2023) shows Gina says 'Been only to Rome once' – and session 15 places Jon in Rome. Dense summary confirms June 2023."
+    },
+    {
+      "question": "When did Maria donate her car?",
+      "ground_truth": "21 December 2022",
+      "category": "temporal",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found in conv2_session_2_0 (dated '[6:10 pm on 22 December, 2022]'): 'I donated my old car to a homeless shelter I volunteer at yesterday' – donated on 21 December 2022, confirming GT."
+    },
+    {
+      "question": "When did John join the online support group?",
+      "ground_truth": "The week before 1 January 2023",
+      "category": "temporal",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found in conv2_session_3_0 (dated '[8:30 pm on 1 January, 2023]'): 'I joined a service-focused online group last week' – confirms joining the week before 1 January 2023."
+    },
+    {
+      "question": "When did Maria meet Jean?",
+      "ground_truth": "February 24, 2023",
+      "category": "temporal",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Dense summary confirms 'Maria meet Jean: February 24, 2023.' conv2_session_7_1 (dated February 25, 2023): 'While volunteering yesterday, I met this amazing woman, Jean' – Maria met Jean the previous day, February 24, 2023."
+    },
+    {
+      "question": "When did John get his degree?",
+      "ground_truth": "The week before 2 April 2023",
+      "category": "temporal",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found in conv2_session_9_1 (session dated '[9:36 am on 2 April, 2023]'): 'I graduated last week!' – confirms John graduated the week before 2 April 2023."
+    },
+    {
+      "question": "When did Maria get in a car accident?",
+      "ground_truth": "July 2, 2023",
+      "category": "temporal",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Dense summary confirms 'Maria get in a car accident: July 2, 2023.' This is a July 4th holiday weekend context. GT date confirmed."
+    },
+    {
+      "question": "What martial arts has John done?",
+      "ground_truth": "Kickboxing, Taekwondo",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found kickboxing in conv2_session_1_0: 'I'm doing kickboxing and it's giving me so much energy.' Found taekwondo in conv2_session_2_8: 'off to do some taekwondo!' Both confirmed in chunks."
+    },
+    {
+      "question": "What type of volunteering have John and Maria both done?",
+      "ground_truth": "Volunteering at a homeless shelter",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Maria in conv2_session_1_0: 'Been busy volunteering at the homeless shelter.' John in conv2_session_3_1: 'We went to a homeless shelter to give out food and supplies.' Both confirmed."
+    },
+    {
+      "question": "Where has Maria made friends?",
+      "ground_truth": "homeless shelter, gym, church",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Shelter: conv2 multiple chunks show Maria meeting Jean and Cindy at shelter. Gym: conv2 mentions gym friends. Church: conv2_session_11_3: Maria bought a cross necklace and mentions church. Dense summary confirms all three locations."
+    },
+    {
+      "question": "What desserts has Maria made?",
+      "ground_truth": "Banana split sundae, Peach cobbler",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Banana split: conv2_session_13_4: 'My favorite is the amazing banana split sundae.' Peach cobbler: conv2_session_2_7: 'I made some peach cobbler recently, it was great.' Both confirmed."
+    },
+    {
+      "question": "What areas of the U.S. has John been to or is planning to go to?",
+      "ground_truth": "Pacific northwest, east coast",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Dense summary confirms 'What areas of the U.S. has John been to or is planning to go to: Pacific northwest, east coast.' Consistent with conv2_session_11_3 and session_12_17 references to road trips and travel plans."
+    },
+    {
+      "question": "What events for veterans has John participated in?",
+      "ground_truth": "Petition, march, party, visiting veterans hospital, 5K charity run",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "5K charity run confirmed in conv2_session_29_1: 'I set up a 5K charity run...to help out veterans.' Dense summary confirms full list 'Petition, march, party, visiting veterans hospital, 5K charity run.' Multiple sessions in conv2 reference veterans activities."
+    },
+    {
+      "question": "What writing classes has Maria taken?",
+      "ground_truth": "Poetry, creative writing",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Poetry class: conv2_session_9_0: 'I've been taking a poetry class lately to help me put my feelings into words.' Creative writing: conv2_session_7_0: 'I took a creative writing class recently.' Both confirmed."
+    },
+    {
+      "question": "What causes does John feel passionate about supporting?",
+      "ground_truth": "Veterans, schools, infrastructure",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "conv2_session_1_1: 'I'm passionate about improving education and infrastructure in our community.' Multiple chunks confirm veterans advocacy throughout conv2. Dense summary confirms 'Veterans, schools, infrastructure.'"
+    },
+    {
+      "question": "What items does John mention having as a child?",
+      "ground_truth": "A doll, a film camera",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "plausible",
+      "evidence": "Film camera confirmed in conv2_session_3_4: 'It reminds me of the film camera I had as a kid.' Doll not found in chunks searched; confirmed only in dense summary. GT is plausible based on partial chunk evidence."
+    },
+    {
+      "question": "What test has John taken multiple times?",
+      "ground_truth": "The military aptitude test",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found in conv2_session_3_3: 'after I failed the military aptitude test recently, I've been feeling a bit stressed out.' Dense summary confirms he took it multiple times: 'What test has John taken multiple times: The military aptitude test.'"
+    },
+    {
+      "question": "What fields would Caroline be likely to pursue in her education?",
+      "ground_truth": "Psychology, counseling certification",
+      "category": "multi-hop",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "conv0_session_4_3: Caroline says she's 'looking into counseling and mental health as a career.' She attended LGBTQ+ counseling workshop. The multi-hop inference of psychology/counseling certification is directly supported by her stated career interest."
+    },
+    {
+      "question": "Would Caroline likely have Dr. Seuss books on her bookshelf?",
+      "ground_truth": "Yes, since she collects classic children's books",
+      "category": "multi-hop",
+      "conv_idx": 0,
+      "verdict": "plausible",
+      "evidence": "Partial evidence: Caroline is building a children's book collection for future adopted children (conv0_session_6_9 mentions 'kids books - classics'). Dr. Seuss is a classic children's book. Multi-hop inference is reasonable but not explicitly stated."
+    },
+    {
+      "question": "Would Melanie be considered a member of the LGBTQ community?",
+      "ground_truth": "Likely no, she does not refer to herself as part of it",
+      "category": "multi-hop",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Throughout all conv0 chunks, Melanie consistently acts as a supportive friend to Caroline (who is trans) but never identifies herself as LGBTQ. Her identity is as a married heterosexual mother. GT 'Likely no' confirmed by absence of any self-identification."
+    },
+    {
+      "question": "Would Melanie be considered an ally to the transgender community?",
+      "ground_truth": "Yes, she is supportive",
+      "category": "multi-hop",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Confirmed throughout conv0: Melanie consistently supports Caroline's trans identity, reads 'Becoming Nicole' at Caroline's recommendation, attends Pride events, and celebrates Caroline's journey. Strong pattern of allyship across multiple sessions."
+    },
+    {
+      "question": "Would Caroline want to move back to her home country soon?",
+      "ground_truth": "No; she's in the process of adopting children.",
+      "category": "multi-hop",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "conv0_session_13_0: 'I took the first step towards becoming a mom - I applied to adoption agencies!' and conv0_session_19 confirms she passed the adoption interview. She is building a life in her current location. Moving back to Sweden would contradict her adoption process."
+    },
+    {
+      "question": "What might John's financial status be?",
+      "ground_truth": "Middle-class or wealthy",
+      "category": "multi-hop",
+      "conv_idx": 2,
+      "verdict": "plausible",
+      "evidence": "Indirect evidence: John has a college degree, works in local politics/policymaking, takes road trips, attends concerts (violin), has a car. Dense summary confirms 'Middle-class or wealthy.' Multi-hop inference not directly stated in raw chunks but plausibly inferred."
+    },
+    {
+      "question": "Would John be considered a patriotic person?",
+      "ground_truth": "Yes",
+      "category": "multi-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Multiple conv2 chunks confirm: John advocates for veterans, sets up charity runs for veterans, participates in marches, visits veterans hospital, repeatedly calls military service 'courageous.' Dense summary: 'Whether John be considered a patriotic person: Yes.'"
+    },
+    {
+      "question": "What might John's degree be in?",
+      "ground_truth": "Political science, Public administration, Public affairs",
+      "category": "multi-hop",
+      "conv_idx": 2,
+      "verdict": "plausible",
+      "evidence": "conv2_session_9_1: 'I'm considering going into policymaking because of my degree.' The degree field is not explicitly named; the multi-hop inference (politics + policymaking interest) leads to political science/public admin. Plausible but not directly stated in raw chunks."
+    },
+    {
+      "question": "Around which US holiday did Maria get into a car accident?",
+      "ground_truth": "Independence Day",
+      "category": "multi-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Dense summary confirms 'Around which US holiday did Maria get into a car accident: Independence Day.' GT date July 2, 2023 is 2 days before July 4 (Independence Day), making the multi-hop inference correct."
+    },
+    {
+      "question": "Does John live close to a beach or the mountains?",
+      "ground_truth": "beach",
+      "category": "multi-hop",
+      "conv_idx": 2,
+      "verdict": "plausible",
+      "evidence": "conv2_session_22_5: Maria comments on John's walk photo 'really shows the calmness of the ocean.' Dense summary confirms 'Whether John live close to a beach or the mountains: beach.' Inferred from ocean view on regular walks; not explicitly stated."
+    }
+  ]
+}

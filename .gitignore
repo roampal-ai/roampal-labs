@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+
+# Claude Code
+.claude/
+
+# Downloaded for verification (not our code)
+locomo-original/
+
+# Temp checkpoint files
+results/exam_checkpoint_*.json
+results/*_log*.txt
+results/*log*.txt
+results/*_output.txt
+
+# Temp test DBs (retrieval analysis scratch)
+runs/er_*
+runs/blend_*
+
+# MiniMax regrade checkpoints
+results/*.checkpoint

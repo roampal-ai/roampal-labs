@@ -1,0 +1,247 @@
+Loading data...
+Loaded 10 conversations, 3015 facts
+  Character sheets: 10 conversations, 3015 facts
+  LoCoMo exam: 1986
+  Hard exam: 76
+  Poison memories: 50
+
+============================================================
+ROAMPAL-LABS BENCHMARK PIPELINE
+============================================================
+Strategies: 4
+Steps per strategy: 3
+Already completed: 9
+============================================================
+
+
+============================================================
+STRATEGY 1/4: 01.EntityRouted
+============================================================
+
+  [01_conversation] SKIP (already completed)
+
+  [02_locomo_off] SKIP (already completed)
+
+  [03_hard_off] SKIP (already completed)
+
+  === 01.EntityRouted COMPLETE ===
+
+============================================================
+STRATEGY 2/4: 02.Wilson+CE
+============================================================
+
+  [01_conversation] SKIP (already completed)
+
+  [02_locomo_off] SKIP (already completed)
+
+  [03_hard_off] SKIP (already completed)
+
+  === 02.Wilson+CE COMPLETE ===
+
+============================================================
+STRATEGY 3/4: 03.Reranker
+============================================================
+
+  [01_conversation] SKIP (already completed)
+
+  [02_locomo_off] SKIP (already completed)
+
+  [03_hard_off] SKIP (already completed)
+
+  === 03.Reranker COMPLETE ===
+
+============================================================
+STRATEGY 4/4: 04.Wilson
+============================================================
+
+  [01_conversation] Conversation learning (~503 turns, 3015 facts)...
+    04.Wilson: Resuming from checkpoint — conv=conv_3, char=Joanna, turn=490, covered=977
+    04.Wilson: SKIP conv_0/Caroline (checkpoint)
+    04.Wilson: SKIP conv_0/Melanie (checkpoint)
+    04.Wilson: SKIP conv_1/Gina (checkpoint)
+    04.Wilson: SKIP conv_1/Jon (checkpoint)
+    04.Wilson: SKIP conv_2/Maria (checkpoint)
+    04.Wilson: SKIP conv_2/John (checkpoint)
+    04.Wilson: SKIP conv_3/Nate (checkpoint)
+    04.Wilson: Resuming Joanna from fact 90/173...
+    04.Wilson: turn 500 | 997/3015 facts | Joanna (63 remaining)
+    04.Wilson: turn 510 | 1017/3015 facts | Joanna (43 remaining)
+    04.Wilson: turn 520 | 1037/3015 facts | Joanna (23 remaining)
+    04.Wilson: turn 530 | 1057/3015 facts | Joanna (3 remaining)
+    04.Wilson: Joanna done (173 facts covered)
+    04.Wilson: Starting John (202 facts)...
+    04.Wilson: turn 540 | 1076/3015 facts | John (186 remaining)
+    04.Wilson: turn 550 | 1096/3015 facts | John (166 remaining)
+    04.Wilson: turn 560 | 1116/3015 facts | John (146 remaining)
+    04.Wilson: turn 570 | 1136/3015 facts | John (126 remaining)
+    04.Wilson: turn 580 | 1156/3015 facts | John (106 remaining)
+    04.Wilson: turn 590 | 1176/3015 facts | John (86 remaining)
+    04.Wilson: turn 600 | 1196/3015 facts | John (66 remaining)
+    04.Wilson: turn 610 | 1216/3015 facts | John (46 remaining)
+    04.Wilson: turn 620 | 1236/3015 facts | John (26 remaining)
+    04.Wilson: turn 630 | 1256/3015 facts | John (6 remaining)
+    04.Wilson: John done (202 facts covered)
+    04.Wilson: Starting Tim (139 facts)...
+    04.Wilson: turn 640 | 1276/3015 facts | Tim (125 remaining)
+    04.Wilson: turn 650 | 1296/3015 facts | Tim (105 remaining)
+    04.Wilson: turn 660 | 1316/3015 facts | Tim (85 remaining)
+    04.Wilson: turn 670 | 1336/3015 facts | Tim (65 remaining)
+    04.Wilson: turn 680 | 1356/3015 facts | Tim (45 remaining)
+    04.Wilson: turn 690 | 1376/3015 facts | Tim (25 remaining)
+    04.Wilson: turn 700 | 1396/3015 facts | Tim (5 remaining)
+    04.Wilson: Tim done (139 facts covered)
+    04.Wilson: Starting Audrey (166 facts)...
+    04.Wilson: turn 710 | 1415/3015 facts | Audrey (152 remaining)
+    04.Wilson: turn 720 | 1435/3015 facts | Audrey (132 remaining)
+    04.Wilson: turn 730 | 1455/3015 facts | Audrey (112 remaining)
+    04.Wilson: turn 740 | 1475/3015 facts | Audrey (92 remaining)
+    04.Wilson: turn 750 | 1495/3015 facts | Audrey (72 remaining)
+    04.Wilson: turn 760 | 1515/3015 facts | Audrey (52 remaining)
+    04.Wilson: turn 770 | 1535/3015 facts | Audrey (32 remaining)
+    04.Wilson: turn 780 | 1555/3015 facts | Audrey (12 remaining)
+    04.Wilson: Audrey done (166 facts covered)
+    04.Wilson: Starting Andrew (124 facts)...
+    04.Wilson: turn 790 | 1575/3015 facts | Andrew (116 remaining)
+    04.Wilson: turn 800 | 1595/3015 facts | Andrew (96 remaining)
+    04.Wilson: turn 810 | 1615/3015 facts | Andrew (76 remaining)
+    04.Wilson: turn 820 | 1635/3015 facts | Andrew (56 remaining)
+    04.Wilson: turn 830 | 1655/3015 facts | Andrew (36 remaining)
+    04.Wilson: turn 840 | 1675/3015 facts | Andrew (16 remaining)
+    04.Wilson: Andrew done (124 facts covered)
+    04.Wilson: Starting John (125 facts)...
+    04.Wilson: turn 850 | 1695/3015 facts | John (121 remaining)
+    04.Wilson: turn 860 | 1715/3015 facts | John (101 remaining)
+    04.Wilson: turn 870 | 1735/3015 facts | John (81 remaining)
+    04.Wilson: turn 880 | 1755/3015 facts | John (61 remaining)
+    04.Wilson: turn 890 | 1775/3015 facts | John (41 remaining)
+    04.Wilson: turn 900 | 1795/3015 facts | John (21 remaining)
+    04.Wilson: turn 910 | 1815/3015 facts | John (1 remaining)
+    04.Wilson: John done (125 facts covered)
+    04.Wilson: Starting James (141 facts)...
+    04.Wilson: turn 920 | 1834/3015 facts | James (123 remaining)
+    04.Wilson: turn 930 | 1854/3015 facts | James (103 remaining)
+    04.Wilson: turn 940 | 1874/3015 facts | James (83 remaining)
+    04.Wilson: turn 950 | 1894/3015 facts | James (63 remaining)
+    04.Wilson: turn 960 | 1914/3015 facts | James (43 remaining)
+    04.Wilson: turn 970 | 1934/3015 facts | James (23 remaining)
+    04.Wilson: turn 980 | 1954/3015 facts | James (3 remaining)
+    04.Wilson: James done (141 facts covered)
+    04.Wilson: Starting Deborah (158 facts)...
+    04.Wilson: turn 990 | 1973/3015 facts | Deborah (142 remaining)
+    04.Wilson: turn 1000 | 1993/3015 facts | Deborah (122 remaining)
+    04.Wilson: turn 1010 | 2013/3015 facts | Deborah (102 remaining)
+    04.Wilson: turn 1020 | 2033/3015 facts | Deborah (82 remaining)
+    04.Wilson: turn 1030 | 2053/3015 facts | Deborah (62 remaining)
+    04.Wilson: turn 1040 | 2073/3015 facts | Deborah (42 remaining)
+    04.Wilson: turn 1050 | 2093/3015 facts | Deborah (22 remaining)
+    04.Wilson: turn 1060 | 2113/3015 facts | Deborah (2 remaining)
+    04.Wilson: Deborah done (158 facts covered)
+    04.Wilson: Starting Jolene (199 facts)...
+    04.Wilson: turn 1070 | 2133/3015 facts | Jolene (181 remaining)
+    04.Wilson: turn 1080 | 2153/3015 facts | Jolene (161 remaining)
+    04.Wilson: turn 1090 | 2173/3015 facts | Jolene (141 remaining)
+    04.Wilson: turn 1100 | 2193/3015 facts | Jolene (121 remaining)
+    04.Wilson: turn 1110 | 2213/3015 facts | Jolene (101 remaining)
+    04.Wilson: turn 1120 | 2233/3015 facts | Jolene (81 remaining)
+    04.Wilson: turn 1130 | 2253/3015 facts | Jolene (61 remaining)
+    04.Wilson: turn 1140 | 2273/3015 facts | Jolene (41 remaining)
+    04.Wilson: turn 1150 | 2293/3015 facts | Jolene (21 remaining)
+    04.Wilson: turn 1160 | 2313/3015 facts | Jolene (1 remaining)
+    04.Wilson: Jolene done (199 facts covered)
+    04.Wilson: Starting Sam (159 facts)...
+    04.Wilson: turn 1170 | 2332/3015 facts | Sam (141 remaining)
+    04.Wilson: turn 1180 | 2352/3015 facts | Sam (121 remaining)
+    04.Wilson: turn 1190 | 2372/3015 facts | Sam (101 remaining)
+    04.Wilson: turn 1200 | 2392/3015 facts | Sam (81 remaining)
+    04.Wilson: turn 1210 | 2412/3015 facts | Sam (61 remaining)
+    04.Wilson: turn 1220 | 2432/3015 facts | Sam (41 remaining)
+    04.Wilson: turn 1230 | 2452/3015 facts | Sam (21 remaining)
+    04.Wilson: turn 1240 | 2472/3015 facts | Sam (1 remaining)
+    04.Wilson: Sam done (159 facts covered)
+    04.Wilson: Starting Evan (177 facts)...
+    04.Wilson: turn 1250 | 2491/3015 facts | Evan (159 remaining)
+    04.Wilson: turn 1260 | 2511/3015 facts | Evan (139 remaining)
+    04.Wilson: turn 1270 | 2531/3015 facts | Evan (119 remaining)
+    04.Wilson: turn 1280 | 2551/3015 facts | Evan (99 remaining)
+    04.Wilson: turn 1290 | 2571/3015 facts | Evan (79 remaining)
+    04.Wilson: turn 1300 | 2591/3015 facts | Evan (59 remaining)
+    04.Wilson: turn 1310 | 2611/3015 facts | Evan (39 remaining)
+    04.Wilson: turn 1320 | 2631/3015 facts | Evan (19 remaining)
+    04.Wilson: turn 1330 | 2650/3015 facts | Evan (0 remaining)
+    04.Wilson: Evan done (177 facts covered)
+    04.Wilson: Starting Calvin (210 facts)...
+    04.Wilson: turn 1340 | 2670/3015 facts | Calvin (190 remaining)
+    04.Wilson: turn 1350 | 2690/3015 facts | Calvin (170 remaining)
+    04.Wilson: turn 1360 | 2710/3015 facts | Calvin (150 remaining)
+    04.Wilson: turn 1370 | 2730/3015 facts | Calvin (130 remaining)
+    04.Wilson: turn 1380 | 2750/3015 facts | Calvin (110 remaining)
+    04.Wilson: turn 1390 | 2770/3015 facts | Calvin (90 remaining)
+    04.Wilson: turn 1400 | 2790/3015 facts | Calvin (70 remaining)
+    04.Wilson: turn 1410 | 2810/3015 facts | Calvin (50 remaining)
+    04.Wilson: turn 1420 | 2830/3015 facts | Calvin (30 remaining)
+    04.Wilson: turn 1430 | 2850/3015 facts | Calvin (10 remaining)
+    04.Wilson: Calvin done (210 facts covered)
+    04.Wilson: Starting Dave (155 facts)...
+    04.Wilson: turn 1440 | 2870/3015 facts | Dave (145 remaining)
+    04.Wilson: turn 1450 | 2890/3015 facts | Dave (125 remaining)
+    04.Wilson: turn 1460 | 2910/3015 facts | Dave (105 remaining)
+    04.Wilson: turn 1470 | 2930/3015 facts | Dave (85 remaining)
+    04.Wilson: turn 1480 | 2950/3015 facts | Dave (65 remaining)
+    04.Wilson: turn 1490 | 2970/3015 facts | Dave (45 remaining)
+    04.Wilson: turn 1500 | 2990/3015 facts | Dave (25 remaining)
+    04.Wilson: turn 1510 | 3010/3015 facts | Dave (5 remaining)
+    04.Wilson: Dave done (155 facts covered)
+    04.Wilson: Conversation complete — 1023 turns, 3015 facts, 7964 memories stored
+  [01_conversation] Done: 1023 turns, 7964 memories stored
+  [01_conversation] SAVED to resume state
+
+  [02_locomo_off] Exam (1986 Qs, learning=OFF)...
+    EXAM 04.Wilson: 10/1986 -- 5c/4w  50.0%
+    EXAM 04.Wilson: 20/1986 -- 11c/7w  55.0%
+    EXAM 04.Wilson: 30/1986 -- 17c/10w  56.7%
+    EXAM 04.Wilson: 40/1986 -- 19c/15w  47.5%
+    EXAM 04.Wilson: 50/1986 -- 27c/16w  54.0%
+    EXAM 04.Wilson: 60/1986 -- 34c/16w  56.7%
+    EXAM 04.Wilson: 70/1986 -- 39c/17w  55.7%
+    EXAM 04.Wilson: 80/1986 -- 45c/19w  56.2%
+    EXAM 04.Wilson: 90/1986 -- 49c/23w  54.4%
+    EXAM 04.Wilson: 100/1986 -- 58c/23w  58.0%
+    EXAM 04.Wilson: 110/1986 -- 66c/24w  60.0%
+    EXAM 04.Wilson: 120/1986 -- 69c/29w  57.5%
+    EXAM 04.Wilson: 130/1986 -- 78c/30w  60.0%
+    EXAM 04.Wilson: 140/1986 -- 86c/31w  61.4%
+    EXAM 04.Wilson: 150/1986 -- 91c/32w  60.7%
+    EXAM 04.Wilson: 160/1986 -- 96c/36w  60.0%
+    EXAM 04.Wilson: 170/1986 -- 99c/43w  58.2%
+    EXAM 04.Wilson: 180/1986 -- 101c/51w  56.1%
+    EXAM 04.Wilson: 190/1986 -- 106c/56w  55.8%
+    EXAM 04.Wilson: 200/1986 -- 111c/61w  55.5%
+    EXAM 04.Wilson: 210/1986 -- 117c/64w  55.7%
+    EXAM 04.Wilson: 220/1986 -- 126c/64w  57.3%
+    EXAM 04.Wilson: 230/1986 -- 132c/64w  57.4%
+    EXAM 04.Wilson: 240/1986 -- 141c/64w  58.8%
+    EXAM 04.Wilson: 250/1986 -- 146c/66w  58.4%
+    EXAM 04.Wilson: 260/1986 -- 154c/67w  59.2%
+    EXAM 04.Wilson: 270/1986 -- 161c/69w  59.6%
+    EXAM 04.Wilson: 280/1986 -- 167c/71w  59.6%
+    EXAM 04.Wilson: 290/1986 -- 170c/78w  58.6%
+    EXAM 04.Wilson: 300/1986 -- 176c/82w  58.7%
+    EXAM 04.Wilson: 310/1986 -- 180c/87w  58.1%
+    EXAM 04.Wilson: 320/1986 -- 188c/87w  58.8%
+    EXAM 04.Wilson: 330/1986 -- 192c/92w  58.2%
+    EXAM 04.Wilson: 340/1986 -- 198c/94w  58.2%
+    EXAM 04.Wilson: 350/1986 -- 205c/96w  58.6%
+    EXAM 04.Wilson: 360/1986 -- 211c/99w  58.6%
+    EXAM 04.Wilson: 370/1986 -- 217c/102w  58.6%
+    EXAM 04.Wilson: 380/1986 -- 221c/106w  58.2%
+    EXAM 04.Wilson: 390/1986 -- 227c/108w  58.2%
+    EXAM 04.Wilson: 400/1986 -- 233c/110w  58.2%
+    EXAM 04.Wilson: 410/1986 -- 238c/112w  58.0%
+    EXAM 04.Wilson: 420/1986 -- 242c/118w  57.6%
+    EXAM 04.Wilson: 430/1986 -- 248c/122w  57.7%
+    EXAM 04.Wilson: 440/1986 -- 255c/124w  58.0%
+    EXAM 04.Wilson: 450/1986 -- 262c/125w  58.2%
+    EXAM 04.Wilson: 460/1986 -- 267c/130w  58.0%
+    EXAM 04.Wilson: 470/1986 -- 268c/139w  57.0%
+    EXAM 04.Wilson: 480/1986 -- 270c/147w  56.2%
+    EXAM 04.Wilson: 490/1986 -- 272c/155w  55.5%

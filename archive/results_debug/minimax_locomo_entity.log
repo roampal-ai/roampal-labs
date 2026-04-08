@@ -1,0 +1,68 @@
+  Error: The read operation timed out
+  Error: The read operation timed out
+  Error: The read operation timed out
+  Error: The read operation timed out
+  Error: The read operation timed out
+  API error 502: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+  Error: The read operation timed out
+  Error: The read operation timed out
+  Error: The read operation timed out
+Grading exam_01.EntityRouted_02_locomo_off.json
+  Total: 1986, Already done: 0
+  To grade via MiniMax-M2.7: 1986
+  52/1986 — ups: 6, downs: 3, api_calls: 52
+  100/1986 — ups: 9, downs: 9, api_calls: 100
+  152/1986 — ups: 11, downs: 13, api_calls: 152
+  200/1986 — ups: 11, downs: 22, api_calls: 200
+  252/1986 — ups: 17, downs: 26, api_calls: 252
+  300/1986 — ups: 20, downs: 31, api_calls: 300
+  352/1986 — ups: 29, downs: 36, api_calls: 352
+  400/1986 — ups: 32, downs: 39, api_calls: 400
+  452/1986 — ups: 41, downs: 45, api_calls: 452
+  500/1986 — ups: 43, downs: 64, api_calls: 500
+  552/1986 — ups: 47, downs: 67, api_calls: 552
+  600/1986 — ups: 54, downs: 70, api_calls: 600
+  652/1986 — ups: 60, downs: 75, api_calls: 652
+  700/1986 — ups: 64, downs: 78, api_calls: 700
+  752/1986 — ups: 65, downs: 83, api_calls: 752
+  800/1986 — ups: 68, downs: 89, api_calls: 800
+  852/1986 — ups: 74, downs: 93, api_calls: 852
+  900/1986 — ups: 80, downs: 94, api_calls: 900
+  952/1986 — ups: 87, downs: 96, api_calls: 952
+  1000/1986 — ups: 90, downs: 106, api_calls: 1000
+  1052/1986 — ups: 92, downs: 111, api_calls: 1052
+  1100/1986 — ups: 96, downs: 114, api_calls: 1100
+  1152/1986 — ups: 108, downs: 115, api_calls: 1152
+  1200/1986 — ups: 113, downs: 118, api_calls: 1200
+  1252/1986 — ups: 119, downs: 119, api_calls: 1252
+  1300/1986 — ups: 124, downs: 120, api_calls: 1300
+  1352/1986 — ups: 127, downs: 129, api_calls: 1352
+  1400/1986 — ups: 127, downs: 129, api_calls: 1400
+  1452/1986 — ups: 130, downs: 133, api_calls: 1452
+  1500/1986 — ups: 137, downs: 136, api_calls: 1500
+  1552/1986 — ups: 143, downs: 142, api_calls: 1552
+  1600/1986 — ups: 146, downs: 155, api_calls: 1600
+  1652/1986 — ups: 150, downs: 161, api_calls: 1652
+  1700/1986 — ups: 150, downs: 164, api_calls: 1700
+  1752/1986 — ups: 158, downs: 169, api_calls: 1752
+  1800/1986 — ups: 168, downs: 178, api_calls: 1800
+  1852/1
+Done: minimax_grade_01.EntityRouted_02_locomo_off.json
+  Original:  62.6%
+  MiniMax:   66.3% strict, 72.5% lenient
+  Disagree:  384 (19.3%)
+  Upgrades:  169, Downgrades: 215
+  API calls: 1934
+como_off.json
+  Original:  62.6%
+  MiniMax:   66.9% strict, 73.1% lenient
+  Disagree:  380 (19.1%)
+  Upgrades:  184, Downgrades: 196
+  API calls: 1986

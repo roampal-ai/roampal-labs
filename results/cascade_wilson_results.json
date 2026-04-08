@@ -1,0 +1,66 @@
+{
+  "clean": {
+    "pure_ce": {
+      "hit1": 391,
+      "hit8": 1072,
+      "mrr": 0.360973758403817,
+      "total": 1537
+    },
+    "overlap_cosine": {
+      "hit1": 397,
+      "hit8": 1070,
+      "mrr": 0.36442358335656977,
+      "total": 1537
+    },
+    "overlap_wilson": {
+      "hit1": 351,
+      "hit8": 1005,
+      "mrr": 0.3303389410416086,
+      "total": 1537
+    },
+    "tag_cascade_cosine": {
+      "hit1": 420,
+      "hit8": 1083,
+      "mrr": 0.3782616104346749,
+      "total": 1537
+    },
+    "tag_cascade_wilson": {
+      "hit1": 354,
+      "hit8": 948,
+      "mrr": 0.3239047928865756,
+      "total": 1537
+    }
+  },
+  "poison": {
+    "pure_ce": {
+      "hit1": 436,
+      "hit8": 1104,
+      "mrr": 0.3956060042754903,
+      "total": 1537
+    },
+    "overlap_cosine": {
+      "hit1": 430,
+      "hit8": 1102,
+      "mrr": 0.3898875360163584,
+      "total": 1537
+    },
+    "overlap_wilson": {
+      "hit1": 396,
+      "hit8": 1037,
+      "mrr": 0.3611581001951855,
+      "total": 1537
+    },
+    "tag_cascade_cosine": {
+      "hit1": 446,
+      "hit8": 1113,
+      "mrr": 0.40063280354431957,
+      "total": 1537
+    },
+    "tag_cascade_wilson": {
+      "hit1": 384,
+      "hit8": 992,
+      "mrr": 0.35007977817021413,
+      "total": 1537
+    }
+  }
+}

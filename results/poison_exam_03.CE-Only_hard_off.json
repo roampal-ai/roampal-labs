@@ -1,0 +1,656 @@
+{
+  "strategy": "03.CE-Only",
+  "step": "hard_off",
+  "pipeline": "poison",
+  "learning": false,
+  "summary": {
+    "correct": 21,
+    "partial": 11,
+    "wrong": 44,
+    "total": 76,
+    "accuracy": 0.2763,
+    "by_category": {
+      "aggregation": {
+        "correct": 1,
+        "partial": 6,
+        "wrong": 8,
+        "total": 15
+      },
+      "counterfactual": {
+        "correct": 10,
+        "partial": 0,
+        "wrong": 5,
+        "total": 15
+      },
+      "cross_entity": {
+        "correct": 3,
+        "partial": 4,
+        "wrong": 13,
+        "total": 20
+      },
+      "temporal_computation": {
+        "correct": 5,
+        "partial": 0,
+        "wrong": 5,
+        "total": 10
+      },
+      "temporal_ordering": {
+        "correct": 2,
+        "partial": 1,
+        "wrong": 13,
+        "total": 16
+      }
+    }
+  },
+  "transcript": [
+    {
+      "question": "Name 3 different things you know about Melanie's interests, hobbies, or activities.",
+      "ground_truth": "pottery, camping, painting, swimming; beach, mountains, forest; dinosaurs, nature; \"Nothing is Impossible\", \"Charlotte's Web\"",
+      "answer": "1. Melanie enjoys camping with her family, exploring nature, roasting marshmallows, and swimming.  \n2. She loves painting landscapes, especially those inspired by the ocean, as a way to relax.  \n3. Melanie is a pottery hobbyist who finds pottery both relaxing and creatively fulfilling.",
+      "judgment": "correct",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "Name 3 different things you know about Caroline's interests, hobbies, or activities.",
+      "ground_truth": "Adoption agencies; Transgender woman; Single; Sweden",
+      "answer": "1. Caroline is studying psychology and working toward a counseling certification.  \n2. She actively participates in LGBTQ activism—joining an activist group, attending pride parades, and mentoring others.  \n3. She uses art as a creative outlet, experimenting with abstract painting and has produced a piece titled “Embracing Identity.”",
+      "judgment": "wrong",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "List at least 3 events involving Melanie and when they happened.",
+      "ground_truth": "When did Melanie paint a sunrise: 2022; When did Melanie run a charity race: The sunday before 25 May 2023; When is Melanie planning on going camping: June 2023; When did Melanie sign up for a pottery class: 2 July 2023",
+      "answer": "- **Camping trip** – July 3‑4, 2023 (first weekend of July).  \n- **Road‑trip to the Grand Canyon** – weekend of October 19‑20, 2023 (camped Oct 19, hiked Oct 20; her son was scared but safe).  \n- **Beach outing** – one of the three beach trips she made in 2023 (exact date not specified, but confirmed she went to the beach three times that year).",
+      "judgment": "wrong",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "Name 3 different things you know about Jon's interests, hobbies, or activities.",
+      "ground_truth": "They lost their jobs and decided to start their own businesses.; By the water, with natural light and Marley flooring; Yes; fair, networking events, dance competition",
+      "answer": "1. Jon has been passionate about dancing since childhood and uses it as a stress‑buster.  \n2. He practices a variety of styles—contemporary, salsa, and hip‑hop—in his dance group.  \n3. His dance lessons with colleagues are treasured memories that helped him overcome his fear of judgment.",
+      "judgment": "wrong",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "List at least 3 events involving Jon and when they happened.",
+      "ground_truth": "When Jon has lost his job as a banker: 19 January, 2023; When is Jon's group performing at a festival: February, 2023; When was Jon in Paris: 28 January 2023; When did Jon start to go to the gym: March, 2023",
+      "answer": "- **May 2023** – Jon hosted a dance competition to promote his venture.  \n- **July 20, 2023** – Jon attended a networking event where he met potential customers and investors.  \n- **February 8, 2023** – Jon performed with his dance group at a local festival, receiving many compliments.",
+      "judgment": "partial",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "Name 3 different things you know about Gina's interests, hobbies, or activities.",
+      "ground_truth": "They lost their jobs and decided to start their own businesses.; She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.; Yes; worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video presentation showing how to style her pieces",
+      "answer": "1. Gina is a contemporary dancer who has competed in competitions and shows.  \n2. She runs an online clothing store, collaborating with fashion bloggers, launching limited‑edition t‑shirts, and posting styling videos.  \n3. She stays motivated by focusing on her big goal, leaning on her support system, and turning failures into lessons.",
+      "judgment": "partial",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "Name 3 different things you know about John's interests, hobbies, or activities.",
+      "ground_truth": "Kickboxing, Taekwondo; Volunteering at a homeless shelter; A doll, a film camera; The military aptitude test",
+      "answer": "1. John has trained in judo and karate since his teenage years.  \n2. He started surfing three years ago and enjoys the connection to nature it gives him.  \n3. John regularly goes hiking with family and friends, often followed by board‑game nights or movie evenings.",
+      "judgment": "wrong",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "List at least 3 events involving Maria and when they happened.",
+      "ground_truth": "Who did Maria have dinner with on May 3, 2023: her mother; When did Maria donate her car: 21 December 2022; When did Maria go to the beach: December 2022; When did Maria meet Jean: February 24, 2023",
+      "answer": "- **Volunteer at a teen shelter** – 28 January 2023  \n- **Picnic with gym friends (charades & scavenger hunt)** – 17 July 2023  \n- **Hiking trip to a summit with church friends** – early‑week of July 2023 (≈ 24 July 2023)  \n- **Car accident (hit by a vehicle that ran a red light)** – 3 July 2023 (reported July 2 – 5 2023)",
+      "judgment": "wrong",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "Name 3 different things you know about Maria's interests, hobbies, or activities.",
+      "ground_truth": "Volunteering at a homeless shelter; homeless shelter, gym, church; Her aunt; David, Jean, Cindy, Laura",
+      "answer": "1. Maria enjoys hosting game nights with friends at her home.  \n2. She enrolled in a creative‑writing class in early 2023 and followed it with a poetry class in April 2023.  \n3. Maria finds inspiration by volunteering, chatting with people, and watching films.",
+      "judgment": "partial",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "Name 3 different things you know about Joanna's interests, hobbies, or activities.",
+      "ground_truth": "Watching movies, making desserts; Writing, watching movies, exploring nature, hanging with friends.; Relief, excitement, worry, hope, anxiety.; Most reptiles,animals with fur,cockroaches, dairy",
+      "answer": "1. Joanna loves writing screenplays and has already completed three, submitting them to film festivals.  \n2. She enjoys reading, watching movies (especially dramas, rom‑coms, and Spider‑Man), and journaling her thoughts about plots.  \n3. In her free time she hikes, explores nature, and cooks with friends in a cozy living room featuring a fluffy couch, heated blanket, and dimmable lighting.",
+      "judgment": "partial",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "Name 3 different things you know about Nate's interests, hobbies, or activities.",
+      "ground_truth": "Watching movies, making desserts; \"Little Women\",'A Court of Thorns and Roses'.; \"Little Women\", \"Lord of the Rings\"; Chess, Catan.",
+      "answer": "1. Nate loves video games—especially Nintendo Switch titles like *Xenoblade Chronicles*, as well as fighting games such as *Street Fighter* and shooters like *Valorant*.  \n2. He enjoys watching action‑packed sci‑fi and fantasy films, with *The Lord of the Rings* and Batman movies being favorites.  \n3. Nate spends time in his gaming room, has purple hair, and is open to volunteering at a wildlife center.",
+      "judgment": "partial",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "List at least 3 events involving Joanna and when they happened.",
+      "ground_truth": "When did Joanna first watch \"Eternal Sunshine of the Spotless Mind: 2019; When did Joanna finish her first screenplay: The Friday before 23 January, 2022; What major achievement did Joanna accomplish in January 2022: finished her screenplay and printed it; When did Joanna have an audition for a writing gig: 23 March, 2022.",
+      "answer": "- **Jan 21 2022** – Joanna finished her first screenplay (a drama‑romance mix) and had it printed.  \n- **Jun 3 2022** – She received a rejection from a major company for a script she’d submitted.  \n- **Oct 25 2022** – Her third screenplay, a personal story about loss and identity, premiered at a film festival.",
+      "judgment": "partial",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "Name 3 different things you know about John's interests, hobbies, or activities.",
+      "ground_truth": "improve shooting percentage, win a championship; get endorsements, build his brand, do charity work; sneakers, fantasy movie DVDs, jerseys; basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor gear company",
+      "answer": "1. John has trained in judo and karate since his teenage years.  \n2. He started surfing three years ago and enjoys the connection to nature it gives him.  \n3. John regularly goes hiking with family and friends, often followed by board‑game nights or movie evenings.",
+      "judgment": "wrong",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "List at least 3 events involving John and when they happened.",
+      "ground_truth": "In which month's game did John achieve a career-high score in points: June 2023; When was John in Seattle for a game: early August, 2023; What year did John start surfing: 2018; Which city was John in before traveling to Chicago: Seattle",
+      "answer": "- **Late October 2022** – John organized a large charity gaming tournament (Fortnite, Overwatch, CS:GO) that raised money for a children’s hospital.  \n- **8 May 2022** – John hosted a CS:GO tournament.  \n- **13 May 2023** – John threw a veterans’ celebration party, reconnecting with old friends and sharing stories.",
+      "judgment": "wrong",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "Name 3 different things you know about Tim's interests, hobbies, or activities.",
+      "ground_truth": "Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of Time.; California, London, the Smoky Mountains; Read fantasy books.; comments on favorite books in a fantasy literature forum, articles on fantasy novels, studying characters, themes, and making book recommendations, writing a fantasy novel",
+      "answer": "1. Tim enjoys road trips, hiking, and board‑game nights with friends and family.  \n2. He keeps his violin practice lively by playing classical, jazz, and film scores.  \n3. He loves hosting movie marathons—especially holiday classics like *Home Alone*, *Elf*, and *The Holiday*—with his family.",
+      "judgment": "wrong",
+      "category": "aggregation",
+      "memories": 8
+    },
+    {
+      "question": "If \"Caroline went to the LGBTQ support group\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "21 May 2023",
+      "answer": "May 26, 2023.",
+      "judgment": "wrong",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Melanie went to the museum\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "19 July 2023",
+      "answer": "July 22, 2023.",
+      "judgment": "wrong",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Melanie signed up for a pottery class\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "16 July 2023",
+      "answer": "July 16, 2023.",
+      "judgment": "correct",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Jon in Paris\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "11 February 2023",
+      "answer": "If Jon’s Paris visit had been exactly two weeks later than the actual date (January 28, 2023), it would have taken place on **February 11, 2023**.",
+      "judgment": "correct",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Gina launched an ad campaign for her store\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "12 February 2023",
+      "answer": "Feb 17, 2023.",
+      "judgment": "wrong",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"when Jon lost his job as a banker\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "2 February 2023",
+      "answer": "If it had happened exactly two weeks later, the date would have been **February 2, 2023**.",
+      "judgment": "correct",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Maria got in a car accident\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "16 July 2023",
+      "answer": "If the accident that “Maria got in a car accident” actually happened two weeks later than the recorded date of **July 5, 2023**, it would have occurred on **July 19, 2023**.",
+      "judgment": "wrong",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Maria donated her car\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "4 January 2023",
+      "answer": "If the donation had taken place exactly two weeks after the actual date, it would have been on **29 December 2022**.",
+      "judgment": "wrong",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Maria met Jean\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "10 March 2023",
+      "answer": "If the meeting had been two weeks later than the actual Feb 24, 2023 date, it would have taken place on **March 10, 2023**.",
+      "judgment": "correct",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Nate won an international tournament\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "4 September 2022",
+      "answer": "September 4, 2022.",
+      "judgment": "correct",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Joanna made a chocolate tart with raspberries\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "19 October 2022",
+      "answer": "October 19, 2022.",
+      "judgment": "correct",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Joanna plan on going to Nate's to watched him play with his turtles\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "24 November 2022",
+      "answer": "November 24, 2022.",
+      "judgment": "correct",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"John achieve a career-high assist performance\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "25 December 2023",
+      "answer": "December 25, 2023.",
+      "judgment": "correct",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"John met with his teammates after returning from Chicago\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "29 August 2023",
+      "answer": "August 29, 2023.",
+      "judgment": "correct",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "If \"Andrew go rock climbing\" had happened exactly two weeks later than it actually did, what date would that have been?",
+      "ground_truth": "25 June 2023",
+      "answer": "June 25, 2023.",
+      "judgment": "correct",
+      "category": "counterfactual",
+      "memories": 8
+    },
+    {
+      "question": "What is one thing Caroline did and one thing Melanie did?",
+      "ground_truth": "Caroline: 7 May 2023 (When did Caroline go to the LGBTQ support group?), Melanie: 2022 (When did Melanie paint a sunrise?)",
+      "answer": "Caroline attended the 2022 Pride festival, and Melanie finished reading Caroline’s book *Nothing is Impossible*.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What did Caroline research, and what hobby did Melanie take up in 2022?",
+      "ground_truth": "Caroline researched adoption agencies; Melanie painted (a sunrise)",
+      "answer": "Caroline is researching adoption agencies, and Melanie took up painting in 2022.",
+      "judgment": "partial",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "When did Jon lose his job and when did Gina lose hers?",
+      "ground_truth": "Jon lost his job on 19 January 2023; Gina lost hers in January 2023",
+      "answer": "Jon lost his job on **January 19, 2023**.  \nGina lost her DoorDash job in **January 2023** (the exact day isn’t specified).",
+      "judgment": "correct",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What is one thing Jon did and one thing Gina did?",
+      "ground_truth": "Jon: 19 January, 2023 (When Jon has lost his job as a banker?), Gina: January, 2023 (When Gina has lost her job at Door Dash?)",
+      "answer": "Jon started his own business in early 2023.  \nGina offered to create content and manage Jon’s social‑media accounts.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What is one thing John did and one thing Maria did?",
+      "ground_truth": "John: The week before 1 January 2023 (When did John join the online support group?), Maria: her mother (Who did Maria have dinner with on May 3, 2023?)",
+      "answer": "John: He celebrated a promotion on June 16 2023 and earned a trophy.  \nMaria: She organized a shelter meal on April 10 2023.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What martial arts has John practiced, and when did Maria donate her car?",
+      "ground_truth": "John practiced kickboxing and taekwondo; Maria donated her car on 21 December 2022",
+      "answer": "John has practiced **judo, karate, taekwondo, and jiu‑jitsu**.  \nMaria donated her car on **15 December 2022**.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "When did Nate win his first video game tournament, and when did Joanna first watch Eternal Sunshine?",
+      "ground_truth": "Nate won the week before 21 January 2022; Joanna first watched it in 2019",
+      "answer": "Nate’s first video‑game tournament win came in the week before January 21 2022 (i.e., around mid‑January 2022).  \nJoanna first watched *Eternal Sunshine of the Spotless Mind* in 2017.",
+      "judgment": "partial",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What is one thing Joanna did and one thing Nate did?",
+      "ground_truth": "Joanna: 2019 (When did Joanna first watch \"Eternal Sunshine of t), Nate: the week before 21 January, 2022 (When did Nate win his first video game tournament?)",
+      "answer": "Joanna invited Nate to join her on the trails, and Nate started a YouTube gaming channel after winning a big Valorant tournament.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What does Tim do to escape reality, and what items does John collect?",
+      "ground_truth": "Tim reads fantasy books; John collects sneakers, fantasy movie DVDs, and jerseys",
+      "answer": "Tim escapes reality by surrounding himself with Harry Potter memorabilia and other fantasy‑themed items.  \nJohn collects sneakers and jerseys as part of his sneaker/jersey collection.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What is one thing Tim did and one thing John did?",
+      "ground_truth": "Tim: three weeks (After how many weeks did Tim reconnect with the fe), John: June 2023 (In which month's game did John achieve a career-hi)",
+      "answer": "Tim decorated a Game of Thrones‑themed Christmas tree himself.  \nJohn organized a benefit basketball game the week before January 7, 2024, for Tim.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "When did Andrew start his new job, and which year did Audrey adopt her first three dogs?",
+      "ground_truth": "Andrew started the week before March 27, 2023; Audrey adopted her dogs in 2020",
+      "answer": "I’m sorry, but I don’t have any information about when Andrew started his new job. However, Audrey adopted her first three dogs in **2020**.",
+      "judgment": "partial",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What is one thing Audrey did and one thing Andrew did?",
+      "ground_truth": "Audrey: 2020 (Which year did Audrey adopt the first three of her), Andrew: The week before March 27, 2023 (When did Andrew start his new job as a financial a)",
+      "answer": "Audrey shared her Chicken Pot Pie recipe with Andrew on July 3, and Andrew volunteered at a pet shelter with his girlfriend in late July 2023.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What is one thing James did and one thing John did?",
+      "ground_truth": "James: bowling (Which recreational activity was James pursuing on ), John: February 2022 (When did John resume playing drums in his adulthoo)",
+      "answer": "James offered to take John to a volunteering organization in June, and John dealt with doubts and stress by writing in a journal for hours.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What recreational activity was James doing on March 16 2022, and do both James and John have pets?",
+      "ground_truth": "James was bowling; No, neither James nor John have pets",
+      "answer": "James was bowling on March 16 2022.  \nJames has pets (his dogs Max and Daisy), while John is still looking for a pet and does not yet have one.",
+      "judgment": "partial",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "When did Jolene's mother pass away, and which of Deborah's family members have passed away?",
+      "ground_truth": "Jolene's mother passed away in 2022; Deborah lost her mother, father, and friend Karlie",
+      "answer": "- **Jolene’s mother** died in **January 2021** (two years before January 2023).  \n\n- **Deborah’s family members who have passed away**:  \n  - Her **mother** – died in **2020**.  \n  - Her **father** – died on **27 January 2023**.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What is one thing Deborah did and one thing Jolene did?",
+      "ground_truth": "Deborah: a few years before 2023 (When did Deborah`s mother pass away?), Jolene: electricity engineering project (What kind of project was Jolene working on in the )",
+      "answer": "Deborah got married on a beach.  \nJolene did a mini‑retreat on the Wednesday before 9 February 2023.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What is one thing Evan did and one thing Sam did?",
+      "ground_truth": "Evan: weekend before May 24, 2023 (When did Evan go to Jasper with his family?), Sam: painting (Which hobby did Sam take up in May 2023?)",
+      "answer": "Evan encouraged Sam to keep trying new things to find his own version of love.  \nSam advised Evan to try low‑impact exercises or physical therapy for his knee issue.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What kind of car does Evan drive, and which hobby did Sam take up in May 2023?",
+      "ground_truth": "Evan drives a Prius; Sam took up painting",
+      "answer": "Evan drives a Prius, and Sam started painting in May 2023.",
+      "judgment": "correct",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What luxury car did Calvin buy in March 2023, and when did Dave see Aerosmith perform live?",
+      "ground_truth": "Calvin bought a Ferrari 488 GTB; Dave saw Aerosmith the weekend before March 26, 2023",
+      "answer": "Calvin bought a **Ferrari 488 GTB** in March 2023.  \nDave saw Aerosmith perform live at the Boston music festival in **late March 2023 (March 24‑25)**.",
+      "judgment": "correct",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "What is one thing Calvin did and one thing Dave did?",
+      "ground_truth": "Calvin: between 26 March and 20 April 2023 (When did Calvin first travel to Tokyo?), Dave: on the weekend before March 26, 2023 (When did Dave see Aerosmith perform live?)",
+      "answer": "Calvin built a shiny orange car for chilling, and Dave told him to never forget his dreams.",
+      "judgment": "wrong",
+      "category": "cross_entity",
+      "memories": 8
+    },
+    {
+      "question": "How many days passed between when Melanie made a plate in pottery class and when Melanie bought the figurines?",
+      "ground_truth": "58 days",
+      "answer": "Melanie made the pottery plate on **24 Aug 2023** and bought the figurines on **21 Oct 2023**.  \nFrom 24 Aug to 21 Oct is **58 days**.",
+      "judgment": "correct",
+      "category": "temporal_computation",
+      "memories": 8
+    },
+    {
+      "question": "How many days passed between when Caroline went to the LGBTQ support group and when Melanie bought the figurines?",
+      "ground_truth": "167 days",
+      "answer": "Caroline attended the LGBTQ support group on **May 12, 2023** and Melanie bought figurines on **October 22, 2023**.  \nCounting the days between those dates (excluding the start date) gives:\n\n- May 12 → May 31: 19 days  \n- June: 30 days  \n- July: 31 days  \n- August: 31 days  \n- September: 30 days  \n- October 1 → 22: 22 days  \n\n**19 + 30 + 31 + 31 + 30 + 22 = 163 days**\n\nSo **163 days** passed between the two events.",
+      "judgment": "wrong",
+      "category": "temporal_computation",
+      "memories": 8
+    },
+    {
+      "question": "How many days passed between when Melanie went to the museum and when Melanie bought the figurines?",
+      "ground_truth": "108 days",
+      "answer": "Melanie went to the museum on **July 8, 2023** and bought the figurines on **October 22, 2023**.  \nThe number of days that passed between those two dates is **106 days**.",
+      "judgment": "wrong",
+      "category": "temporal_computation",
+      "memories": 8
+    },
+    {
+      "question": "How many days passed between when Caroline went to the LGBTQ support group and when Melanie went to the park?",
+      "ground_truth": "112 days",
+      "answer": "I’m not aware of a date for when Melanie went to the park, so I can’t calculate the number of days between the two events.",
+      "judgment": "wrong",
+      "category": "temporal_computation",
+      "memories": 8
+    },
+    {
+      "question": "How many days passed between when Melanie signed up for a pottery class and when Melanie went to the park?",
+      "ground_truth": "56 days",
+      "answer": "I’m not sure—there’s no record of a park visit in the information we have. If you can let me know the date she went to the park, I’ll gladly calculate the days between that and her pottery sign‑up.",
+      "judgment": "wrong",
+      "category": "temporal_computation",
+      "memories": 8
+    },
+    {
+      "question": "How many days passed between when Jon lost his job as a banker and when Gina open her online clothing store?",
+      "ground_truth": "56 days",
+      "answer": "Jon lost his banker job on **January 19, 2023** and Gina opened her online clothing store on **March 16, 2023**.  \nFrom January 19 to March 16 is **55 days**.",
+      "judgment": "wrong",
+      "category": "temporal_computation",
+      "memories": 8
+    },
+    {
+      "question": "How many days passed between when Jon lost his job as a banker and when Jon in Paris?",
+      "ground_truth": "9 days",
+      "answer": "Nine days passed between Jon losing his banker job on January 19, 2023 and his visit to Paris around January 28, 2023.",
+      "judgment": "correct",
+      "category": "temporal_computation",
+      "memories": 8
+    },
+    {
+      "question": "How many days passed between when Jon lost his job as a banker and when Gina launched an ad campaign for her store?",
+      "ground_truth": "10 days",
+      "answer": "Jon lost his banker job on **January 19, 2023**, and Gina launched her ad campaign on **January 29, 2023**.  \nThat’s a span of **10 days**.",
+      "judgment": "correct",
+      "category": "temporal_computation",
+      "memories": 8
+    },
+    {
+      "question": "How many days passed between when Jon lost his job as a banker and when when Jon planned to open his dance studio?",
+      "ground_truth": "152 days",
+      "answer": "Jon lost his banker job on **January 19, 2023** and planned to open his dance studio on **June 20, 2023**.  \nFrom Jan 19 to Jun 20 is **152 days**.",
+      "judgment": "correct",
+      "category": "temporal_computation",
+      "memories": 8
+    },
+    {
+      "question": "How many days passed between when Jon lost his job as a banker and when Gina interview for a design internship?",
+      "ground_truth": "111 days",
+      "answer": "Jon lost his banker job on **January 19 2023** and Gina’s interview was on **May 10 2023**.  \nCounting the days between those dates (excluding the start date) gives:\n\n- Jan 20–31: 12 days  \n- Feb 1–28: 28 days  \n- Mar 1–31: 31 days  \n- Apr 1–30: 30 days  \n- May 1–10: 10 days  \n\n**12 + 28 + 31 + 30 + 10 = 111 days**.\n\nSo **111 days** passed between Jon’s job loss and Gina’s interview.",
+      "judgment": "correct",
+      "category": "temporal_computation",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Melanie went to the museum, Caroline went to the LGBTQ support group, Melanie signed up for a pottery class, Caroline went to the LGBTQ conference",
+      "ground_truth": "Caroline went to the LGBTQ support group -> Melanie signed up for a pottery class -> Melanie went to the museum -> Caroline went to the LGBTQ conference",
+      "answer": "**Chronological order**\n\n1. **Caroline attended the LGBTQ support group** – May 7 2023.  \n2. **Melanie signed up for a pottery class** – July 2 2023 (first sign‑up).  \n3. **Melanie went to the museum** – July 8 2023.  \n4. **Melanie signed up for another pottery class** – July 15 2023.  \n5. **Caroline attended the LGBTQ conference** – date not specified, but it occurred after July 20 2023 (after she joined Connected LGBTQ Activists).",
+      "judgment": "partial",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Melanie bought the figurines, Caroline went to the LGBTQ conference, Melanie went to the park, Melanie made a plate in pottery class",
+      "ground_truth": "Caroline went to the LGBTQ conference -> Melanie made a plate in pottery class -> Melanie went to the park -> Melanie bought the figurines",
+      "answer": "**Chronological order (based on the dates we have):**\n\n1. **Melanie made a plate in pottery class** – 24 Aug 2023  \n2. **Melanie bought the figurines** – 22 Oct 2023  \n\nThe other two events – Melanie’s park visit and Caroline’s attendance at the LGBTQ conference – do not have dates in the provided context, so their exact placement relative to the pottery plate and figurine purchase cannot be confirmed. If you need a tentative sequence, a reasonable guess would be: pottery plate → park → LGBTQ conference → figurine purchase.",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: when Jon planned to open his dance studio, Jon receive mentorship to promote his venture, Gina got accepted for the design internship, Jon visited networking events for his store",
+      "ground_truth": "Gina got accepted for the design internship -> Jon received mentorship to promote his venture -> When Jon is planning to opened his dance studio -> Jon visited networking events for his store",
+      "answer": "1. Gina got accepted for the design internship (earliest, date not specified).  \n2. Jon received mentorship to promote his venture – June 15 2023.  \n3. Jon planned to open his dance studio – June 20 2023.  \n4. Jon visited networking events for his store – July 20 2023.",
+      "judgment": "correct",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Jon went to a fair to got more exposure for his dance studio, Gina open her online clothing store, Gina interview for a design internship, Gina got accepted for the design internship",
+      "ground_truth": "Gina opened her online clothing store -> Jon went to a fair to got more exposure for his dance studio -> Gina interview for a design internship -> Gina got accepted for the design internship",
+      "answer": "1. Gina opened her online clothing store – March 16 2023  \n2. Gina interviewed for a design internship – (soon after the store launch)  \n3. Gina was accepted for the design internship – (after the interview)  \n4. Jon went to a fair to get more exposure for his dance studio – April 24 2023",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Gina mention Shia Labeouf, Jon and Gina decide to collaborate to create dance content, Jon visited networking events for his store, Gina went to a dance class with a group of friends",
+      "ground_truth": "Jon visited networking events for his store -> Jon and Gina decided to collaborate to create dance content -> Gina went to a dance class with a group of friends -> Gina mention Shia Labeouf",
+      "answer": "1. Jon visited networking events for his store (earliest, before July 2023).  \n2. Gina went to a dance class with a group of friends (July 21, 2023).  \n3. Jon and Gina decided to collaborate to create dance content (July 21, 2023).  \n4. Gina mentioned Shia Labeouf (July 23, 2023).",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Maria met Jean, Maria got in a car accident, Maria took up community work with her church friends, Maria donated her car",
+      "ground_truth": "Maria donated her car -> Maria met Jean -> Maria got in a car accident -> Maria took up community work with her church friends",
+      "answer": "1. Maria took up community work with her church friends  \n2. Maria met Jean (Feb 24 2023)  \n3. Maria donated her car  \n4. Maria got in a car accident (July 5 2023)",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Nate took his turtles to the beach, Nate won an international tournament, Joanna made a chocolate tart with raspberries, Joanna plan on going to Nate's to watched him play with his turtles",
+      "ground_truth": "Nate won an international tournament -> Joanna made a chocolate tart with raspberries -> Joanna planned on going to Nate's to watched him play with his turtles -> Nate took his turtles to the beach",
+      "answer": "1. Nate won an international tournament.  \n2. Nate took his turtles to the beach.  \n3. Joanna made a chocolate tart with raspberries.  \n4. Joanna plans to go to Nate’s to watch him play with his turtles.",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: James' mother and her friend visited him, James, his family and his dogs started on a road trip together, James, Samantha and John went to the baseball game together, James try Cyberpunk 2077 game",
+      "ground_truth": "James, Samantha and John went to the baseball game together -> James' mother and her friend visited him -> James tried Cyberpunk 2077 game -> James, his family and his dogs started on a road trip together",
+      "answer": "1. **James’ mother and her friend visited him** – October 19 2022.  \n2. **James tried Cyberpunk 2077** – the day before the trip, November 4 2022.  \n3. **James, his family and his dogs started the road trip** – around November 5–7 2022.  \n4. **James, Samantha and John went to the baseball game** – after the road trip (exact date not specified).",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: James bought himself a new adventure book, John spend time with his sister and dogs, John first organize a charity tournament with his friends, James depart for his trip to Canada",
+      "ground_truth": "James bought himself a new adventure book -> John first organize a charity tournament with his friends -> James depart for his trip to Canada -> John spend time with his sister and dogs",
+      "answer": "1. **James bought himself a new adventure book** – April 26, 2022.  \n2. **John first organized a charity tournament with his friends** – May 7, 2022.  \n3. **John spent time with his sister and dogs** – August 2022 (the family gaming night).  \n4. **James departed for his trip to Canada** – after the August 2022 event (exact date not specified).",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: John spend time with his sister and dogs, John and James met at McGee's bar, James took his 3 dogs to the beach, James met Samantha",
+      "ground_truth": "John spend time with his sister and dogs -> James met Samantha -> James took his 3 dogs to the beach -> John and James met at McGee's bar",
+      "answer": "1. **July 21 2022** – John spent time with his sister and dogs.  \n2. **August 10 2022** – James took his three dogs to the beach and met Samantha there.  \n3. **August 27 2022** – John and James met at McGee’s bar.",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Jolene bought a new aquarium for Seraphim, Jolene gift her partner a new console, Deborah go for her first morning jog in a nearby park, Jolene had a dinner and drinks with her friends",
+      "ground_truth": "Jolene had a dinner and drinks with her friends -> Deborah go for her first morning jog in a nearby park -> Jolene bought a new aquarium for Seraphim -> Jolene gift her partner a new console",
+      "answer": "**Chronological order (based on the dates we have):**\n\n1. **Jolene bought a new aquarium for Seraphim** – June 25 2023 (Seraphim’s aquarium was received on that date).  \n2. **Jolene gifted her partner a new console** – 17 August 2023.  \n3. **Deborah goes for her first morning jog in a nearby park** – date not specified, but it would have to occur after the console gift (no earlier reference).  \n4. **Jolene had a dinner and drinks with her friends** – date not specified, so it is placed last among the four events.  \n\nSo the sequence is: aquarium → console → Deborah’s jog → dinner with friends.",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Deborah met Anna, Jolene had a dinner and drinks with her friends, Deborah's father pass away, Deborah receive an appreciation letter from her community",
+      "ground_truth": "Deborah's father pass away -> Deborah received an appreciation letter from her community -> Deborah met Anna -> Jolene had a dinner and drinks with her friends",
+      "answer": "**Chronological order (with the dates that are known):**\n\n1. **31 January 2023** – Deborah met Anna (yoga class / book‑club).  \n2. **21 February 2023** – Jolene had dinner and drinks with her friends.  \n3. **Date unknown** – Deborah’s father passed away.  \n4. **Date unknown** – Deborah received an appreciation letter from her community.  \n\n(Events 3 and 4 lack specific dates, so they are placed after the two events with known dates.)",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Sam started working out at the gym, Evan had a drunken night with his friends, When Evan got back from a vacation with his SO, Sam and his friend decide to try kayaking",
+      "ground_truth": "Evan had a drunken night with his friends -> Sam started working out at the gym -> When Evan got back from a vacation with his SO -> Sam and his friend decided to tried kayaking",
+      "answer": "**Chronological order (based on the dates we know):**\n\n1. **Evan had a drunken night with his friends** – January 9, 2023.  \n2. **Sam started working out at the gym** – July 28, 2023.  \n3. **When Evan got back from a vacation with his SO** – date not specified, but it must have occurred after July 28, 2023.  \n4. **Sam and his friend decide to try kayaking** – date not specified, but it also must have occurred after July 28, 2023.  \n\nSo, the sequence is:  \n**Evan’s drunken night → Sam’s gym start → Evan’s return from vacation → Sam’s kayaking plan.**",
+      "judgment": "correct",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Calvin attend a gala in Boston, Calvin visited some of the sights in Boston with a former high school friend, Calvin met with local artists in Boston",
+      "ground_truth": "Calvin met with local artists in Boston -> Calvin visited some of the sights in Boston with a former high school friend -> Calvin attend a gala in Boston",
+      "answer": "1. Calvin visited Boston’s sights with a former high‑school (college) friend – October 2023.  \n2. He met with local artists in Boston – later in October 2023.  \n3. He attended the gala in Boston – around 17 December 2023.",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Calvin record a podcast with his friends, Dave started his car maintenance shop, Dave return from San Francisco, Calvin met with the creative team for his new album",
+      "ground_truth": "Dave started his car maintenance shop -> Calvin met with the creative team for his new album -> Calvin record a podcast with his friends -> Dave return from San Francisco",
+      "answer": "1. Dave returned from San Francisco  \n2. Dave opened his car‑maintenance shop (≈ 1 June 2023)  \n3. Calvin met the creative team for his new album (early July 2023)  \n4. Calvin recorded a podcast with his friends (21 Aug 2023)",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    },
+    {
+      "question": "Put these events in chronological order: Calvin's album released, Calvin met with local artists in Boston, Dave had a great jam session with his band, Dave return from San Francisco",
+      "ground_truth": "Dave return from San Francisco -> Calvin's album released -> Dave had a great jam session with his band -> Calvin met with local artists in Boston",
+      "answer": "**Chronological order (based on the dates we have and the most likely sequence):**\n\n1. **Dave returns from San Francisco** – the earliest known event involving Dave.  \n2. **Dave has a great jam session with his band** – occurs after his return, before the Boston meetings.  \n3. **Calvin meets local artists in Boston** – on Oct 4 2023.  \n4. **Calvin’s album is released** – on Oct 11 2023.",
+      "judgment": "wrong",
+      "category": "temporal_ordering",
+      "memories": 8
+    }
+  ],
+  "timestamp": 1775533600.402875
+}

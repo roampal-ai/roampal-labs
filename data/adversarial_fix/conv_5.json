@@ -1,0 +1,375 @@
+{
+  "conv_idx": 5,
+  "true_facts": [
+    "Q: Which year did Audrey adopt the first three of her dogs? A: 2020",
+    "Q: When did Andrew start his new job as a financial analyst? A: The week before March 27, 2023",
+    "Q: What kind of indoor activities has Andrew pursued with his girlfriend? A: boardgames, volunteering at pet shelter, wine tasting, growing flowers",
+    "Q: What kind of places have Andrew and his girlfriend checked out around the city? A: cafes, new places to eat, open space for hikes, pet shelter, wine tasting event, park",
+    "Q: When did Audrey make muffins for herself? A: The week of April 3rd to 9th",
+    "Q: When did Audrey see a hummingbird? A: first week of May 2023",
+    "Q: When did Audrey adopt Pixie? A: around April 2, 2023",
+    "Q: How many years passed between Audrey adopting Pixie and her other three dogs? A: three years",
+    "Q: Did Andrew have a pet dog during March 2023? A: No",
+    "Q: What kind of classes or groups has Audrey joined to take better care of her dogs? A: positive reinforcement training workshop to bond with pets, dog training course, agility training course, grooming course, dog-owners group",
+    "Q: When did Audrey's positive reinforcement training course for dogs take place? A: June, 2023",
+    "Q: When did Andrew go rock climbing? A: June 11, 2023",
+    "Q: What outdoor activities has Andrew done other than hiking in nature? A: rock climbing, fishing, camping",
+    "Q: When did Audrey move to a new place? A: June 2023",
+    "Q: What is something that Andrew really misses while working in the city? A: being in nature",
+    "Q: What is a shared frustration regarding dog ownership for Audrey and Andrew? A: Not being able to find pet friendly spots.",
+    "Q: When is Andrew going to go hiking with Audrey? A: August",
+    "Q: How many times did Audrey and Andew plan to hike together? A: three times",
+    "Q: Where did Audrey get Pixie from? A: breeder",
+    "Q: What is an indoor activity that Andrew would enjoy doing while make his dog happy? A: cook dog treats",
+    "Q: Which meat does Audrey prefer eating more than others? A: chicken",
+    "Q: What are the classes that Audrey took for her dogs to? A: Positive reinforcement training class for bonding, dog training course, agility class",
+    "Q: Where did Andrew go during the first weekend of August 2023? A: camping with girlfriend",
+    "Q: What are some problems that Andrew faces before he adopted Toby? A: Finding the right dog and pet-friendly apartments close to open spaces",
+    "Q: Did Audrey and Andrew grow up with a pet dog? A: Yes",
+    "Q: When did Andrew and his girlfriend go fishing? A: weekend before August 24, 2023",
+    "Q: What is the biggest stressor in Andrew's life besides not being able to hike frequently? A: work",
+    "Q: How does Andrew feel about his current work? A: Stressful",
+    "Q: What is something that Audrey often dresses up her dogs with? A: Hats",
+    "Q: What are the names of Audrey's dogs? A: Pepper, Precious, Panda, and Pixie",
+    "Q: When is Andrew planning to go to the beach with his girlfriend? A: November 2023",
+    "Q: What has Andrew done with his dogs? A: Taking walks and hiking",
+    "Q: What kind of tattoo does Audrey have on her arm? A: Tattoos of her four dogs.",
+    "Q: What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs? A: Change to a hybrid or remote job so he can move away from the city to the suburbs to have a larger living space and be closer to nature.",
+    "Q: How many months passed between Andrew adopting Toby and Buddy? A: three months",
+    "Q: What are the names of Andrew's dogs? A: Toby, Scout, Buddy",
+    "Q: What are some foods that Audrey likes eating? A: chicken pot pie, chicken roast, blueberry muffins, sushi",
+    "Q: When did Audrey get into an accident in the park? A: between October 19 and 24, 2023",
+    "Q: When did Andrew and his girlfriend go on a wine tasting trip? A: the weekend before October 24, 2023",
+    "Q: What did Audrey get wtih having so many dogs? A: Companionship",
+    "Q: What is a good place for dogs to run around freely and meet new friends? A: The dog park",
+    "Q: What are the breeds of Audrey's dogs? A: Mongrel mixed with Lab for Pepper and Panda. Mongrel mixed with Chihuahua for Precious and Pixie.",
+    "Q: What technique is Audrey using to discipline her dogs? A: Positive reinforcement",
+    "Q: Which US state do Audrey and Andrew potentially live in? A: Minnesota",
+    "Q: Which national park could Audrey and Andrew be referring to in their conversations? A: Voyageurs National Park",
+    "Q: How many pets will Andrew have, as of December 2023? A: three",
+    "Q: How many pets did Andrew have, as of September 2023? A: one",
+    "Q: How many months passed between Andrew adopting Buddy and Scout A: one month",
+    "Q: What does Andrew view his pets as? A: Family",
+    "Q: What does Audrey view her pets as? A: Family",
+    "Q: What is a skill that Audrey learned to take care of her dogs? A: Grooming",
+    "Q: What items has Audrey bought or made for her dogs? A: dog tags, toys, dog beds, collars",
+    "Q: What is something that Andrew could do to make birdwatching hobby to fit in his city schedule? A: Install a bird feeder outside where he can see the birds without going outdoors.",
+    "Q: What is a career that Andrew could potentially pursue with his love for animals and nature? A: Park ranger or a similar position working for the National Park Services.",
+    "Q: What activity do Audrey's dogs like to do in the dog park? A: Play fetch with ball and frisbee, run around and meet other dogs",
+    "Q: When did Andrew make his dogs a fun indoor area? A: few days before November 22, 2023",
+    "Q: Has Andrew moved into a new apartment for his dogs? A: No",
+    "Q: When did Andrew adopt Scout? A: few days before November 2023",
+    "Q: What did Audrey eat for dinner on October 24, 2023? A: sushi",
+    "Q: How long has it been since Andrew adopted his first pet, as of November 2023? A: 4 months",
+    "Q: How many dogs does Andrew have? A: 3",
+    "Q: Which specific type of bird mesmerizes Andrew? A: Eagles",
+    "Q: What did Andrew express missing about exploring nature trails with his family's dog? A: The peaceful moments",
+    "Q: What kind of pastries did Andrew and his girlfriend have at the cafe? A: croissants, muffins, and tarts",
+    "Q: What kind of flowers does Audrey have a tattoo of? A: sunflowers",
+    "Q: What does Audrey do during dog playdates in the park? A: chat with people while dogs make new friends",
+    "Q: What type of dog was Andrew looking to adopt based on his living space? A: smaller dog",
+    "Q: Where does Andrew want to live to give their dog a large, open space to run around? A: near a park or woods",
+    "Q: Why did Audrey sign up for a workshop about bonding with pets? A: Strengthen the bond with her pets",
+    "Q: How did Audrey hear about the workshop on bonding with pets? A: Saw a workshop flyer at the local pet store",
+    "Q: What type of training was the workshop Audrey signed up for in May 2023? A: Positive reinforcement training",
+    "Q: How did Audrey describe she dog he met at the pet store? A: Friendly and playful",
+    "Q: Why did Audrey think positive reinforcement training is important for pets? A: To have pets learn how to behave in a positive way",
+    "Q: What challenge is Andrew facing in their search for a pet? A: Finding a pet-friendly spot in the city",
+    "Q: How does Andrew feel about their search for a pet-friendly place? A: Discouraged but determined",
+    "Q: What outdoor activities does Andrew plan on trying after the rock climbing class? A: kayaking and bungee jumping",
+    "Q: How long does Audrey typically walk her dogs for? A: about an hour",
+    "Q: What did Audrey set up in the backyard for their dogs on June 26, 2023? A: a doggy play area with agility stuff and toys",
+    "Q: What did Audrey and her friends stumble across during a hike a few years back, as mentioned on June 26, 2023? A: a stunning lake in the mountains",
+    "Q: What is Audrey's favorite recipe that she shares with Andrew on 3 July, 2023? A: Chicken Pot Pie",
+    "Q: What dish is one of Audrey's favorite dishes that includes garlic and is shared with Andrew on 3 July, 2023? A: Roasted Chicken",
+    "Q: What did Andrew and his GF do on the Monday before July 24, 2023? A: volunteered at a pet shelter",
+    "Q: What is the name of Audrey's childhood dog? A: Max",
+    "Q: What special memories does Audrey have with her childhood dog, Max? A: Long walks in the neighborhood, exploring new paths, sharing worries and hopes",
+    "Q: What are some of the personalities of Audrey's four fur babies? A: oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life",
+    "Q: What type of classes did Audrey start with her pups recently on 4 August, 2023? A: Agility classes",
+    "Q: How often does Audrey take her pups to the park for practice? A: Twice a week",
+    "Q: How long did the trail hike that Audrey went on with her pups take? A: Two hours",
+    "Q: What advice did Audrey give to Andrew regarding grooming Toby? A: Grooming slowly and gently, paying attention to sensitive areas like ears and paws. And remember to stay patient and positive throughout the grooming process.",
+    "Q: What is essential to keep the dogs looking good according to Audrey? A: Daily brushing, regular baths, nail trims, and lots of love",
+    "Q: What did Audrey organize with the neighbors' dogs? A: a doggy playdate",
+    "Q: What did Audrey do to give her dogs extra comfort as the weather cooled down? A: Got new beds for them",
+    "Q: How does Audrey describe the new beds for her dogs? A: Super cozy and comfy",
+    "Q: How did Audrey calm down her dog after the leash incident? A: Petted, hugged, spoke calmly and slowly walked the dog",
+    "Q: How often does Audrey take her dogs for walks? A: Multiple times a day",
+    "Q: What kind of flowers does Audrey take care of? A: Peruvian Lilies",
+    "Q: What did Andrew learn from reading books about ecological systems? A: about animals, plants, and ecosystems and how they work together",
+    "Q: What did Andrew suggest as a way to reduce carbon footprint? A: biking or using public transport",
+    "Q: How does Andrew suggest helping the planet while also training the body? A: by biking",
+    "Q: What did Audrey do with her pups over the weekend before 4th October, 2023? A: Took them to the beach",
+    "Q: What was the reason Audrey couldn't walk her dogs for a period of time? A: Knee injury",
+    "Q: What type of jewelry does Audrey make? A: Jewelry made from recycled objects",
+    "Q: Why does Audrey make jewelry out of recycled objects? A: To show love for creativity and sustainability",
+    "Q: What organization does Audrey donate a portion of his profits to? A: Animal shelter",
+    "Q: How does Audrey help out the animal shelter? A: By donating a portion of his profits frmo selling jwelery",
+    "Q: What type of games do Audrey's dogs like to play at the park? A: Fetch and Frisbee",
+    "Q: What did Audrey make to thank her neighbors? A: Goodies",
+    "Q: How do Audrey's dogs react to snow? A: Confused",
+    "Q: How does Audrey describe her dogs' response to snow? A: They definitely prefer nice, sunny days in the grass.",
+    "Q: What kind of experiences are Audrey's dogs the best companions for? A: Exploring the great outdoors",
+    "Q: What activity do Andrew and Buddy enjoy doing together? A: Walking",
+    "Q: What do Andrew and Buddy like doing on walks? A: Checking out new hiking trails",
+    "Q: What cuisine did Andrew recently try at a new spot in town? A: sushi",
+    "Q: Which type of sushi did Audrey suggest trying first to someone new to sushi? A: California or salmon roll",
+    "Q: What type of date is Andrew going on Sunday? A: picnic date",
+    "Q: What did Andrew and Audrey plan to do on the Saturday after October 28, 2023? A: Go hiking",
+    "Q: What aspect of autumn does Andrew find beautiful? A: The autumn colors",
+    "Q: What did Audrey do in November 2023 to better take care of her dogs? A: Joined a dog owners group",
+    "Q: How often does Audrey meet up with other dog owners for tips and playdates? A: Once a week",
+    "Q: What did Audrey share to show ways to keep dogs active in the city? A: photography of a basket full of stuffed animals",
+    "Q: What type of activities does Audrey suggest for mental stimulation of the dogs? A: puzzles, training, hide-and-seek",
+    "Q: What is Andrew planning to do with Scout, Toby, and Buddy? A: Take them to a nearby park",
+    "Q: What did Andrew get for Scout to create a safe and fun space for them? A: essentials like a bed, toys, and puppy pads"
+  ],
+  "adversarial_questions": [
+    {
+      "index": 1122,
+      "question": "Which specific type of bird mesmerizes Audrey?",
+      "current_wrong_answer": "Eagles",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1123,
+      "question": "What kind of flowers does Andrew have a tattoo of?",
+      "current_wrong_answer": "sunflowers",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1124,
+      "question": "What type of dog was Audrey looking to adopt based on her living space?",
+      "current_wrong_answer": "smaller dog",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1125,
+      "question": "Why did Audrey sign up for a workshop about car maintenance?",
+      "current_wrong_answer": "Strengthen the bond with her pets",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1126,
+      "question": "How did Andrew hear about the workshop on bonding with pets?",
+      "current_wrong_answer": "Saw a workshop flyer at the local pet store",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1127,
+      "question": "What type of training was the workshop Andrew signed up for in May 2023?",
+      "current_wrong_answer": "Positive reinforcement training",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1128,
+      "question": "How did Andrew describe the dog he met at the pet store?",
+      "current_wrong_answer": "Friendly and playful",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1129,
+      "question": "What challenge is Audrey facing in their search for a pet?",
+      "current_wrong_answer": "Finding a pet-friendly spot in the city",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1130,
+      "question": "What indoor activities does Andrew plan on trying after the rock climbing class?",
+      "current_wrong_answer": "kayaking and bungee jumping",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1131,
+      "question": "What did Andrew set up in the backyard for their dogs on June 26, 2023?",
+      "current_wrong_answer": "a doggy play area with agility stuff and toys",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1132,
+      "question": "What did Audrey and her GF do on the Monday before July 24, 2023?",
+      "current_wrong_answer": "volunteered at a pet shelter",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1133,
+      "question": "What is the name of Andrew's childhood dog?",
+      "current_wrong_answer": "Max",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1134,
+      "question": "What special memories does Andrew have with his childhood dog, Max?",
+      "current_wrong_answer": "Long walks in the neighborhood, exploring new paths, sharing worries and hopes",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1135,
+      "question": "What are some of the personalities of Andrew's four fur babies?",
+      "current_wrong_answer": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1136,
+      "question": "What type of classes did Andrew start with his pups recently on 4 August, 2023?",
+      "current_wrong_answer": "Agility classes",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1137,
+      "question": "What is essential to keep the dogs looking good according to Andrew?",
+      "current_wrong_answer": "Daily brushing, regular baths, nail trims, and lots of love",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1138,
+      "question": "What did Audrey organize with the neighbors' cats?",
+      "current_wrong_answer": "a doggy playdate",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1139,
+      "question": "What did Andrew do to give his dogs extra comfort as the weather cooled down?",
+      "current_wrong_answer": "Got new beds for them",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1140,
+      "question": "How does Andrew describe the new beds for his dogs?",
+      "current_wrong_answer": "Super cozy and comfy",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1141,
+      "question": "How did Andrew calm down his dog after the leash incident?",
+      "current_wrong_answer": "Petted, hugged, spoke calmly and slowly walked the dog",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1142,
+      "question": "How often does Andrew take his dogs for walks?",
+      "current_wrong_answer": "Multiple times a day",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1143,
+      "question": "What kind of vegetables does Audrey take care of?",
+      "current_wrong_answer": "Peruvian Lilies",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1144,
+      "question": "What did Andrew learn from reading books about economic systems?",
+      "current_wrong_answer": "about animals, plants, and ecosystems and how they work together",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1145,
+      "question": "What was the reason Andrew couldn't walk his dogs for a period of time?",
+      "current_wrong_answer": "Knee injury",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1146,
+      "question": "What type of jewelry does Andrew make?",
+      "current_wrong_answer": "Jewelry made from recycled objects",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1147,
+      "question": "Why does Andrew make jewelry out of recycled objects?",
+      "current_wrong_answer": "To show love for creativity and sustainability",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1148,
+      "question": "What type of games do Andrew's dogs like to play at the park?",
+      "current_wrong_answer": "Fetch and Frisbee",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1149,
+      "question": "What did Andrew make to thank his neighbors?",
+      "current_wrong_answer": "Goodies",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1150,
+      "question": "How do Andrew's dogs react to snow?",
+      "current_wrong_answer": "Confused",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1151,
+      "question": "How does Andrew describe his dogs' response to snow?",
+      "current_wrong_answer": "They definitely prefer nice, sunny days in the grass.",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1152,
+      "question": "What kind of experiences are Audrey's cats the best companions for?",
+      "current_wrong_answer": "Exploring the great outdoors",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1153,
+      "question": "What activity do Audrey and Buddy enjoy doing together?",
+      "current_wrong_answer": "Walking",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1154,
+      "question": "What type of drink did Andrew recently try at a new spot in town?",
+      "current_wrong_answer": "sushi",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1155,
+      "question": "Which type of pizza did Audrey suggest trying first to someone new to Italian cuisine?",
+      "current_wrong_answer": "California or salmon roll",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 1156,
+      "question": "How often does Andrew meet up with other dog owners for tips and playdates?",
+      "current_wrong_answer": "Once a week",
+      "conv_idx": 5,
+      "category_name": "adversarial"
+    }
+  ]
+}

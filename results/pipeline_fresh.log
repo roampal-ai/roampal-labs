@@ -1,0 +1,43 @@
+Loading data...
+Loaded 10 conversations, 3015 facts
+  Character sheets: 10 conversations, 3015 facts
+  LoCoMo exam: 1986
+  Hard exam: 76
+  Poison memories: 1135
+
+============================================================
+ROAMPAL-LABS BENCHMARK PIPELINE
+============================================================
+Strategies: 4
+Steps per strategy: 3
+Already completed: 0
+============================================================
+
+
+============================================================
+STRATEGY 1/4: 01.EntityRouted
+============================================================
+
+  [01_conversation] Conversation learning (~503 turns, 3015 facts)...
+W0403 08:03:42.747535 19296 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+    01.EntityRouted: Resuming from checkpoint — conv=conv_9, char=Dave, turn=1495, covered=2980
+    01.EntityRouted: SKIP conv_0/Caroline (checkpoint)
+    01.EntityRouted: SKIP conv_0/Melanie (checkpoint)
+    01.EntityRouted: SKIP conv_1/Gina (checkpoint)
+    01.EntityRouted: SKIP conv_1/Jon (checkpoint)
+    01.EntityRouted: SKIP conv_2/Maria (checkpoint)
+    01.EntityRouted: SKIP conv_2/John (checkpoint)
+    01.EntityRouted: SKIP conv_3/Nate (checkpoint)
+    01.EntityRouted: SKIP conv_3/Joanna (checkpoint)
+    01.EntityRouted: SKIP conv_4/John (checkpoint)
+    01.EntityRouted: SKIP conv_4/Tim (checkpoint)
+    01.EntityRouted: SKIP conv_5/Audrey (checkpoint)
+    01.EntityRouted: SKIP conv_5/Andrew (checkpoint)
+    01.EntityRouted: SKIP conv_6/John (checkpoint)
+    01.EntityRouted: SKIP conv_6/James (checkpoint)
+    01.EntityRouted: SKIP conv_7/Deborah (checkpoint)
+    01.EntityRouted: SKIP conv_7/Jolene (checkpoint)
+    01.EntityRouted: SKIP conv_8/Sam (checkpoint)
+    01.EntityRouted: SKIP conv_8/Evan (checkpoint)
+    01.EntityRouted: SKIP conv_9/Calvin (checkpoint)
+    01.EntityRouted: Resuming Dave from fact 120/155...

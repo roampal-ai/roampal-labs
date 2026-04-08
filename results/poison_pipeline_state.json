@@ -1,0 +1,44 @@
+{
+  "completed_steps": {
+    "02.TagCascade:01_clone": {
+      "completed_at": 1775449293.768728,
+      "step_desc": "Create fresh empty DB"
+    },
+    "02.TagCascade:02_inject": {
+      "completed_at": 1775449494.3919842,
+      "step_desc": "Inject poison (tier-distributed, fake metadata)"
+    },
+    "02.TagCascade:03_conversation": {
+      "completed_at": 1775489866.0487857,
+      "step_desc": "Conversation healing loop"
+    },
+    "02.TagCascade:04_locomo": {
+      "completed_at": 1775497116.57723,
+      "step_desc": "LoCoMo exam (learning OFF)"
+    },
+    "02.TagCascade:05_hard": {
+      "completed_at": 1775497475.137906,
+      "step_desc": "Hard exam (learning OFF)"
+    },
+    "03.CE-Only:01_clone": {
+      "completed_at": 1775497475.137906,
+      "step_desc": "Create fresh empty DB"
+    },
+    "03.CE-Only:02_inject": {
+      "completed_at": 1775497666.457245,
+      "step_desc": "Inject poison (tier-distributed, fake metadata)"
+    },
+    "03.CE-Only:03_conversation": {
+      "completed_at": 1775526998.829438,
+      "step_desc": "Conversation healing loop"
+    },
+    "03.CE-Only:04_locomo": {
+      "completed_at": 1775533306.4968567,
+      "step_desc": "LoCoMo exam (learning OFF)"
+    },
+    "03.CE-Only:05_hard": {
+      "completed_at": 1775533600.4033787,
+      "step_desc": "Hard exam (learning OFF)"
+    }
+  }
+}

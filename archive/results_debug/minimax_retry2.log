@@ -1,0 +1,26 @@
+Retrying 190 with 120s timeout...
+  10/190 — fixed: 7, still bad: 3
+  20/190 — fixed: 12, still bad: 8
+  30/190 — fixed: 19, still bad: 11
+  40/190 — fixed: 26, still bad: 14
+  50/190 — fixed: 32, still bad: 18
+  60/190 — fixed: 38, still bad: 22
+  70/190 — fixed: 40, still bad: 30
+  80/190 — fixed: 48, still bad: 32
+  90/190 — fixed: 54, still bad: 36
+  Attempt 1 failed: The read operation timed out
+  100/190 — fixed: 59, still bad: 41
+  110/190 — fixed: 65, still bad: 45
+  120/190 — fixed: 69, still bad: 51
+  130/190 — fixed: 76, still bad: 54
+  140/190 — fixed: 82, still bad: 58
+  150/190 — fixed: 86, still bad: 64
+  160/190 — fixed: 92, still bad: 68
+  170/190 — fixed: 99, still bad: 71
+  180/190 — fixed: 106, still bad: 74
+  190/190 — fixed: 112, still bad: 78
+
+Done. Fixed 112, still unknown: 78
+Correct: 1370, Partial: 145, Wrong: 393, Unknown: 78
+Strict: 69.0%, Lenient: 76.3%
+Upgrades: 210, Downgrades: 105

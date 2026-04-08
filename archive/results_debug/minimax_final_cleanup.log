@@ -1,0 +1,9 @@
+Final cleanup: 31 unknowns with updated parser...
+  10/31 — fixed: 10, still bad: 0
+  20/31 — fixed: 20, still bad: 0
+  30/31 — fixed: 30, still bad: 0
+
+Done. Fixed 31, still unknown: 0
+Correct: 1407, Partial: 154, Wrong: 425, Unknown: 0
+Strict: 70.9%, Lenient: 78.6%
+Upgrades: 234, Downgrades: 37

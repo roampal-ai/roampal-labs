@@ -1,0 +1,28 @@
+{
+  "completed_steps": {
+    "02.TagCascade:01_conversation": {
+      "completed_at": 1775409833.4536223,
+      "step_desc": "Conversational learning"
+    },
+    "02.TagCascade:02_locomo_off": {
+      "completed_at": 1775415188.559698,
+      "step_desc": "LoCoMo exam (no Wilson)"
+    },
+    "02.TagCascade:03_hard_off": {
+      "completed_at": 1775415465.2746816,
+      "step_desc": "Hard exam (held-out reasoning)"
+    },
+    "03.CE-Only:01_conversation": {
+      "completed_at": 1775440287.05748,
+      "step_desc": "Conversational learning"
+    },
+    "03.CE-Only:02_locomo_off": {
+      "completed_at": 1775444833.80207,
+      "step_desc": "LoCoMo exam (no Wilson)"
+    },
+    "03.CE-Only:03_hard_off": {
+      "completed_at": 1775445065.0197744,
+      "step_desc": "Hard exam (held-out reasoning)"
+    }
+  }
+}

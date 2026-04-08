@@ -1,0 +1,13 @@
+Retrying 78 with think-parsing fallback...
+  10/78 — fixed: 8, still bad: 2
+  20/78 — fixed: 15, still bad: 5
+  30/78 — fixed: 23, still bad: 7
+  40/78 — fixed: 28, still bad: 12
+  50/78 — fixed: 32, still bad: 18
+  60/78 — fixed: 36, still bad: 24
+  70/78 — fixed: 44, still bad: 26
+
+Done. Fixed 47, still unknown: 31
+Correct: 1389, Partial: 149, Wrong: 417, Unknown: 31
+Strict: 69.9%, Lenient: 77.4%
+Upgrades: 222, Downgrades: 66

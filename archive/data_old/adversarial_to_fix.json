@@ -1,0 +1,3110 @@
+[
+  {
+    "index": 152,
+    "question": "What did Caroline realize after her charity race?",
+    "current_wrong_answer": "self-care is important",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 153,
+    "question": "What are Melanie's plans for the summer with respect to adoption?",
+    "current_wrong_answer": "researching adoption agencies",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 154,
+    "question": "What type of individuals does the adoption agency Melanie is considering support?",
+    "current_wrong_answer": "LGBTQ+ individuals",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 155,
+    "question": "Why did Melanie choose the adoption agency?",
+    "current_wrong_answer": "because of their inclusivity and support for LGBTQ+ individuals",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 156,
+    "question": "What is Melanie excited about in her adoption process?",
+    "current_wrong_answer": "creating a family for kids who need one",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 157,
+    "question": "What does Melanie's necklace symbolize?",
+    "current_wrong_answer": "love, faith, and strength",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 158,
+    "question": "What country is Melanie's grandma from?",
+    "current_wrong_answer": "Sweden",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 159,
+    "question": "What was grandma's gift to Melanie?",
+    "current_wrong_answer": "necklace",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 160,
+    "question": "What was grandpa's gift to Caroline?",
+    "current_wrong_answer": "necklace",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 161,
+    "question": "What is Caroline's hand-painted bowl a reminder of?",
+    "current_wrong_answer": "art and self-expression",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 162,
+    "question": "What did Caroline and her family do while camping?",
+    "current_wrong_answer": "explored nature, roasted marshmallows, and went on a hike",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 163,
+    "question": "What kind of counseling and mental health services is Melanie interested in pursuing?",
+    "current_wrong_answer": "working with trans people, helping them accept themselves and supporting their mental health",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 164,
+    "question": "What kind of counseling workshop did Melanie attend recently?",
+    "current_wrong_answer": "LGBTQ+ counseling workshop",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 165,
+    "question": "What motivated Melanie to pursue counseling?",
+    "current_wrong_answer": "her own journey and the support she received, and how counseling improved her life",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 166,
+    "question": "What kind of place does Melanie want to create for people?",
+    "current_wrong_answer": "a safe and inviting place for people to grow",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 168,
+    "question": "What are the new shoes that Caroline got used for?",
+    "current_wrong_answer": "Running",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 169,
+    "question": "What is Caroline's reason for getting into running?",
+    "current_wrong_answer": "To de-stress and clear her mind",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 170,
+    "question": "What does Caroline say running has been great for?",
+    "current_wrong_answer": "Her mental health",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 171,
+    "question": "What did Melanie see at the council meeting for adoption?",
+    "current_wrong_answer": "many people wanting to create loving homes for children in need",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 172,
+    "question": "What inspired Melanie's painting for the art show?",
+    "current_wrong_answer": "visiting an LGBTQ center and wanting to capture unity and strength",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 173,
+    "question": "What inspired Caroline's sculpture for the art show?",
+    "current_wrong_answer": "visiting an LGBTQ center and wanting to capture unity and strength",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 174,
+    "question": "How often does Caroline go to the beach with her kids?",
+    "current_wrong_answer": "once or twice a year",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 175,
+    "question": "What did Caroline and her family see during their camping trip last year?",
+    "current_wrong_answer": "Perseid meteor shower",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 176,
+    "question": "How did Caroline feel while watching the meteor shower?",
+    "current_wrong_answer": "in awe of the universe",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 177,
+    "question": "Why did Caroline choose to use colors and patterns in her pottery project?",
+    "current_wrong_answer": "She wanted to catch the eye and make people smile.",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 179,
+    "question": "Where did Oscar hide his bone once?",
+    "current_wrong_answer": "In Melanie's slipper",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 180,
+    "question": "What activity did Melanie used to do with her dad?",
+    "current_wrong_answer": "Horseback riding",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 181,
+    "question": "What did Melanie make for a local church?",
+    "current_wrong_answer": "a stained glass window",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 182,
+    "question": "What did Melanie find in her neighborhood during her walk?",
+    "current_wrong_answer": "a rainbow sidewalk",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 183,
+    "question": "Which song motivates Melanie to be courageous?",
+    "current_wrong_answer": "Brave by Sara Bareilles",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 184,
+    "question": "What type of instrument does Caroline play?",
+    "current_wrong_answer": "clarinet and violin",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 185,
+    "question": "Which classical musicians does Caroline enjoy listening to?",
+    "current_wrong_answer": "Bach and Mozart",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 186,
+    "question": "Who is Caroline a fan of in terms of modern music?",
+    "current_wrong_answer": "Ed Sheeran",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 187,
+    "question": "What precautionary sign did Caroline see at the café?",
+    "current_wrong_answer": "A sign stating that someone is not being able to leave",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 188,
+    "question": "What setback did Caroline face recently?",
+    "current_wrong_answer": "She got hurt and had to take a break from pottery.",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 189,
+    "question": "What does Caroline do to keep herself busy during her pottery break?",
+    "current_wrong_answer": "Read a book and paint.",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 190,
+    "question": "What was the poetry reading that Melanie attended about?",
+    "current_wrong_answer": "It was a transgender poetry reading where transgender people shared their stories.",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 191,
+    "question": "What happened to Caroline's son on their road trip?",
+    "current_wrong_answer": "He got into an accident",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 192,
+    "question": "How did Caroline's son handle the accident?",
+    "current_wrong_answer": "He was scared but reassured by his family",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 193,
+    "question": "How did Caroline feel about her family after the accident?",
+    "current_wrong_answer": "They are important and mean the world to her",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 194,
+    "question": "How did Caroline's children handle the accident?",
+    "current_wrong_answer": "They were scared but resilient",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 195,
+    "question": "How did Caroline feel after the accident?",
+    "current_wrong_answer": "Grateful and thankful for her family",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 196,
+    "question": "What was Caroline's reaction to her children enjoying the Grand Canyon?",
+    "current_wrong_answer": "She was happy and thankful",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 197,
+    "question": "What did Caroline do after the road trip to relax?",
+    "current_wrong_answer": "Went on a nature walk or hike",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 198,
+    "question": "What does Caroline love most about camping with her family?",
+    "current_wrong_answer": "Being present and bonding with her family",
+    "conv_idx": 0,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 278,
+    "question": "What temporary job did Jon take to cover expenses?",
+    "current_wrong_answer": "Not mentioned",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 281,
+    "question": "What is Jon's favorite style of painting?",
+    "current_wrong_answer": "Contemporary",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 282,
+    "question": "What was Jon's favorite dancing memory?",
+    "current_wrong_answer": "Winning first place at a regionals dance competition",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 283,
+    "question": "What kind of dance piece did Jon's team perform to win first place?",
+    "current_wrong_answer": "\"Finding Freedom\"",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 284,
+    "question": "What is Gina's attitude towards participating in the dance festival?",
+    "current_wrong_answer": "Glad",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 285,
+    "question": "What kind of flooring is Gina looking for in her dance studio?",
+    "current_wrong_answer": "Marley flooring",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 286,
+    "question": "What did Jon find for his clothing store on 1 February, 2023?",
+    "current_wrong_answer": "The perfect spot for her store",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 287,
+    "question": "What did Jon design for his store?",
+    "current_wrong_answer": "the space, furniture, and decor",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 288,
+    "question": "What did Jon want his customers to feel in her store?",
+    "current_wrong_answer": "cozy and comfortable",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 289,
+    "question": "What made Jon choose the furniture and decor for his store?",
+    "current_wrong_answer": "personal style and customer comfort",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 290,
+    "question": "How is Jon's store doing?",
+    "current_wrong_answer": "The store is doing great.",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 291,
+    "question": "What does Jon's tattoo symbolize?",
+    "current_wrong_answer": "Freedom and expressing himself through dance",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 292,
+    "question": "Why did Gina shut down her bank account?",
+    "current_wrong_answer": "for her business",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 293,
+    "question": "Why did Jon combine his clothing business with dance?",
+    "current_wrong_answer": "he is passionate about dance and fashion",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 294,
+    "question": "What did Gina receive from a dance contest?",
+    "current_wrong_answer": "a trophy",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 295,
+    "question": "What kind of professional experience did Jon get accepted for on May 23, 2023?",
+    "current_wrong_answer": "fashion internship",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 296,
+    "question": "Where is Gina's HR internship?",
+    "current_wrong_answer": "fashion department of an international company",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 297,
+    "question": "Where is Jon's fashion internship?",
+    "current_wrong_answer": "fashion department of an international company",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 298,
+    "question": "What book is Gina currently reading?",
+    "current_wrong_answer": "The Lean Startup",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 299,
+    "question": "How does Gina use the clipboard with a notepad attached to it?",
+    "current_wrong_answer": "To set goals, track achievements, and find areas for improvement",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 300,
+    "question": "What did Jon take a trip to Barcelona for?",
+    "current_wrong_answer": "To clear his mind",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 301,
+    "question": "What did Jon make a limited edition line of?",
+    "current_wrong_answer": "Hoodies",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 302,
+    "question": "What temporary job did Gina take to cover expenses?",
+    "current_wrong_answer": "Not mentioned",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 303,
+    "question": "What plans does Gina have after receiving advice at the networking event?",
+    "current_wrong_answer": "Sprucing up her business plan, tweaking her pitch to investors, and working on an online platform.",
+    "conv_idx": 1,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 456,
+    "question": "What is John's main focus in international politics?",
+    "current_wrong_answer": "Improving education and infrastructure",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 457,
+    "question": "What did Maria donate to a luxury store in December 2023?",
+    "current_wrong_answer": "old car",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 458,
+    "question": "Who inspired John to start volunteering?",
+    "current_wrong_answer": "His aunt",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 459,
+    "question": "Why did Maria decide to run for office again?",
+    "current_wrong_answer": "saw the impact she could make in the community through politics",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 460,
+    "question": "What activity did Maria's colleague, Rob, invite her to?",
+    "current_wrong_answer": "beginner's yoga class",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 461,
+    "question": "What is the name of Maria's one-year-old child?",
+    "current_wrong_answer": "Kyle",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 462,
+    "question": "How often does John take his kids to the library?",
+    "current_wrong_answer": "A few times a week",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 463,
+    "question": "What did Maria make for her home to remind her of a trip to France?",
+    "current_wrong_answer": "painting of a castle on a hill",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 464,
+    "question": "Where did John get the idea for the castle shadow box in his home?",
+    "current_wrong_answer": "England",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 465,
+    "question": "What did Maria receive a certificate for?",
+    "current_wrong_answer": "completion of a university degree",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 466,
+    "question": "What areas is John particularly interested in for art appreciation?",
+    "current_wrong_answer": "education and infrastructure",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 467,
+    "question": "Why did Maria start blogging about politics and policies?",
+    "current_wrong_answer": "raise awareness and start conversations to create positive change",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 468,
+    "question": "What was the focus of John's recent travel and photography blog?",
+    "current_wrong_answer": "education reform and infrastructure development",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 469,
+    "question": "How often does Maria work out with her family?",
+    "current_wrong_answer": "Three times a week",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 470,
+    "question": "How has John's artistic skills improved since starting boot camps with his family?",
+    "current_wrong_answer": "More energy, gains in strength and endurance",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 471,
+    "question": "What kind of food did Maria have on her dinner spread with her father?",
+    "current_wrong_answer": "Salads, sandwiches, homemade desserts",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 472,
+    "question": "What did John do to feel closer to a community and his faith?",
+    "current_wrong_answer": "joined a nearby church",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 473,
+    "question": "Why did John join a nearby church recently?",
+    "current_wrong_answer": "to feel closer to a community and her faith",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 474,
+    "question": "How long was Max a part of Maria's family?",
+    "current_wrong_answer": "10 years",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 475,
+    "question": "How does Maria plan to honor the memories of her beloved pet?",
+    "current_wrong_answer": "By considering adopting a rescue dog",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 476,
+    "question": "What important values does Maria want to teach her kids through adopting a rescue dog?",
+    "current_wrong_answer": "Responsibility and compassion",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 477,
+    "question": "What did Maria say it was like being at the desert in Oregon?",
+    "current_wrong_answer": "Like being in a fairy tale",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 478,
+    "question": "What does John say she feels when doing upside-down yoga poses?",
+    "current_wrong_answer": "Free and light",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 479,
+    "question": "What did Maria recently get promoted to?",
+    "current_wrong_answer": "assistant manager",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 480,
+    "question": "What was one of the biggest challenges Maria faced in her journey to becoming assistant manager?",
+    "current_wrong_answer": "self-doubt",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 481,
+    "question": "Why did John need to help his cousin find a new place to live?",
+    "current_wrong_answer": "His cousin had to leave and find a new place in a hurry.",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 482,
+    "question": "What event did Maria participate in to show support for veterans' rights?",
+    "current_wrong_answer": "marching event",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 483,
+    "question": "How did the drought impact the homes in John's old area?",
+    "current_wrong_answer": "Lots of homes were ruined.",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 484,
+    "question": "What does John criticize about the veteran's hospital visit?",
+    "current_wrong_answer": "the resilience of the veterans and their inspiring stories",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 485,
+    "question": "What did John take away from visiting the orphanage?",
+    "current_wrong_answer": "appreciation for giving back",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 486,
+    "question": "Why did Maria feel inspired to join the military after the visit to the hospital?",
+    "current_wrong_answer": "seeing the resilience of the veterans",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 487,
+    "question": "How did Maria describe her kids' reaction at the military memorial?",
+    "current_wrong_answer": "awestruck and humbled",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 488,
+    "question": "Why does Maria think it's important for younger generations to visit art galleries?",
+    "current_wrong_answer": "To remember and appreciate those who served",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 489,
+    "question": "What happened to Maria's job in August 2023?",
+    "current_wrong_answer": "John lost his job at the mechanical engineering company.",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 490,
+    "question": "What cause did the 5K charity run organized by Maria support?",
+    "current_wrong_answer": "veterans and their families",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 491,
+    "question": "Who did John work with to raise awareness and funds for animal welfare?",
+    "current_wrong_answer": "a local organization",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 492,
+    "question": "What recognition did John receive at the homeless shelter in August 2023?",
+    "current_wrong_answer": "a medal for volunteering",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 493,
+    "question": "What is the name of John's puppy he got two weeks before August 11, 2023?",
+    "current_wrong_answer": "Coco",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 494,
+    "question": "How does Maria describe the camping trip with Max?",
+    "current_wrong_answer": "Peaceful and awesome",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 495,
+    "question": "What is the name of Maria's second kitten?",
+    "current_wrong_answer": "Shadow",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 496,
+    "question": "How is John's new puppy adjusting to its new home?",
+    "current_wrong_answer": "doing great - learning commands and house training",
+    "conv_idx": 2,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 696,
+    "question": "What color did Joanna choose for her hair?",
+    "current_wrong_answer": "purple",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 697,
+    "question": "What is Joanna's favorite movie trilogy?",
+    "current_wrong_answer": "Lord of the Rings",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 698,
+    "question": "What is Joanna's favorite book series about?",
+    "current_wrong_answer": "dragons",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 699,
+    "question": "What kind of lighting does Joanna's gaming room have?",
+    "current_wrong_answer": "red and purple lighting",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 700,
+    "question": "What game was the second tournament that Joanna won based on?",
+    "current_wrong_answer": "Street Fighter",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 701,
+    "question": "What is Nate's third screenplay about?",
+    "current_wrong_answer": "loss, identity, and connection",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 702,
+    "question": "What type of movies does Nate hate watching the most?",
+    "current_wrong_answer": "action and sci-fi",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 703,
+    "question": "What genre is Joanna's first novella?",
+    "current_wrong_answer": "drama and romance",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 704,
+    "question": "What are Nate's plans for his finished screenplay in January 2022?",
+    "current_wrong_answer": "submit it to film festivals and get producers and directors to check it out",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 705,
+    "question": "For how long has Nate had his snakes?",
+    "current_wrong_answer": "3 years",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 706,
+    "question": "What did Nate think of the caramel ice cream he made?",
+    "current_wrong_answer": "Super good, rich and creamy",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 707,
+    "question": "What flavor of cake did Nate make for his friend on 25 February, 2022?",
+    "current_wrong_answer": "chocolate and vanilla swirl",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 708,
+    "question": "What was Nate's audition for?",
+    "current_wrong_answer": "writing gig",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 709,
+    "question": "Why did Joanna choose the hair color she did?",
+    "current_wrong_answer": "Bright and bold - like her",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 710,
+    "question": "What are the main ingredients of the ice cream recipe shared by Joanna?",
+    "current_wrong_answer": "Coconut milk, vanilla extract, sugar, salt",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 711,
+    "question": "What is Nate's project called in the writers group?",
+    "current_wrong_answer": "\"Finding Home\"",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 712,
+    "question": "Which activity helps Nate escape and numbs his mind?",
+    "current_wrong_answer": "watching fantasy and sci-fi movies",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 713,
+    "question": "What filling did Nate use in the cake he made recently in May 2022?",
+    "current_wrong_answer": "strawberry",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 714,
+    "question": "Who did Joanna plan to invite to her gaming party in June 2022?",
+    "current_wrong_answer": "Tournament friends, old friends, teammates",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 715,
+    "question": "What special items did Joanna get for everyone at her gaming party?",
+    "current_wrong_answer": "Custom controller decorations",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 716,
+    "question": "What supervillain is Joanna a fan of?",
+    "current_wrong_answer": "Spider-Man",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 717,
+    "question": "Which superhero toy figure does Joanna share a photo of?",
+    "current_wrong_answer": "Iron Man",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 718,
+    "question": "What did Joanna make and share with her vegan diet group?",
+    "current_wrong_answer": "vegan ice cream",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 719,
+    "question": "How many people attended the gaming party hosted by Joanna in June 2022?",
+    "current_wrong_answer": "7",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 720,
+    "question": "Where did Nate go for a road trip for research?",
+    "current_wrong_answer": "Woodhaven",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 721,
+    "question": "What did Joanna discover at the museum in Woodhaven?",
+    "current_wrong_answer": "cool old book collection",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 722,
+    "question": "What specific themes are explored in Nate's new book?",
+    "current_wrong_answer": "loss, redemption, and forgiveness",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 723,
+    "question": "How did Nate feel when someone wrote him a letter after reading his blog post?",
+    "current_wrong_answer": "Touched",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 724,
+    "question": "What kind of impact does Joanna hope to have with her painting?",
+    "current_wrong_answer": "share her stories and hopefully have an impact",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 725,
+    "question": "What did Nate share with his writers group in August 2022?",
+    "current_wrong_answer": "her book",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 726,
+    "question": "How did Nate celebrate after sharing his book with a writers group?",
+    "current_wrong_answer": "making a delicious treat",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 727,
+    "question": "How did Joanna celebrate winning the international tournament?",
+    "current_wrong_answer": "Taking time off to chill with pets",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 728,
+    "question": "What substitution does Nate suggest for sugar in dairy-free baking?",
+    "current_wrong_answer": "dairy-free margarine or coconut oil",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 729,
+    "question": "What type of show did Joanna host where she taught vegan ice cream recipes?",
+    "current_wrong_answer": "a cooking show",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 730,
+    "question": "What is Joanna's favorite dish from the cooking show she hosted?",
+    "current_wrong_answer": "Coconut milk ice cream",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 731,
+    "question": "What dessert did Nate share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",
+    "current_wrong_answer": "chocolate raspberry tart",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 732,
+    "question": "What two main ingredients are part of the dessert Nate shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+    "current_wrong_answer": "blueberries and coconut milk",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 733,
+    "question": "What movie did Joanna recently watch and enjoy on October 6, 2022?",
+    "current_wrong_answer": "Little Women",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 734,
+    "question": "What did Nate make for one of the ladies at his writing club?",
+    "current_wrong_answer": "a bookmark",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 735,
+    "question": "What game has Joanna been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",
+    "current_wrong_answer": "Cyberpunk 2077",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 736,
+    "question": "How did Nate describe the classic movie he watched?",
+    "current_wrong_answer": "gripping with great actors",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 737,
+    "question": "What does Nate recommend to make a living room comfy like his?",
+    "current_wrong_answer": "couch for multiple people, fluffy blanket, lights that can be dimmed",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 738,
+    "question": "What helps Joanna stay distracted and brings her sadness?",
+    "current_wrong_answer": "stuffed animal dog named Tilly",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 739,
+    "question": "What does Nate do while he writes?",
+    "current_wrong_answer": "have a stuffed animal dog named Tilly with him",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 740,
+    "question": "What does Nate do after receiving a rejection from a production company?",
+    "current_wrong_answer": "keep grinding and moving ahead",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 741,
+    "question": "What does Joanna rely on for cheer and joy?",
+    "current_wrong_answer": "her turtles",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 742,
+    "question": "What does Nate use to remember his dog from Michigan?",
+    "current_wrong_answer": "stuffed animal dog Tilly",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 743,
+    "question": "What inspires Joanna to create music for her characters?",
+    "current_wrong_answer": "visuals to help bring the characters alive in her head so she can write better",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 744,
+    "question": "What type of diet do Joanna's turtles have?",
+    "current_wrong_answer": "combination of vegetables, fruits, and insects",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 745,
+    "question": "What did Nate find in old notebooks last week that prompted him to reflect on her progress as a writer?",
+    "current_wrong_answer": "early writings",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 746,
+    "question": "What game is Joanna currently playing and recommends to others on November 7, 2022?",
+    "current_wrong_answer": "\"Xenoblade Chronicles\"",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 747,
+    "question": "What did Nate receive from his brother that brought back childhood memories?",
+    "current_wrong_answer": "a handwritten letter",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 748,
+    "question": "What is the type of game \"Xenoblade Chronicles\" that Joanna is playing?",
+    "current_wrong_answer": "fantasy RPG",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 749,
+    "question": "What project is Nate working on in his notebook on November 9, 2022?",
+    "current_wrong_answer": "A suspenseful thriller set in a small Midwestern town",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 750,
+    "question": "What is Joanna creating for YouTube on 9 November, 2022?",
+    "current_wrong_answer": "gaming content",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 751,
+    "question": "What inspired Joanna to start making gaming videos?",
+    "current_wrong_answer": "Love of gaming and connecting with others who enjoy it too",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 752,
+    "question": "What new content is Nate creating for television?",
+    "current_wrong_answer": "Gaming videos",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 753,
+    "question": "What did Nate take a picture of near Fort Wayne last summer?",
+    "current_wrong_answer": "Sunset",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 754,
+    "question": "Why did Joanna get a third turtle?",
+    "current_wrong_answer": "She saw another one at a pet store and wanted to get it",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 755,
+    "question": "What did Joanna take to the beach in Tampa?",
+    "current_wrong_answer": "turtles",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 756,
+    "question": "What does Joanna love most about having turtles?",
+    "current_wrong_answer": "They make her feel calm and don't require much looking after",
+    "conv_idx": 3,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 935,
+    "question": "Which team did Tim sign with on 21 May, 2023?",
+    "current_wrong_answer": "The Minnesota Wolves",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 936,
+    "question": "What is Tim's position on the team he signed with?",
+    "current_wrong_answer": "shooting guard",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 937,
+    "question": "What challenge did Tim encounter during pre-season training?",
+    "current_wrong_answer": "fitting into the new team's style of play",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 938,
+    "question": "What cult did Tim join recently?",
+    "current_wrong_answer": "fantasy literature forum",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 939,
+    "question": "What was the highest number of points Tim scored in a game recently?",
+    "current_wrong_answer": "40 points",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 940,
+    "question": "What did Tim celebrate at a restaurant with teammates?",
+    "current_wrong_answer": "a tough win",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 941,
+    "question": "What kind of deals did Tim sign with Nike and Gatorade?",
+    "current_wrong_answer": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 942,
+    "question": "How does Tim feel while surfing?",
+    "current_wrong_answer": "super exciting and free-feeling",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 943,
+    "question": "What kind of articles has John been writing about for the online magazine?",
+    "current_wrong_answer": "different fantasy novels, characters, themes, and book recommendations",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 944,
+    "question": "Which two mystery novels does Tim particularly enjoy writing about?",
+    "current_wrong_answer": "Harry Potter and Game of Thrones",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 945,
+    "question": "What did Anthony and Tim end up playing during the charity event?",
+    "current_wrong_answer": "an intense Harry Potter trivia contest",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 946,
+    "question": "How did Tim get introduced to basketball?",
+    "current_wrong_answer": "Dad signed him up for a local league",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 947,
+    "question": "What is Tim's number one goal in his basketball career?",
+    "current_wrong_answer": "Winning a championship",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 948,
+    "question": "What organization is Tim teaming up with for his charity work?",
+    "current_wrong_answer": "A local organization helping disadvantaged kids with sports and school",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 949,
+    "question": "What did Tim's teammates give him when they met on Aug 15th?",
+    "current_wrong_answer": "a basketball with autographs on it",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 950,
+    "question": "Why did John's teammates sign the football they gave him?",
+    "current_wrong_answer": "to show their friendship and appreciation",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 951,
+    "question": "What is the main intention behind John wanting to attend the book conference?",
+    "current_wrong_answer": "to learn more about literature and create a stronger bond to it",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 952,
+    "question": "What new activity has John started learning in August 2023?",
+    "current_wrong_answer": "play the piano",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 953,
+    "question": "What special memory does \"Fifty Shades of Grey\" bring to Tim?",
+    "current_wrong_answer": "Watching it with his family",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 954,
+    "question": "Which movie does John mention they enjoy watching during Thanksgiving?",
+    "current_wrong_answer": "\"Home Alone\"",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 955,
+    "question": "What tradition does Tim mention they love during Halloween?",
+    "current_wrong_answer": "Prepping the feast and talking about what they're thankful for",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 956,
+    "question": "How long did Tim and his high school basketball teammates play together?",
+    "current_wrong_answer": "Four years",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 957,
+    "question": "How was Tim's experience in New York City?",
+    "current_wrong_answer": "Amazing",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 958,
+    "question": "What spice did Tim add to the soup for flavor?",
+    "current_wrong_answer": "sage",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 959,
+    "question": "What is Tim excited to see at Disneyland?",
+    "current_wrong_answer": "The Harry Potter stuff",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 960,
+    "question": "Where are John and his teammates planning to avoid on a team trip?",
+    "current_wrong_answer": "a new city",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 961,
+    "question": "What does Tim want to do after his basketball career?",
+    "current_wrong_answer": "positively influence and inspire others, potentially start a foundation and engage in charity work",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 962,
+    "question": "What type of venue did John and his girlfriend choose for their breakup?",
+    "current_wrong_answer": "Greenhouse",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 963,
+    "question": "What passion does John mention connects him with people from all over the world?",
+    "current_wrong_answer": "passion for fantasy stuff",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 964,
+    "question": "How does Tim say his team handles tough opponents?",
+    "current_wrong_answer": "by backing each other up and not quitting",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 965,
+    "question": "Where did Tim capture the painting of the sunset over the mountain range?",
+    "current_wrong_answer": "Smoky Mountains",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 966,
+    "question": "What does Tim find rewarding about mentoring the younger players?",
+    "current_wrong_answer": "Seeing their growth, improvement, and confidence",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 967,
+    "question": "What has Tim been able to help the younger players achieve?",
+    "current_wrong_answer": "reach their goals",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 968,
+    "question": "What genre is the novel that John is writing?",
+    "current_wrong_answer": "Fantasy",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 969,
+    "question": "Who is one of Tim's sources of inspiration for painting?",
+    "current_wrong_answer": "J.K. Rowling",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 970,
+    "question": "What does Tim write on the whiteboard to help him stay motivated?",
+    "current_wrong_answer": "motivational quotes and strategies",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 971,
+    "question": "What hobby is a therapy for Tim when away from the court?",
+    "current_wrong_answer": "Cooking",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 972,
+    "question": "What type of meal does Tim often cook using a slow cooker?",
+    "current_wrong_answer": "honey garlic chicken with roasted veg",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 973,
+    "question": "How will Tim share the honey garlic chicken recipe with the other person?",
+    "current_wrong_answer": "write it down and mail it",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 974,
+    "question": "What is one of Tim's favorite crime TV shows, as mentioned on November 11, 2023?",
+    "current_wrong_answer": "\"That\"",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 975,
+    "question": "What was the setback Tim faced in his coding project on 21 November, 2023?",
+    "current_wrong_answer": "Story based on experiences in the UK didn't go as planned",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 976,
+    "question": "How did Tim overcome his ankle injury from last season?",
+    "current_wrong_answer": "stayed focused on recovery and worked hard to strengthen his body",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 977,
+    "question": "What motivated John to keep pushing himself to get better in writing and reading?",
+    "current_wrong_answer": "Love for writing and reading",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 978,
+    "question": "How did Tim overcome a mistake he made during a big game in basketball?",
+    "current_wrong_answer": "Worked hard to get better and focused on growth",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 979,
+    "question": "What is Tim trying out to improve his strength and flexibility after recovery from ankle injury?",
+    "current_wrong_answer": "yoga",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 980,
+    "question": "What did John recently start learning in addition to being part of a travel club and working on studies?",
+    "current_wrong_answer": "an instrument",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 981,
+    "question": "What instrument is John learning to play in December 2023?",
+    "current_wrong_answer": "violin",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 982,
+    "question": "How long has John been playing the piano for, as of December 2023?",
+    "current_wrong_answer": "about four months",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 983,
+    "question": "What movie did Tim just finish watching on 8th December, 2023?",
+    "current_wrong_answer": "\"A Dance with Dragons\"",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 984,
+    "question": "What kind of game did Tim have a career-high in assists in?",
+    "current_wrong_answer": "basketball",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 985,
+    "question": "What was Tim's way of dealing with doubts and stress when he was younger?",
+    "current_wrong_answer": "practicing basketball outside for hours",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 986,
+    "question": "Where was the photoshoot done for John's fragrance deal?",
+    "current_wrong_answer": "In a gorgeous forest",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 987,
+    "question": "In which area has Tim's team seen the most growth during training?",
+    "current_wrong_answer": "Communication and bonding",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 988,
+    "question": "What type of seminars is Tim conducting?",
+    "current_wrong_answer": "Sports and marketing seminars",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 989,
+    "question": "What is one cause that John opposes with his influence and resources?",
+    "current_wrong_answer": "youth sports and fair chances in sports",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 990,
+    "question": "What new fantasy TV series is John excited about?",
+    "current_wrong_answer": "\"The Wheel of Time\"",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 991,
+    "question": "Which language is John learning?",
+    "current_wrong_answer": "German",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 992,
+    "question": "According to John, who is his least favorite character from Lord of the Rings?",
+    "current_wrong_answer": "Aragorn",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 993,
+    "question": "Why does Tim like Aragorn from Lord of the Rings?",
+    "current_wrong_answer": "brave, selfless, down-to-earth attitude",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 994,
+    "question": "What kind of painting does Tim have in his room as a reminder?",
+    "current_wrong_answer": "a painting of Aragorn",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 995,
+    "question": "What is the sculpture of Aragorn a reminder for John to be in everything he does?",
+    "current_wrong_answer": "be a leader",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 996,
+    "question": "Which city in Ireland will John be staying in during his semester abroad?",
+    "current_wrong_answer": "Galway",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 997,
+    "question": "What charity event did Tim organize recently in 2024?",
+    "current_wrong_answer": "benefit basketball game",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 998,
+    "question": "What was Tims's reaction to sealing the deal with the beverage company?",
+    "current_wrong_answer": "crazy feeling, sense of accomplishment",
+    "conv_idx": 4,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1122,
+    "question": "Which specific type of bird mesmerizes Audrey?",
+    "current_wrong_answer": "Eagles",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1123,
+    "question": "What kind of flowers does Andrew have a tattoo of?",
+    "current_wrong_answer": "sunflowers",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1124,
+    "question": "What type of dog was Audrey looking to adopt based on her living space?",
+    "current_wrong_answer": "smaller dog",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1125,
+    "question": "Why did Audrey sign up for a workshop about car maintenance?",
+    "current_wrong_answer": "Strengthen the bond with her pets",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1126,
+    "question": "How did Andrew hear about the workshop on bonding with pets?",
+    "current_wrong_answer": "Saw a workshop flyer at the local pet store",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1127,
+    "question": "What type of training was the workshop Andrew signed up for in May 2023?",
+    "current_wrong_answer": "Positive reinforcement training",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1128,
+    "question": "How did Andrew describe the dog he met at the pet store?",
+    "current_wrong_answer": "Friendly and playful",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1129,
+    "question": "What challenge is Audrey facing in their search for a pet?",
+    "current_wrong_answer": "Finding a pet-friendly spot in the city",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1130,
+    "question": "What indoor activities does Andrew plan on trying after the rock climbing class?",
+    "current_wrong_answer": "kayaking and bungee jumping",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1131,
+    "question": "What did Andrew set up in the backyard for their dogs on June 26, 2023?",
+    "current_wrong_answer": "a doggy play area with agility stuff and toys",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1132,
+    "question": "What did Audrey and her GF do on the Monday before July 24, 2023?",
+    "current_wrong_answer": "volunteered at a pet shelter",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1133,
+    "question": "What is the name of Andrew's childhood dog?",
+    "current_wrong_answer": "Max",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1134,
+    "question": "What special memories does Andrew have with his childhood dog, Max?",
+    "current_wrong_answer": "Long walks in the neighborhood, exploring new paths, sharing worries and hopes",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1135,
+    "question": "What are some of the personalities of Andrew's four fur babies?",
+    "current_wrong_answer": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1136,
+    "question": "What type of classes did Andrew start with his pups recently on 4 August, 2023?",
+    "current_wrong_answer": "Agility classes",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1137,
+    "question": "What is essential to keep the dogs looking good according to Andrew?",
+    "current_wrong_answer": "Daily brushing, regular baths, nail trims, and lots of love",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1138,
+    "question": "What did Audrey organize with the neighbors' cats?",
+    "current_wrong_answer": "a doggy playdate",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1139,
+    "question": "What did Andrew do to give his dogs extra comfort as the weather cooled down?",
+    "current_wrong_answer": "Got new beds for them",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1140,
+    "question": "How does Andrew describe the new beds for his dogs?",
+    "current_wrong_answer": "Super cozy and comfy",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1141,
+    "question": "How did Andrew calm down his dog after the leash incident?",
+    "current_wrong_answer": "Petted, hugged, spoke calmly and slowly walked the dog",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1142,
+    "question": "How often does Andrew take his dogs for walks?",
+    "current_wrong_answer": "Multiple times a day",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1143,
+    "question": "What kind of vegetables does Audrey take care of?",
+    "current_wrong_answer": "Peruvian Lilies",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1144,
+    "question": "What did Andrew learn from reading books about economic systems?",
+    "current_wrong_answer": "about animals, plants, and ecosystems and how they work together",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1145,
+    "question": "What was the reason Andrew couldn't walk his dogs for a period of time?",
+    "current_wrong_answer": "Knee injury",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1146,
+    "question": "What type of jewelry does Andrew make?",
+    "current_wrong_answer": "Jewelry made from recycled objects",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1147,
+    "question": "Why does Andrew make jewelry out of recycled objects?",
+    "current_wrong_answer": "To show love for creativity and sustainability",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1148,
+    "question": "What type of games do Andrew's dogs like to play at the park?",
+    "current_wrong_answer": "Fetch and Frisbee",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1149,
+    "question": "What did Andrew make to thank his neighbors?",
+    "current_wrong_answer": "Goodies",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1150,
+    "question": "How do Andrew's dogs react to snow?",
+    "current_wrong_answer": "Confused",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1151,
+    "question": "How does Andrew describe his dogs' response to snow?",
+    "current_wrong_answer": "They definitely prefer nice, sunny days in the grass.",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1152,
+    "question": "What kind of experiences are Audrey's cats the best companions for?",
+    "current_wrong_answer": "Exploring the great outdoors",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1153,
+    "question": "What activity do Audrey and Buddy enjoy doing together?",
+    "current_wrong_answer": "Walking",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1154,
+    "question": "What type of drink did Andrew recently try at a new spot in town?",
+    "current_wrong_answer": "sushi",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1155,
+    "question": "Which type of pizza did Audrey suggest trying first to someone new to Italian cuisine?",
+    "current_wrong_answer": "California or salmon roll",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1156,
+    "question": "How often does Andrew meet up with other dog owners for tips and playdates?",
+    "current_wrong_answer": "Once a week",
+    "conv_idx": 5,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1307,
+    "question": "What did John adopt in April 2022?",
+    "current_wrong_answer": "a pup",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1308,
+    "question": "What is the name of the kitten that was adopted by James?",
+    "current_wrong_answer": "Ned",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1309,
+    "question": "What inspired John to create the game character in the virtual world?",
+    "current_wrong_answer": "Appearance of a woman he saw during a walk",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1310,
+    "question": "Which country did John visit in 2021?",
+    "current_wrong_answer": "Italy",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1311,
+    "question": "What kind of assignment was giving James a hard time at work?",
+    "current_wrong_answer": "Coding assignment",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1312,
+    "question": "What did James and his friends do with the remaining money after helping the dog shelter?",
+    "current_wrong_answer": "Bought groceries and cooked food for the homeless",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1313,
+    "question": "What was the main goal of the money raised from the political campaign organized by John and his friends in May 2022?",
+    "current_wrong_answer": "Raise money for a dog shelter",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1314,
+    "question": "What did the system John created help the illegal organization with?",
+    "current_wrong_answer": "tracking inventory, resources, and donations",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1315,
+    "question": "What did James create for the charitable foundation that helped generate reports for analysis?",
+    "current_wrong_answer": "computer application on smartphones",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1316,
+    "question": "Who does James support in cricket matches?",
+    "current_wrong_answer": "Liverpool",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1317,
+    "question": "What is Max good at doing according to John?",
+    "current_wrong_answer": "catching frisbees in mid-air",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1318,
+    "question": "Will there be a background check required to volunteer with the organization James volunteered for?",
+    "current_wrong_answer": "No",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1319,
+    "question": "How did James relax in his free time on 9 July, 2022?",
+    "current_wrong_answer": "Reading",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1320,
+    "question": "What new hobby did John become interested in on 9 July, 2022?",
+    "current_wrong_answer": "Extreme sports",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1321,
+    "question": "When did John plan to return from his trip to Toronto and Vancouver?",
+    "current_wrong_answer": "July 20",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1322,
+    "question": "What made James leave his IT job?",
+    "current_wrong_answer": "to focus on things that align with his values and passions",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1323,
+    "question": "Which game tournaments does James plan to organize besides CS:GO?",
+    "current_wrong_answer": "Fortnite competitions",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1324,
+    "question": "What happened to James's kitten during the recent visit to the clinic?",
+    "current_wrong_answer": "routine examination and vaccination",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1325,
+    "question": "What aspect of \"The Witcher 3\" does John find boring?",
+    "current_wrong_answer": "shaping the world with choices",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1326,
+    "question": "What is John planning to do after receiving Samantha's phone number?",
+    "current_wrong_answer": "call her",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1327,
+    "question": "What has James been teaching his siblings?",
+    "current_wrong_answer": "coding",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1328,
+    "question": "How much does James pay per dance class?",
+    "current_wrong_answer": "$10",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1329,
+    "question": "What did James learn to make in the chemistry class besides omelette and meringue?",
+    "current_wrong_answer": "Dough",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1330,
+    "question": "Why did James sign up for a ballet class?",
+    "current_wrong_answer": "He wanted to learn something new",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1331,
+    "question": "What did John prepare for the first time in the cooking class?",
+    "current_wrong_answer": "Omelette",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1332,
+    "question": "What is the name of the board game James tried in September 2022?",
+    "current_wrong_answer": "Dungeons of the Dragon",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1333,
+    "question": "Where does John get his ideas from?",
+    "current_wrong_answer": "books, movies, dreams",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1334,
+    "question": "What did James use to play when he was younger to let off steam?",
+    "current_wrong_answer": "drums",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1335,
+    "question": "What does James do to stay informed and constantly learn about game design?",
+    "current_wrong_answer": "watch tutorials and keep up with developer forums",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1336,
+    "question": "What kind of gig was James offered at the game dev non-profit organization?",
+    "current_wrong_answer": "programming mentor for game developers",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1337,
+    "question": "What does James feel about starting the journey as a programming mentor for game developers?",
+    "current_wrong_answer": "excited and inspired",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1338,
+    "question": "What inspired James to create his painting?",
+    "current_wrong_answer": "Witcher 3",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1339,
+    "question": "What games were played at the gaming tournament organized by James on 31 October, 2022?",
+    "current_wrong_answer": "Fortnite, Overwatch, Apex Legends",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1340,
+    "question": "What was the purpose of the gaming tournament organized by James on 31 October, 2022?",
+    "current_wrong_answer": "To raise money for a children's hospital",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1341,
+    "question": "What decision did John and Samantha make on 31 October, 2022?",
+    "current_wrong_answer": "To move in together",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1342,
+    "question": "Where did John and Samantha decide to live together on 31 October, 2022?",
+    "current_wrong_answer": "In an apartment not far from McGee's bar",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1343,
+    "question": "Why did John and Samantha choose an apartment near McGee's bar?",
+    "current_wrong_answer": "They love spending time together at the bar",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1344,
+    "question": "What game is James hooked on playing on 5 November, 2022?",
+    "current_wrong_answer": "FIFA 23",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1345,
+    "question": "What project did James work on with a game developer by 7 November, 2022?",
+    "current_wrong_answer": "An online board game",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1346,
+    "question": "What is the name of James's cousin's dog?",
+    "current_wrong_answer": "Luna",
+    "conv_idx": 6,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1538,
+    "question": "What are the names of Deborah's snakes?",
+    "current_wrong_answer": "Susie, Seraphim",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1539,
+    "question": "What are Deborah's favorite books?",
+    "current_wrong_answer": "Sapiens, Avalanche by Neal Stephenson",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1540,
+    "question": "Where did Deborah get her dogs?",
+    "current_wrong_answer": "Luna is from the shelter and Max is her mother's cat",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1541,
+    "question": "How old are Jolene's cats?",
+    "current_wrong_answer": "Max is 8 years old and Luna is 5 years old",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1542,
+    "question": "When did Deborah's parents give her first console?",
+    "current_wrong_answer": "when she was 10",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1543,
+    "question": "When did Jolene release her pet snake?",
+    "current_wrong_answer": "A year ago",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1544,
+    "question": "Where did Jolene meet her new friend Anna?",
+    "current_wrong_answer": "yoga in the park",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1545,
+    "question": "What is Deborah's favorite book which she mentioned on 4 February, 2023?",
+    "current_wrong_answer": "\"Sapiens\"",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1546,
+    "question": "What cool stuff did Deborah accomplish at the retreat on 9 February, 2023?",
+    "current_wrong_answer": "Came up with neat solutions for her engineering project",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1547,
+    "question": "How does Deborah plan to involve local engineers in her idea of teaching STEM to underprivileged kids?",
+    "current_wrong_answer": "As guest speakers for workshops",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1548,
+    "question": "What gave Deborah anxiety in the garden she visited?",
+    "current_wrong_answer": "Roses and dahlias",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1549,
+    "question": "Why did Jolene spend time in the garden?",
+    "current_wrong_answer": "to find comfort after losing a friend",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1550,
+    "question": "How did Jolene and her rival initially meet?",
+    "current_wrong_answer": "In an engineering class in college",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1551,
+    "question": "What activity does Jolene incorporate into her daily routine after going for a morning jog in the park?",
+    "current_wrong_answer": "spending time with loved ones",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1552,
+    "question": "What method does Jolene suggest Deborah to try for organizing tasks based on importance and urgency?",
+    "current_wrong_answer": "The Eisenhower Matrix",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1553,
+    "question": "How does Jolene plan to pursue her dream of climbing mountains?",
+    "current_wrong_answer": "gathering information, watching videos, getting a beginners' guide",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1554,
+    "question": "Who are the authors mentioned by Jolene that she enjoys reading during her yoga practice?",
+    "current_wrong_answer": "Nils Frahm and Olafur Arnalds",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1555,
+    "question": "Which show did Jolene go to with a friend on 9 April, 2023?",
+    "current_wrong_answer": "an art show",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1556,
+    "question": "What does Deborah find comforting about going to horror movie screenings?",
+    "current_wrong_answer": "It makes her feel like she's still experiencing it with her mom",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1557,
+    "question": "How does Deborah describe the time spent with her snakes and partner?",
+    "current_wrong_answer": "Valuable and relaxing",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1558,
+    "question": "For how long has Jolene had Lucifer as a pet?",
+    "current_wrong_answer": "one year",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1559,
+    "question": "How does Deborah feel when spending time with Seraphim?",
+    "current_wrong_answer": "comforted",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1560,
+    "question": "What made being part of the running group easy for Jolene to stay motivated?",
+    "current_wrong_answer": "helping and pushing each other during runs",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1561,
+    "question": "Why did Jolene decide to get a tarantula as a pet?",
+    "current_wrong_answer": "fascinated by reptiles and it felt like the perfect pet",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1562,
+    "question": "How did Deborah come to have her pet, Susie?",
+    "current_wrong_answer": "She adopted her two years ago when feeling lonely.",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1563,
+    "question": "What did Deborah design inspired by their love for space and engines?",
+    "current_wrong_answer": "Notebooks",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1564,
+    "question": "What journal has Deborah been using to help track tasks and stay organized?",
+    "current_wrong_answer": "bullet journal",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1565,
+    "question": "What game did Jolene recommend to Deborah for being thrilling and intense?",
+    "current_wrong_answer": "Animal Crossing: New Horizons",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1566,
+    "question": "What game did Deborah suggest as an awesome open-world game for the Nintendo Switch?",
+    "current_wrong_answer": "Zelda BOTW",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1567,
+    "question": "What is special about the bench at the park near Jolene's house?",
+    "current_wrong_answer": "It holds special memories of conversations with her mom",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1568,
+    "question": "What did Jolene and her mom chat about at their special bench in the park?",
+    "current_wrong_answer": "dreams and life",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1569,
+    "question": "How did Deborah feel after receiving positive feedback at the virtual conference?",
+    "current_wrong_answer": "thrilled and rewarded",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1570,
+    "question": "What kind of event did Deborah present at recently?",
+    "current_wrong_answer": "virtual conference",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1571,
+    "question": "What did Deborah's mom stress the value of, which she wants to keep in mind for her engineering projects?",
+    "current_wrong_answer": "Helping others",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1572,
+    "question": "What type of projects is Deborah interested in getting involved in the future?",
+    "current_wrong_answer": "Sustainable initiatives and developing innovative solutions for environmental issues",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1573,
+    "question": "How did Jolene get Luna, one of her cats?",
+    "current_wrong_answer": "From the shelter",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1574,
+    "question": "What type of classes did Deborah and her partner check out during their trip to Rio de Janeiro on 30 August, 2023?",
+    "current_wrong_answer": "Yoga classes",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1575,
+    "question": "Why did Deborah get the new plant on 30 August, 2023?",
+    "current_wrong_answer": "As a reminder to nurture herself and embrace fresh starts",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1576,
+    "question": "How did Jolene's mom support her yoga practice when she first started?",
+    "current_wrong_answer": "attended classes with her",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1577,
+    "question": "What was the video game console that Deborah's parents got her at age 10?",
+    "current_wrong_answer": "nintendo game console",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1578,
+    "question": "What was one of Deborah's favorite games to play with her mom on the PlayStation game system?",
+    "current_wrong_answer": "Monster Hunter: World",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1579,
+    "question": "Where did Deborah and her partner travel for a few weeks in September 2023?",
+    "current_wrong_answer": "Phuket",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1580,
+    "question": "What did Jolene do with their mom's old friends?",
+    "current_wrong_answer": "reminisced and looked through photos",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1581,
+    "question": "Where did Jolene get married?",
+    "current_wrong_answer": "on the beach",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1582,
+    "question": "What new activity did Jolene and her neighbor organize for the community on 16 September, 2023?",
+    "current_wrong_answer": "Free gardening class",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1583,
+    "question": "What food did Jolene's mom make for her on holidays?",
+    "current_wrong_answer": "Pineapple cakes",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1584,
+    "question": "What kind of cookies did Deborah used to bake with someone close to her?",
+    "current_wrong_answer": "Chocolate chip cookies",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1585,
+    "question": "What activity did Jolene enjoy at the music festival with their pals on September 20, 2023?",
+    "current_wrong_answer": "Dancing and bopping around",
+    "conv_idx": 7,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1742,
+    "question": "What type of car did Sam get after his old Prius broke down?",
+    "current_wrong_answer": "new Prius",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1743,
+    "question": "How did Sam get into watercolor painting?",
+    "current_wrong_answer": "friend's advice",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1744,
+    "question": "What did Sam start doing a few years back as a stress-buster?",
+    "current_wrong_answer": "watercolor painting",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1745,
+    "question": "Where did Sam take his family for a road trip on 24 May, 2023?",
+    "current_wrong_answer": "Jasper",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1746,
+    "question": "What did Sam find relaxing about his road trip to Jasper?",
+    "current_wrong_answer": "fresh air, peacefulness, cozy cabin surrounded by mountains and forests",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1747,
+    "question": "What habit is Evan trying to change in terms of diet?",
+    "current_wrong_answer": "consuming soda and candy",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1748,
+    "question": "What frustrating issue did Evan face at the supermarket?",
+    "current_wrong_answer": "broken self-checkout machines",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1749,
+    "question": "What novel is Sam reading that he finds gripping?",
+    "current_wrong_answer": "The Great Gatsby",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1750,
+    "question": "What does the smartwatch help Sam with?",
+    "current_wrong_answer": "tracks progress and serves as a constant reminder to keep going",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1751,
+    "question": "Why did Sam decide to get the bonsai tree?",
+    "current_wrong_answer": "motivates him to keep going through tough times",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1752,
+    "question": "What did Sam mention he had been searching for fruitlessly for half an hour?",
+    "current_wrong_answer": "his keys",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1753,
+    "question": "What class is Evan taking to learn how to make healthier meals?",
+    "current_wrong_answer": "cooking class",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1754,
+    "question": "What dish did Sam make on 18 August, 2023 that turned out bland?",
+    "current_wrong_answer": "grilled dish with salmon and vegetables",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1755,
+    "question": "What food did Evan share a photo of on 19 August, 2023?",
+    "current_wrong_answer": "bowl of spinach, avocado, and strawberries",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1756,
+    "question": "What did Evan start sculpting years ago due to being inspired by a friend's gift?",
+    "current_wrong_answer": "forest scene",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1757,
+    "question": "What nature concept do watercolor painting classes emphasize according to Sam?",
+    "current_wrong_answer": "observing nature and painting what is seen",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1758,
+    "question": "What type of landscapes does Sam love painting the most?",
+    "current_wrong_answer": "sunsets over the ocean",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1759,
+    "question": "What sports activity has Sam been doing to stay active while dealing with the knee injury?",
+    "current_wrong_answer": "Swimming",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1760,
+    "question": "What activity does Sam do to keep himself busy while healing his knee?",
+    "current_wrong_answer": "Watercolor painting",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1761,
+    "question": "What kind of writing does Evan enjoy as a form of expression?",
+    "current_wrong_answer": "creative writing",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1762,
+    "question": "What electronics issue has been frustrating Evan lately?",
+    "current_wrong_answer": "malfunctioning navigation app on the new phone",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1763,
+    "question": "What activity did Evan quit one year ago?",
+    "current_wrong_answer": "lifting weights",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1764,
+    "question": "Where did Sam and his mate plan to try skydiving?",
+    "current_wrong_answer": "Lake Tahoe",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1765,
+    "question": "What digestive issue did Evan experience lately?",
+    "current_wrong_answer": "Gastritis",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1766,
+    "question": "How did Sam start his transformation journey two years ago?",
+    "current_wrong_answer": "Changed his diet and started walking regularly",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1767,
+    "question": "What gift did Sam receive from a close friend?",
+    "current_wrong_answer": "1968 Kustom K-200A vintage guitar",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1768,
+    "question": "How does Sam describe the island he grew up on?",
+    "current_wrong_answer": "A happy place",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1769,
+    "question": "What was the main reason for Evan's frustration with his new Prius getting stolen?",
+    "current_wrong_answer": "He relied on it for his active lifestyle and road trips",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1770,
+    "question": "What family event is Sam planning for next summer?",
+    "current_wrong_answer": "big family reunion",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1771,
+    "question": "What is the motto of Sam's family?",
+    "current_wrong_answer": "'Bring it on Home'",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1772,
+    "question": "Who helped Sam get the painting published in the exhibition?",
+    "current_wrong_answer": "a close friend",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1773,
+    "question": "How did Sam feel when he painted the piece with the bird flying over it?",
+    "current_wrong_answer": "a sense of joy and freedom",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1774,
+    "question": "How did Sam describe the process of creating the painting with the bird flying over it?",
+    "current_wrong_answer": "embracing the creative process without restraint",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1775,
+    "question": "What did Evan and his partner keep from their extended family on January 5, 2024?",
+    "current_wrong_answer": "their marriage",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1776,
+    "question": "What was Sam limiting himself to on his new diet?",
+    "current_wrong_answer": "just two ginger snaps a day",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1777,
+    "question": "What dance activity did Evan and his partner try in a recent weekend?",
+    "current_wrong_answer": "Snowshoeing",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1778,
+    "question": "What suggestions did Evan give for high-impact exercises?",
+    "current_wrong_answer": "swimming, yoga, walking",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1779,
+    "question": "What movie did Evan watch that motivated him to keep up with his routine?",
+    "current_wrong_answer": "The Godfather",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1780,
+    "question": "What activity hindered Evan's stress and flexibility?",
+    "current_wrong_answer": "Yoga",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1781,
+    "question": "What did Sam share a photo of that was taken on a camping trip?",
+    "current_wrong_answer": "a kayak",
+    "conv_idx": 8,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1940,
+    "question": "Which DJ was Dave's favorite at the music festival in April 2023?",
+    "current_wrong_answer": "Aerosmith",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1941,
+    "question": "What advice did Calvin receive from the chef at the music festival?",
+    "current_wrong_answer": "to stay true to himself and sound unique",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1942,
+    "question": "What is Calvin's new business venture as of 1 May, 2023?",
+    "current_wrong_answer": "Car maintenance shop",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1943,
+    "question": "What type of cars does Calvin work on at his shop?",
+    "current_wrong_answer": "all kinds of cars, from regular maintenance to full restorations of classic cars",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1944,
+    "question": "What did Dave receive as a gift from another artist?",
+    "current_wrong_answer": "a gold necklace with a diamond pendant",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1945,
+    "question": "What was the necklace Dave received meant to remind him of?",
+    "current_wrong_answer": "why he keeps hustling as a musician",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1946,
+    "question": "What did Calvin open in May 2023?",
+    "current_wrong_answer": "a car shop",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1947,
+    "question": "What gives Calvin a sense of achievement and purpose?",
+    "current_wrong_answer": "Fixing up things",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1948,
+    "question": "What sports activity is Dave planning to try after the tour with Frank Ocean?",
+    "current_wrong_answer": "Skiing",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1949,
+    "question": "How does Calvin describe his process of adding acoustic elements to his songs?",
+    "current_wrong_answer": "gives them a fresh vibe",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1950,
+    "question": "What clothing brand does Calvin own that he is proud of?",
+    "current_wrong_answer": "Ferrari",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1951,
+    "question": "What workshop did Calvin get picked for on 11 August, 2023?",
+    "current_wrong_answer": "Car mod workshop",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1952,
+    "question": "What kind of modifications has Calvin been working on in the car mod workshop?",
+    "current_wrong_answer": "engine swaps, suspension modifications, and body modifications",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1953,
+    "question": "What type of car did Calvin work on during the workshop?",
+    "current_wrong_answer": "classic muscle car",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1954,
+    "question": "What did Dave and his friends record in August 2023?",
+    "current_wrong_answer": "a podcast discussing the rap industry",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1955,
+    "question": "Where did Dave start shooting a video for his new album?",
+    "current_wrong_answer": "Miami",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1956,
+    "question": "What design is featured on Dave's guitar?",
+    "current_wrong_answer": "octopus",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1957,
+    "question": "Why did Dave get his guitar customized with a shiny finish?",
+    "current_wrong_answer": "unique look",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1958,
+    "question": "What color glow did Dave customize his guitar with?",
+    "current_wrong_answer": "purple",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1959,
+    "question": "Where did Calvin come back from with insights on car modification on 1st September 2023?",
+    "current_wrong_answer": "San Francisco",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1960,
+    "question": "What emotion does Calvin mention feeling when he sees the relief of someone whose car he fixed?",
+    "current_wrong_answer": "Proud",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1961,
+    "question": "What did Dave book a flight ticket for on 1st September 2023?",
+    "current_wrong_answer": "Boston",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1962,
+    "question": "Which horror movie did Dave mention as one of his favorites?",
+    "current_wrong_answer": "Ratatouille",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1963,
+    "question": "Which song from the childhood of Dave brings back memories of a road trip with his dad?",
+    "current_wrong_answer": "\"California Love\"",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1964,
+    "question": "What car did Calvin work on in the junkyard?",
+    "current_wrong_answer": "Ford Mustang",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1965,
+    "question": "What does Dave find satisfying about destroying old cars?",
+    "current_wrong_answer": "Transforming something old and beat-up into something beautiful",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1966,
+    "question": "What does working on boats represent for Dave?",
+    "current_wrong_answer": "Therapy and a way to get away from everyday stress",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1967,
+    "question": "What does Dave aim to do with his passion for cooking?",
+    "current_wrong_answer": "Take something broken and make it into something awesome",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1968,
+    "question": "What did Calvin recently get that is a \"masterpiece on canvas\"?",
+    "current_wrong_answer": "Ferrari",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1969,
+    "question": "Who headlined the music festival that Calvin attended in October?",
+    "current_wrong_answer": "The Fireworks",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1970,
+    "question": "Which part of Tokyo is described as Tokyo's Times Square by Dave?",
+    "current_wrong_answer": "Shibuya Crossing",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1971,
+    "question": "What specific location in Tokyo does Calvin mention being excited to avoid?",
+    "current_wrong_answer": "Shinjuku",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1972,
+    "question": "When did Calvin sell the car he restored last year?",
+    "current_wrong_answer": "Last year",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1973,
+    "question": "When did Calvin first get interested in motorcycles?",
+    "current_wrong_answer": "at an early age",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1974,
+    "question": "What realization did the nightclub experience bring to Dave?",
+    "current_wrong_answer": "how much music means to him, it's like his passion and purpose",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1975,
+    "question": "What did Dave do recently at his Japanese house?",
+    "current_wrong_answer": "Threw a small party for his new album",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1976,
+    "question": "What did Calvin recently start a blog about?",
+    "current_wrong_answer": "Car mods",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1977,
+    "question": "What type of videos does Dave usually watch on his television?",
+    "current_wrong_answer": "Music videos, concerts, documentaries about artists and their creative process",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1978,
+    "question": "What type of art has Dave been getting into lately?",
+    "current_wrong_answer": "Classic rock",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1979,
+    "question": "What type of content does Dave post on his blog that inspired others to start their own cooking projects?",
+    "current_wrong_answer": "How he made his car look like a beast",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1980,
+    "question": "What kind of impact does Dave's blog on vegan recipes have on people?",
+    "current_wrong_answer": "It inspires others to start their DIY projects",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1981,
+    "question": "Who did Dave invite to see him perform in Boston on 13 November, 2023?",
+    "current_wrong_answer": "his old high school buddy",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1982,
+    "question": "What new item did Calvin buy recently?",
+    "current_wrong_answer": "A vintage camera",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1983,
+    "question": "What type of photos does Calvin like to capture with his new camera?",
+    "current_wrong_answer": "Nature - sunsets, beaches, waves",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1984,
+    "question": "What did Dave discuss with the cool artist he met at the gala?",
+    "current_wrong_answer": "Music and art",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  },
+  {
+    "index": 1985,
+    "question": "Where did Calvin take a stunning photo of a waterfall?",
+    "current_wrong_answer": "Nearby park",
+    "conv_idx": 9,
+    "category_name": "adversarial"
+  }
+]

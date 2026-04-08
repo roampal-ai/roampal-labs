@@ -1,0 +1,633 @@
+{
+  "conv_idx": 4,
+  "true_facts": [
+    "Q: what are John's goals with regards to his basketball career? A: improve shooting percentage, win a championship",
+    "Q: What are John's goals for his career that are not related to his basketball skills? A: get endorsements, build his brand, do charity work",
+    "Q: What items does John collect? A: sneakers, fantasy movie DVDs, jerseys",
+    "Q: Would Tim enjoy reading books by C. S. Lewis or John Greene? A: C. S.Lewis",
+    "Q: What books has Tim read? A: Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of Time.",
+    "Q: Based on Tim's collections, what is a shop that he would enjoy visiting in New York city? A: House of MinaLima",
+    "Q: In which month's game did John achieve a career-high score in points? A: June 2023",
+    "Q: Which geographical locations has Tim been to? A: California, London, the Smoky Mountains",
+    "Q: Which outdoor gear company likely signed up John for an endorsement deal? A: Under Armour",
+    "Q: Which endorsement deals has John been offered? A: basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor gear company",
+    "Q: When was John in Seattle for a game? A: early August, 2023",
+    "Q: What sports does John like besides basketball? A: surfing",
+    "Q: What year did John start surfing? A: 2018",
+    "Q: What does Tim do to escape reality? A: Read fantasy books.",
+    "Q: What kind of writing does Tim do? A: comments on favorite books in a fantasy literature forum, articles on fantasy novels, studying characters, themes, and making book recommendations, writing a fantasy novel",
+    "Q: Who is Anthony? A: likely John's friend, colleague or family",
+    "Q: After how many weeks did Tim reconnect with the fellow Harry Potter fan from California? A: three weeks",
+    "Q: How many games has John mentioned winning? A: 6",
+    "Q: What authors has Tim read books from? A: J.K. Rowling, R.R. Martin, Patrick Rothfuss, Paulo Coelho, and J. R. R. Tolkien.",
+    "Q: What is a prominent charity organization that John might want to work with and why? A: Good Sports, because they work with Nike, Gatorade, and Under Armour and they aim toprovide youth sports opportunities for kids ages 3-18 in high-need communities.",
+    "Q: Which city was John in before traveling to Chicago? A: Seattle",
+    "Q: Which US cities does John mention visiting to Tim? A: Seattle, Chicago, New York",
+    "Q: When did John meet with his teammates after returning from Chicago? A: August 15, 2023",
+    "Q: When is Tim attending a book conference? A: September 2023",
+    "Q: Where was John between August 11 and August 15 2023? A: Chicago",
+    "Q: What similar sports collectible do Tim and John own? A: signed basketball",
+    "Q: Which TV series does Tim mention watching? A: That, Wheel of Time",
+    "Q: Which popular time management technique does Tim use to prepare for exams? A: Pomodoro technique",
+    "Q: Which popular music composer's tunes does Tim enjoy playing on the piano? A: John Williams",
+    "Q: What schools did John play basketball in and how many years was he with his team during high school? A: Middle school, high school, and college and he was with his high school team for 4 years.",
+    "Q: Which cities has John been to? A: Seattle, Chicago, New York, and Paris.",
+    "Q: What month did Tim plan on going to Universal Studios? A: September, 2023",
+    "Q: Which US states might Tim be in during September 2023 based on his plans of visiting Universal Studios? A: California or Florida",
+    "Q: When does John plan on traveling with his team on a team trip? A: October, 2023",
+    "Q: What could John do after his basketball career? A: become a basketball coach since he likes giving back and leadership",
+    "Q: What outdoor activities does John enjoy? A: Hiking, surfing",
+    "Q: Who is Tim and John's favorite basketball player? A: LeBron James",
+    "Q: Which week did Tim visit the UK for the Harry Potter Conference? A: The week before October 13th, 2023.",
+    "Q: which country has Tim visited most frequently in his travels? A: UK",
+    "Q: What year did Tim go to the Smoky Mountains? A: 2022",
+    "Q: Has Tim been to North Carolina and/or Tennesee states in the US? A: Yes",
+    "Q: What kind of fiction stories does Tim write? A: Fantasy stories with plot twists",
+    "Q: What has John cooked? A: Soup, a slow cooker meal, and honey garlic chicken with roasted veg.",
+    "Q: What does John like about Lebron James? A: His heart, determination, skills, and leadership.",
+    "Q: When did John and his wife go on a European vacation? A: November, 2023.",
+    "Q: Which country was Tim visiting in the second week of November? A: UK",
+    "Q: Where was Tim in the week before 16 November 2023? A: UK",
+    "Q: When did John get married at a greenhouse? A: last week of September 2023",
+    "Q: When did John get an ankle injury in 2023? A: around November 16, 2023",
+    "Q: How many times has John injured his ankle? A: two times",
+    "Q: Which book was John reading during his recovery from an ankle injury? A: The Alchemist",
+    "Q: What kind of yoga for building core strength might John benefit from? A: Hatha Yoga",
+    "Q: What does John do to supplement his basketball training? A: Yoga, strength training",
+    "Q: What other exercises can help John with his basketball performance? A: Sprinting, long-distance running, and boxing.",
+    "Q: When did John take a trip to the Rocky Mountains? A: 2022",
+    "Q: When did John start playing professionally? A: May, 2023",
+    "Q: When did Tim start playing the violin? A: August 2023",
+    "Q: What instruments does Tim play? A: piano, violin",
+    "Q: When did John attend the Harry Potter trivia? A: August 2023.",
+    "Q: Which career-high performances did John achieve in 2023? A: highest point score, highest assist",
+    "Q: When did John achieve a career-high assist performance? A: December 11, 2023",
+    "Q: What books has John read? A: inpsiring book on dreaming big, The Alchemist, fantasy series, non-fiction books on personal development, Dune",
+    "Q: What does John do to share his knowledge? A: gives seminars, mentors younger players.",
+    "Q: When did John organize a basketball camp for kids? A: summer 2023",
+    "Q: Which month was John in Italy? A: December, 2023",
+    "Q: What fantasy movies does Tim like? A: Lord of the Rings, Harry Potter, and Star Wars.",
+    "Q: What is a Star Wars book that Tim might enjoy? A: Star Wars: Jedi Apprentice by Judy Blundell and David Farland. It is a highly rated and immersive series about his favorite movies.",
+    "Q: What would be a good hobby related to his travel dreams for Tim to pick up? A: Writing a travel blog.",
+    "Q: What day did Tim get into his study abroad program? A: Januarty 5, 2024",
+    "Q: When will Tim leave for Ireland? A: February, 2024",
+    "Q: Which Star Wars-related locations would Tim enjoy during his visit to Ireland? A: Skellig Michael, Malin Head, Loop Head, Ceann Sibéal, and Brow Head because they are Star Wars filming locations.",
+    "Q: Which team did John sign with on 21 May, 2023? A: The Minnesota Wolves",
+    "Q: What is John's position on the team he signed with? A: shooting guard",
+    "Q: What challenge did John encounter during pre-season training? A: fitting into the new team's style of play",
+    "Q: What aspects of the Harry Potter universe will be discussed in John's fan project collaborations? A: characters, spells, magical creatures",
+    "Q: What forum did Tim join recently? A: fantasy literature forum",
+    "Q: What kind of picture did Tim share as part of their Harry Potter book collection? A: MinaLima's creation from the Harry Potter films",
+    "Q: What was the highest number of points John scored in a game recently? A: 40 points",
+    "Q: What did John celebrate at a restaurant with teammates? A: a tough win",
+    "Q: What kind of deals did John sign with Nike and Gatorade? A: basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade",
+    "Q: Which city is John excited to have a game at? A: Seattle",
+    "Q: How long has John been surfing? A: five years",
+    "Q: How does John feel while surfing? A: super exciting and free-feeling",
+    "Q: What kind of articles has Tim been writing about for the online magazine? A: different fantasy novels, characters, themes, and book recommendations",
+    "Q: Which two fantasy novels does Tim particularly enjoy writing about? A: Harry Potter and Game of Thrones",
+    "Q: What did Anthony and John end up playing during the charity event? A: an intense Harry Potter trivia contest",
+    "Q: What did John share with the person he skyped about? A: Characters from Harry Potter",
+    "Q: How did John describe the team bond? A: Awesome",
+    "Q: How did John get introduced to basketball? A: Dad signed him up for a local league",
+    "Q: What is John's number one goal in his basketball career? A: Winning a championship",
+    "Q: What organization is John teaming up with for his charity work? A: A local organization helping disadvantaged kids with sports and school",
+    "Q: When did John meet back up with his teammates after his trip in August 2023? A: Aug 15th",
+    "Q: What did John's teammates give him when they met on Aug 15th? A: a basketball with autographs on it",
+    "Q: Why did John's teammates sign the basketball they gave him? A: to show their friendship and appreciation",
+    "Q: What is the main intention behind Tim wanting to attend the book conference? A: to learn more about literature and create a stronger bond to it",
+    "Q: What new activity has Tim started learning in August 2023? A: play the piano",
+    "Q: Which movie's theme is Tim's favorite to play on the piano? A: \"Harry Potter and the Philosopher's Stone\"",
+    "Q: What special memory does \"Harry Potter and the Philosopher's Stone\" bring to Tim? A: Watching it with his family",
+    "Q: Which movie does Tim mention they enjoy watching during Thanksgiving? A: \"Home Alone\"",
+    "Q: What tradition does Tim mention they love during Thanksgiving? A: Prepping the feast and talking about what they're thankful for",
+    "Q: How long did John and his high school basketball teammates play together? A: Four years",
+    "Q: How was John's experience in New York City? A: Amazing",
+    "Q: What did John say about NYC, enticing Tim to visit? A: It's got so much to check out - the culture, food - you won't regret it.",
+    "Q: What kind of soup did John make recently? A: tasty soup with sage",
+    "Q: What spice did John add to the soup for flavor? A: sage",
+    "Q: What is Tim excited to see at Universal Studios? A: The Harry Potter stuff",
+    "Q: Where are John and his teammates planning to explore on a team trip? A: a new city",
+    "Q: What city did Tim suggest to John for the team trip next month? A: Edinburgh, Scotland",
+    "Q: What does John want to do after his basketball career? A: positively influence and inspire others, potentially start a foundation and engage in charity work",
+    "Q: What advice did Tim give John about picking endorsements? A: Ensure they align with values and brand, look for companies that share the desire to make a change and help others, make sure the endorsement feels authentic",
+    "Q: What book recommendation did Tim give to John for the trip? A: A fantasy novel by Patrick Rothfuss",
+    "Q: What type of venue did John and his girlfriend choose for their wedding ceremony? A: Greenhouse",
+    "Q: What was the setting for John and his wife's first dance? A: Cozy restaurant",
+    "Q: Which basketball team does Tim support? A: The Wolves",
+    "Q: What passion does Tim mention connects him with people from all over the world? A: passion for fantasy stuff",
+    "Q: How does John describe the game season for his team? A: intense with tough losses and great wins",
+    "Q: How does John say his team handles tough opponents? A: by backing each other up and not quitting",
+    "Q: What motivates John's team to get better, according to John? A: facing tough opponents",
+    "Q: What did John's team win at the end of the season? A: a trophy",
+    "Q: Where did Tim capture the photography of the sunset over the mountain range? A: Smoky Mountains",
+    "Q: How does John feel about being seen as a mentor by some of the younger players? A: It feels great",
+    "Q: What does John find rewarding about mentoring the younger players? A: Seeing their growth, improvement, and confidence",
+    "Q: What has John been able to help the younger players achieve? A: reach their goals",
+    "Q: What genre is the novel that Tim is writing? A: Fantasy",
+    "Q: Who is one of Tim's sources of inspiration for writing? A: J.K. Rowling",
+    "Q: What J.K. Rowling quote does Tim resonate with? A: \"Turn on the light - happiness hides in the darkest of times.\"",
+    "Q: What does John write on the whiteboard to help him stay motivated? A: motivational quotes and strategies",
+    "Q: What hobby is a therapy for John when away from the court? A: Cooking",
+    "Q: What type of meal does John often cook using a slow cooker? A: honey garlic chicken with roasted veg",
+    "Q: How will John share the honey garlic chicken recipe with the other person? A: write it down and mail it",
+    "Q: What was Tim's huge writing issue last week,as mentioned on November 6, 2023? A: He got stuck on a plot twist",
+    "Q: What does Tim have that serves as a reminder of hard work and is his prized possession? A: a basketball signed by his favorite player",
+    "Q: Why do Tim and John find LeBron inspiring? A: LeBron's determination and the epic block in Game 7 of the '16 Finals",
+    "Q: How did John describe the views during their road trip out on the European coastline? A: Spectacular",
+    "Q: What is one of Tim's favorite fantasy TV shows, as mentioned on November 11, 2023? A: \"That\"",
+    "Q: How does Tim stay motivated during difficult study sessions? A: Visualizing goals and success",
+    "Q: What did Tim say about his injury on 16 November, 2023? A: The doctor said it's not too serious",
+    "Q: What was the setback Tim faced in his writing project on 21 November, 2023? A: Story based on experiences in the UK didn't go as planned",
+    "Q: How did John overcome his ankle injury from last season? A: stayed focused on recovery and worked hard to strengthen his body",
+    "Q: What motivated Tim to keep pushing himself to get better in writing and reading? A: Love for writing and reading",
+    "Q: How did John overcome a mistake he made during a big game in basketball? A: Worked hard to get better and focused on growth",
+    "Q: What book did John recently finish rereading that left him feeling inspired and hopeful about following dreams? A: The Alchemist",
+    "Q: How did \"The Alchemist\" impact John's perspective on following dreams? A: made him think again about following dreams and searching for personal legends",
+    "Q: What is John trying out to improve his strength and flexibility after recovery from ankle injury? A: yoga",
+    "Q: How long does John usually hold the yoga pose he shared with Tim? A: 30-60 seconds",
+    "Q: Where was the forest picture shared by John on December 1,2023 taken? A: near his hometown",
+    "Q: What did Tim recently start learning in addition to being part of a travel club and working on studies? A: an instrument",
+    "Q: What instrument is Tim learning to play in December 2023? A: violin",
+    "Q: How long has Tim been playing the piano for, as of December 2023? A: about four months",
+    "Q: What book did Tim just finish reading on 8th December, 2023? A: \"A Dance with Dragons\"",
+    "Q: Which book did Tim recommend to John as a good story on 8th December, 2023? A: \"A Dance with Dragons\"",
+    "Q: What is the topic of discussion between John and Tim on 11 December, 2023? A: Academic achievements and sports successes",
+    "Q: What kind of game did John have a career-high in assists in? A: basketball",
+    "Q: What was John's way of dealing with doubts and stress when he was younger? A: practicing basketball outside for hours",
+    "Q: How did John feel about the atmosphere during the big game against the rival team? A: electric and intense",
+    "Q: How did John feel after being able to jog without pain? A: It was a huge success.",
+    "Q: What kind of deal did John get in December? A: Deal with a renowned outdoor gear company",
+    "Q: Where was the photoshoot done for John's gear deal? A: In a gorgeous forest",
+    "Q: In which area has John's team seen the most growth during training? A: Communication and bonding",
+    "Q: What type of seminars is John conducting? A: Sports and marketing seminars",
+    "Q: What activity did Tim do after reading the stories about the Himalayan trek? A: visited a travel agency",
+    "Q: What is one cause that John supports with his influence and resources? A: youth sports and fair chances in sports",
+    "Q: What new fantasy TV series is Tim excited about? A: \"The Wheel of Time\"",
+    "Q: Which language is Tim learning? A: German",
+    "Q: What language does Tim know besides German? A: Spanish",
+    "Q: What book did Tim get in Italy that inspired him to cook? A: a cooking book",
+    "Q: What is John's favorite book series? A: Harry Potter",
+    "Q: According to John, who is his favorite character from Lord of the Rings? A: Aragorn",
+    "Q: Why does John like Aragorn from Lord of the Rings? A: brave, selfless, down-to-earth attitude",
+    "Q: What kind of painting does John have in his room as a reminder? A: a painting of Aragorn",
+    "Q: What is the painting of Aragorn a reminder for John to be in everything he does? A: be a leader",
+    "Q: What map does Tim show to his friend John? A: a map of Middle-earth from LOTR",
+    "Q: Where will Tim be going for a semester abroad? A: Ireland",
+    "Q: Which city in Ireland will Tim be staying in during his semester abroad? A: Galway",
+    "Q: What charity event did John organize recently in 2024? A: benefit basketball game",
+    "Q: What achievement did John share with Tim in January 2024? A: endorsement with a popular beverage company",
+    "Q: What was Johns's reaction to sealing the deal with the beverage company? A: crazy feeling, sense of accomplishment",
+    "Q: Which city did John recommend to Tim in January 2024? A: Barcelona"
+  ],
+  "adversarial_questions": [
+    {
+      "index": 935,
+      "question": "Which team did Tim sign with on 21 May, 2023?",
+      "current_wrong_answer": "The Minnesota Wolves",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 936,
+      "question": "What is Tim's position on the team he signed with?",
+      "current_wrong_answer": "shooting guard",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 937,
+      "question": "What challenge did Tim encounter during pre-season training?",
+      "current_wrong_answer": "fitting into the new team's style of play",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 938,
+      "question": "What cult did Tim join recently?",
+      "current_wrong_answer": "fantasy literature forum",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 939,
+      "question": "What was the highest number of points Tim scored in a game recently?",
+      "current_wrong_answer": "40 points",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 940,
+      "question": "What did Tim celebrate at a restaurant with teammates?",
+      "current_wrong_answer": "a tough win",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 941,
+      "question": "What kind of deals did Tim sign with Nike and Gatorade?",
+      "current_wrong_answer": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 942,
+      "question": "How does Tim feel while surfing?",
+      "current_wrong_answer": "super exciting and free-feeling",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 943,
+      "question": "What kind of articles has John been writing about for the online magazine?",
+      "current_wrong_answer": "different fantasy novels, characters, themes, and book recommendations",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 944,
+      "question": "Which two mystery novels does Tim particularly enjoy writing about?",
+      "current_wrong_answer": "Harry Potter and Game of Thrones",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 945,
+      "question": "What did Anthony and Tim end up playing during the charity event?",
+      "current_wrong_answer": "an intense Harry Potter trivia contest",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 946,
+      "question": "How did Tim get introduced to basketball?",
+      "current_wrong_answer": "Dad signed him up for a local league",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 947,
+      "question": "What is Tim's number one goal in his basketball career?",
+      "current_wrong_answer": "Winning a championship",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 948,
+      "question": "What organization is Tim teaming up with for his charity work?",
+      "current_wrong_answer": "A local organization helping disadvantaged kids with sports and school",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 949,
+      "question": "What did Tim's teammates give him when they met on Aug 15th?",
+      "current_wrong_answer": "a basketball with autographs on it",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 950,
+      "question": "Why did John's teammates sign the football they gave him?",
+      "current_wrong_answer": "to show their friendship and appreciation",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 951,
+      "question": "What is the main intention behind John wanting to attend the book conference?",
+      "current_wrong_answer": "to learn more about literature and create a stronger bond to it",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 952,
+      "question": "What new activity has John started learning in August 2023?",
+      "current_wrong_answer": "play the piano",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 953,
+      "question": "What special memory does \"Fifty Shades of Grey\" bring to Tim?",
+      "current_wrong_answer": "Watching it with his family",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 954,
+      "question": "Which movie does John mention they enjoy watching during Thanksgiving?",
+      "current_wrong_answer": "\"Home Alone\"",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 955,
+      "question": "What tradition does Tim mention they love during Halloween?",
+      "current_wrong_answer": "Prepping the feast and talking about what they're thankful for",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 956,
+      "question": "How long did Tim and his high school basketball teammates play together?",
+      "current_wrong_answer": "Four years",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 957,
+      "question": "How was Tim's experience in New York City?",
+      "current_wrong_answer": "Amazing",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 958,
+      "question": "What spice did Tim add to the soup for flavor?",
+      "current_wrong_answer": "sage",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 959,
+      "question": "What is Tim excited to see at Disneyland?",
+      "current_wrong_answer": "The Harry Potter stuff",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 960,
+      "question": "Where are John and his teammates planning to avoid on a team trip?",
+      "current_wrong_answer": "a new city",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 961,
+      "question": "What does Tim want to do after his basketball career?",
+      "current_wrong_answer": "positively influence and inspire others, potentially start a foundation and engage in charity work",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 962,
+      "question": "What type of venue did John and his girlfriend choose for their breakup?",
+      "current_wrong_answer": "Greenhouse",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 963,
+      "question": "What passion does John mention connects him with people from all over the world?",
+      "current_wrong_answer": "passion for fantasy stuff",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 964,
+      "question": "How does Tim say his team handles tough opponents?",
+      "current_wrong_answer": "by backing each other up and not quitting",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 965,
+      "question": "Where did Tim capture the painting of the sunset over the mountain range?",
+      "current_wrong_answer": "Smoky Mountains",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 966,
+      "question": "What does Tim find rewarding about mentoring the younger players?",
+      "current_wrong_answer": "Seeing their growth, improvement, and confidence",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 967,
+      "question": "What has Tim been able to help the younger players achieve?",
+      "current_wrong_answer": "reach their goals",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 968,
+      "question": "What genre is the novel that John is writing?",
+      "current_wrong_answer": "Fantasy",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 969,
+      "question": "Who is one of Tim's sources of inspiration for painting?",
+      "current_wrong_answer": "J.K. Rowling",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 970,
+      "question": "What does Tim write on the whiteboard to help him stay motivated?",
+      "current_wrong_answer": "motivational quotes and strategies",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 971,
+      "question": "What hobby is a therapy for Tim when away from the court?",
+      "current_wrong_answer": "Cooking",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 972,
+      "question": "What type of meal does Tim often cook using a slow cooker?",
+      "current_wrong_answer": "honey garlic chicken with roasted veg",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 973,
+      "question": "How will Tim share the honey garlic chicken recipe with the other person?",
+      "current_wrong_answer": "write it down and mail it",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 974,
+      "question": "What is one of Tim's favorite crime TV shows, as mentioned on November 11, 2023?",
+      "current_wrong_answer": "\"That\"",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 975,
+      "question": "What was the setback Tim faced in his coding project on 21 November, 2023?",
+      "current_wrong_answer": "Story based on experiences in the UK didn't go as planned",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 976,
+      "question": "How did Tim overcome his ankle injury from last season?",
+      "current_wrong_answer": "stayed focused on recovery and worked hard to strengthen his body",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 977,
+      "question": "What motivated John to keep pushing himself to get better in writing and reading?",
+      "current_wrong_answer": "Love for writing and reading",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 978,
+      "question": "How did Tim overcome a mistake he made during a big game in basketball?",
+      "current_wrong_answer": "Worked hard to get better and focused on growth",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 979,
+      "question": "What is Tim trying out to improve his strength and flexibility after recovery from ankle injury?",
+      "current_wrong_answer": "yoga",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 980,
+      "question": "What did John recently start learning in addition to being part of a travel club and working on studies?",
+      "current_wrong_answer": "an instrument",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 981,
+      "question": "What instrument is John learning to play in December 2023?",
+      "current_wrong_answer": "violin",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 982,
+      "question": "How long has John been playing the piano for, as of December 2023?",
+      "current_wrong_answer": "about four months",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 983,
+      "question": "What movie did Tim just finish watching on 8th December, 2023?",
+      "current_wrong_answer": "\"A Dance with Dragons\"",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 984,
+      "question": "What kind of game did Tim have a career-high in assists in?",
+      "current_wrong_answer": "basketball",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 985,
+      "question": "What was Tim's way of dealing with doubts and stress when he was younger?",
+      "current_wrong_answer": "practicing basketball outside for hours",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 986,
+      "question": "Where was the photoshoot done for John's fragrance deal?",
+      "current_wrong_answer": "In a gorgeous forest",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 987,
+      "question": "In which area has Tim's team seen the most growth during training?",
+      "current_wrong_answer": "Communication and bonding",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 988,
+      "question": "What type of seminars is Tim conducting?",
+      "current_wrong_answer": "Sports and marketing seminars",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 989,
+      "question": "What is one cause that John opposes with his influence and resources?",
+      "current_wrong_answer": "youth sports and fair chances in sports",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 990,
+      "question": "What new fantasy TV series is John excited about?",
+      "current_wrong_answer": "\"The Wheel of Time\"",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 991,
+      "question": "Which language is John learning?",
+      "current_wrong_answer": "German",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 992,
+      "question": "According to John, who is his least favorite character from Lord of the Rings?",
+      "current_wrong_answer": "Aragorn",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 993,
+      "question": "Why does Tim like Aragorn from Lord of the Rings?",
+      "current_wrong_answer": "brave, selfless, down-to-earth attitude",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 994,
+      "question": "What kind of painting does Tim have in his room as a reminder?",
+      "current_wrong_answer": "a painting of Aragorn",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 995,
+      "question": "What is the sculpture of Aragorn a reminder for John to be in everything he does?",
+      "current_wrong_answer": "be a leader",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 996,
+      "question": "Which city in Ireland will John be staying in during his semester abroad?",
+      "current_wrong_answer": "Galway",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 997,
+      "question": "What charity event did Tim organize recently in 2024?",
+      "current_wrong_answer": "benefit basketball game",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 998,
+      "question": "What was Tims's reaction to sealing the deal with the beverage company?",
+      "current_wrong_answer": "crazy feeling, sense of accomplishment",
+      "conv_idx": 4,
+      "category_name": "adversarial"
+    }
+  ]
+}

@@ -1,0 +1,1339 @@
+Loading data...
+Loaded 10 conversations, 3015 facts
+  Character sheets: 10 conversations, 3015 facts
+  LoCoMo exam: 1986
+  Hard exam: 76
+  Poison memories: 50
+
+============================================================
+ROAMPAL-LABS BENCHMARK PIPELINE
+============================================================
+Strategies: 4
+Steps per strategy: 3
+Already completed: 0
+============================================================
+
+
+============================================================
+STRATEGY 1/4: 01.EntityRouted
+============================================================
+
+  [01_conversation] Conversation learning (~503 turns, 3015 facts)...
+W0401 08:02:15.038229 27624 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+    01.EntityRouted: Resuming from checkpoint — conv=conv_3, char=Nate, turn=360, covered=717
+    01.EntityRouted: SKIP conv_0/Caroline (checkpoint)
+    01.EntityRouted: SKIP conv_0/Melanie (checkpoint)
+    01.EntityRouted: SKIP conv_1/Gina (checkpoint)
+    01.EntityRouted: SKIP conv_1/Jon (checkpoint)
+    01.EntityRouted: SKIP conv_2/Maria (checkpoint)
+    01.EntityRouted: SKIP conv_2/John (checkpoint)
+    01.EntityRouted: Resuming Nate from fact 16/186...
+    01.EntityRouted: turn 370 | 737/3015 facts | Nate (150 remaining)
+Loading data...
+Loaded 10 conversations, 3015 facts
+  Character sheets: 10 conversations, 3015 facts
+  LoCoMo exam: 1986
+  Hard exam: 76
+  Poison memories: 50
+
+============================================================
+ROAMPAL-LABS BENCHMARK PIPELINE
+============================================================
+Strategies: 4
+Steps per strategy: 3
+Already completed: 0
+============================================================
+
+
+============================================================
+STRATEGY 1/4: 01.EntityRouted
+============================================================
+
+  [01_conversation] Conversation learning (~503 turns, 3015 facts)...
+W0401 08:08:43.229734 9600 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+    01.EntityRouted: Resuming from checkpoint — conv=conv_3, char=Nate, turn=371, covered=739
+    01.EntityRouted: SKIP conv_0/Caroline (checkpoint)
+    01.EntityRouted: SKIP conv_0/Melanie (checkpoint)
+    01.EntityRouted: SKIP conv_1/Gina (checkpoint)
+    01.EntityRouted: SKIP conv_1/Jon (checkpoint)
+    01.EntityRouted: SKIP conv_2/Maria (checkpoint)
+    01.EntityRouted: SKIP conv_2/John (checkpoint)
+    01.EntityRouted: Resuming Nate from fact 38/186...
+    01.EntityRouted: turn 380 | 757/3015 facts | Nate (130 remaining)
+    01.EntityRouted: turn 390 | 777/3015 facts | Nate (110 remaining)
+    01.EntityRouted: turn 400 | 797/3015 facts | Nate (90 remaining)
+    01.EntityRouted: turn 410 | 817/3015 facts | Nate (70 remaining)
+    01.EntityRouted: turn 420 | 837/3015 facts | Nate (50 remaining)
+    01.EntityRouted: turn 430 | 857/3015 facts | Nate (30 remaining)
+    01.EntityRouted: turn 440 | 877/3015 facts | Nate (10 remaining)
+    01.EntityRouted: Nate done (186 facts covered)
+    01.EntityRouted: Starting Joanna (173 facts)...
+    01.EntityRouted: turn 450 | 897/3015 facts | Joanna (163 remaining)
+    WARN: extract_tags failed: JSONDecodeError
+    01.EntityRouted: turn 460 | 917/3015 facts | Joanna (143 remaining)
+    WARN: extract_tags failed: ReadTimeout
+    01.EntityRouted: turn 470 | 937/3015 facts | Joanna (123 remaining)
+    WARN: extract_tags timeout (30s): On Sunday, October 25, 2022, another movie script Joanna con...
+    01.EntityRouted: turn 480 | 957/3015 facts | Joanna (103 remaining)
+    01.EntityRouted: turn 490 | 977/3015 facts | Joanna (83 remaining)
+    01.EntityRouted: turn 500 | 997/3015 facts | Joanna (63 remaining)
+    01.EntityRouted: turn 510 | 1017/3015 facts | Joanna (43 remaining)
+    01.EntityRouted: turn 520 | 1037/3015 facts | Joanna (23 remaining)
+    01.EntityRouted: turn 530 | 1057/3015 facts | Joanna (3 remaining)
+    01.EntityRouted: Joanna done (173 facts covered)
+    01.EntityRouted: Starting John (202 facts)...
+    01.EntityRouted: turn 540 | 1076/3015 facts | John (186 remaining)
+    01.EntityRouted: turn 550 | 1096/3015 facts | John (166 remaining)
+    01.EntityRouted: turn 560 | 1116/3015 facts | John (146 remaining)
+    01.EntityRouted: turn 570 | 1136/3015 facts | John (126 remaining)
+    01.EntityRouted: turn 580 | 1156/3015 facts | John (106 remaining)
+    01.EntityRouted: turn 590 | 1176/3015 facts | John (86 remaining)
+    01.EntityRouted: turn 600 | 1196/3015 facts | John (66 remaining)
+    01.EntityRouted: turn 610 | 1216/3015 facts | John (46 remaining)
+    WARN: extract_tags failed: ReadTimeout
+    01.EntityRouted: turn 620 | 1236/3015 facts | John (26 remaining)
+    01.EntityRouted: turn 630 | 1256/3015 facts | John (6 remaining)
+    01.EntityRouted: John done (202 facts covered)
+    01.EntityRouted: Starting Tim (139 facts)...
+    01.EntityRouted: turn 640 | 1276/3015 facts | Tim (125 remaining)
+    01.EntityRouted: turn 650 | 1296/3015 facts | Tim (105 remaining)
+    WARN: extract_tags timeout (30s): Tim confirms he's been reading The Name of the Wind since Ja...
+    01.EntityRouted: turn 660 | 1316/3015 facts | Tim (85 remaining)
+    01.EntityRouted: turn 670 | 1336/3015 facts | Tim (65 remaining)
+    01.EntityRouted: turn 680 | 1356/3015 facts | Tim (45 remaining)
+    01.EntityRouted: turn 690 | 1376/3015 facts | Tim (25 remaining)
+    WARN: extract_tags timeout (30s): Tim thanked the encouragement, confirmed he’s sticking to Po...
+    01.EntityRouted: turn 700 | 1396/3015 facts | Tim (5 remaining)
+    01.EntityRouted: Tim done (139 facts covered)
+    01.EntityRouted: Starting Audrey (166 facts)...
+    01.EntityRouted: turn 710 | 1415/3015 facts | Audrey (152 remaining)
+    01.EntityRouted: turn 720 | 1435/3015 facts | Audrey (132 remaining)
+    01.EntityRouted: turn 730 | 1455/3015 facts | Audrey (112 remaining)
+    01.EntityRouted: turn 740 | 1475/3015 facts | Audrey (92 remaining)
+    01.EntityRouted: turn 750 | 1495/3015 facts | Audrey (72 remaining)
+    01.EntityRouted: turn 760 | 1515/3015 facts | Audrey (52 remaining)
+    01.EntityRouted: turn 770 | 1535/3015 facts | Audrey (32 remaining)
+    01.EntityRouted: turn 780 | 1555/3015 facts | Audrey (12 remaining)
+    01.EntityRouted: Audrey done (166 facts covered)
+    01.EntityRouted: Starting Andrew (124 facts)...
+    01.EntityRouted: turn 790 | 1575/3015 facts | Andrew (116 remaining)
+    01.EntityRouted: turn 800 | 1595/3015 facts | Andrew (96 remaining)
+    WARN: extract_tags timeout (30s): As of 6 September 2023, Andrew reports that work has been to...
+    01.EntityRouted: turn 810 | 1615/3015 facts | Andrew (76 remaining)
+    01.EntityRouted: turn 820 | 1635/3015 facts | Andrew (56 remaining)
+    01.EntityRouted: turn 830 | 1655/3015 facts | Andrew (36 remaining)
+    01.EntityRouted: turn 840 | 1675/3015 facts | Andrew (16 remaining)
+    01.EntityRouted: Andrew done (124 facts covered)
+    01.EntityRouted: Starting John (125 facts)...
+    01.EntityRouted: turn 850 | 1695/3015 facts | John (121 remaining)
+    01.EntityRouted: turn 860 | 1715/3015 facts | John (101 remaining)
+    01.EntityRouted: turn 870 | 1735/3015 facts | John (81 remaining)
+    01.EntityRouted: turn 880 | 1755/3015 facts | John (61 remaining)
+    01.EntityRouted: turn 890 | 1775/3015 facts | John (41 remaining)
+    01.EntityRouted: turn 900 | 1795/3015 facts | John (21 remaining)
+    01.EntityRouted: turn 910 | 1815/3015 facts | John (1 remaining)
+    01.EntityRouted: John done (125 facts covered)
+    01.EntityRouted: Starting James (141 facts)...
+    01.EntityRouted: turn 920 | 1834/3015 facts | James (123 remaining)
+    01.EntityRouted: turn 930 | 1854/3015 facts | James (103 remaining)
+    01.EntityRouted: turn 940 | 1874/3015 facts | James (83 remaining)
+    WARN: extract_tags timeout (30s): James confirmed his two strikes on March 16, 2022, wallet lo...
+    01.EntityRouted: turn 950 | 1894/3015 facts | James (63 remaining)
+    WARN: extract_tags timeout (30s): James thanked for reminder, confirmed loneliness before Sama...
+    01.EntityRouted: turn 960 | 1914/3015 facts | James (43 remaining)
+    01.EntityRouted: turn 970 | 1934/3015 facts | James (23 remaining)
+    01.EntityRouted: turn 980 | 1954/3015 facts | James (3 remaining)
+    01.EntityRouted: James done (141 facts covered)
+    01.EntityRouted: Starting Deborah (158 facts)...
+    01.EntityRouted: turn 990 | 1973/3015 facts | Deborah (142 remaining)
+    01.EntityRouted: turn 1000 | 1993/3015 facts | Deborah (122 remaining)
+    01.EntityRouted: turn 1010 | 2013/3015 facts | Deborah (102 remaining)
+    01.EntityRouted: turn 1020 | 2033/3015 facts | Deborah (82 remaining)
+    WARN: extract_tags failed: ReadTimeout
+    01.EntityRouted: turn 1030 | 2053/3015 facts | Deborah (62 remaining)
+    01.EntityRouted: turn 1040 | 2073/3015 facts | Deborah (42 remaining)
+    01.EntityRouted: turn 1050 | 2093/3015 facts | Deborah (22 remaining)
+    01.EntityRouted: turn 1060 | 2113/3015 facts | Deborah (2 remaining)
+    01.EntityRouted: Deborah done (158 facts covered)
+    01.EntityRouted: Starting Jolene (199 facts)...
+    01.EntityRouted: turn 1070 | 2133/3015 facts | Jolene (181 remaining)
+    01.EntityRouted: turn 1080 | 2153/3015 facts | Jolene (161 remaining)
+    01.EntityRouted: turn 1090 | 2173/3015 facts | Jolene (141 remaining)
+    01.EntityRouted: turn 1100 | 2193/3015 facts | Jolene (121 remaining)
+    01.EntityRouted: turn 1110 | 2213/3015 facts | Jolene (101 remaining)
+    01.EntityRouted: turn 1120 | 2233/3015 facts | Jolene (81 remaining)
+    WARN: extract_tags failed: ReadTimeout
+    01.EntityRouted: turn 1130 | 2253/3015 facts | Jolene (61 remaining)
+    01.EntityRouted: turn 1140 | 2273/3015 facts | Jolene (41 remaining)
+    01.EntityRouted: turn 1150 | 2293/3015 facts | Jolene (21 remaining)
+    01.EntityRouted: turn 1160 | 2313/3015 facts | Jolene (1 remaining)
+    01.EntityRouted: Jolene done (199 facts covered)
+    01.EntityRouted: Starting Sam (159 facts)...
+    01.EntityRouted: turn 1170 | 2332/3015 facts | Sam (141 remaining)
+    01.EntityRouted: turn 1180 | 2352/3015 facts | Sam (121 remaining)
+    01.EntityRouted: turn 1190 | 2372/3015 facts | Sam (101 remaining)
+    01.EntityRouted: turn 1200 | 2392/3015 facts | Sam (81 remaining)
+    01.EntityRouted: turn 1210 | 2412/3015 facts | Sam (61 remaining)
+    01.EntityRouted: turn 1220 | 2432/3015 facts | Sam (41 remaining)
+    01.EntityRouted: turn 1230 | 2452/3015 facts | Sam (21 remaining)
+    WARN: extract_tags failed: ReadTimeout
+    01.EntityRouted: turn 1240 | 2472/3015 facts | Sam (1 remaining)
+    01.EntityRouted: Sam done (159 facts covered)
+    01.EntityRouted: Starting Evan (177 facts)...
+    WARN: extract_tags failed: ReadTimeout
+    01.EntityRouted: turn 1250 | 2491/3015 facts | Evan (159 remaining)
+    01.EntityRouted: turn 1260 | 2511/3015 facts | Evan (139 remaining)
+    01.EntityRouted: turn 1270 | 2531/3015 facts | Evan (119 remaining)
+    01.EntityRouted: turn 1280 | 2551/3015 facts | Evan (99 remaining)
+    01.EntityRouted: turn 1290 | 2571/3015 facts | Evan (79 remaining)
+    01.EntityRouted: turn 1300 | 2591/3015 facts | Evan (59 remaining)
+    01.EntityRouted: turn 1310 | 2611/3015 facts | Evan (39 remaining)
+    01.EntityRouted: turn 1320 | 2631/3015 facts | Evan (19 remaining)
+    01.EntityRouted: turn 1330 | 2650/3015 facts | Evan (0 remaining)
+    01.EntityRouted: Evan done (177 facts covered)
+    01.EntityRouted: Starting Calvin (210 facts)...
+    01.EntityRouted: turn 1340 | 2670/3015 facts | Calvin (190 remaining)
+    01.EntityRouted: turn 1350 | 2690/3015 facts | Calvin (170 remaining)
+    01.EntityRouted: turn 1360 | 2710/3015 facts | Calvin (150 remaining)
+    01.EntityRouted: turn 1370 | 2730/3015 facts | Calvin (130 remaining)
+    01.EntityRouted: turn 1380 | 2750/3015 facts | Calvin (110 remaining)
+    01.EntityRouted: turn 1390 | 2770/3015 facts | Calvin (90 remaining)
+    01.EntityRouted: turn 1400 | 2790/3015 facts | Calvin (70 remaining)
+    01.EntityRouted: turn 1410 | 2810/3015 facts | Calvin (50 remaining)
+    01.EntityRouted: turn 1420 | 2830/3015 facts | Calvin (30 remaining)
+    01.EntityRouted: turn 1430 | 2850/3015 facts | Calvin (10 remaining)
+    01.EntityRouted: Calvin done (210 facts covered)
+    01.EntityRouted: Starting Dave (155 facts)...
+    01.EntityRouted: turn 1440 | 2870/3015 facts | Dave (145 remaining)
+    01.EntityRouted: turn 1450 | 2890/3015 facts | Dave (125 remaining)
+    01.EntityRouted: turn 1460 | 2910/3015 facts | Dave (105 remaining)
+    01.EntityRouted: turn 1470 | 2930/3015 facts | Dave (85 remaining)
+    01.EntityRouted: turn 1480 | 2950/3015 facts | Dave (65 remaining)
+    01.EntityRouted: turn 1490 | 2970/3015 facts | Dave (45 remaining)
+    01.EntityRouted: turn 1500 | 2990/3015 facts | Dave (25 remaining)
+    01.EntityRouted: turn 1510 | 3010/3015 facts | Dave (5 remaining)
+    01.EntityRouted: Dave done (155 facts covered)
+    01.EntityRouted: Conversation complete — 1142 turns, 3015 facts, 7732 memories stored
+  [01_conversation] Done: 1142 turns, 7732 memories stored
+  [01_conversation] SAVED to resume state
+
+  [02_locomo_off] Exam (1986 Qs, learning=OFF)...
+    EXAM 01.EntityRouted: 10/1986 -- 8c/1w  80.0%
+    EXAM 01.EntityRouted: 20/1986 -- 16c/3w  80.0%
+    EXAM 01.EntityRouted: 30/1986 -- 22c/5w  73.3%
+    EXAM 01.EntityRouted: 40/1986 -- 26c/7w  65.0%
+    EXAM 01.EntityRouted: 50/1986 -- 36c/7w  72.0%
+    EXAM 01.EntityRouted: 60/1986 -- 43c/8w  71.7%
+    EXAM 01.EntityRouted: 70/1986 -- 47c/11w  67.1%
+    EXAM 01.EntityRouted: 80/1986 -- 56c/12w  70.0%
+    EXAM 01.EntityRouted: 90/1986 -- 64c/14w  71.1%
+    EXAM 01.EntityRouted: 100/1986 -- 71c/14w  71.0%
+    EXAM 01.EntityRouted: 110/1986 -- 80c/14w  72.7%
+    EXAM 01.EntityRouted: 120/1986 -- 85c/17w  70.8%
+    EXAM 01.EntityRouted: 130/1986 -- 95c/17w  73.1%
+    EXAM 01.EntityRouted: 140/1986 -- 102c/19w  72.9%
+    EXAM 01.EntityRouted: 150/1986 -- 110c/20w  73.3%
+    EXAM 01.EntityRouted: 160/1986 -- 115c/25w  71.9%
+    EXAM 01.EntityRouted: 170/1986 -- 120c/30w  70.6%
+    EXAM 01.EntityRouted: 180/1986 -- 125c/35w  69.4%
+    EXAM 01.EntityRouted: 190/1986 -- 127c/43w  66.8%
+    EXAM 01.EntityRouted: 200/1986 -- 133c/47w  66.5%
+    EXAM 01.EntityRouted: 210/1986 -- 140c/49w  66.7%
+    EXAM 01.EntityRouted: 220/1986 -- 150c/49w  68.2%
+    EXAM 01.EntityRouted: 230/1986 -- 158c/49w  68.7%
+    EXAM 01.EntityRouted: 240/1986 -- 166c/51w  69.2%
+    EXAM 01.EntityRouted: 250/1986 -- 169c/56w  67.6%
+    EXAM 01.EntityRouted: 260/1986 -- 178c/56w  68.5%
+    EXAM 01.EntityRouted: 270/1986 -- 185c/57w  68.5%
+    EXAM 01.EntityRouted: 280/1986 -- 193c/58w  68.9%
+    EXAM 01.EntityRouted: 290/1986 -- 197c/64w  67.9%
+    EXAM 01.EntityRouted: 300/1986 -- 205c/66w  68.3%
+    EXAM 01.EntityRouted: 310/1986 -- 210c/70w  67.7%
+    EXAM 01.EntityRouted: 320/1986 -- 219c/70w  68.4%
+    EXAM 01.EntityRouted: 330/1986 -- 225c/72w  68.2%
+    EXAM 01.EntityRouted: 340/1986 -- 229c/75w  67.4%
+    EXAM 01.EntityRouted: 350/1986 -- 235c/78w  67.1%
+    EXAM 01.EntityRouted: 360/1986 -- 239c/81w  66.4%
+    EXAM 01.EntityRouted: 370/1986 -- 245c/84w  66.2%
+    EXAM 01.EntityRouted: 380/1986 -- 253c/86w  66.6%
+    EXAM 01.EntityRouted: 390/1986 -- 262c/87w  67.2%
+    EXAM 01.EntityRouted: 400/1986 -- 268c/89w  67.0%
+    EXAM 01.EntityRouted: 410/1986 -- 274c/90w  66.8%
+    EXAM 01.EntityRouted: 420/1986 -- 281c/93w  66.9%
+    EXAM 01.EntityRouted: 430/1986 -- 287c/94w  66.7%
+    EXAM 01.EntityRouted: 440/1986 -- 292c/97w  66.4%
+    EXAM 01.EntityRouted: 450/1986 -- 300c/98w  66.7%
+    EXAM 01.EntityRouted: 460/1986 -- 303c/104w  65.9%
+    EXAM 01.EntityRouted: 470/1986 -- 304c/113w  64.7%
+    EXAM 01.EntityRouted: 480/1986 -- 306c/120w  63.7%
+    EXAM 01.EntityRouted: 490/1986 -- 310c/126w  63.3%
+    EXAM 01.EntityRouted: 500/1986 -- 314c/132w  62.8%
+    EXAM 01.EntityRouted: 510/1986 -- 319c/135w  62.5%
+    EXAM 01.EntityRouted: 520/1986 -- 329c/135w  63.3%
+    EXAM 01.EntityRouted: 530/1986 -- 337c/137w  63.6%
+    EXAM 01.EntityRouted: 540/1986 -- 344c/139w  63.7%
+    EXAM 01.EntityRouted: 550/1986 -- 349c/142w  63.5%
+    EXAM 01.EntityRouted: 560/1986 -- 356c/142w  63.6%
+    EXAM 01.EntityRouted: 570/1986 -- 360c/145w  63.2%
+    EXAM 01.EntityRouted: 580/1986 -- 365c/147w  62.9%
+    EXAM 01.EntityRouted: 590/1986 -- 373c/149w  63.2%
+    EXAM 01.EntityRouted: 600/1986 -- 379c/150w  63.2%
+    EXAM 01.EntityRouted: 610/1986 -- 387c/151w  63.4%
+    EXAM 01.EntityRouted: 620/1986 -- 395c/151w  63.7%
+    EXAM 01.EntityRouted: 630/1986 -- 401c/154w  63.7%
+    EXAM 01.EntityRouted: 640/1986 -- 409c/156w  63.9%
+    EXAM 01.EntityRouted: 650/1986 -- 415c/159w  63.8%
+    EXAM 01.EntityRouted: 660/1986 -- 425c/159w  64.4%
+    EXAM 01.EntityRouted: 670/1986 -- 432c/160w  64.5%
+    EXAM 01.EntityRouted: 680/1986 -- 438c/163w  64.4%
+    EXAM 01.EntityRouted: 690/1986 -- 446c/164w  64.6%
+    EXAM 01.EntityRouted: 700/1986 -- 452c/168w  64.6%
+    EXAM 01.EntityRouted: 710/1986 -- 456c/174w  64.2%
+    EXAM 01.EntityRouted: 720/1986 -- 460c/180w  63.9%
+    EXAM 01.EntityRouted: 730/1986 -- 464c/186w  63.6%
+    EXAM 01.EntityRouted: 740/1986 -- 464c/196w  62.7%
+    EXAM 01.EntityRouted: 750/1986 -- 465c/205w  62.0%
+    EXAM 01.EntityRouted: 760/1986 -- 469c/209w  61.7%
+    EXAM 01.EntityRouted: 770/1986 -- 473c/212w  61.4%
+    EXAM 01.EntityRouted: 780/1986 -- 481c/213w  61.7%
+    EXAM 01.EntityRouted: 790/1986 -- 489c/213w  61.9%
+    EXAM 01.EntityRouted: 800/1986 -- 497c/213w  62.1%
+    EXAM 01.EntityRouted: 810/1986 -- 503c/217w  62.1%
+    EXAM 01.EntityRouted: 820/1986 -- 507c/221w  61.8%
+    EXAM 01.EntityRouted: 830/1986 -- 515c/223w  62.0%
+    EXAM 01.EntityRouted: 840/1986 -- 523c/224w  62.3%
+    EXAM 01.EntityRouted: 850/1986 -- 529c/228w  62.2%
+    EXAM 01.EntityRouted: 860/1986 -- 534c/232w  62.1%
+    EXAM 01.EntityRouted: 870/1986 -- 543c/232w  62.4%
+    EXAM 01.EntityRouted: 880/1986 -- 549c/233w  62.4%
+    EXAM 01.EntityRouted: 890/1986 -- 558c/234w  62.7%
+    EXAM 01.EntityRouted: 900/1986 -- 565c/235w  62.8%
+    EXAM 01.EntityRouted: 910/1986 -- 571c/236w  62.7%
+    EXAM 01.EntityRouted: 920/1986 -- 578c/238w  62.8%
+    EXAM 01.EntityRouted: 930/1986 -- 586c/238w  63.0%
+    EXAM 01.EntityRouted: 940/1986 -- 591c/243w  62.9%
+    EXAM 01.EntityRouted: 950/1986 -- 599c/245w  63.1%
+    EXAM 01.EntityRouted: 960/1986 -- 603c/251w  62.8%
+    EXAM 01.EntityRouted: 970/1986 -- 605c/259w  62.4%
+    EXAM 01.EntityRouted: 980/1986 -- 610c/264w  62.2%
+    EXAM 01.EntityRouted: 990/1986 -- 614c/270w  62.0%
+    EXAM 01.EntityRouted: 1000/1986 -- 619c/275w  61.9%
+    EXAM 01.EntityRouted: 1010/1986 -- 626c/275w  62.0%
+    EXAM 01.EntityRouted: 1020/1986 -- 631c/279w  61.9%
+    EXAM 01.EntityRouted: 1030/1986 -- 639c/279w  62.0%
+    EXAM 01.EntityRouted: 1040/1986 -- 645c/281w  62.0%
+    EXAM 01.EntityRouted: 1050/1986 -- 653c/283w  62.2%
+    EXAM 01.EntityRouted: 1060/1986 -- 660c/284w  62.3%
+    EXAM 01.EntityRouted: 1070/1986 -- 668c/286w  62.4%
+    EXAM 01.EntityRouted: 1080/1986 -- 676c/287w  62.6%
+    EXAM 01.EntityRouted: 1090/1986 -- 682c/290w  62.6%
+    EXAM 01.EntityRouted: 1100/1986 -- 688c/292w  62.5%
+    EXAM 01.EntityRouted: 1110/1986 -- 696c/294w  62.7%
+    EXAM 01.EntityRouted: 1120/1986 -- 705c/295w  62.9%
+    EXAM 01.EntityRouted: 1130/1986 -- 708c/301w  62.7%
+    EXAM 01.EntityRouted: 1140/1986 -- 710c/309w  62.3%
+    EXAM 01.EntityRouted: 1150/1986 -- 711c/318w  61.8%
+    EXAM 01.EntityRouted: 1160/1986 -- 715c/321w  61.6%
+    EXAM 01.EntityRouted: 1170/1986 -- 724c/322w  61.9%
+    EXAM 01.EntityRouted: 1180/1986 -- 734c/322w  62.2%
+    EXAM 01.EntityRouted: 1190/1986 -- 741c/322w  62.3%
+    EXAM 01.EntityRouted: 1200/1986 -- 750c/322w  62.5%
+    EXAM 01.EntityRouted: 1210/1986 -- 758c/323w  62.6%
+    EXAM 01.EntityRouted: 1220/1986 -- 765c/325w  62.7%
+    EXAM 01.EntityRouted: 1230/1986 -- 771c/326w  62.7%
+    EXAM 01.EntityRouted: 1240/1986 -- 780c/327w  62.9%
+    EXAM 01.EntityRouted: 1250/1986 -- 789c/327w  63.1%
+    EXAM 01.EntityRouted: 1260/1986 -- 797c/328w  63.3%
+    EXAM 01.EntityRouted: 1270/1986 -- 803c/330w  63.2%
+    EXAM 01.EntityRouted: 1280/1986 -- 812c/330w  63.4%
+    EXAM 01.EntityRouted: 1290/1986 -- 820c/332w  63.6%
+    EXAM 01.EntityRouted: 1300/1986 -- 827c/333w  63.6%
+    EXAM 01.EntityRouted: 1310/1986 -- 836c/334w  63.8%
+    EXAM 01.EntityRouted: 1320/1986 -- 839c/341w  63.6%
+    EXAM 01.EntityRouted: 1330/1986 -- 846c/344w  63.6%
+    EXAM 01.EntityRouted: 1340/1986 -- 849c/351w  63.4%
+    EXAM 01.EntityRouted: 1350/1986 -- 852c/357w  63.1%
+    EXAM 01.EntityRouted: 1360/1986 -- 862c/357w  63.4%
+    EXAM 01.EntityRouted: 1370/1986 -- 869c/358w  63.4%
+    EXAM 01.EntityRouted: 1380/1986 -- 879c/358w  63.7%
+    EXAM 01.EntityRouted: 1390/1986 -- 885c/361w  63.7%
+    EXAM 01.EntityRouted: 1400/1986 -- 894c/362w  63.9%
+    EXAM 01.EntityRouted: 1410/1986 -- 903c/362w  64.0%
+    EXAM 01.EntityRouted: 1420/1986 -- 911c/363w  64.2%
+    EXAM 01.EntityRouted: 1430/1986 -- 919c/364w  64.3%
+    EXAM 01.EntityRouted: 1440/1986 -- 924c/364w  64.2%
+    EXAM 01.EntityRouted: 1450/1986 -- 931c/367w  64.2%
+    EXAM 01.EntityRouted: 1460/1986 -- 939c/368w  64.3%
+    EXAM 01.EntityRouted: 1470/1986 -- 945c/370w  64.3%
+    EXAM 01.EntityRouted: 1480/1986 -- 952c/372w  64.3%
+    EXAM 01.EntityRouted: 1490/1986 -- 958c/374w  64.3%
+    EXAM 01.EntityRouted: 1500/1986 -- 965c/374w  64.3%
+    EXAM 01.EntityRouted: 1510/1986 -- 971c/377w  64.3%
+    EXAM 01.EntityRouted: 1520/1986 -- 980c/378w  64.5%
+    EXAM 01.EntityRouted: 1530/1986 -- 988c/379w  64.6%
+    EXAM 01.EntityRouted: 1540/1986 -- 994c/381w  64.5%
+    EXAM 01.EntityRouted: 1550/1986 -- 995c/390w  64.2%
+    EXAM 01.EntityRouted: 1560/1986 -- 997c/397w  63.9%
+    EXAM 01.EntityRouted: 1570/1986 -- 998c/406w  63.6%
+    EXAM 01.EntityRouted: 1580/1986 -- 1001c/413w  63.4%
+    EXAM 01.EntityRouted: 1590/1986 -- 1005c/419w  63.2%
+    EXAM 01.EntityRouted: 1600/1986 -- 1012c/420w  63.2%
+    EXAM 01.EntityRouted: 1610/1986 -- 1018c/420w  63.2%
+    EXAM 01.EntityRouted: 1620/1986 -- 1026c/422w  63.3%
+    EXAM 01.EntityRouted: 1630/1986 -- 1034c/423w  63.4%
+    EXAM 01.EntityRouted: 1640/1986 -- 1039c/423w  63.4%
+    EXAM 01.EntityRouted: 1650/1986 -- 1043c/424w  63.2%
+    EXAM 01.EntityRouted: 1660/1986 -- 1053c/424w  63.4%
+    EXAM 01.EntityRouted: 1670/1986 -- 1058c/426w  63.4%
+    EXAM 01.EntityRouted: 1680/1986 -- 1066c/426w  63.5%
+    EXAM 01.EntityRouted: 1690/1986 -- 1075c/427w  63.6%
+    EXAM 01.EntityRouted: 1700/1986 -- 1085c/427w  63.8%
+    EXAM 01.EntityRouted: 1710/1986 -- 1093c/428w  63.9%
+    EXAM 01.EntityRouted: 1720/1986 -- 1098c/432w  63.8%
+    EXAM 01.EntityRouted: 1730/1986 -- 1106c/434w  63.9%
+    EXAM 01.EntityRouted: 1740/1986 -- 1114c/436w  64.0%
+    EXAM 01.EntityRouted: 1750/1986 -- 1117c/443w  63.8%
+    EXAM 01.EntityRouted: 1760/1986 -- 1117c/453w  63.5%
+    EXAM 01.EntityRouted: 1770/1986 -- 1118c/462w  63.2%
+    EXAM 01.EntityRouted: 1780/1986 -- 1119c/471w  62.9%
+    EXAM 01.EntityRouted: 1790/1986 -- 1125c/473w  62.8%
+    EXAM 01.EntityRouted: 1800/1986 -- 1132c/476w  62.9%
+    EXAM 01.EntityRouted: 1810/1986 -- 1142c/476w  63.1%
+    EXAM 01.EntityRouted: 1820/1986 -- 1150c/477w  63.2%
+    EXAM 01.EntityRouted: 1830/1986 -- 1157c/480w  63.2%
+    EXAM 01.EntityRouted: 1840/1986 -- 1162c/484w  63.2%
+    EXAM 01.EntityRouted: 1850/1986 -- 1167c/484w  63.1%
+    EXAM 01.EntityRouted: 1860/1986 -- 1173c/486w  63.1%
+    EXAM 01.EntityRouted: 1870/1986 -- 1180c/489w  63.1%
+    EXAM 01.EntityRouted: 1880/1986 -- 1189c/490w  63.2%
+    EXAM 01.EntityRouted: 1890/1986 -- 1198c/491w  63.4%
+    EXAM 01.EntityRouted: 1900/1986 -- 1204c/493w  63.4%
+    EXAM 01.EntityRouted: 1910/1986 -- 1208c/497w  63.2%
+    EXAM 01.EntityRouted: 1920/1986 -- 1214c/499w  63.2%
+    EXAM 01.EntityRouted: 1930/1986 -- 1221c/500w  63.3%
+    EXAM 01.EntityRouted: 1940/1986 -- 1230c/500w  63.4%
+    EXAM 01.EntityRouted: 1950/1986 -- 1233c/507w  63.2%
+    EXAM 01.EntityRouted: 1960/1986 -- 1236c/514w  63.1%
+    EXAM 01.EntityRouted: 1970/1986 -- 1238c/522w  62.8%
+    EXAM 01.EntityRouted: 1980/1986 -- 1240c/530w  62.6%
+  [02_locomo_off] Done: 1243/1986 = 62.6%
+  [02_locomo_off] Transcript saved: exam_01.EntityRouted_02_locomo_off.json
+  [02_locomo_off] SAVED to resume state
+
+  [03_hard_off] Exam (76 Qs, learning=OFF)...
+    EXAM 01.EntityRouted: 10/76 -- 1c/6w  10.0%
+    EXAM 01.EntityRouted: 20/76 -- 5c/11w  25.0%
+    EXAM 01.EntityRouted: 30/76 -- 13c/13w  43.3%
+    EXAM 01.EntityRouted: 40/76 -- 15c/20w  37.5%
+    EXAM 01.EntityRouted: 50/76 -- 16c/25w  32.0%
+    EXAM 01.EntityRouted: 60/76 -- 22c/29w  36.7%
+    EXAM 01.EntityRouted: 70/76 -- 22c/39w  31.4%
+  [03_hard_off] Done: 22/76 = 28.9%
+  [03_hard_off] Transcript saved: exam_01.EntityRouted_03_hard_off.json
+  [03_hard_off] SAVED to resume state
+
+  === 01.EntityRouted COMPLETE ===
+
+============================================================
+STRATEGY 2/4: 02.Wilson+CE
+============================================================
+
+  [01_conversation] Conversation learning (~503 turns, 3015 facts)...
+    02.Wilson+CE: Starting Caroline (123 facts)...
+    02.Wilson+CE: turn 10 | 20/3015 facts | Caroline (103 remaining)
+    02.Wilson+CE: turn 20 | 40/3015 facts | Caroline (83 remaining)
+    02.Wilson+CE: turn 30 | 60/3015 facts | Caroline (63 remaining)
+    02.Wilson+CE: turn 40 | 80/3015 facts | Caroline (43 remaining)
+    02.Wilson+CE: turn 50 | 100/3015 facts | Caroline (23 remaining)
+    02.Wilson+CE: turn 60 | 120/3015 facts | Caroline (3 remaining)
+    02.Wilson+CE: Caroline done (123 facts covered)
+    02.Wilson+CE: Starting Melanie (114 facts)...
+    02.Wilson+CE: turn 70 | 139/3015 facts | Melanie (98 remaining)
+    02.Wilson+CE: turn 80 | 159/3015 facts | Melanie (78 remaining)
+    02.Wilson+CE: turn 90 | 179/3015 facts | Melanie (58 remaining)
+    02.Wilson+CE: turn 100 | 199/3015 facts | Melanie (38 remaining)
+    02.Wilson+CE: turn 110 | 219/3015 facts | Melanie (18 remaining)
+    02.Wilson+CE: Melanie done (114 facts covered)
+    02.Wilson+CE: Starting Gina (74 facts)...
+    02.Wilson+CE: turn 120 | 239/3015 facts | Gina (72 remaining)
+    02.Wilson+CE: turn 130 | 259/3015 facts | Gina (52 remaining)
+    02.Wilson+CE: turn 140 | 279/3015 facts | Gina (32 remaining)
+    02.Wilson+CE: turn 150 | 299/3015 facts | Gina (12 remaining)
+    02.Wilson+CE: Gina done (74 facts covered)
+    02.Wilson+CE: Starting Jon (70 facts)...
+    02.Wilson+CE: turn 160 | 319/3015 facts | Jon (62 remaining)
+    02.Wilson+CE: turn 170 | 339/3015 facts | Jon (42 remaining)
+    02.Wilson+CE: turn 180 | 359/3015 facts | Jon (22 remaining)
+    02.Wilson+CE: turn 190 | 379/3015 facts | Jon (2 remaining)
+    02.Wilson+CE: Jon done (70 facts covered)
+    02.Wilson+CE: Starting Maria (135 facts)...
+    02.Wilson+CE: turn 200 | 399/3015 facts | Maria (117 remaining)
+    02.Wilson+CE: turn 210 | 419/3015 facts | Maria (97 remaining)
+    02.Wilson+CE: turn 220 | 439/3015 facts | Maria (77 remaining)
+    02.Wilson+CE: turn 230 | 459/3015 facts | Maria (57 remaining)
+    02.Wilson+CE: turn 240 | 479/3015 facts | Maria (37 remaining)
+    02.Wilson+CE: turn 250 | 499/3015 facts | Maria (17 remaining)
+    02.Wilson+CE: Maria done (135 facts covered)
+    02.Wilson+CE: Starting John (185 facts)...
+    02.Wilson+CE: turn 260 | 518/3015 facts | John (183 remaining)
+    02.Wilson+CE: turn 270 | 538/3015 facts | John (163 remaining)
+    02.Wilson+CE: turn 280 | 558/3015 facts | John (143 remaining)
+    02.Wilson+CE: turn 290 | 578/3015 facts | John (123 remaining)
+    02.Wilson+CE: turn 300 | 598/3015 facts | John (103 remaining)
+    02.Wilson+CE: turn 310 | 618/3015 facts | John (83 remaining)
+    02.Wilson+CE: turn 320 | 638/3015 facts | John (63 remaining)
+    02.Wilson+CE: turn 330 | 658/3015 facts | John (43 remaining)
+    02.Wilson+CE: turn 340 | 678/3015 facts | John (23 remaining)
+    02.Wilson+CE: turn 350 | 698/3015 facts | John (3 remaining)
+    02.Wilson+CE: John done (185 facts covered)
+    02.Wilson+CE: Starting Nate (186 facts)...
+    02.Wilson+CE: turn 360 | 717/3015 facts | Nate (170 remaining)
+    02.Wilson+CE: turn 370 | 737/3015 facts | Nate (150 remaining)
+    02.Wilson+CE: turn 380 | 757/3015 facts | Nate (130 remaining)
+    02.Wilson+CE: turn 390 | 777/3015 facts | Nate (110 remaining)
+    02.Wilson+CE: turn 400 | 797/3015 facts | Nate (90 remaining)
+    02.Wilson+CE: turn 410 | 817/3015 facts | Nate (70 remaining)
+    02.Wilson+CE: turn 420 | 837/3015 facts | Nate (50 remaining)
+    02.Wilson+CE: turn 430 | 857/3015 facts | Nate (30 remaining)
+    02.Wilson+CE: turn 440 | 877/3015 facts | Nate (10 remaining)
+    02.Wilson+CE: Nate done (186 facts covered)
+    02.Wilson+CE: Starting Joanna (173 facts)...
+    02.Wilson+CE: turn 450 | 897/3015 facts | Joanna (163 remaining)
+    02.Wilson+CE: turn 460 | 917/3015 facts | Joanna (143 remaining)
+    02.Wilson+CE: turn 470 | 937/3015 facts | Joanna (123 remaining)
+    02.Wilson+CE: turn 480 | 957/3015 facts | Joanna (103 remaining)
+    02.Wilson+CE: turn 490 | 977/3015 facts | Joanna (83 remaining)
+    02.Wilson+CE: turn 500 | 997/3015 facts | Joanna (63 remaining)
+    02.Wilson+CE: turn 510 | 1017/3015 facts | Joanna (43 remaining)
+    02.Wilson+CE: turn 520 | 1037/3015 facts | Joanna (23 remaining)
+    02.Wilson+CE: turn 530 | 1057/3015 facts | Joanna (3 remaining)
+    02.Wilson+CE: Joanna done (173 facts covered)
+    02.Wilson+CE: Starting John (202 facts)...
+    02.Wilson+CE: turn 540 | 1076/3015 facts | John (186 remaining)
+    02.Wilson+CE: turn 550 | 1096/3015 facts | John (166 remaining)
+    02.Wilson+CE: turn 560 | 1116/3015 facts | John (146 remaining)
+    02.Wilson+CE: turn 570 | 1136/3015 facts | John (126 remaining)
+    02.Wilson+CE: turn 580 | 1156/3015 facts | John (106 remaining)
+    02.Wilson+CE: turn 590 | 1176/3015 facts | John (86 remaining)
+    02.Wilson+CE: turn 600 | 1196/3015 facts | John (66 remaining)
+    02.Wilson+CE: turn 610 | 1216/3015 facts | John (46 remaining)
+    02.Wilson+CE: turn 620 | 1236/3015 facts | John (26 remaining)
+    02.Wilson+CE: turn 630 | 1256/3015 facts | John (6 remaining)
+    02.Wilson+CE: John done (202 facts covered)
+    02.Wilson+CE: Starting Tim (139 facts)...
+    02.Wilson+CE: turn 640 | 1276/3015 facts | Tim (125 remaining)
+    02.Wilson+CE: turn 650 | 1296/3015 facts | Tim (105 remaining)
+    02.Wilson+CE: turn 660 | 1316/3015 facts | Tim (85 remaining)
+    02.Wilson+CE: turn 670 | 1336/3015 facts | Tim (65 remaining)
+    02.Wilson+CE: turn 680 | 1356/3015 facts | Tim (45 remaining)
+    02.Wilson+CE: turn 690 | 1376/3015 facts | Tim (25 remaining)
+    02.Wilson+CE: turn 700 | 1396/3015 facts | Tim (5 remaining)
+    02.Wilson+CE: Tim done (139 facts covered)
+    02.Wilson+CE: Starting Audrey (166 facts)...
+    02.Wilson+CE: turn 710 | 1415/3015 facts | Audrey (152 remaining)
+    02.Wilson+CE: turn 720 | 1435/3015 facts | Audrey (132 remaining)
+    02.Wilson+CE: turn 730 | 1455/3015 facts | Audrey (112 remaining)
+    02.Wilson+CE: turn 740 | 1475/3015 facts | Audrey (92 remaining)
+    02.Wilson+CE: turn 750 | 1495/3015 facts | Audrey (72 remaining)
+    02.Wilson+CE: turn 760 | 1515/3015 facts | Audrey (52 remaining)
+    02.Wilson+CE: turn 770 | 1535/3015 facts | Audrey (32 remaining)
+    02.Wilson+CE: turn 780 | 1555/3015 facts | Audrey (12 remaining)
+    02.Wilson+CE: Audrey done (166 facts covered)
+    02.Wilson+CE: Starting Andrew (124 facts)...
+    02.Wilson+CE: turn 790 | 1575/3015 facts | Andrew (116 remaining)
+    02.Wilson+CE: turn 800 | 1595/3015 facts | Andrew (96 remaining)
+    02.Wilson+CE: turn 810 | 1615/3015 facts | Andrew (76 remaining)
+    02.Wilson+CE: turn 820 | 1635/3015 facts | Andrew (56 remaining)
+    02.Wilson+CE: turn 830 | 1655/3015 facts | Andrew (36 remaining)
+    02.Wilson+CE: turn 840 | 1675/3015 facts | Andrew (16 remaining)
+    02.Wilson+CE: Andrew done (124 facts covered)
+    02.Wilson+CE: Starting John (125 facts)...
+    02.Wilson+CE: turn 850 | 1695/3015 facts | John (121 remaining)
+    02.Wilson+CE: turn 860 | 1715/3015 facts | John (101 remaining)
+    02.Wilson+CE: turn 870 | 1735/3015 facts | John (81 remaining)
+    02.Wilson+CE: turn 880 | 1755/3015 facts | John (61 remaining)
+    02.Wilson+CE: turn 890 | 1775/3015 facts | John (41 remaining)
+    02.Wilson+CE: turn 900 | 1795/3015 facts | John (21 remaining)
+    02.Wilson+CE: turn 910 | 1815/3015 facts | John (1 remaining)
+    02.Wilson+CE: John done (125 facts covered)
+    02.Wilson+CE: Starting James (141 facts)...
+    02.Wilson+CE: turn 920 | 1834/3015 facts | James (123 remaining)
+    02.Wilson+CE: turn 930 | 1854/3015 facts | James (103 remaining)
+    02.Wilson+CE: turn 940 | 1874/3015 facts | James (83 remaining)
+    02.Wilson+CE: turn 950 | 1894/3015 facts | James (63 remaining)
+    02.Wilson+CE: turn 960 | 1914/3015 facts | James (43 remaining)
+    02.Wilson+CE: turn 970 | 1934/3015 facts | James (23 remaining)
+    02.Wilson+CE: turn 980 | 1954/3015 facts | James (3 remaining)
+    02.Wilson+CE: James done (141 facts covered)
+    02.Wilson+CE: Starting Deborah (158 facts)...
+    02.Wilson+CE: turn 990 | 1973/3015 facts | Deborah (142 remaining)
+    02.Wilson+CE: turn 1000 | 1993/3015 facts | Deborah (122 remaining)
+    02.Wilson+CE: turn 1010 | 2013/3015 facts | Deborah (102 remaining)
+    02.Wilson+CE: turn 1020 | 2033/3015 facts | Deborah (82 remaining)
+    02.Wilson+CE: turn 1030 | 2053/3015 facts | Deborah (62 remaining)
+    02.Wilson+CE: turn 1040 | 2073/3015 facts | Deborah (42 remaining)
+    02.Wilson+CE: turn 1050 | 2093/3015 facts | Deborah (22 remaining)
+    02.Wilson+CE: turn 1060 | 2113/3015 facts | Deborah (2 remaining)
+    02.Wilson+CE: Deborah done (158 facts covered)
+    02.Wilson+CE: Starting Jolene (199 facts)...
+    02.Wilson+CE: turn 1070 | 2133/3015 facts | Jolene (181 remaining)
+    02.Wilson+CE: turn 1080 | 2153/3015 facts | Jolene (161 remaining)
+    02.Wilson+CE: turn 1090 | 2173/3015 facts | Jolene (141 remaining)
+    02.Wilson+CE: turn 1100 | 2193/3015 facts | Jolene (121 remaining)
+    02.Wilson+CE: turn 1110 | 2213/3015 facts | Jolene (101 remaining)
+    02.Wilson+CE: turn 1120 | 2233/3015 facts | Jolene (81 remaining)
+    02.Wilson+CE: turn 1130 | 2253/3015 facts | Jolene (61 remaining)
+    02.Wilson+CE: turn 1140 | 2273/3015 facts | Jolene (41 remaining)
+    02.Wilson+CE: turn 1150 | 2293/3015 facts | Jolene (21 remaining)
+    02.Wilson+CE: turn 1160 | 2313/3015 facts | Jolene (1 remaining)
+    02.Wilson+CE: Jolene done (199 facts covered)
+    02.Wilson+CE: Starting Sam (159 facts)...
+    02.Wilson+CE: turn 1170 | 2332/3015 facts | Sam (141 remaining)
+    02.Wilson+CE: turn 1180 | 2352/3015 facts | Sam (121 remaining)
+    02.Wilson+CE: turn 1190 | 2372/3015 facts | Sam (101 remaining)
+    02.Wilson+CE: turn 1200 | 2392/3015 facts | Sam (81 remaining)
+    02.Wilson+CE: turn 1210 | 2412/3015 facts | Sam (61 remaining)
+    02.Wilson+CE: turn 1220 | 2432/3015 facts | Sam (41 remaining)
+    02.Wilson+CE: turn 1230 | 2452/3015 facts | Sam (21 remaining)
+    02.Wilson+CE: turn 1240 | 2472/3015 facts | Sam (1 remaining)
+    02.Wilson+CE: Sam done (159 facts covered)
+    02.Wilson+CE: Starting Evan (177 facts)...
+    02.Wilson+CE: turn 1250 | 2491/3015 facts | Evan (159 remaining)
+    02.Wilson+CE: turn 1260 | 2511/3015 facts | Evan (139 remaining)
+    02.Wilson+CE: turn 1270 | 2531/3015 facts | Evan (119 remaining)
+    02.Wilson+CE: turn 1280 | 2551/3015 facts | Evan (99 remaining)
+    02.Wilson+CE: turn 1290 | 2571/3015 facts | Evan (79 remaining)
+    02.Wilson+CE: turn 1300 | 2591/3015 facts | Evan (59 remaining)
+    02.Wilson+CE: turn 1310 | 2611/3015 facts | Evan (39 remaining)
+    02.Wilson+CE: turn 1320 | 2631/3015 facts | Evan (19 remaining)
+    02.Wilson+CE: turn 1330 | 2650/3015 facts | Evan (0 remaining)
+    02.Wilson+CE: Evan done (177 facts covered)
+    02.Wilson+CE: Starting Calvin (210 facts)...
+    02.Wilson+CE: turn 1340 | 2670/3015 facts | Calvin (190 remaining)
+    02.Wilson+CE: turn 1350 | 2690/3015 facts | Calvin (170 remaining)
+    02.Wilson+CE: turn 1360 | 2710/3015 facts | Calvin (150 remaining)
+    02.Wilson+CE: turn 1370 | 2730/3015 facts | Calvin (130 remaining)
+    02.Wilson+CE: turn 1380 | 2750/3015 facts | Calvin (110 remaining)
+    02.Wilson+CE: turn 1390 | 2770/3015 facts | Calvin (90 remaining)
+    02.Wilson+CE: turn 1400 | 2790/3015 facts | Calvin (70 remaining)
+    02.Wilson+CE: turn 1410 | 2810/3015 facts | Calvin (50 remaining)
+    02.Wilson+CE: turn 1420 | 2830/3015 facts | Calvin (30 remaining)
+    02.Wilson+CE: turn 1430 | 2850/3015 facts | Calvin (10 remaining)
+    02.Wilson+CE: Calvin done (210 facts covered)
+    02.Wilson+CE: Starting Dave (155 facts)...
+    02.Wilson+CE: turn 1440 | 2870/3015 facts | Dave (145 remaining)
+    02.Wilson+CE: turn 1450 | 2890/3015 facts | Dave (125 remaining)
+    02.Wilson+CE: turn 1460 | 2910/3015 facts | Dave (105 remaining)
+    02.Wilson+CE: turn 1470 | 2930/3015 facts | Dave (85 remaining)
+    02.Wilson+CE: turn 1480 | 2950/3015 facts | Dave (65 remaining)
+    02.Wilson+CE: turn 1490 | 2970/3015 facts | Dave (45 remaining)
+    02.Wilson+CE: turn 1500 | 2990/3015 facts | Dave (25 remaining)
+    02.Wilson+CE: turn 1510 | 3010/3015 facts | Dave (5 remaining)
+    02.Wilson+CE: Dave done (155 facts covered)
+    02.Wilson+CE: Conversation complete — 1513 turns, 3015 facts, 7930 memories stored
+  [01_conversation] Done: 1513 turns, 7930 memories stored
+  [01_conversation] SAVED to resume state
+
+  [02_locomo_off] Exam (1986 Qs, learning=OFF)...
+    EXAM 02.Wilson+CE: 10/1986 -- 7c/2w  70.0%
+    EXAM 02.Wilson+CE: 20/1986 -- 14c/3w  70.0%
+    EXAM 02.Wilson+CE: 30/1986 -- 23c/3w  76.7%
+    EXAM 02.Wilson+CE: 40/1986 -- 26c/4w  65.0%
+    EXAM 02.Wilson+CE: 50/1986 -- 35c/4w  70.0%
+    EXAM 02.Wilson+CE: 60/1986 -- 42c/4w  70.0%
+    EXAM 02.Wilson+CE: 70/1986 -- 51c/4w  72.9%
+    EXAM 02.Wilson+CE: 80/1986 -- 58c/6w  72.5%
+    EXAM 02.Wilson+CE: 90/1986 -- 68c/6w  75.6%
+    EXAM 02.Wilson+CE: 100/1986 -- 77c/6w  77.0%
+    EXAM 02.Wilson+CE: 110/1986 -- 87c/6w  79.1%
+    EXAM 02.Wilson+CE: 120/1986 -- 93c/9w  77.5%
+    EXAM 02.Wilson+CE: 130/1986 -- 103c/9w  79.2%
+    EXAM 02.Wilson+CE: 140/1986 -- 110c/10w  78.6%
+    EXAM 02.Wilson+CE: 150/1986 -- 114c/12w  76.0%
+    EXAM 02.Wilson+CE: 160/1986 -- 119c/17w  74.4%
+    EXAM 02.Wilson+CE: 170/1986 -- 122c/24w  71.8%
+    EXAM 02.Wilson+CE: 180/1986 -- 124c/32w  68.9%
+    EXAM 02.Wilson+CE: 190/1986 -- 128c/38w  67.4%
+    EXAM 02.Wilson+CE: 200/1986 -- 129c/46w  64.5%
+    EXAM 02.Wilson+CE: 210/1986 -- 137c/47w  65.2%
+    EXAM 02.Wilson+CE: 220/1986 -- 147c/47w  66.8%
+    EXAM 02.Wilson+CE: 230/1986 -- 153c/47w  66.5%
+    EXAM 02.Wilson+CE: 240/1986 -- 162c/48w  67.5%
+    EXAM 02.Wilson+CE: 250/1986 -- 168c/50w  67.2%
+    EXAM 02.Wilson+CE: 260/1986 -- 177c/51w  68.1%
+    EXAM 02.Wilson+CE: 270/1986 -- 182c/54w  67.4%
+    EXAM 02.Wilson+CE: 280/1986 -- 188c/56w  67.1%
+    EXAM 02.Wilson+CE: 290/1986 -- 190c/64w  65.5%
+    EXAM 02.Wilson+CE: 300/1986 -- 194c/70w  64.7%
+    EXAM 02.Wilson+CE: 310/1986 -- 201c/73w  64.8%
+    EXAM 02.Wilson+CE: 320/1986 -- 209c/74w  65.3%
+    EXAM 02.Wilson+CE: 330/1986 -- 213c/77w  64.5%
+    EXAM 02.Wilson+CE: 340/1986 -- 220c/79w  64.7%
+    EXAM 02.Wilson+CE: 350/1986 -- 226c/81w  64.6%
+    EXAM 02.Wilson+CE: 360/1986 -- 231c/83w  64.2%
+    EXAM 02.Wilson+CE: 370/1986 -- 238c/86w  64.3%
+    EXAM 02.Wilson+CE: 380/1986 -- 243c/91w  63.9%
+    EXAM 02.Wilson+CE: 390/1986 -- 250c/94w  64.1%
+    EXAM 02.Wilson+CE: 400/1986 -- 256c/94w  64.0%
+    EXAM 02.Wilson+CE: 410/1986 -- 262c/95w  63.9%
+    EXAM 02.Wilson+CE: 420/1986 -- 268c/98w  63.8%
+    EXAM 02.Wilson+CE: 430/1986 -- 276c/98w  64.2%
+    EXAM 02.Wilson+CE: 440/1986 -- 283c/100w  64.3%
+    EXAM 02.Wilson+CE: 450/1986 -- 291c/101w  64.7%
+    EXAM 02.Wilson+CE: 460/1986 -- 295c/105w  64.1%
+    EXAM 02.Wilson+CE: 470/1986 -- 297c/113w  63.2%
+    EXAM 02.Wilson+CE: 480/1986 -- 298c/122w  62.1%
+    EXAM 02.Wilson+CE: 490/1986 -- 301c/129w  61.4%
+    EXAM 02.Wilson+CE: 500/1986 -- 307c/132w  61.4%
+    EXAM 02.Wilson+CE: 510/1986 -- 312c/134w  61.2%
+    EXAM 02.Wilson+CE: 520/1986 -- 320c/136w  61.5%
+    EXAM 02.Wilson+CE: 530/1986 -- 328c/138w  61.9%
+    EXAM 02.Wilson+CE: 540/1986 -- 337c/139w  62.4%
+    EXAM 02.Wilson+CE: 550/1986 -- 343c/143w  62.4%
+    EXAM 02.Wilson+CE: 560/1986 -- 351c/144w  62.7%
+    EXAM 02.Wilson+CE: 570/1986 -- 358c/145w  62.8%
+    EXAM 02.Wilson+CE: 580/1986 -- 363c/147w  62.6%
+    EXAM 02.Wilson+CE: 590/1986 -- 373c/147w  63.2%
+    EXAM 02.Wilson+CE: 600/1986 -- 380c/148w  63.3%
+    EXAM 02.Wilson+CE: 610/1986 -- 389c/148w  63.8%
+    EXAM 02.Wilson+CE: 620/1986 -- 396c/149w  63.9%
+    EXAM 02.Wilson+CE: 630/1986 -- 403c/150w  64.0%
+    EXAM 02.Wilson+CE: 640/1986 -- 411c/152w  64.2%
+    EXAM 02.Wilson+CE: 650/1986 -- 418c/154w  64.3%
+    EXAM 02.Wilson+CE: 660/1986 -- 426c/156w  64.5%
+    EXAM 02.Wilson+CE: 670/1986 -- 433c/158w  64.6%
+    EXAM 02.Wilson+CE: 680/1986 -- 441c/159w  64.9%
+    EXAM 02.Wilson+CE: 690/1986 -- 447c/161w  64.8%
+    EXAM 02.Wilson+CE: 700/1986 -- 453c/164w  64.7%
+    EXAM 02.Wilson+CE: 710/1986 -- 456c/171w  64.2%
+    EXAM 02.Wilson+CE: 720/1986 -- 457c/180w  63.5%
+    EXAM 02.Wilson+CE: 730/1986 -- 459c/188w  62.9%
+    EXAM 02.Wilson+CE: 740/1986 -- 462c/194w  62.4%
+    EXAM 02.Wilson+CE: 750/1986 -- 462c/204w  61.6%
+    EXAM 02.Wilson+CE: 760/1986 -- 464c/210w  61.1%
+    EXAM 02.Wilson+CE: 770/1986 -- 470c/212w  61.0%
+    EXAM 02.Wilson+CE: 780/1986 -- 476c/213w  61.0%
+    EXAM 02.Wilson+CE: 790/1986 -- 483c/213w  61.1%
+    EXAM 02.Wilson+CE: 800/1986 -- 489c/213w  61.1%
+    EXAM 02.Wilson+CE: 810/1986 -- 496c/213w  61.2%
+    EXAM 02.Wilson+CE: 820/1986 -- 504c/214w  61.5%
+    EXAM 02.Wilson+CE: 830/1986 -- 510c/217w  61.4%
+    EXAM 02.Wilson+CE: 840/1986 -- 518c/218w  61.7%
+    EXAM 02.Wilson+CE: 850/1986 -- 526c/218w  61.9%
+    EXAM 02.Wilson+CE: 860/1986 -- 535c/219w  62.2%
+    EXAM 02.Wilson+CE: 870/1986 -- 542c/219w  62.3%
+    EXAM 02.Wilson+CE: 880/1986 -- 548c/222w  62.3%
+    EXAM 02.Wilson+CE: 890/1986 -- 558c/222w  62.7%
+    EXAM 02.Wilson+CE: 900/1986 -- 567c/223w  63.0%
+    EXAM 02.Wilson+CE: 910/1986 -- 575c/225w  63.2%
+    EXAM 02.Wilson+CE: 920/1986 -- 582c/227w  63.3%
+    EXAM 02.Wilson+CE: 930/1986 -- 591c/227w  63.5%
+    EXAM 02.Wilson+CE: 940/1986 -- 596c/232w  63.4%
+    EXAM 02.Wilson+CE: 950/1986 -- 601c/237w  63.3%
+    EXAM 02.Wilson+CE: 960/1986 -- 605c/243w  63.0%
+    EXAM 02.Wilson+CE: 970/1986 -- 605c/253w  62.4%
+    EXAM 02.Wilson+CE: 980/1986 -- 609c/259w  62.1%
+    EXAM 02.Wilson+CE: 990/1986 -- 611c/267w  61.7%
+    EXAM 02.Wilson+CE: 1000/1986 -- 615c/273w  61.5%
+    EXAM 02.Wilson+CE: 1010/1986 -- 622c/273w  61.6%
+    EXAM 02.Wilson+CE: 1020/1986 -- 629c/275w  61.7%
+    EXAM 02.Wilson+CE: 1030/1986 -- 637c/275w  61.8%
+    EXAM 02.Wilson+CE: 1040/1986 -- 643c/276w  61.8%
+    EXAM 02.Wilson+CE: 1050/1986 -- 652c/277w  62.1%
+    EXAM 02.Wilson+CE: 1060/1986 -- 659c/278w  62.2%
+    EXAM 02.Wilson+CE: 1070/1986 -- 665c/279w  62.1%
+    EXAM 02.Wilson+CE: 1080/1986 -- 671c/283w  62.1%
+    EXAM 02.Wilson+CE: 1090/1986 -- 677c/285w  62.1%
+    EXAM 02.Wilson+CE: 1100/1986 -- 686c/285w  62.4%
+    EXAM 02.Wilson+CE: 1110/1986 -- 693c/286w  62.4%
+    EXAM 02.Wilson+CE: 1120/1986 -- 703c/286w  62.8%
+    EXAM 02.Wilson+CE: 1130/1986 -- 705c/294w  62.4%
+    EXAM 02.Wilson+CE: 1140/1986 -- 709c/300w  62.2%
+    EXAM 02.Wilson+CE: 1150/1986 -- 710c/309w  61.7%
+    EXAM 02.Wilson+CE: 1160/1986 -- 711c/316w  61.3%
+    EXAM 02.Wilson+CE: 1170/1986 -- 720c/316w  61.5%
+    EXAM 02.Wilson+CE: 1180/1986 -- 728c/317w  61.7%
+    EXAM 02.Wilson+CE: 1190/1986 -- 735c/318w  61.8%
+    EXAM 02.Wilson+CE: 1200/1986 -- 745c/318w  62.1%
+    EXAM 02.Wilson+CE: 1210/1986 -- 753c/320w  62.2%
+    EXAM 02.Wilson+CE: 1220/1986 -- 761c/321w  62.4%
+    EXAM 02.Wilson+CE: 1230/1986 -- 769c/321w  62.5%
+    EXAM 02.Wilson+CE: 1240/1986 -- 778c/322w  62.7%
+    EXAM 02.Wilson+CE: 1250/1986 -- 785c/324w  62.8%
+    EXAM 02.Wilson+CE: 1260/1986 -- 794c/325w  63.0%
+    EXAM 02.Wilson+CE: 1270/1986 -- 801c/327w  63.1%
+    EXAM 02.Wilson+CE: 1280/1986 -- 810c/327w  63.3%
+    EXAM 02.Wilson+CE: 1290/1986 -- 817c/328w  63.3%
+    EXAM 02.Wilson+CE: 1300/1986 -- 823c/329w  63.3%
+    EXAM 02.Wilson+CE: 1310/1986 -- 831c/331w  63.4%
+    EXAM 02.Wilson+CE: 1320/1986 -- 832c/340w  63.0%
+    EXAM 02.Wilson+CE: 1330/1986 -- 835c/347w  62.8%
+    EXAM 02.Wilson+CE: 1340/1986 -- 838c/353w  62.5%
+    EXAM 02.Wilson+CE: 1350/1986 -- 842c/358w  62.4%
+    EXAM 02.Wilson+CE: 1360/1986 -- 852c/358w  62.6%
+    EXAM 02.Wilson+CE: 1370/1986 -- 859c/359w  62.7%
+    EXAM 02.Wilson+CE: 1380/1986 -- 868c/360w  62.9%
+    EXAM 02.Wilson+CE: 1390/1986 -- 874c/362w  62.9%
+    EXAM 02.Wilson+CE: 1400/1986 -- 881c/363w  62.9%
+    EXAM 02.Wilson+CE: 1410/1986 -- 889c/364w  63.0%
+    EXAM 02.Wilson+CE: 1420/1986 -- 897c/365w  63.2%
+    EXAM 02.Wilson+CE: 1430/1986 -- 904c/368w  63.2%
+    EXAM 02.Wilson+CE: 1440/1986 -- 908c/370w  63.1%
+    EXAM 02.Wilson+CE: 1450/1986 -- 915c/371w  63.1%
+    EXAM 02.Wilson+CE: 1460/1986 -- 923c/372w  63.2%
+    EXAM 02.Wilson+CE: 1470/1986 -- 929c/375w  63.2%
+    EXAM 02.Wilson+CE: 1480/1986 -- 938c/375w  63.4%
+    EXAM 02.Wilson+CE: 1490/1986 -- 945c/377w  63.4%
+    EXAM 02.Wilson+CE: 1500/1986 -- 952c/377w  63.5%
+    EXAM 02.Wilson+CE: 1510/1986 -- 958c/381w  63.4%
+    EXAM 02.Wilson+CE: 1520/1986 -- 966c/382w  63.6%
+    EXAM 02.Wilson+CE: 1530/1986 -- 972c/386w  63.5%
+    EXAM 02.Wilson+CE: 1540/1986 -- 978c/388w  63.5%
+    EXAM 02.Wilson+CE: 1550/1986 -- 980c/396w  63.2%
+    EXAM 02.Wilson+CE: 1560/1986 -- 980c/404w  62.8%
+    EXAM 02.Wilson+CE: 1570/1986 -- 981c/413w  62.5%
+    EXAM 02.Wilson+CE: 1580/1986 -- 983c/421w  62.2%
+    EXAM 02.Wilson+CE: 1590/1986 -- 987c/427w  62.1%
+    EXAM 02.Wilson+CE: 1600/1986 -- 996c/428w  62.3%
+    EXAM 02.Wilson+CE: 1610/1986 -- 1002c/431w  62.2%
+    EXAM 02.Wilson+CE: 1620/1986 -- 1007c/435w  62.2%
+    EXAM 02.Wilson+CE: 1630/1986 -- 1016c/435w  62.3%
+    EXAM 02.Wilson+CE: 1640/1986 -- 1023c/436w  62.4%
+    EXAM 02.Wilson+CE: 1650/1986 -- 1029c/437w  62.4%
+    EXAM 02.Wilson+CE: 1660/1986 -- 1037c/439w  62.5%
+    EXAM 02.Wilson+CE: 1670/1986 -- 1044c/440w  62.5%
+    EXAM 02.Wilson+CE: 1680/1986 -- 1053c/441w  62.7%
+    EXAM 02.Wilson+CE: 1690/1986 -- 1060c/442w  62.7%
+    EXAM 02.Wilson+CE: 1700/1986 -- 1069c/443w  62.9%
+    EXAM 02.Wilson+CE: 1710/1986 -- 1075c/446w  62.9%
+    EXAM 02.Wilson+CE: 1720/1986 -- 1081c/448w  62.8%
+    EXAM 02.Wilson+CE: 1730/1986 -- 1089c/449w  62.9%
+    EXAM 02.Wilson+CE: 1740/1986 -- 1096c/452w  63.0%
+    EXAM 02.Wilson+CE: 1750/1986 -- 1096c/461w  62.6%
+    EXAM 02.Wilson+CE: 1760/1986 -- 1097c/470w  62.3%
+    EXAM 02.Wilson+CE: 1770/1986 -- 1098c/479w  62.0%
+    EXAM 02.Wilson+CE: 1780/1986 -- 1098c/489w  61.7%
+    EXAM 02.Wilson+CE: 1790/1986 -- 1105c/491w  61.7%
+    EXAM 02.Wilson+CE: 1800/1986 -- 1111c/493w  61.7%
+    EXAM 02.Wilson+CE: 1810/1986 -- 1120c/493w  61.9%
+    EXAM 02.Wilson+CE: 1820/1986 -- 1128c/494w  62.0%
+    EXAM 02.Wilson+CE: 1830/1986 -- 1135c/496w  62.0%
+    EXAM 02.Wilson+CE: 1840/1986 -- 1144c/497w  62.2%
+    EXAM 02.Wilson+CE: 1850/1986 -- 1150c/497w  62.2%
+    EXAM 02.Wilson+CE: 1860/1986 -- 1157c/499w  62.2%
+    EXAM 02.Wilson+CE: 1870/1986 -- 1166c/500w  62.4%
+    EXAM 02.Wilson+CE: 1880/1986 -- 1174c/501w  62.4%
+    EXAM 02.Wilson+CE: 1890/1986 -- 1183c/502w  62.6%
+    EXAM 02.Wilson+CE: 1900/1986 -- 1189c/504w  62.6%
+    EXAM 02.Wilson+CE: 1910/1986 -- 1196c/507w  62.6%
+    EXAM 02.Wilson+CE: 1920/1986 -- 1204c/508w  62.7%
+    EXAM 02.Wilson+CE: 1930/1986 -- 1208c/511w  62.6%
+    EXAM 02.Wilson+CE: 1940/1986 -- 1217c/511w  62.7%
+    EXAM 02.Wilson+CE: 1950/1986 -- 1220c/518w  62.6%
+    EXAM 02.Wilson+CE: 1960/1986 -- 1222c/526w  62.3%
+    EXAM 02.Wilson+CE: 1970/1986 -- 1223c/534w  62.1%
+    EXAM 02.Wilson+CE: 1980/1986 -- 1223c/543w  61.8%
+  [02_locomo_off] Done: 1224/1986 = 61.6%
+  [02_locomo_off] Transcript saved: exam_02.Wilson+CE_02_locomo_off.json
+  [02_locomo_off] SAVED to resume state
+
+  [03_hard_off] Exam (76 Qs, learning=OFF)...
+    EXAM 02.Wilson+CE: 10/76 -- 0c/5w  0.0%
+    EXAM 02.Wilson+CE: 20/76 -- 4c/7w  20.0%
+    EXAM 02.Wilson+CE: 30/76 -- 13c/8w  43.3%
+    EXAM 02.Wilson+CE: 40/76 -- 14c/13w  35.0%
+    EXAM 02.Wilson+CE: 50/76 -- 15c/20w  30.0%
+    EXAM 02.Wilson+CE: 60/76 -- 20c/25w  33.3%
+    EXAM 02.Wilson+CE: 70/76 -- 22c/33w  31.4%
+  [03_hard_off] Done: 22/76 = 28.9%
+  [03_hard_off] Transcript saved: exam_02.Wilson+CE_03_hard_off.json
+  [03_hard_off] SAVED to resume state
+
+  === 02.Wilson+CE COMPLETE ===
+
+============================================================
+STRATEGY 3/4: 03.Reranker
+============================================================
+
+  [01_conversation] Conversation learning (~503 turns, 3015 facts)...
+    03.Reranker: Starting Caroline (123 facts)...
+    03.Reranker: turn 10 | 20/3015 facts | Caroline (103 remaining)
+    03.Reranker: turn 20 | 40/3015 facts | Caroline (83 remaining)
+    03.Reranker: turn 30 | 60/3015 facts | Caroline (63 remaining)
+    03.Reranker: turn 40 | 80/3015 facts | Caroline (43 remaining)
+    03.Reranker: turn 50 | 100/3015 facts | Caroline (23 remaining)
+    03.Reranker: turn 60 | 120/3015 facts | Caroline (3 remaining)
+    03.Reranker: Caroline done (123 facts covered)
+    03.Reranker: Starting Melanie (114 facts)...
+    03.Reranker: turn 70 | 139/3015 facts | Melanie (98 remaining)
+    03.Reranker: turn 80 | 159/3015 facts | Melanie (78 remaining)
+    03.Reranker: turn 90 | 179/3015 facts | Melanie (58 remaining)
+    03.Reranker: turn 100 | 199/3015 facts | Melanie (38 remaining)
+    03.Reranker: turn 110 | 219/3015 facts | Melanie (18 remaining)
+    03.Reranker: Melanie done (114 facts covered)
+    03.Reranker: Starting Gina (74 facts)...
+    03.Reranker: turn 120 | 239/3015 facts | Gina (72 remaining)
+    03.Reranker: turn 130 | 259/3015 facts | Gina (52 remaining)
+    03.Reranker: turn 140 | 279/3015 facts | Gina (32 remaining)
+    03.Reranker: turn 150 | 299/3015 facts | Gina (12 remaining)
+    03.Reranker: Gina done (74 facts covered)
+    03.Reranker: Starting Jon (70 facts)...
+    03.Reranker: turn 160 | 319/3015 facts | Jon (62 remaining)
+    03.Reranker: turn 170 | 339/3015 facts | Jon (42 remaining)
+    03.Reranker: turn 180 | 359/3015 facts | Jon (22 remaining)
+    03.Reranker: turn 190 | 379/3015 facts | Jon (2 remaining)
+    03.Reranker: Jon done (70 facts covered)
+    03.Reranker: Starting Maria (135 facts)...
+    03.Reranker: turn 200 | 399/3015 facts | Maria (117 remaining)
+    03.Reranker: turn 210 | 419/3015 facts | Maria (97 remaining)
+    03.Reranker: turn 220 | 439/3015 facts | Maria (77 remaining)
+    03.Reranker: turn 230 | 459/3015 facts | Maria (57 remaining)
+    03.Reranker: turn 240 | 479/3015 facts | Maria (37 remaining)
+    03.Reranker: turn 250 | 499/3015 facts | Maria (17 remaining)
+    03.Reranker: Maria done (135 facts covered)
+    03.Reranker: Starting John (185 facts)...
+    03.Reranker: turn 260 | 518/3015 facts | John (183 remaining)
+    03.Reranker: turn 270 | 538/3015 facts | John (163 remaining)
+    03.Reranker: turn 280 | 558/3015 facts | John (143 remaining)
+    03.Reranker: turn 290 | 578/3015 facts | John (123 remaining)
+    03.Reranker: turn 300 | 598/3015 facts | John (103 remaining)
+    03.Reranker: turn 310 | 618/3015 facts | John (83 remaining)
+    03.Reranker: turn 320 | 638/3015 facts | John (63 remaining)
+    03.Reranker: turn 330 | 658/3015 facts | John (43 remaining)
+    03.Reranker: turn 340 | 678/3015 facts | John (23 remaining)
+    03.Reranker: turn 350 | 698/3015 facts | John (3 remaining)
+    03.Reranker: John done (185 facts covered)
+    03.Reranker: Starting Nate (186 facts)...
+    03.Reranker: turn 360 | 717/3015 facts | Nate (170 remaining)
+    03.Reranker: turn 370 | 737/3015 facts | Nate (150 remaining)
+    03.Reranker: turn 380 | 757/3015 facts | Nate (130 remaining)
+    03.Reranker: turn 390 | 777/3015 facts | Nate (110 remaining)
+    03.Reranker: turn 400 | 797/3015 facts | Nate (90 remaining)
+    03.Reranker: turn 410 | 817/3015 facts | Nate (70 remaining)
+    03.Reranker: turn 420 | 837/3015 facts | Nate (50 remaining)
+    03.Reranker: turn 430 | 857/3015 facts | Nate (30 remaining)
+    03.Reranker: turn 440 | 877/3015 facts | Nate (10 remaining)
+    03.Reranker: Nate done (186 facts covered)
+    03.Reranker: Starting Joanna (173 facts)...
+    03.Reranker: turn 450 | 897/3015 facts | Joanna (163 remaining)
+    03.Reranker: turn 460 | 917/3015 facts | Joanna (143 remaining)
+    03.Reranker: turn 470 | 937/3015 facts | Joanna (123 remaining)
+    03.Reranker: turn 480 | 957/3015 facts | Joanna (103 remaining)
+    03.Reranker: turn 490 | 977/3015 facts | Joanna (83 remaining)
+    03.Reranker: turn 500 | 997/3015 facts | Joanna (63 remaining)
+    03.Reranker: turn 510 | 1017/3015 facts | Joanna (43 remaining)
+    03.Reranker: turn 520 | 1037/3015 facts | Joanna (23 remaining)
+    03.Reranker: turn 530 | 1057/3015 facts | Joanna (3 remaining)
+    03.Reranker: Joanna done (173 facts covered)
+    03.Reranker: Starting John (202 facts)...
+    03.Reranker: turn 540 | 1076/3015 facts | John (186 remaining)
+    03.Reranker: turn 550 | 1096/3015 facts | John (166 remaining)
+    03.Reranker: turn 560 | 1116/3015 facts | John (146 remaining)
+    03.Reranker: turn 570 | 1136/3015 facts | John (126 remaining)
+    03.Reranker: turn 580 | 1156/3015 facts | John (106 remaining)
+    03.Reranker: turn 590 | 1176/3015 facts | John (86 remaining)
+    03.Reranker: turn 600 | 1196/3015 facts | John (66 remaining)
+    03.Reranker: turn 610 | 1216/3015 facts | John (46 remaining)
+    03.Reranker: turn 620 | 1236/3015 facts | John (26 remaining)
+    03.Reranker: turn 630 | 1256/3015 facts | John (6 remaining)
+    03.Reranker: John done (202 facts covered)
+    03.Reranker: Starting Tim (139 facts)...
+    03.Reranker: turn 640 | 1276/3015 facts | Tim (125 remaining)
+    03.Reranker: turn 650 | 1296/3015 facts | Tim (105 remaining)
+    03.Reranker: turn 660 | 1316/3015 facts | Tim (85 remaining)
+    03.Reranker: turn 670 | 1336/3015 facts | Tim (65 remaining)
+    03.Reranker: turn 680 | 1356/3015 facts | Tim (45 remaining)
+    03.Reranker: turn 690 | 1376/3015 facts | Tim (25 remaining)
+    03.Reranker: turn 700 | 1396/3015 facts | Tim (5 remaining)
+    03.Reranker: Tim done (139 facts covered)
+    03.Reranker: Starting Audrey (166 facts)...
+    03.Reranker: turn 710 | 1415/3015 facts | Audrey (152 remaining)
+    03.Reranker: turn 720 | 1435/3015 facts | Audrey (132 remaining)
+    03.Reranker: turn 730 | 1455/3015 facts | Audrey (112 remaining)
+    03.Reranker: turn 740 | 1475/3015 facts | Audrey (92 remaining)
+    03.Reranker: turn 750 | 1495/3015 facts | Audrey (72 remaining)
+    03.Reranker: turn 760 | 1515/3015 facts | Audrey (52 remaining)
+    03.Reranker: turn 770 | 1535/3015 facts | Audrey (32 remaining)
+    03.Reranker: turn 780 | 1555/3015 facts | Audrey (12 remaining)
+    03.Reranker: Audrey done (166 facts covered)
+    03.Reranker: Starting Andrew (124 facts)...
+    03.Reranker: turn 790 | 1575/3015 facts | Andrew (116 remaining)
+    03.Reranker: turn 800 | 1595/3015 facts | Andrew (96 remaining)
+    03.Reranker: turn 810 | 1615/3015 facts | Andrew (76 remaining)
+    03.Reranker: turn 820 | 1635/3015 facts | Andrew (56 remaining)
+    03.Reranker: turn 830 | 1655/3015 facts | Andrew (36 remaining)
+    03.Reranker: turn 840 | 1675/3015 facts | Andrew (16 remaining)
+    03.Reranker: Andrew done (124 facts covered)
+    03.Reranker: Starting John (125 facts)...
+    03.Reranker: turn 850 | 1695/3015 facts | John (121 remaining)
+    03.Reranker: turn 860 | 1715/3015 facts | John (101 remaining)
+    03.Reranker: turn 870 | 1735/3015 facts | John (81 remaining)
+    03.Reranker: turn 880 | 1755/3015 facts | John (61 remaining)
+    03.Reranker: turn 890 | 1775/3015 facts | John (41 remaining)
+    03.Reranker: turn 900 | 1795/3015 facts | John (21 remaining)
+    03.Reranker: turn 910 | 1815/3015 facts | John (1 remaining)
+    03.Reranker: John done (125 facts covered)
+    03.Reranker: Starting James (141 facts)...
+    03.Reranker: turn 920 | 1834/3015 facts | James (123 remaining)
+    03.Reranker: turn 930 | 1854/3015 facts | James (103 remaining)
+    03.Reranker: turn 940 | 1874/3015 facts | James (83 remaining)
+    03.Reranker: turn 950 | 1894/3015 facts | James (63 remaining)
+    03.Reranker: turn 960 | 1914/3015 facts | James (43 remaining)
+    03.Reranker: turn 970 | 1934/3015 facts | James (23 remaining)
+    03.Reranker: turn 980 | 1954/3015 facts | James (3 remaining)
+    03.Reranker: James done (141 facts covered)
+    03.Reranker: Starting Deborah (158 facts)...
+    03.Reranker: turn 990 | 1973/3015 facts | Deborah (142 remaining)
+    03.Reranker: turn 1000 | 1993/3015 facts | Deborah (122 remaining)
+    03.Reranker: turn 1010 | 2013/3015 facts | Deborah (102 remaining)
+    03.Reranker: turn 1020 | 2033/3015 facts | Deborah (82 remaining)
+    03.Reranker: turn 1030 | 2053/3015 facts | Deborah (62 remaining)
+    03.Reranker: turn 1040 | 2073/3015 facts | Deborah (42 remaining)
+    03.Reranker: turn 1050 | 2093/3015 facts | Deborah (22 remaining)
+    03.Reranker: turn 1060 | 2113/3015 facts | Deborah (2 remaining)
+    03.Reranker: Deborah done (158 facts covered)
+    03.Reranker: Starting Jolene (199 facts)...
+    03.Reranker: turn 1070 | 2133/3015 facts | Jolene (181 remaining)
+    03.Reranker: turn 1080 | 2153/3015 facts | Jolene (161 remaining)
+    03.Reranker: turn 1090 | 2173/3015 facts | Jolene (141 remaining)
+    03.Reranker: turn 1100 | 2193/3015 facts | Jolene (121 remaining)
+    03.Reranker: turn 1110 | 2213/3015 facts | Jolene (101 remaining)
+    03.Reranker: turn 1120 | 2233/3015 facts | Jolene (81 remaining)
+    03.Reranker: turn 1130 | 2253/3015 facts | Jolene (61 remaining)
+    03.Reranker: turn 1140 | 2273/3015 facts | Jolene (41 remaining)
+    03.Reranker: turn 1150 | 2293/3015 facts | Jolene (21 remaining)
+    03.Reranker: turn 1160 | 2313/3015 facts | Jolene (1 remaining)
+    03.Reranker: Jolene done (199 facts covered)
+    03.Reranker: Starting Sam (159 facts)...
+    03.Reranker: turn 1170 | 2332/3015 facts | Sam (141 remaining)
+    03.Reranker: turn 1180 | 2352/3015 facts | Sam (121 remaining)
+    03.Reranker: turn 1190 | 2372/3015 facts | Sam (101 remaining)
+    03.Reranker: turn 1200 | 2392/3015 facts | Sam (81 remaining)
+    03.Reranker: turn 1210 | 2412/3015 facts | Sam (61 remaining)
+    03.Reranker: turn 1220 | 2432/3015 facts | Sam (41 remaining)
+    03.Reranker: turn 1230 | 2452/3015 facts | Sam (21 remaining)
+    03.Reranker: turn 1240 | 2472/3015 facts | Sam (1 remaining)
+    03.Reranker: Sam done (159 facts covered)
+    03.Reranker: Starting Evan (177 facts)...
+    03.Reranker: turn 1250 | 2491/3015 facts | Evan (159 remaining)
+    03.Reranker: turn 1260 | 2511/3015 facts | Evan (139 remaining)
+    03.Reranker: turn 1270 | 2531/3015 facts | Evan (119 remaining)
+    03.Reranker: turn 1280 | 2551/3015 facts | Evan (99 remaining)
+    03.Reranker: turn 1290 | 2571/3015 facts | Evan (79 remaining)
+    03.Reranker: turn 1300 | 2591/3015 facts | Evan (59 remaining)
+    03.Reranker: turn 1310 | 2611/3015 facts | Evan (39 remaining)
+    03.Reranker: turn 1320 | 2631/3015 facts | Evan (19 remaining)
+    03.Reranker: turn 1330 | 2650/3015 facts | Evan (0 remaining)
+    03.Reranker: Evan done (177 facts covered)
+    03.Reranker: Starting Calvin (210 facts)...
+    03.Reranker: turn 1340 | 2670/3015 facts | Calvin (190 remaining)
+    03.Reranker: turn 1350 | 2690/3015 facts | Calvin (170 remaining)
+    03.Reranker: turn 1360 | 2710/3015 facts | Calvin (150 remaining)
+    03.Reranker: turn 1370 | 2730/3015 facts | Calvin (130 remaining)
+    03.Reranker: turn 1380 | 2750/3015 facts | Calvin (110 remaining)
+    03.Reranker: turn 1390 | 2770/3015 facts | Calvin (90 remaining)
+    03.Reranker: turn 1400 | 2790/3015 facts | Calvin (70 remaining)
+    03.Reranker: turn 1410 | 2810/3015 facts | Calvin (50 remaining)
+    03.Reranker: turn 1420 | 2830/3015 facts | Calvin (30 remaining)
+    03.Reranker: turn 1430 | 2850/3015 facts | Calvin (10 remaining)
+    03.Reranker: Calvin done (210 facts covered)
+    03.Reranker: Starting Dave (155 facts)...
+    03.Reranker: turn 1440 | 2870/3015 facts | Dave (145 remaining)
+    03.Reranker: turn 1450 | 2890/3015 facts | Dave (125 remaining)
+    03.Reranker: turn 1460 | 2910/3015 facts | Dave (105 remaining)
+    03.Reranker: turn 1470 | 2930/3015 facts | Dave (85 remaining)
+    03.Reranker: turn 1480 | 2950/3015 facts | Dave (65 remaining)
+    03.Reranker: turn 1490 | 2970/3015 facts | Dave (45 remaining)
+    03.Reranker: turn 1500 | 2990/3015 facts | Dave (25 remaining)
+    03.Reranker: turn 1510 | 3010/3015 facts | Dave (5 remaining)
+    03.Reranker: Dave done (155 facts covered)
+    03.Reranker: Conversation complete — 1513 turns, 3015 facts, 7865 memories stored
+  [01_conversation] Done: 1513 turns, 7865 memories stored
+  [01_conversation] SAVED to resume state
+
+  [02_locomo_off] Exam (1986 Qs, learning=OFF)...
+    EXAM 03.Reranker: 10/1986 -- 7c/2w  70.0%
+    EXAM 03.Reranker: 20/1986 -- 15c/2w  75.0%
+    EXAM 03.Reranker: 30/1986 -- 22c/3w  73.3%
+    EXAM 03.Reranker: 40/1986 -- 27c/6w  67.5%
+    EXAM 03.Reranker: 50/1986 -- 36c/6w  72.0%
+    EXAM 03.Reranker: 60/1986 -- 41c/7w  68.3%
+    EXAM 03.Reranker: 70/1986 -- 46c/10w  65.7%
+    EXAM 03.Reranker: 80/1986 -- 54c/12w  67.5%
+    EXAM 03.Reranker: 90/1986 -- 62c/13w  68.9%
+    EXAM 03.Reranker: 100/1986 -- 71c/13w  71.0%
+    EXAM 03.Reranker: 110/1986 -- 80c/13w  72.7%
+    EXAM 03.Reranker: 120/1986 -- 85c/16w  70.8%
+    EXAM 03.Reranker: 130/1986 -- 95c/16w  73.1%
+    EXAM 03.Reranker: 140/1986 -- 102c/16w  72.9%
+    EXAM 03.Reranker: 150/1986 -- 106c/16w  70.7%
+    EXAM 03.Reranker: 160/1986 -- 110c/22w  68.8%
+    EXAM 03.Reranker: 170/1986 -- 113c/29w  66.5%
+    EXAM 03.Reranker: 180/1986 -- 115c/37w  63.9%
+    EXAM 03.Reranker: 190/1986 -- 117c/45w  61.6%
+    EXAM 03.Reranker: 200/1986 -- 119c/53w  59.5%
+    EXAM 03.Reranker: 210/1986 -- 128c/54w  61.0%
+    EXAM 03.Reranker: 220/1986 -- 138c/54w  62.7%
+    EXAM 03.Reranker: 230/1986 -- 144c/54w  62.6%
+    EXAM 03.Reranker: 240/1986 -- 152c/56w  63.3%
+    EXAM 03.Reranker: 250/1986 -- 157c/59w  62.8%
+    EXAM 03.Reranker: 260/1986 -- 165c/61w  63.5%
+    EXAM 03.Reranker: 270/1986 -- 171c/63w  63.3%
+    EXAM 03.Reranker: 280/1986 -- 178c/63w  63.6%
+    EXAM 03.Reranker: 290/1986 -- 183c/68w  63.1%
+    EXAM 03.Reranker: 300/1986 -- 187c/74w  62.3%
+    EXAM 03.Reranker: 310/1986 -- 193c/77w  62.3%
+    EXAM 03.Reranker: 320/1986 -- 201c/78w  62.8%
+    EXAM 03.Reranker: 330/1986 -- 206c/80w  62.4%
+    EXAM 03.Reranker: 340/1986 -- 211c/82w  62.1%
+    EXAM 03.Reranker: 350/1986 -- 217c/83w  62.0%
+    EXAM 03.Reranker: 360/1986 -- 221c/88w  61.4%
+    EXAM 03.Reranker: 370/1986 -- 228c/91w  61.6%
+    EXAM 03.Reranker: 380/1986 -- 235c/93w  61.8%
+    EXAM 03.Reranker: 390/1986 -- 243c/95w  62.3%
+    EXAM 03.Reranker: 400/1986 -- 250c/97w  62.5%
+    EXAM 03.Reranker: 410/1986 -- 257c/98w  62.7%
+    EXAM 03.Reranker: 420/1986 -- 261c/101w  62.1%
+    EXAM 03.Reranker: 430/1986 -- 266c/105w  61.9%
+    EXAM 03.Reranker: 440/1986 -- 269c/109w  61.1%
+    EXAM 03.Reranker: 450/1986 -- 277c/109w  61.6%
+    EXAM 03.Reranker: 460/1986 -- 281c/113w  61.1%
+    EXAM 03.Reranker: 470/1986 -- 281c/123w  59.8%
+    EXAM 03.Reranker: 480/1986 -- 283c/131w  59.0%
+    EXAM 03.Reranker: 490/1986 -- 285c/139w  58.2%
+    EXAM 03.Reranker: 500/1986 -- 289c/143w  57.8%
+    EXAM 03.Reranker: 510/1986 -- 294c/144w  57.6%
+    EXAM 03.Reranker: 520/1986 -- 303c/145w  58.3%
+    EXAM 03.Reranker: 530/1986 -- 310c/148w  58.5%
+    EXAM 03.Reranker: 540/1986 -- 319c/148w  59.1%
+    EXAM 03.Reranker: 550/1986 -- 328c/148w  59.6%
+    EXAM 03.Reranker: 560/1986 -- 333c/151w  59.5%
+    EXAM 03.Reranker: 570/1986 -- 337c/154w  59.1%
+    EXAM 03.Reranker: 580/1986 -- 342c/155w  59.0%
+    EXAM 03.Reranker: 590/1986 -- 352c/155w  59.7%
+    EXAM 03.Reranker: 600/1986 -- 357c/158w  59.5%
+    EXAM 03.Reranker: 610/1986 -- 364c/158w  59.7%
+    EXAM 03.Reranker: 620/1986 -- 369c/160w  59.5%
+    EXAM 03.Reranker: 630/1986 -- 376c/161w  59.7%
+    EXAM 03.Reranker: 640/1986 -- 383c/162w  59.8%
+    EXAM 03.Reranker: 650/1986 -- 388c/166w  59.7%
+    EXAM 03.Reranker: 660/1986 -- 397c/167w  60.2%
+    EXAM 03.Reranker: 670/1986 -- 402c/169w  60.0%
+    EXAM 03.Reranker: 680/1986 -- 410c/170w  60.3%
+    EXAM 03.Reranker: 690/1986 -- 418c/172w  60.6%
+    EXAM 03.Reranker: 700/1986 -- 421c/177w  60.1%
+    EXAM 03.Reranker: 710/1986 -- 422c/186w  59.4%
+    EXAM 03.Reranker: 720/1986 -- 424c/194w  58.9%
+    EXAM 03.Reranker: 730/1986 -- 425c/203w  58.2%
+    EXAM 03.Reranker: 740/1986 -- 426c/212w  57.6%
+    EXAM 03.Reranker: 750/1986 -- 426c/222w  56.8%
+    EXAM 03.Reranker: 760/1986 -- 428c/228w  56.3%
+    EXAM 03.Reranker: 770/1986 -- 432c/233w  56.1%
+    EXAM 03.Reranker: 780/1986 -- 438c/235w  56.2%
+    EXAM 03.Reranker: 790/1986 -- 447c/235w  56.6%
+    EXAM 03.Reranker: 800/1986 -- 454c/235w  56.8%
+    EXAM 03.Reranker: 810/1986 -- 461c/235w  56.9%
+    EXAM 03.Reranker: 820/1986 -- 467c/237w  57.0%
+    EXAM 03.Reranker: 830/1986 -- 475c/239w  57.2%
+    EXAM 03.Reranker: 840/1986 -- 484c/239w  57.6%
+    EXAM 03.Reranker: 850/1986 -- 494c/239w  58.1%
+    EXAM 03.Reranker: 860/1986 -- 501c/241w  58.3%
+    EXAM 03.Reranker: 870/1986 -- 509c/241w  58.5%
+    EXAM 03.Reranker: 880/1986 -- 517c/242w  58.8%
+    EXAM 03.Reranker: 890/1986 -- 526c/243w  59.1%
+    EXAM 03.Reranker: 900/1986 -- 533c/244w  59.2%
+    EXAM 03.Reranker: 910/1986 -- 541c/245w  59.5%
+    EXAM 03.Reranker: 920/1986 -- 550c/246w  59.8%
+    EXAM 03.Reranker: 930/1986 -- 558c/247w  60.0%
+    EXAM 03.Reranker: 940/1986 -- 563c/252w  59.9%
+    EXAM 03.Reranker: 950/1986 -- 567c/257w  59.7%
+    EXAM 03.Reranker: 960/1986 -- 569c/265w  59.3%
+    EXAM 03.Reranker: 970/1986 -- 570c/274w  58.8%
+    EXAM 03.Reranker: 980/1986 -- 574c/280w  58.6%
+    EXAM 03.Reranker: 990/1986 -- 579c/285w  58.5%
+    EXAM 03.Reranker: 1000/1986 -- 582c/292w  58.2%
+    EXAM 03.Reranker: 1010/1986 -- 589c/292w  58.3%
+    EXAM 03.Reranker: 1020/1986 -- 598c/292w  58.6%
+    EXAM 03.Reranker: 1030/1986 -- 606c/293w  58.8%
+    EXAM 03.Reranker: 1040/1986 -- 610c/295w  58.7%
+    EXAM 03.Reranker: 1050/1986 -- 617c/297w  58.8%
+    EXAM 03.Reranker: 1060/1986 -- 625c/299w  59.0%
+    EXAM 03.Reranker: 1070/1986 -- 632c/301w  59.1%
+    EXAM 03.Reranker: 1080/1986 -- 640c/301w  59.3%
+    EXAM 03.Reranker: 1090/1986 -- 646c/303w  59.3%
+    EXAM 03.Reranker: 1100/1986 -- 653c/304w  59.4%
+    EXAM 03.Reranker: 1110/1986 -- 660c/307w  59.5%
+    EXAM 03.Reranker: 1120/1986 -- 669c/308w  59.7%
+    EXAM 03.Reranker: 1130/1986 -- 671c/315w  59.4%
+    EXAM 03.Reranker: 1140/1986 -- 671c/324w  58.9%
+    EXAM 03.Reranker: 1150/1986 -- 672c/333w  58.4%
+    EXAM 03.Reranker: 1160/1986 -- 674c/341w  58.1%
+    EXAM 03.Reranker: 1170/1986 -- 681c/344w  58.2%
+    EXAM 03.Reranker: 1180/1986 -- 691c/344w  58.6%
+    EXAM 03.Reranker: 1190/1986 -- 698c/346w  58.7%
+    EXAM 03.Reranker: 1200/1986 -- 707c/346w  58.9%
+    EXAM 03.Reranker: 1210/1986 -- 716c/347w  59.2%
+    EXAM 03.Reranker: 1220/1986 -- 722c/349w  59.2%
+    EXAM 03.Reranker: 1230/1986 -- 728c/352w  59.2%
+    EXAM 03.Reranker: 1240/1986 -- 737c/353w  59.4%
+    EXAM 03.Reranker: 1250/1986 -- 745c/354w  59.6%
+    EXAM 03.Reranker: 1260/1986 -- 753c/355w  59.8%
+    EXAM 03.Reranker: 1270/1986 -- 762c/356w  60.0%
+    EXAM 03.Reranker: 1280/1986 -- 771c/356w  60.2%
+    EXAM 03.Reranker: 1290/1986 -- 780c/357w  60.5%
+    EXAM 03.Reranker: 1300/1986 -- 787c/358w  60.5%
+    EXAM 03.Reranker: 1310/1986 -- 795c/360w  60.7%
+    EXAM 03.Reranker: 1320/1986 -- 798c/367w  60.5%
+    EXAM 03.Reranker: 1330/1986 -- 802c/373w  60.3%
+    EXAM 03.Reranker: 1340/1986 -- 804c/381w  60.0%
+    EXAM 03.Reranker: 1350/1986 -- 810c/385w  60.0%
+    EXAM 03.Reranker: 1360/1986 -- 819c/385w  60.2%
+    EXAM 03.Reranker: 1370/1986 -- 826c/385w  60.3%
+    EXAM 03.Reranker: 1380/1986 -- 834c/387w  60.4%
+    EXAM 03.Reranker: 1390/1986 -- 840c/389w  60.4%
+    EXAM 03.Reranker: 1400/1986 -- 848c/391w  60.6%
+    EXAM 03.Reranker: 1410/1986 -- 855c/392w  60.6%
+    EXAM 03.Reranker: 1420/1986 -- 863c/392w  60.8%
+    EXAM 03.Reranker: 1430/1986 -- 871c/393w  60.9%
+    EXAM 03.Reranker: 1440/1986 -- 876c/393w  60.8%
+    EXAM 03.Reranker: 1450/1986 -- 882c/394w  60.8%
+    EXAM 03.Reranker: 1460/1986 -- 889c/395w  60.9%
+    EXAM 03.Reranker: 1470/1986 -- 896c/396w  61.0%
+    EXAM 03.Reranker: 1480/1986 -- 904c/397w  61.1%
+    EXAM 03.Reranker: 1490/1986 -- 909c/400w  61.0%
+    EXAM 03.Reranker: 1500/1986 -- 916c/400w  61.1%
+    EXAM 03.Reranker: 1510/1986 -- 924c/401w  61.2%
+    EXAM 03.Reranker: 1520/1986 -- 929c/404w  61.1%
+    EXAM 03.Reranker: 1530/1986 -- 934c/408w  61.0%
+    EXAM 03.Reranker: 1540/1986 -- 941c/410w  61.1%
+    EXAM 03.Reranker: 1550/1986 -- 944c/417w  60.9%
+    EXAM 03.Reranker: 1560/1986 -- 944c/427w  60.5%
+    EXAM 03.Reranker: 1570/1986 -- 945c/436w  60.2%
+    EXAM 03.Reranker: 1580/1986 -- 948c/443w  60.0%
+    EXAM 03.Reranker: 1590/1986 -- 954c/447w  60.0%
+    EXAM 03.Reranker: 1600/1986 -- 963c/448w  60.2%
+    EXAM 03.Reranker: 1610/1986 -- 971c/449w  60.3%
+    EXAM 03.Reranker: 1620/1986 -- 979c/450w  60.4%
+    EXAM 03.Reranker: 1630/1986 -- 986c/451w  60.5%
+    EXAM 03.Reranker: 1640/1986 -- 991c/452w  60.4%
+    EXAM 03.Reranker: 1650/1986 -- 996c/454w  60.4%
+    EXAM 03.Reranker: 1660/1986 -- 1005c/455w  60.5%
+    EXAM 03.Reranker: 1670/1986 -- 1010c/456w  60.5%
+    EXAM 03.Reranker: 1680/1986 -- 1017c/458w  60.5%
+    EXAM 03.Reranker: 1690/1986 -- 1025c/460w  60.7%
+    EXAM 03.Reranker: 1700/1986 -- 1032c/463w  60.7%
+    EXAM 03.Reranker: 1710/1986 -- 1040c/465w  60.8%
+    EXAM 03.Reranker: 1720/1986 -- 1046c/466w  60.8%
+    EXAM 03.Reranker: 1730/1986 -- 1056c/466w  61.0%
+    EXAM 03.Reranker: 1740/1986 -- 1065c/467w  61.2%
+    EXAM 03.Reranker: 1750/1986 -- 1068c/474w  61.0%
+    EXAM 03.Reranker: 1760/1986 -- 1069c/483w  60.7%
+    EXAM 03.Reranker: 1770/1986 -- 1070c/492w  60.5%
+    EXAM 03.Reranker: 1780/1986 -- 1070c/502w  60.1%
+    EXAM 03.Reranker: 1790/1986 -- 1076c/503w  60.1%
+    EXAM 03.Reranker: 1800/1986 -- 1083c/505w  60.2%
+    EXAM 03.Reranker: 1810/1986 -- 1091c/506w  60.3%
+    EXAM 03.Reranker: 1820/1986 -- 1099c/507w  60.4%
+    EXAM 03.Reranker: 1830/1986 -- 1106c/509w  60.4%
+    EXAM 03.Reranker: 1840/1986 -- 1113c/510w  60.5%
+    EXAM 03.Reranker: 1850/1986 -- 1120c/510w  60.5%
+    EXAM 03.Reranker: 1860/1986 -- 1126c/511w  60.5%
+    EXAM 03.Reranker: 1870/1986 -- 1135c/511w  60.7%
+    EXAM 03.Reranker: 1880/1986 -- 1144c/511w  60.9%
+    EXAM 03.Reranker: 1890/1986 -- 1152c/513w  61.0%
+    EXAM 03.Reranker: 1900/1986 -- 1158c/515w  60.9%
+    EXAM 03.Reranker: 1910/1986 -- 1163c/518w  60.9%
+    EXAM 03.Reranker: 1920/1986 -- 1169c/521w  60.9%
+    EXAM 03.Reranker: 1930/1986 -- 1173c/526w  60.8%
+    EXAM 03.Reranker: 1940/1986 -- 1181c/527w  60.9%
+    EXAM 03.Reranker: 1950/1986 -- 1184c/534w  60.7%
+    EXAM 03.Reranker: 1960/1986 -- 1187c/541w  60.6%
+    EXAM 03.Reranker: 1970/1986 -- 1189c/548w  60.4%
+    EXAM 03.Reranker: 1980/1986 -- 1189c/558w  60.1%
+  [02_locomo_off] Done: 1190/1986 = 59.9%
+  [02_locomo_off] Transcript saved: exam_03.Reranker_02_locomo_off.json
+  [02_locomo_off] SAVED to resume state
+
+  [03_hard_off] Exam (76 Qs, learning=OFF)...
+    EXAM 03.Reranker: 10/76 -- 0c/6w  0.0%
+    EXAM 03.Reranker: 20/76 -- 5c/10w  25.0%
+    EXAM 03.Reranker: 30/76 -- 14c/11w  46.7%
+    EXAM 03.Reranker: 40/76 -- 15c/17w  37.5%
+    EXAM 03.Reranker: 50/76 -- 16c/23w  32.0%
+    EXAM 03.Reranker: 60/76 -- 22c/27w  36.7%
+    EXAM 03.Reranker: 70/76 -- 22c/37w  31.4%
+  [03_hard_off] Done: 23/76 = 30.3%
+  [03_hard_off] Transcript saved: exam_03.Reranker_03_hard_off.json
+  [03_hard_off] SAVED to resume state
+
+  === 03.Reranker COMPLETE ===
+
+============================================================
+STRATEGY 4/4: 04.Wilson
+============================================================
+
+  [01_conversation] Conversation learning (~503 turns, 3015 facts)...
+    04.Wilson: Starting Caroline (123 facts)...
+    04.Wilson: turn 10 | 20/3015 facts | Caroline (103 remaining)
+    04.Wilson: turn 20 | 40/3015 facts | Caroline (83 remaining)
+    04.Wilson: turn 30 | 60/3015 facts | Caroline (63 remaining)
+    04.Wilson: turn 40 | 80/3015 facts | Caroline (43 remaining)
+    04.Wilson: turn 50 | 100/3015 facts | Caroline (23 remaining)
+    04.Wilson: turn 60 | 120/3015 facts | Caroline (3 remaining)
+    04.Wilson: Caroline done (123 facts covered)
+    04.Wilson: Starting Melanie (114 facts)...
+    04.Wilson: turn 70 | 139/3015 facts | Melanie (98 remaining)
+    04.Wilson: turn 80 | 159/3015 facts | Melanie (78 remaining)
+    04.Wilson: turn 90 | 179/3015 facts | Melanie (58 remaining)
+    04.Wilson: turn 100 | 199/3015 facts | Melanie (38 remaining)
+    04.Wilson: turn 110 | 219/3015 facts | Melanie (18 remaining)
+    04.Wilson: Melanie done (114 facts covered)
+    04.Wilson: Starting Gina (74 facts)...
+    04.Wilson: turn 120 | 239/3015 facts | Gina (72 remaining)
+    04.Wilson: turn 130 | 259/3015 facts | Gina (52 remaining)
+    04.Wilson: turn 140 | 279/3015 facts | Gina (32 remaining)
+    04.Wilson: turn 150 | 299/3015 facts | Gina (12 remaining)
+    04.Wilson: Gina done (74 facts covered)
+    04.Wilson: Starting Jon (70 facts)...
+    04.Wilson: turn 160 | 319/3015 facts | Jon (62 remaining)
+    04.Wilson: turn 170 | 339/3015 facts | Jon (42 remaining)
+    04.Wilson: turn 180 | 359/3015 facts | Jon (22 remaining)
+    04.Wilson: turn 190 | 379/3015 facts | Jon (2 remaining)
+    04.Wilson: Jon done (70 facts covered)
+    04.Wilson: Starting Maria (135 facts)...
+    04.Wilson: turn 200 | 399/3015 facts | Maria (117 remaining)
+    04.Wilson: turn 210 | 419/3015 facts | Maria (97 remaining)
+    04.Wilson: turn 220 | 439/3015 facts | Maria (77 remaining)
+    04.Wilson: turn 230 | 459/3015 facts | Maria (57 remaining)
+    04.Wilson: turn 240 | 479/3015 facts | Maria (37 remaining)
+    04.Wilson: turn 250 | 499/3015 facts | Maria (17 remaining)
+    04.Wilson: Maria done (135 facts covered)
+    04.Wilson: Starting John (185 facts)...
+    04.Wilson: turn 260 | 518/3015 facts | John (183 remaining)
+    04.Wilson: turn 270 | 538/3015 facts | John (163 remaining)
+    04.Wilson: turn 280 | 558/3015 facts | John (143 remaining)
+    04.Wilson: turn 290 | 578/3015 facts | John (123 remaining)
+    04.Wilson: turn 300 | 598/3015 facts | John (103 remaining)
+    04.Wilson: turn 310 | 618/3015 facts | John (83 remaining)
+    04.Wilson: turn 320 | 638/3015 facts | John (63 remaining)
+    04.Wilson: turn 330 | 658/3015 facts | John (43 remaining)
+    04.Wilson: turn 340 | 678/3015 facts | John (23 remaining)
+    04.Wilson: turn 350 | 698/3015 facts | John (3 remaining)
+    04.Wilson: John done (185 facts covered)
+    04.Wilson: Starting Nate (186 facts)...
+    04.Wilson: turn 360 | 717/3015 facts | Nate (170 remaining)
+    04.Wilson: turn 370 | 737/3015 facts | Nate (150 remaining)
+    04.Wilson: turn 380 | 757/3015 facts | Nate (130 remaining)
+    04.Wilson: turn 390 | 777/3015 facts | Nate (110 remaining)
+    04.Wilson: turn 400 | 797/3015 facts | Nate (90 remaining)
+    04.Wilson: turn 410 | 817/3015 facts | Nate (70 remaining)
+    04.Wilson: turn 420 | 837/3015 facts | Nate (50 remaining)
+    04.Wilson: turn 430 | 857/3015 facts | Nate (30 remaining)
+    04.Wilson: turn 440 | 877/3015 facts | Nate (10 remaining)
+    04.Wilson: Nate done (186 facts covered)
+    04.Wilson: Starting Joanna (173 facts)...
+    04.Wilson: turn 450 | 897/3015 facts | Joanna (163 remaining)
+    04.Wilson: turn 460 | 917/3015 facts | Joanna (143 remaining)
+    04.Wilson: turn 470 | 937/3015 facts | Joanna (123 remaining)
+    04.Wilson: turn 480 | 957/3015 facts | Joanna (103 remaining)
+    04.Wilson: turn 490 | 977/3015 facts | Joanna (83 remaining)

@@ -1,0 +1,410 @@
+{
+  "seed": 42,
+  "total_sampled": 50,
+  "verified": 45,
+  "plausible": 5,
+  "wrong": 0,
+  "empty": 0,
+  "details": [
+    {
+      "question": "How old is Max?",
+      "ground_truth": "8 years old",
+      "category": "commonsense",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT key terms in chunks. Best quote: aming him. How did you get Luna?\nDeborah: I took Luna from the shelter.\nJolene: It’s wonderful that you have become their loving owner!\nDeborah: Yes, I really love cats, and they also need a home, love, and care! Moreover, Max is already old, he is 8 years old.\nJolene: How old is Luna?\nDeborah: She "
+    },
+    {
+      "question": "What is John's main focus in local politics?",
+      "ground_truth": "Improving education and infrastructure",
+      "category": "commonsense",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found 3/3 GT key terms in chunks. Best quote: perfect way to stay in shape and de-stress. Do you have any goals you're working towards?\nJohn: Yeah Maria, I'm really hoping to get into local politics. I love helping the community and making it a better place.\nMaria: Woohoo, John! That's awesome! Any specific areas you want to tackle?\nJohn: I'm p"
+    },
+    {
+      "question": "What is Melanie's reason for getting into running?",
+      "ground_truth": "To de-stress and clear her mind",
+      "category": "commonsense",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Found 3/3 GT key terms in chunks. Best quote: h, they're adorable! What are their names? Pets sure do bring so much joy to us!\nMelanie: Luna and Oliver! They are so sweet and playful - they really liven up the house! Just got some new shoes, too!\nCaroline: Love that purple color! For walking or running?\nMelanie: Thanks, Caroline! These are for "
+    },
+    {
+      "question": "What type of cars does Dave work on at his shop?",
+      "ground_truth": "all kinds of cars, from regular maintenance to full restorations of classic cars",
+      "category": "commonsense",
+      "conv_idx": 9,
+      "verdict": "verified",
+      "evidence": "Found 8/8 GT key terms in chunks. Best quote:  I will! By the way, This is a photo of my shop. Come by sometime, if you can!\nCalvin: Wow, your shop looks great! I'd love to check it out sometime. What sort of cars do you work on at your shop?\nDave: Thanks, Calvin! I work on all kinds of cars at the shop - from regular maintenance to full restor"
+    },
+    {
+      "question": "What does Joanna do while she writes?",
+      "ground_truth": "have a stuffed animal dog named Tilly with her",
+      "category": "commonsense",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 4/4 GT key terms in chunks. Best quote: u gave me! I named her Tilly, and she's always with me while I write.\nNate: Glad to hear it! What made you name her Tilly?\nJoanna: I used to have a dog back in Michigan with that name, but then I got allergic and we had to get rid of her. The name helps me remember her back when I used to be able to"
+    },
+    {
+      "question": "What did Joanna discover at the library in Woodhaven?",
+      "ground_truth": "cool old book collection",
+      "category": "commonsense",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 3/3 GT key terms in chunks. Best quote: new places and get inspired.\nNate: Thanks, Joanna! Your support means a lot to me. That road trip sounds great! Where did you go? Did you discover any interesting places?\nJoanna: Thanks Nate! Appreciate your kind words. I went to Woodhaven, a small town in the Midwest. Got to see some lovely scenery"
+    },
+    {
+      "question": "Which activity helps Nate escape and stimulates his imagination?",
+      "ground_truth": "watching fantasy and sci-fi movies",
+      "category": "commonsense",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 3/3 GT key terms in chunks. Best quote:  your passion for writing, but if acting really makes you happy, give it a shot as well. Who knows what'll happen! Any particular movies that spark your writing?\nJoanna: Thanks Nate! I'm gonna keep writing, but if acting calls out I might give it a try. I really enjoy dramas and emotionally-driven f"
+    },
+    {
+      "question": "What kind of food did Maria have on her dinner spread iwth her mother?",
+      "ground_truth": "Salads, sandwiches, homemade desserts",
+      "category": "commonsense",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found 4/4 GT key terms in chunks. Best quote: Wow, John! It's great when you have that kind of support. My mom and I made some dinner together last night!\nJohn: Thanks, Maria. Having good support is key. Appreciate you being there for me. What do you have in this spread? Looks delicious! I made this apple pie for the kids yesterday too!\nMaria: "
+    },
+    {
+      "question": "How long did Calvin plan to stay in Japan?",
+      "ground_truth": "A few months",
+      "category": "commonsense",
+      "conv_idx": 9,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT key terms in chunks. Best quote:  musicians in the area.\nDave: Sounds great! Collaborating with local musicians would be an amazing experience. How long are you planning to stay in Japan?\nCalvin: I'm gonna be in Japan for a few months then off to Boston! I can't wait!\nDave: That's great, can't wait for you to return from your trip."
+    },
+    {
+      "question": "How does Gina describe the studio that Jon has opened?",
+      "ground_truth": "amazing",
+      "category": "commonsense",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT key terms in chunks. Best quote: studio looks amazing. You've put a lot of work into this and I'm so pumped for the launch tomorrow. Don't miss a beat!\nJon: Thanks, Gina! I'm excited! It's been a wild ride, but I'm feeling good and ready to give it my best.\nGina: Wow, Jon, you must be so excited! You've come so far since we last ta"
+    },
+    {
+      "question": "What type of projects is Deborah interested in getting involved in the future?",
+      "ground_truth": "It is Jolene, not Deborah, who is interested in sustainable initiatives and developing innovative solutions for environmental issues in the future, such as developing renewable energy and finding ways to supply clean water to those with limited access.",
+      "category": "adversarial",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed in transcript. Best chunk: erence to communities. I'm interested in sustainable initiatives and developing innovative solutions for environmental issues. I also want to get involved with organizations that focus on social cause"
+    },
+    {
+      "question": "What kind of writing does Evan enjoy as a form of expression?",
+      "ground_truth": "The question contains a false premise.",
+      "category": "adversarial",
+      "conv_idx": 8,
+      "verdict": "verified",
+      "evidence": "VERIFIED: Adversarial false premise. In raw conv8_session_11_5: \"Writing in my journal and doing creative writing is a good way for me to express my innermost thoughts and feelings\" was said by SAM, not Evan. Evan only said \"Writing is a great way to express yourself. What kind of writing do you enjoy?\" - asking Sam, not revealing his own preference. GT \"false premise\" is correct."
+    },
+    {
+      "question": "What did the system John created help the illegal organization with?",
+      "ground_truth": "The system John created did not help an illegal organization.",
+      "category": "adversarial",
+      "conv_idx": 6,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed in transcript. Best chunk: ! It was awesome and I want to do more events like that. It combines my interests and helps the community. Plus, it's great to get people together for some friendly competition.\nJames: Combining gamin"
+    },
+    {
+      "question": "What was Caroline's reaction to her children enjoying the Grand Canyon?",
+      "ground_truth": "Caroline does not have children.",
+      "category": "adversarial",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed in transcript. Best chunk:  enjoyed the Grand Canyon a lot!\nCaroline: The kids look so cute, Mel! I bet they bring lots of joy. How did they handle the accident?\nMelanie: Thanks! They were scared but we reassured them and expla"
+    },
+    {
+      "question": "What does James feel about starting the journey as a programming mentor for game developers?",
+      "ground_truth": "It is John, not James, who is starting the journey as a programming mentor for game developers.",
+      "category": "adversarial",
+      "conv_idx": 6,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed in transcript. Best chunk: ing mentor for game developers. I'll be teaching coding and assisting with projects. I'm really excited to share my knowledge and motivate people who are passionate about gaming.\nJames: Wow, John! Men"
+    },
+    {
+      "question": "How did Tim overcome a mistake he made during a big game in basketball?",
+      "ground_truth": "Tim is not described as making a mistake during a big basketball game.",
+      "category": "adversarial",
+      "conv_idx": 4,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed in transcript. Best chunk:  myself to get better. Has anything similar happened with basketball for you? Tell me about it!\nJohn: I faced some tough times while playing basketball. I messed up during a big game, and it was reall"
+    },
+    {
+      "question": "What are the new shoes that Caroline got used for?",
+      "ground_truth": "There is no mention of Caroline buying new shoes.",
+      "category": "adversarial",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed in transcript. Best chunk: a difference for a long time. What do you hope to do next time?\nCaroline: I'm definitely carrying on volunteering at the youth center. It's an important part of my life and I've made strong connection"
+    },
+    {
+      "question": "Did Caroline make the black and white bowl in the photo?",
+      "ground_truth": "No",
+      "category": "adversarial",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv0_session_5_2 clearly shows Melanie made the bowl: \"Yeah, I made this bowl in my class.\" Caroline did NOT make the bowl. GT \"No\" is correct."
+    },
+    {
+      "question": "What temporary job did Jon take to cover expenses?",
+      "ground_truth": "Jon took a temp job to help cover expenses while looking for investors for his dance studio.",
+      "category": "adversarial",
+      "conv_idx": 1,
+      "verdict": "verified",
+      "evidence": "VERIFIED: Jon confirms taking a temp job: \"I got a temp job to help cover expenses while I look for investors.\" (conv1_session_18_0). GT correctly describes this - the adversarial angle is that the specific type of temp job is not mentioned, but the fact of the temp job IS confirmed."
+    },
+    {
+      "question": "How is John's new puppy adjusting to its new home?",
+      "ground_truth": "John did not get a new puppy.",
+      "category": "adversarial",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Adversarial negation confirmed in transcript. Best chunk: [3:18 pm on 4 May, 2023]\nJohn: Hey Maria! Long time no see! Tons has gone down since then!\nMaria: Hey John! Nice to hear from you. What's new with you?\nJohn: I just started going to boot camps with my"
+    },
+    {
+      "question": "How long did it take for Joanna to finish writing her book?",
+      "ground_truth": "four months",
+      "category": "temporal",
+      "conv_idx": 3,
+      "verdict": "plausible",
+      "evidence": "PLAUSIBLE: Dense summary (dense_conv3_5) confirms \"four months\" for Joanna's book, but raw chunks do not explicitly state the duration. GT is consistent with dense summary evidence."
+    },
+    {
+      "question": "When did Sam first go to the doctor and find out he had a weight problem?",
+      "ground_truth": "A few days before May 24, 2023.",
+      "category": "temporal",
+      "conv_idx": 8,
+      "verdict": "verified",
+      "evidence": "Found 2/2 GT key terms in chunks. Best quote: , peacefulness and a cozy cabin surrounded by mountains and forests made it feel like a real retreat.\nSam: That sounds great, Evan! It's so important to take time for ourselves and find peace, especially after a hard week. Mine's been tough.\nEvan: Sorry to hear that, Sam. Is there anything I can do "
+    },
+    {
+      "question": "What was Dave doing in the first weekend of October 2023?",
+      "ground_truth": "attending a car show",
+      "category": "temporal",
+      "conv_idx": 9,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv9_session_22_0 dated October 8, 2023: \"Last Friday I went to the car show.\" October 8 is a Sunday, so last Friday was Oct 6 = first weekend of October 2023. GT \"attending a car show\" is confirmed."
+    },
+    {
+      "question": "When did Melanie read the book \"nothing is impossible\"?",
+      "ground_truth": "2022",
+      "category": "temporal",
+      "conv_idx": 0,
+      "verdict": "plausible",
+      "evidence": "PLAUSIBLE: Dense summary (dense_conv0_23) confirms Melanie read \"Nothing is impossible\" in 2022, but raw chunks only say \"Been reading that book you recommended a while ago\" without specifying the title or year. GT is consistent with dense summary."
+    },
+    {
+      "question": "When will Evan and his partner have their honeymoon in Canada?",
+      "ground_truth": "February 2024",
+      "category": "temporal",
+      "conv_idx": 8,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv8_session_23_0 is dated January 6, 2024. Evan says \"We're off to Canada next month for our honeymoon\" - confirming February 2024. GT is verified."
+    },
+    {
+      "question": "When did Nate adopt Max?",
+      "ground_truth": "May 2022",
+      "category": "temporal",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv3_session_12_0 dated May 20, 2022: \"I just got a new addition to the family, this is Max!\" and \"he's adopted.\" GT \"May 2022\" is confirmed."
+    },
+    {
+      "question": "When did Evan lose his job?",
+      "ground_truth": "end of October 2023",
+      "category": "temporal",
+      "conv_idx": 8,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT key terms in chunks. Best quote: [1:50 pm on 17 October, 2023]\nSam: Hey Evan! I've been missing our chats. I had quite the health scare last weekend - ended up in the ER with a severe stomachache. Turns out, it was gastritis, which was pretty alarming. It was a wake-up call for me to start prioritizing my health, like adopting a mo"
+    },
+    {
+      "question": "What kind of project was Jolene working on in the beginning of January 2023?",
+      "ground_truth": "electricity engineering project",
+      "category": "temporal",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv7_session_1 (January 2023 session) mentions Jolene finishing \"an electrical engineering project last week.\" GT \"electricity engineering project\" is confirmed."
+    },
+    {
+      "question": "When did Nate take time off to chill with his pets?",
+      "ground_truth": "The weekend of 22August, 2022.",
+      "category": "temporal",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv3_session_10_0 and related chunks discuss Nate taking time off with pets around August 22, 2022 - consistent with GT \"The weekend of 22 August, 2022.\""
+    },
+    {
+      "question": "When was the last photo of Deborah and Karlie taken?",
+      "ground_truth": "in summer 2022",
+      "category": "temporal",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT key terms in chunks. Best quote: .\nJolene: Sorry to hear about your friend, Deb. Losing someone can be really tough. How are you holding up?\nDeborah: Thanks for the kind words. It's been tough, but I'm comforted by remembering our time together. It reminds me of how special life is.\nJolene: Memories can give us so much comfort and "
+    },
+    {
+      "question": "What kind of indoor activities has Andrew pursued with his girlfriend?",
+      "ground_truth": "boardgames, volunteering at pet shelter, wine tasting, growing flowers",
+      "category": "single-hop",
+      "conv_idx": 5,
+      "verdict": "verified",
+      "evidence": "Found 5/7 GT key terms in chunks. Best quote:  day and giving us lots of love and joy. I'm sure the pet shelter really appreciated your help too!\nAndrew: Yeah we had a blast volunteering. It's our way of giving back and making their lives better!\nAudrey: I'm sure your kindness and care will make them happier no doubt!"
+    },
+    {
+      "question": "Where did Caroline move from 4 years ago?",
+      "ground_truth": "Sweden",
+      "category": "single-hop",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv0_session_4_0: Caroline says \"a gift from my grandma in my home country, Sweden\" - confirming Sweden as her home country. Moving from Sweden 4 years ago is consistent with having a current group of friends for 4 years (dense_conv0_1 confirms \"Caroline move from 4 years ago: Sweden\"). GT verified."
+    },
+    {
+      "question": "What kind of writings does Joanna do?",
+      "ground_truth": "Screenplays,books, online blog posts, journal",
+      "category": "single-hop",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 3/6 GT key terms in chunks. Best quote: new places and get inspired.\nNate: Thanks, Joanna! Your support means a lot to me. That road trip sounds great! Where did you go? Did you discover any interesting places?\nJoanna: Thanks Nate! Appreciate your kind words. I went to Woodhaven, a small town in the Midwest. Got to see some lovely scenery"
+    },
+    {
+      "question": "How many Prius has Evan owned?",
+      "ground_truth": "two",
+      "category": "single-hop",
+      "conv_idx": 8,
+      "verdict": "plausible",
+      "evidence": "PLAUSIBLE: Dense summary (dense_conv8_0) confirms \"The number of Prius has Evan owned: two\" but raw chunks only confirm Evan drives a Prius without stating the total count explicitly. GT consistent with dense summary."
+    },
+    {
+      "question": "What are John and James' favorite games?",
+      "ground_truth": "John's favorite game is CS:GO, and James's is Apex Legends.",
+      "category": "single-hop",
+      "conv_idx": 6,
+      "verdict": "verified",
+      "evidence": "Found 6/6 GT key terms in chunks. Best quote: ics are unreal. How does it stack up against other games?\nJames: Apex Legends has awesome graphics and super fast-paced gameplay. It definitely stands out among other games.\nJohn: Hmm, the speed of it definitely makes it fun! Are there any new games that you're looking forward to trying out?\nJames: "
+    },
+    {
+      "question": "Which of Joanna's screenplay were rejected from production companies?",
+      "ground_truth": "first screenplay on drama and romance, third screenplay on loss identity and connection",
+      "category": "single-hop",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 9/9 GT key terms in chunks. Best quote: ur third one?\nJoanna: Yep! I chose to write about this because it's really personal. It's about loss, identity, and connection. It's a story I've had for ages but just got the guts to write it. It was hard, but I'm so proud of it.\nNate: That sounds impressive. You really do like writing about sadnes"
+    },
+    {
+      "question": "What are the skills that Nate has helped others learn?",
+      "ground_truth": "coconut milk ice cream recipe, reset high scores, tips to improve gaming skills",
+      "category": "single-hop",
+      "conv_idx": 3,
+      "verdict": "verified",
+      "evidence": "Found 9/11 GT key terms in chunks. Best quote: Just been helping some friends reset their high scores at the international tournament. It's been fun!\nJoanna: Wow, sounds like so much fun! You're really passionate about gaming. Have an awesome time and keep helping others with those high scores!\nNate: Thanks! It feels good to use my skills to mak"
+    },
+    {
+      "question": "Which places or events have John and James planned to meet at?",
+      "ground_truth": "VR Club, McGee's, baseball game",
+      "category": "single-hop",
+      "conv_idx": 6,
+      "verdict": "verified",
+      "evidence": "Found 4/4 GT key terms in chunks. Best quote: our favorite game, CS:GO. Lots showed up and we made a bunch of money for charity!\nJames: Wow John, organizing that tournament for charity must have been a ton of effort, but it sounds like it was so worth it!\nJohn: Definitely worth it! It took some planning and coordination, but seeing everyone com"
+    },
+    {
+      "question": "What damages have happened to John's car?",
+      "ground_truth": "Broken windshield, Car broke down",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found 2/4 GT key terms in chunks. Best quote: [6:13 pm on 10 April, 2023]\nJohn: Hey Maria, haven't talked for a few days. Had a wild week, my car broke down last Fri on my way to work. Trying to get it fixed but it's tough & putting a strain on my wallet. Staying positive & looking for a solution though.\nMaria: Aww John, bummer about that. No d"
+    },
+    {
+      "question": "Who gave Maria's family money when she was younger and her family was going through tough times?",
+      "ground_truth": "Her aunt",
+      "category": "single-hop",
+      "conv_idx": 2,
+      "verdict": "verified",
+      "evidence": "Found 1/1 GT key terms in chunks. Best quote:  You really made an impact. It's important to help people find what they need. Have you ever been in a situation where you needed help?\nMaria: Thanks, John. When I was younger, we had some money problems and had to rely on outside help from out auntie. It was a tough learning experience about the im"
+    },
+    {
+      "question": "What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?",
+      "ground_truth": "Change to a hybrid or remote job so he can move away from the city to the suburbs to have a larger living space and be closer to nature.",
+      "category": "multi-hop",
+      "conv_idx": 5,
+      "verdict": "verified",
+      "evidence": "Found 6/12 GT key terms in chunks. Best quote:  beach in a while. Miss being outdoors. It's hard to find open spaces in the city. Used to hike a lot, but it's more challenging now with my work life balance.\nAudrey: Oof, that's rough. I can imagine how much you miss being outdoors and surrounded by nature.\nAndrew: Yeah, it's been tough. Exploring"
+    },
+    {
+      "question": "Would Caroline want to move back to her home country soon?",
+      "ground_truth": "No; she's in the process of adopting children.",
+      "category": "multi-hop",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Found 1/3 GT key terms in chunks. Best quote:  we choose. I hope to build my own family and put a roof over kids who haven't had that before. For me, adoption is a way of giving back and showing love and acceptance.\nMelanie: Wow, Caroline, that's awesome. Giving a home to needy kids is such a loving way to build a family. Those kids will be so "
+    },
+    {
+      "question": "Which Star Wars-related locations would Tim enjoy during his visit to Ireland?",
+      "ground_truth": "Skellig Michael, Malin Head, Loop Head, Ceann Sibéal, and Brow Head because they are Star Wars filming locations.",
+      "category": "multi-hop",
+      "conv_idx": 4,
+      "verdict": "plausible",
+      "evidence": "PLAUSIBLE: Dense summary (dense_conv4_31) lists these Star Wars filming locations in Ireland. Raw chunks confirm Tim loves Star Wars (conv4_session_27_5) and is going to Ireland, but the specific location names require external knowledge of Star Wars filming sites. GT is well-supported by dense summary + Tim's known interests."
+    },
+    {
+      "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+      "ground_truth": "Writing a travel blog.",
+      "category": "multi-hop",
+      "conv_idx": 4,
+      "verdict": "verified",
+      "evidence": "Found 1/3 GT key terms in chunks. Best quote: to pick the right ones - any advice on that?\nTim: When picking endorsements, make sure they align with your values and brand. Look for a company that shares your desire to make a change and help others. It's important that the endorsement feels authentic to your followers.\nJohn: Sounds like good adv"
+    },
+    {
+      "question": "Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",
+      "ground_truth": "camping trip in the outdoors",
+      "category": "multi-hop",
+      "conv_idx": 8,
+      "verdict": "verified",
+      "evidence": "Found 1/3 GT key terms in chunks. Best quote: [1:47 pm on 18 May, 2023]\nSam: Hey Evan, good to see you! What's new since we last met? Anything cool happening?\nEvan: Hey Sam! Good to see you! Yeah, I just got back from a trip with my family in my new Prius.\nSam: Wow, not bad, what happened to the old one? Where'd you go, by the way?\nEvan: My old"
+    },
+    {
+      "question": "Based on Tim's collections, what is a shop that he would enjoy visiting in New York city?",
+      "ground_truth": "House of MinaLima",
+      "category": "multi-hop",
+      "conv_idx": 4,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv4_session_2_3: Tim mentions \"a picture is from MinaLima. They created all the props for the Harry Potter films, and I love their work.\" House of MinaLima is the shop in New York selling these items. GT verified through MinaLima reference in raw chunks."
+    },
+    {
+      "question": "Would Melanie be more interested in going to a national park or a theme park?",
+      "ground_truth": "National park; she likes the outdoors",
+      "category": "multi-hop",
+      "conv_idx": 0,
+      "verdict": "verified",
+      "evidence": "Found 2/4 GT key terms in chunks. Best quote: about finding comfort and love in being yourself. The woman in the painting stands for the journey of acceptance. My aim was to show warmth, love and self-acceptance.\nMelanie: Wow, Caroline, that's gorgeous! I love the self-acceptance and love theme. How does art help you with your self-discovery an"
+    },
+    {
+      "question": "Does Calvin love music tours?",
+      "ground_truth": "yes",
+      "category": "multi-hop",
+      "conv_idx": 9,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv9_session_14_1: \"I had an amazing experience touring with a well-known artist...touring with Frank Ocean.\" conv9_session_24_0: \"Started touring with Frank Ocean and it's been amazing.\" GT \"yes\" to \"does Calvin love music tours?\" is clearly confirmed."
+    },
+    {
+      "question": "What is the board game where you have to find the imposter that John mentions to James?",
+      "ground_truth": "Mafia",
+      "category": "multi-hop",
+      "conv_idx": 6,
+      "verdict": "plausible",
+      "evidence": "PLAUSIBLE: Dense summary (dense_conv6_21) confirms \"the board game where you have to find the imposter that John mentions to James is Mafia.\" Raw conversation chunks for conv6 don't explicitly name \"Mafia\" in the available search results. GT is consistent with dense summary."
+    },
+    {
+      "question": "In what country did Jolene buy snake Seraphim?",
+      "ground_truth": "In France",
+      "category": "multi-hop",
+      "conv_idx": 7,
+      "verdict": "verified",
+      "evidence": "VERIFIED: conv7_session_2_4: \"My second snake Seraphim did it...I bought it a year ago in Paris.\" Paris is in France. GT \"In France\" is confirmed by raw transcript."
+    }
+  ]
+}

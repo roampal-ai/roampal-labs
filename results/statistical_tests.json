@@ -1,0 +1,207 @@
+{
+  "binomial_cis": [
+    {
+      "label": "TagCascade clean LoCoMo",
+      "correct": 1277,
+      "total": 1974,
+      "accuracy": 0.6469,
+      "ci_low": 0.6256,
+      "ci_high": 0.6677
+    },
+    {
+      "label": "CE-Only clean LoCoMo",
+      "correct": 1289,
+      "total": 1974,
+      "accuracy": 0.653,
+      "ci_low": 0.6317,
+      "ci_high": 0.6737
+    },
+    {
+      "label": "TagCascade poison LoCoMo",
+      "correct": 1182,
+      "total": 1974,
+      "accuracy": 0.5988,
+      "ci_low": 0.577,
+      "ci_high": 0.6202
+    },
+    {
+      "label": "CE-Only poison LoCoMo",
+      "correct": 1183,
+      "total": 1974,
+      "accuracy": 0.5993,
+      "ci_low": 0.5775,
+      "ci_high": 0.6207
+    },
+    {
+      "label": "Baseline LoCoMo",
+      "correct": 848,
+      "total": 1974,
+      "accuracy": 0.4296,
+      "ci_low": 0.4079,
+      "ci_high": 0.4515
+    },
+    {
+      "label": "TagCascade clean Hard",
+      "correct": 26,
+      "total": 75,
+      "accuracy": 0.3467,
+      "ci_low": 0.2488,
+      "ci_high": 0.4595
+    },
+    {
+      "label": "CE-Only clean Hard",
+      "correct": 25,
+      "total": 75,
+      "accuracy": 0.3333,
+      "ci_low": 0.2371,
+      "ci_high": 0.4458
+    },
+    {
+      "label": "TagCascade poison Hard",
+      "correct": 17,
+      "total": 75,
+      "accuracy": 0.2267,
+      "ci_low": 0.1466,
+      "ci_high": 0.3334
+    },
+    {
+      "label": "CE-Only poison Hard",
+      "correct": 21,
+      "total": 75,
+      "accuracy": 0.28,
+      "ci_low": 0.191,
+      "ci_high": 0.3904
+    },
+    {
+      "label": "Baseline Hard",
+      "correct": 10,
+      "total": 75,
+      "accuracy": 0.1333,
+      "ci_low": 0.0741,
+      "ci_high": 0.2283
+    }
+  ],
+  "mcnemar_tests": [
+    {
+      "n_common": 1974,
+      "a_right_b_wrong": 237,
+      "b_right_a_wrong": 249,
+      "both_right": 1040,
+      "both_wrong": 448,
+      "chi2": 0.249,
+      "p_value": 0.6178,
+      "significant": "False",
+      "label": "TagCascade vs CE-Only (clean LoCoMo)"
+    },
+    {
+      "n_common": 1974,
+      "a_right_b_wrong": 241,
+      "b_right_a_wrong": 242,
+      "both_right": 941,
+      "both_wrong": 550,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "significant": "False",
+      "label": "TagCascade vs CE-Only (poison LoCoMo)"
+    },
+    {
+      "n_common": 1974,
+      "a_right_b_wrong": 328,
+      "b_right_a_wrong": 233,
+      "both_right": 949,
+      "both_wrong": 464,
+      "chi2": 15.7504,
+      "p_value": 7.2e-05,
+      "significant": "True",
+      "label": "TagCascade clean vs poison (LoCoMo)"
+    },
+    {
+      "n_common": 1974,
+      "a_right_b_wrong": 359,
+      "b_right_a_wrong": 253,
+      "both_right": 930,
+      "both_wrong": 432,
+      "chi2": 18.0147,
+      "p_value": 2.2e-05,
+      "significant": "True",
+      "label": "CE-Only clean vs poison (LoCoMo)"
+    },
+    {
+      "n_common": 1974,
+      "a_right_b_wrong": 617,
+      "b_right_a_wrong": 188,
+      "both_right": 660,
+      "both_wrong": 509,
+      "chi2": 227.5578,
+      "p_value": 0.0,
+      "significant": "True",
+      "label": "TagCascade vs Baseline (clean LoCoMo)"
+    },
+    {
+      "n_common": 1974,
+      "a_right_b_wrong": 632,
+      "b_right_a_wrong": 191,
+      "both_right": 657,
+      "both_wrong": 494,
+      "chi2": 235.2369,
+      "p_value": 0.0,
+      "significant": "True",
+      "label": "CE-Only vs Baseline (clean LoCoMo)"
+    },
+    {
+      "n_common": 75,
+      "a_right_b_wrong": 10,
+      "b_right_a_wrong": 9,
+      "both_right": 16,
+      "both_wrong": 40,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "significant": "False",
+      "label": "TagCascade vs CE-Only (clean Hard)"
+    },
+    {
+      "n_common": 75,
+      "a_right_b_wrong": 5,
+      "b_right_a_wrong": 9,
+      "both_right": 12,
+      "both_wrong": 49,
+      "chi2": 0.6429,
+      "p_value": 0.422678,
+      "significant": "False",
+      "label": "TagCascade vs CE-Only (poison Hard)"
+    },
+    {
+      "n_common": 75,
+      "a_right_b_wrong": 13,
+      "b_right_a_wrong": 4,
+      "both_right": 13,
+      "both_wrong": 45,
+      "chi2": 3.7647,
+      "p_value": 0.052345,
+      "significant": "False",
+      "label": "TagCascade clean vs poison (Hard)"
+    },
+    {
+      "n_common": 75,
+      "a_right_b_wrong": 11,
+      "b_right_a_wrong": 7,
+      "both_right": 14,
+      "both_wrong": 43,
+      "chi2": 0.5,
+      "p_value": 0.4795,
+      "significant": "False",
+      "label": "CE-Only clean vs poison (Hard)"
+    },
+    {
+      "n_common": 75,
+      "a_right_b_wrong": 17,
+      "b_right_a_wrong": 1,
+      "both_right": 9,
+      "both_wrong": 48,
+      "chi2": 12.5,
+      "p_value": 0.000407,
+      "significant": "True",
+      "label": "TagCascade vs Baseline (Hard)"
+    }
+  ]
+}

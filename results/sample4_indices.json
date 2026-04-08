@@ -1,0 +1,352 @@
+[
+  {
+    "orig_idx": 586,
+    "cat": "commonsense",
+    "conv_idx": 3,
+    "question": "What color did Nate choose for his hair?",
+    "ground_truth": "purple"
+  },
+  {
+    "orig_idx": 1109,
+    "cat": "commonsense",
+    "conv_idx": 5,
+    "question": "What activity do Andrew and Buddy enjoy doing together?",
+    "ground_truth": "Walking"
+  },
+  {
+    "orig_idx": 369,
+    "cat": "commonsense",
+    "conv_idx": 2,
+    "question": "What is John's main focus in local politics?",
+    "ground_truth": "Improving education and infrastructure"
+  },
+  {
+    "orig_idx": 435,
+    "cat": "commonsense",
+    "conv_idx": 2,
+    "question": "What community service did Maria mention that she was involved in on 31 July, 2023?",
+    "ground_truth": "volunteered at a homeless shelter"
+  },
+  {
+    "orig_idx": 84,
+    "cat": "commonsense",
+    "conv_idx": 0,
+    "question": "How does Melanie prioritize self-care?",
+    "ground_truth": "by carving out some me-time each day for activities like running, reading, or playing the violin"
+  },
+  {
+    "orig_idx": 1502,
+    "cat": "commonsense",
+    "conv_idx": 7,
+    "question": "What habits does Jolene practice to feel balanced?",
+    "ground_truth": "yoga, meditation, walks, and mindfulness"
+  },
+  {
+    "orig_idx": 1500,
+    "cat": "commonsense",
+    "conv_idx": 7,
+    "question": "What did Deborah and her mom chat about at their special bench in the park?",
+    "ground_truth": "dreams and life"
+  },
+  {
+    "orig_idx": 684,
+    "cat": "commonsense",
+    "conv_idx": 3,
+    "question": "What project is Joanna working on in her notebook on November 9, 2022?",
+    "ground_truth": "A suspenseful thriller set in a small Midwestern town"
+  },
+  {
+    "orig_idx": 624,
+    "cat": "commonsense",
+    "conv_idx": 3,
+    "question": "What did Joanna write yesterday that appeared on the big screen?",
+    "ground_truth": "screenplay bits"
+  },
+  {
+    "orig_idx": 927,
+    "cat": "commonsense",
+    "conv_idx": 4,
+    "question": "What is the painting of Aragorn a reminder for John to be in everything he does?",
+    "ground_truth": "be a leader"
+  },
+  {
+    "orig_idx": 491,
+    "cat": "adversarial",
+    "conv_idx": 2,
+    "question": "Who did John work with to raise awareness and funds for animal welfare?",
+    "ground_truth": "John did not work to raise awareness and funds for animal welfare."
+  },
+  {
+    "orig_idx": 969,
+    "cat": "adversarial",
+    "conv_idx": 4,
+    "question": "Who is one of Tim's sources of inspiration for painting?",
+    "ground_truth": "Tim's source of inspiration is not for painting."
+  },
+  {
+    "orig_idx": 1314,
+    "cat": "adversarial",
+    "conv_idx": 6,
+    "question": "What did the system John created help the illegal organization with?",
+    "ground_truth": "The system John created did not help an illegal organization."
+  },
+  {
+    "orig_idx": 992,
+    "cat": "adversarial",
+    "conv_idx": 4,
+    "question": "According to John, who is his least favorite character from Lord of the Rings?",
+    "ground_truth": "John did not mention a least favorite character from Lord of the Rings."
+  },
+  {
+    "orig_idx": 181,
+    "cat": "adversarial",
+    "conv_idx": 0,
+    "question": "What did Melanie make for a local church?",
+    "ground_truth": "Melanie did not make anything for a local church."
+  },
+  {
+    "orig_idx": 1550,
+    "cat": "adversarial",
+    "conv_idx": 7,
+    "question": "How did Jolene and her rival initially meet?",
+    "ground_truth": "Jolene does not have a rival."
+  },
+  {
+    "orig_idx": 1547,
+    "cat": "adversarial",
+    "conv_idx": 7,
+    "question": "How does Deborah plan to involve local engineers in her idea of teaching STEM to underprivileged kids?",
+    "ground_truth": "It was Jolene, not Deborah, who had the idea of a volunteer program to teach STEM to underprivileged kids."
+  },
+  {
+    "orig_idx": 476,
+    "cat": "adversarial",
+    "conv_idx": 2,
+    "question": "What important values does Maria want to teach her kids through adopting a rescue dog?",
+    "ground_truth": "It was John (not Maria) who wanted to teach his kids responsibility and compassion through adopting a rescue dog."
+  },
+  {
+    "orig_idx": 299,
+    "cat": "adversarial",
+    "conv_idx": 1,
+    "question": "How does Gina use the clipboard with a notepad attached to it?",
+    "ground_truth": "It is not Gina who uses the clipboard with a notepad."
+  },
+  {
+    "orig_idx": 288,
+    "cat": "adversarial",
+    "conv_idx": 1,
+    "question": "What did Jon want his customers to feel in her store?",
+    "ground_truth": "Jon does not have a clothing store."
+  },
+  {
+    "orig_idx": 554,
+    "cat": "temporal",
+    "conv_idx": 3,
+    "question": "When did Joanna plan to go over to Nate's and share recipes?",
+    "ground_truth": "5 November, 2022."
+  },
+  {
+    "orig_idx": 28,
+    "cat": "temporal",
+    "conv_idx": 0,
+    "question": "When did Caroline go to the adoption meeting?",
+    "ground_truth": "The friday before 15 July 2023"
+  },
+  {
+    "orig_idx": 542,
+    "cat": "temporal",
+    "conv_idx": 3,
+    "question": "When did Joanna finish up the writing for her book?",
+    "ground_truth": "The week before 6October, 2022"
+  },
+  {
+    "orig_idx": 1792,
+    "cat": "temporal",
+    "conv_idx": 9,
+    "question": "When did Calvin's place get flooded in Tokyo?",
+    "ground_truth": "On a week before 16 May, 2023"
+  },
+  {
+    "orig_idx": 763,
+    "cat": "temporal",
+    "conv_idx": 4,
+    "question": "In which month's game did John achieve a career-high score in points?",
+    "ground_truth": "June 2023"
+  },
+  {
+    "orig_idx": 57,
+    "cat": "temporal",
+    "conv_idx": 0,
+    "question": "When did Caroline encounter people on a hike and have a negative experience?",
+    "ground_truth": "The week before 25 August 2023"
+  },
+  {
+    "orig_idx": 525,
+    "cat": "temporal",
+    "conv_idx": 3,
+    "question": "When did Nate make vegan icecream and share it with a vegan diet group?",
+    "ground_truth": "The Friday before 24June, 2022."
+  },
+  {
+    "orig_idx": 335,
+    "cat": "temporal",
+    "conv_idx": 2,
+    "question": "When did John get his dog Max?",
+    "ground_truth": "In 2013"
+  },
+  {
+    "orig_idx": 1057,
+    "cat": "temporal",
+    "conv_idx": 5,
+    "question": "What did Audrey eat for dinner on October 24, 2023?",
+    "ground_truth": "sushi"
+  },
+  {
+    "orig_idx": 1010,
+    "cat": "temporal",
+    "conv_idx": 5,
+    "question": "When did Andrew go rock climbing?",
+    "ground_truth": "June 11, 2023"
+  },
+  {
+    "orig_idx": 1035,
+    "cat": "single-hop",
+    "conv_idx": 5,
+    "question": "What are some foods that Audrey likes eating?",
+    "ground_truth": "chicken pot pie, chicken roast, blueberry muffins, sushi"
+  },
+  {
+    "orig_idx": 1812,
+    "cat": "single-hop",
+    "conv_idx": 9,
+    "question": "What kind of music does Dave listen to?",
+    "ground_truth": "classic rock, Japanese music"
+  },
+  {
+    "orig_idx": 580,
+    "cat": "single-hop",
+    "conv_idx": 3,
+    "question": "What are the skills that Nate has helped others learn?",
+    "ground_truth": "coconut milk ice cream recipe, reset high scores, tips to improve gaming skills"
+  },
+  {
+    "orig_idx": 1160,
+    "cat": "single-hop",
+    "conv_idx": 6,
+    "question": "Do both James and John have pets?",
+    "ground_truth": "No"
+  },
+  {
+    "orig_idx": 1388,
+    "cat": "single-hop",
+    "conv_idx": 7,
+    "question": "What ways do Deborah and Jolene use to enhance their yoga practice?",
+    "ground_truth": "candles, music, essential oils"
+  },
+  {
+    "orig_idx": 1841,
+    "cat": "single-hop",
+    "conv_idx": 9,
+    "question": "How many Ferraris does Calvin own?",
+    "ground_truth": "two"
+  },
+  {
+    "orig_idx": 1607,
+    "cat": "single-hop",
+    "conv_idx": 8,
+    "question": "How does Evan describe the woman and his feelings for her that he met in Canada?",
+    "ground_truth": "He says she's cool, incredible, like something out of a movie, and that he feels alive around her. Every moment with her is fun and energetic, also Evan feels really lucky to have someone who gets him."
+  },
+  {
+    "orig_idx": 502,
+    "cat": "single-hop",
+    "conv_idx": 3,
+    "question": "What are Joanna's hobbies?",
+    "ground_truth": "Writing, watchingmovies, exploringnature, hanging withfriends."
+  },
+  {
+    "orig_idx": 1650,
+    "cat": "single-hop",
+    "conv_idx": 8,
+    "question": "Which ailment does Sam have to face due to his weight?",
+    "ground_truth": "gastritis"
+  },
+  {
+    "orig_idx": 66,
+    "cat": "single-hop",
+    "conv_idx": 0,
+    "question": "What does Melanie do with her family on hikes?",
+    "ground_truth": "Roast marshmallows, tell stories"
+  },
+  {
+    "orig_idx": 1821,
+    "cat": "multi-hop",
+    "conv_idx": 9,
+    "question": "Would Dave prefer working on a Dodge Charger or a Subaru Forester?",
+    "ground_truth": "Dodge Charger"
+  },
+  {
+    "orig_idx": 1169,
+    "cat": "multi-hop",
+    "conv_idx": 6,
+    "question": "Did James have a girlfriend during April 2022?",
+    "ground_truth": "Presumably not"
+  },
+  {
+    "orig_idx": 1605,
+    "cat": "multi-hop",
+    "conv_idx": 8,
+    "question": "Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?",
+    "ground_truth": "Evan and Sam would likely advise embracing small, consistent changes\u200b\u200b, finding stress-relieving activities like hiking\u200b\u200b, painting, and road trips\u200b\u200b, and the importance of friendship and support in navigating challenges\u200b\u200b."
+  },
+  {
+    "orig_idx": 810,
+    "cat": "multi-hop",
+    "conv_idx": 4,
+    "question": "What other exercises can help John with his basketball performance?",
+    "ground_truth": ""
+  },
+  {
+    "orig_idx": 1365,
+    "cat": "multi-hop",
+    "conv_idx": 7,
+    "question": "In what country did Jolene buy snake Seraphim?",
+    "ground_truth": "In France"
+  },
+  {
+    "orig_idx": 511,
+    "cat": "multi-hop",
+    "conv_idx": 3,
+    "question": "What nickname does Nate use for Joanna?",
+    "ground_truth": "Jo"
+  },
+  {
+    "orig_idx": 791,
+    "cat": "multi-hop",
+    "conv_idx": 4,
+    "question": "What could John do after his basketball career?",
+    "ground_truth": "become a basketball coach since he likes giving back and leadership"
+  },
+  {
+    "orig_idx": 1370,
+    "cat": "multi-hop",
+    "conv_idx": 7,
+    "question": "Why did Jolene sometimes put off doing yoga?",
+    "ground_truth": "She's more interested in playing video games"
+  },
+  {
+    "orig_idx": 1786,
+    "cat": "multi-hop",
+    "conv_idx": 9,
+    "question": "Which country do Calvin and Dave want to meet in?",
+    "ground_truth": "United States"
+  },
+  {
+    "orig_idx": 42,
+    "cat": "multi-hop",
+    "conv_idx": 0,
+    "question": "Would Melanie be more interested in going to a national park or a theme park?",
+    "ground_truth": "National park; she likes the outdoors"
+  }
+]

@@ -1,0 +1,446 @@
+{
+  "conv_idx": 2,
+  "true_facts": [
+    "Q: Who did Maria have dinner with on May 3, 2023? A: her mother",
+    "Q: When did Maria donate her car? A: 21 December 2022",
+    "Q: What martial arts has John done? A: Kickboxing, Taekwondo",
+    "Q: What type of volunteering have John and Maria both done? A: Volunteering at a homeless shelter",
+    "Q: When did John join the online support group? A: The week before 1 January 2023",
+    "Q: When did Maria go to the beach? A: December 2022",
+    "Q: Where has Maria made friends? A: homeless shelter, gym, church",
+    "Q: What items des John mention having as a child? A: A doll, a film camera",
+    "Q: What might John's financial status be? A: Middle-class or wealthy",
+    "Q: Who gave Maria's family money when she was younger and her family was going through tough times? A: Her aunt",
+    "Q: When did Maria meet Jean? A: February 24, 2023",
+    "Q: What people has Maria met and helped while volunteering? A: David, Jean, Cindy, Laura",
+    "Q: What test has John taken multiple times? A: The military aptitude test",
+    "Q: When did Maria's grandmother pass away? A: The week before 6 March 2023",
+    "Q: Would John be considered a patriotic person? A: Yes",
+    "Q: What writing classes has Maria taken? A: Poetry, creative writing",
+    "Q: When did John get his degree? A: The week before 2 April 2023",
+    "Q: What might John's degree be in? A: Political science, Public administration, Public affairs",
+    "Q: Who did John go to yoga with? A: Rob",
+    "Q: What damages have happened to John's car? A: Broken windshield, Car broke down",
+    "Q: When did John take a road trip to the Pacific Northwest? A: 2022",
+    "Q: What areas of the U.S. has John been to or is planning to go to? A: Pacific northwest, east coast",
+    "Q: When did John go to a convention with colleagues? A: March 2023",
+    "Q: What desserts has Maria made? A: Banana split sundae, Peach cobbler",
+    "Q: When did John start boot camp with his family? A: April 2023",
+    "Q: What European countries has Maria been to? A: Spain, England",
+    "Q: What has Maria done to feel closer to her faith? A: Join a local church, buy a cross necklace",
+    "Q: When did John have a party with veterans? A: The Friday before 20 May 2023",
+    "Q: What causes does John feel passionate about supporting? A: Veterans, schools, infrastructure",
+    "Q: What events is Maria planning for the homeless shelter funraiser? A: Chili cook-off, ring-toss tournament",
+    "Q: What shelters does Maria volunteer at? A: The homeless shelter, the dog shelter",
+    "Q: When did John get his dog Max? A: In 2013",
+    "Q: What outdoor activities has John done with his colleagues? A: Hiking, mountaineering",
+    "Q: What types of yoga has Maria practiced? A: Aerial, kundalini",
+    "Q: When did Maria join a gym? A: The week before 16 June 2023",
+    "Q: What states has Maria vacationed at? A: Oregon, Florida",
+    "Q: What music events has John attended? A: Live music event, violin concert",
+    "Q: What events for veterans has John participated in? A: Petition, march, party, visiting veterans hospital, 5K charity run",
+    "Q: When did Maria get in a car accident? A: July 2, 2023",
+    "Q: Around which US holiday did Maria get into a car accident? A: Independence Day",
+    "Q: What are the names of John's children? A: Kyle, Sara",
+    "Q: Does John live close to a beach or the mountains? A: beach",
+    "Q: What area was hit by a flood? A: West County",
+    "Q: When was John's old area hit with a flood? A: The week before 7 July 2023",
+    "Q: What activities has Maria done with her church friends? A: Hiking, picnic, volunteer work",
+    "Q: Would John be open to moving to another country? A: No, he has goals specifically in the U.S. like joining the military and running for office.",
+    "Q: When did Maria go hiking with her church friends? A: The weekend before 22 July 2023",
+    "Q: What exercises has John done? A: Weight training, Circuit training, Kickboxing, yoga",
+    "Q: When did John have his first firefighter call-out? A: The sunday before 3` July 2023",
+    "Q: What food item did Maria drop off at the homeless shelter? A: Cakes",
+    "Q: What attributes describe John? A: Selfless, family-oriented, passionate, rational",
+    "Q: When did Maria start volunteering at the homeless shelter? A: Around August 2022",
+    "Q: Who have written notes of gratitude to Maria? A: Cindy, Laura",
+    "Q: When did John help renovate his hometown community center? A: 2022",
+    "Q: When did Maria take up community work with her church friends? A: August 4, 2023",
+    "Q: When did Maria receive a medal from the homeless shelter? A: The week before 9 August 2023",
+    "Q: When did John participate in a 5K charity run? A: first weekend of August 2023",
+    "Q: What causes has John done events for? A: Toy drive, Community food drive, veterans, domestic violence",
+    "Q: When did Maria get Coco? A: Two weeks before 11 August 2023",
+    "Q: When did John go on a camping trip with Max? A: The summer of 2022",
+    "Q: What are Maria's dogs' names? A: Coco, Shadow",
+    "Q: When did Maria adopt Shadow? A: The week before 13 August 2023",
+    "Q: How many dogs has Maria adopted from the dog shelter she volunteers at? A: two",
+    "Q: How many weeks passed between Maria adopting Coco and Shadow? A: two weeks",
+    "Q: What job might Maria pursue in the future? A: Shelter coordinator, Counselor",
+    "Q: What is John's main focus in local politics? A: Improving education and infrastructure",
+    "Q: What sparked John's interest in improving education and infrastructure in the community? A: Seeing how lack of education and crumbling infrastructure affected his neighborhood while growing up.",
+    "Q: How did the extra funding help the school shown in the photo shared by John? A: Enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+    "Q: What type of workout class did Maria start doing in December 2023? A: aerial yoga",
+    "Q: What did Maria donate to a homeless shelter in December 2023? A: old car",
+    "Q: What kind of meal did John and his family make together in the photo shared by John? A: pizza",
+    "Q: What kind of online group did John join? A: service-focused online group",
+    "Q: What kind of activities did John and his mates from the online group do as part of their service efforts? A: gave out food and supplies at a homeless shelter, organized a toy drive for kids in need",
+    "Q: Who inspired Maria to start volunteering? A: Her aunt",
+    "Q: Why did Maria sit with the little girl at the shelter event in February 2023? A: The girl seemed sad and had no other family",
+    "Q: What did Jean go through before meeting Maria? A: divorce, job loss, homelessness",
+    "Q: Why did John decide to run for office again? A: saw the impact he could make in the community through politics",
+    "Q: What activity did John's colleague, Rob, invite him to? A: beginner's yoga class",
+    "Q: What is the name of John's one-year-old child? A: Kyle",
+    "Q: How often does John take his kids to the park? A: A few times a week",
+    "Q: What did Maria make for her home to remind her of a trip to England? A: painting of a castle on a hill",
+    "Q: Where did Maria get the idea for the castle shadow box in her home? A: England",
+    "Q: What did John receive a certificate for? A: completion of a university degree",
+    "Q: What areas is John particularly interested in for policymaking? A: education and infrastructure",
+    "Q: What did Maria participate in last weekend before April 10, 2023? A: a 5K charity run",
+    "Q: What event did John volunteer at last weekend? A: career fair at a local school",
+    "Q: What did John do that put a strain on his wallet? A: His car broke down",
+    "Q: Where did John explore on a road trip last year? A: Pacific Northwest",
+    "Q: What topic has John been blogging about recently? A: politics and the government",
+    "Q: Why did John start blogging about politics and policies? A: raise awareness and start conversations to create positive change",
+    "Q: What was the focus of John's recent research and writing on his blog? A: education reform and infrastructure development",
+    "Q: What did John attend with his colleagues in March 2023? A: a tech-for-good convention",
+    "Q: How often does John work out with his family? A: Three times a week",
+    "Q: How has John's fitness improved since starting boot camps with his family? A: More energy, gains in strength and endurance",
+    "Q: What kind of food did Maria have on her dinner spread iwth her mother? A: Salads, sandwiches, homemade desserts",
+    "Q: What activity did Maria and her mom do together in May 2023? A: Made dinner together",
+    "Q: What did Maria do to feel closer to a community and her faith? A: joined a nearby church",
+    "Q: Why did Maria join a nearby church recently? A: to feel closer to a community and her faith",
+    "Q: What did John host for the veterans in May 2023 as part of the project? A: a small party to share their stories",
+    "Q: What did John and the veterans do during the small party? A: share stories and make connections",
+    "Q: What emotions did John feel during the small party with the veterans? A: heartwarming",
+    "Q: What event is Maria getting ready for at the shelter on May 25, 2023? A: fundraiser",
+    "Q: What does Maria need to spread the word about for the fundraiser for the volunteer shelter? A: chili cook-off",
+    "Q: What was the name of the pet that John had to say goodbye to on 3 June, 2023? A: Max",
+    "Q: How long was Max a part of John's family? A: 10 years",
+    "Q: How does John plan to honor the memories of his beloved pet? A: By considering adopting a rescue dog",
+    "Q: What important values does John want to teach his kids through adopting a rescue dog? A: Responsibility and compassion",
+    "Q: What new activity did Maria start recently, as mentioned on 3 June, 2023? A: volunteering at a local dog shelter once a month",
+    "Q: What did Maria say it was like being at the waterfall in Oregon? A: Like being in a fairy tale",
+    "Q: What does Maria say she feels when doing upside-down yoga poses? A: Free and light",
+    "Q: What exciting news did Maria share on 16 June, 2023? A: joined a gym",
+    "Q: What yoga activity has Maria been trying to improve her strength and endurance? A: kundalini yoga",
+    "Q: What did John recently get promoted to? A: assistant manager",
+    "Q: What was one of the biggest challenges John faced in his journey to becoming assistant manager? A: self-doubt",
+    "Q: How does John describe the support he received during his journey to becoming assistant manager? A: having support at home and his own grit",
+    "Q: What kind of event did John and his family attend in June 2023? A: live music event",
+    "Q: Why did Maria need to help her cousin find a new place to live? A: Her cousin had to leave and find a new place in a hurry.",
+    "Q: What event did John participate in to show support for veterans' rights? A: marching event",
+    "Q: What inspired John to join the marching event for veterans' rights? A: Respect for the military and the desire to show support",
+    "Q: How often does John get to see sunsets like the one he shared with Maria? A: At least once a week",
+    "Q: What natural disaster affected John's old area on 7 July, 2023? A: Flood",
+    "Q: How did the flood impact the homes in John's old area? A: Lots of homes were ruined.",
+    "Q: What motivated Maria and John to discuss potential solutions for their community on 7 July, 2023? A: Flood in John's old area",
+    "Q: What did Maria plan to do later on the evening of 7 July, 2023? A: have dinner with friends from the gym",
+    "Q: What kind of activities did Maria do at the picnic with her church friends? A: played games like charades and a scavenger hunt",
+    "Q: What does John appreciate about the veteran's hospital visit? A: the resilience of the veterans and their inspiring stories",
+    "Q: What did John take away from visiting the veteran's hospital? A: appreciation for giving back",
+    "Q: Why did John feel inspired to join the military after the visit to the hospital? A: seeing the resilience of the veterans",
+    "Q: In what activity did Maria and her church friends participate in July 2023? A: hiking",
+    "Q: What does John think about trying new classes at the yoga studio? A: Trying new classes is a fun way to switch up the exercise routine.",
+    "Q: Which activity has John done apart from yoga at the studio? A: weight training",
+    "Q: What community service did Maria mention that she was involved in on 31 July, 2023? A: volunteered at a homeless shelter",
+    "Q: How did Maria start volunteering at the homeless shelter? A: Witnessed a family struggling on the streets and reached out to the shelter",
+    "Q: What did John do the week before August 3, 2023 involving his kids? A: Had a meaningful experience at a military memorial",
+    "Q: How did John describe his kids' reaction at the military memorial? A: awestruck and humbled",
+    "Q: Why does Maria think it's important for younger generations to visit military memorials? A: To remember and appreciate those who served",
+    "Q: What does John believe is important for children regarding veterans? A: Teaching them to respect and appreciate those who served",
+    "Q: What happened to John's job in August 2023? A: John lost his job at the mechanical engineering company.",
+    "Q: What activity did Maria take up with her friends from church in August 2023? A: community work",
+    "Q: What did John do to help his community last year in his hometown? A: Helped renovate a rundown community center.",
+    "Q: What cause did the 5K charity run organized by John support? A: veterans and their families",
+    "Q: Who did John work with to raise awareness and funds for victims of domestic abuse? A: a local organization",
+    "Q: What recognition did Maria receive at the homeless shelter in August 2023? A: a medal for volunteering",
+    "Q: What is the name of Maria's puppy she got two weeks before August 11, 2023? A: Coco",
+    "Q: What activity did John and Max enjoy together last summer? A: Camping",
+    "Q: How does John describe the camping trip with Max? A: Peaceful and awesome",
+    "Q: Why does John say he feels stuck and questioning his decisions and goals? A: Not feeling like making much of an impact",
+    "Q: What is the name of Maria's second puppy? A: Shadow",
+    "Q: How is Maria's new puppy adjusting to its new home? A: doing great - learning commands and house training",
+    "Q: What is John currently doing as a volunteer in August 2023? A: mentoring students at a local school",
+    "Q: What activities does John's family enjoy doing together? A: going for hikes, hanging out at the park, having picnics, playing board games, having movie nights",
+    "Q: What did the donations help John's community acquire on 16 August, 2023? A: a brand new fire truck"
+  ],
+  "adversarial_questions": [
+    {
+      "index": 456,
+      "question": "What is John's main focus in international politics?",
+      "current_wrong_answer": "Improving education and infrastructure",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 457,
+      "question": "What did Maria donate to a luxury store in December 2023?",
+      "current_wrong_answer": "old car",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 458,
+      "question": "Who inspired John to start volunteering?",
+      "current_wrong_answer": "His aunt",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 459,
+      "question": "Why did Maria decide to run for office again?",
+      "current_wrong_answer": "saw the impact she could make in the community through politics",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 460,
+      "question": "What activity did Maria's colleague, Rob, invite her to?",
+      "current_wrong_answer": "beginner's yoga class",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 461,
+      "question": "What is the name of Maria's one-year-old child?",
+      "current_wrong_answer": "Kyle",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 462,
+      "question": "How often does John take his kids to the library?",
+      "current_wrong_answer": "A few times a week",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 463,
+      "question": "What did Maria make for her home to remind her of a trip to France?",
+      "current_wrong_answer": "painting of a castle on a hill",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 464,
+      "question": "Where did John get the idea for the castle shadow box in his home?",
+      "current_wrong_answer": "England",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 465,
+      "question": "What did Maria receive a certificate for?",
+      "current_wrong_answer": "completion of a university degree",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 466,
+      "question": "What areas is John particularly interested in for art appreciation?",
+      "current_wrong_answer": "education and infrastructure",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 467,
+      "question": "Why did Maria start blogging about politics and policies?",
+      "current_wrong_answer": "raise awareness and start conversations to create positive change",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 468,
+      "question": "What was the focus of John's recent travel and photography blog?",
+      "current_wrong_answer": "education reform and infrastructure development",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 469,
+      "question": "How often does Maria work out with her family?",
+      "current_wrong_answer": "Three times a week",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 470,
+      "question": "How has John's artistic skills improved since starting boot camps with his family?",
+      "current_wrong_answer": "More energy, gains in strength and endurance",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 471,
+      "question": "What kind of food did Maria have on her dinner spread with her father?",
+      "current_wrong_answer": "Salads, sandwiches, homemade desserts",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 472,
+      "question": "What did John do to feel closer to a community and his faith?",
+      "current_wrong_answer": "joined a nearby church",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 473,
+      "question": "Why did John join a nearby church recently?",
+      "current_wrong_answer": "to feel closer to a community and her faith",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 474,
+      "question": "How long was Max a part of Maria's family?",
+      "current_wrong_answer": "10 years",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 475,
+      "question": "How does Maria plan to honor the memories of her beloved pet?",
+      "current_wrong_answer": "By considering adopting a rescue dog",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 476,
+      "question": "What important values does Maria want to teach her kids through adopting a rescue dog?",
+      "current_wrong_answer": "Responsibility and compassion",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 477,
+      "question": "What did Maria say it was like being at the desert in Oregon?",
+      "current_wrong_answer": "Like being in a fairy tale",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 478,
+      "question": "What does John say she feels when doing upside-down yoga poses?",
+      "current_wrong_answer": "Free and light",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 479,
+      "question": "What did Maria recently get promoted to?",
+      "current_wrong_answer": "assistant manager",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 480,
+      "question": "What was one of the biggest challenges Maria faced in her journey to becoming assistant manager?",
+      "current_wrong_answer": "self-doubt",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 481,
+      "question": "Why did John need to help his cousin find a new place to live?",
+      "current_wrong_answer": "His cousin had to leave and find a new place in a hurry.",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 482,
+      "question": "What event did Maria participate in to show support for veterans' rights?",
+      "current_wrong_answer": "marching event",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 483,
+      "question": "How did the drought impact the homes in John's old area?",
+      "current_wrong_answer": "Lots of homes were ruined.",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 484,
+      "question": "What does John criticize about the veteran's hospital visit?",
+      "current_wrong_answer": "the resilience of the veterans and their inspiring stories",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 485,
+      "question": "What did John take away from visiting the orphanage?",
+      "current_wrong_answer": "appreciation for giving back",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 486,
+      "question": "Why did Maria feel inspired to join the military after the visit to the hospital?",
+      "current_wrong_answer": "seeing the resilience of the veterans",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 487,
+      "question": "How did Maria describe her kids' reaction at the military memorial?",
+      "current_wrong_answer": "awestruck and humbled",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 488,
+      "question": "Why does Maria think it's important for younger generations to visit art galleries?",
+      "current_wrong_answer": "To remember and appreciate those who served",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 489,
+      "question": "What happened to Maria's job in August 2023?",
+      "current_wrong_answer": "John lost his job at the mechanical engineering company.",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 490,
+      "question": "What cause did the 5K charity run organized by Maria support?",
+      "current_wrong_answer": "veterans and their families",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 491,
+      "question": "Who did John work with to raise awareness and funds for animal welfare?",
+      "current_wrong_answer": "a local organization",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 492,
+      "question": "What recognition did John receive at the homeless shelter in August 2023?",
+      "current_wrong_answer": "a medal for volunteering",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 493,
+      "question": "What is the name of John's puppy he got two weeks before August 11, 2023?",
+      "current_wrong_answer": "Coco",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 494,
+      "question": "How does Maria describe the camping trip with Max?",
+      "current_wrong_answer": "Peaceful and awesome",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 495,
+      "question": "What is the name of Maria's second kitten?",
+      "current_wrong_answer": "Shadow",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    },
+    {
+      "index": 496,
+      "question": "How is John's new puppy adjusting to its new home?",
+      "current_wrong_answer": "doing great - learning commands and house training",
+      "conv_idx": 2,
+      "category_name": "adversarial"
+    }
+  ]
+}
