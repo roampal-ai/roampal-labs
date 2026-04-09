@@ -121,8 +121,27 @@ for qi, q in enumerate(non_adv):
 oa = sum(1 for x,y in zip(a_hits, b_hits) if x==1 and y==0)
 ob = sum(1 for x,y in zip(a_hits, b_hits) if x==0 and y==1)
 disc = oa + ob
+mcnemar = {}
 if disc > 0:
     chi2 = (abs(oa-ob)-1)**2/disc; p = 1-stats.chi2.cdf(chi2,1)
     print(f'  only_sum={oa}, only_sum+fact={ob}, chi2={chi2:.2f}, p={p:.4f}')
+    mcnemar = {"only_sum": oa, "only_sum_fact": ob, "chi2": round(chi2, 4), "p": round(p, 6)}
 else:
     print('  IDENTICAL')
+    mcnemar = {"only_sum": 0, "only_sum_fact": 0, "chi2": 0, "p": 1.0}
+
+# Save structured results
+output = {"test": "facts_value", "n_questions": total,
+          "db_path": "archive/pre_fix_run/runs/02.Wilson+CE", "configs": {}, "mcnemar_4sum0fact_vs_4sum4fact": mcnemar}
+for name, n_sum, n_fact in configs:
+    r = results[name]
+    output["configs"][name] = {
+        "hit_rate": round(r['hits'] / total, 4),
+        "mrr": round(r['mrr_sum'] / total, 4),
+        "hits": r['hits'], "total": total,
+        "n_summaries": n_sum, "n_facts": n_fact,
+    }
+import pathlib
+out_path = pathlib.Path("results/facts_value_results.json")
+out_path.write_text(json.dumps(output, indent=2), encoding="utf-8")
+print(f'\nSaved: {out_path}')

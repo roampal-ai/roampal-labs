@@ -1,0 +1,74 @@
+{
+  "test": "isolate_tag_wilson_poison",
+  "n_questions": 1537,
+  "db_source": "archive/pre_fix_run/runs/01.EntityRouted",
+  "db_poison": "runs/isolation_poison_test (clone+inject)",
+  "configs": {
+    "pure_ce": {
+      "hit1": 0.0982,
+      "hit8": 0.1789,
+      "mrr": 0.1238,
+      "hit1_count": 151,
+      "hit8_count": 275,
+      "total": 1537
+    },
+    "tags_wilson_sort": {
+      "hit1": 0.2245,
+      "hit8": 0.6409,
+      "mrr": 0.3234,
+      "hit1_count": 345,
+      "hit8_count": 985,
+      "total": 1537
+    },
+    "tags_cosine_sort": {
+      "hit1": 0.2557,
+      "hit8": 0.6949,
+      "mrr": 0.3612,
+      "hit1_count": 393,
+      "hit8_count": 1068,
+      "total": 1537
+    },
+    "no_tags_wilson": {
+      "hit1": 0.0982,
+      "hit8": 0.1789,
+      "mrr": 0.1238,
+      "hit1_count": 151,
+      "hit8_count": 275,
+      "total": 1537
+    }
+  },
+  "mcnemar": {
+    "Tags+Wilson vs Pure CE": {
+      "a": "pure_ce",
+      "b": "tags_wilson_sort",
+      "a_only": 37,
+      "b_only": 231,
+      "chi2": 138.9888,
+      "p": 0.0
+    },
+    "Tags+Cosine vs Pure CE": {
+      "a": "pure_ce",
+      "b": "tags_cosine_sort",
+      "a_only": 34,
+      "b_only": 276,
+      "chi2": 187.3581,
+      "p": 0.0
+    },
+    "Wilson only vs Pure CE": {
+      "a": "pure_ce",
+      "b": "no_tags_wilson",
+      "a_only": 0,
+      "b_only": 0,
+      "chi2": 0,
+      "p": 1.0
+    },
+    "Wilson sort vs Cosine sort (both tagged)": {
+      "a": "tags_wilson_sort",
+      "b": "tags_cosine_sort",
+      "a_only": 28,
+      "b_only": 76,
+      "chi2": 21.2404,
+      "p": 4e-06
+    }
+  }
+}

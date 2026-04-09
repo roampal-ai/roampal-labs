@@ -240,10 +240,17 @@ def main():
     print(f"\n{'='*60}")
     print(f"FINAL RESULTS ({len(sample)} questions)")
     print(f"{'='*60}")
+    output = {"test": "blend_optimizer", "n_questions": len(sample),
+              "db_path": db_path, "configs": {}}
     for name, *_ in configs:
         r = results[name]
         rate = r["hits"] / r["total"] if r["total"] else 0
         print(f"  {name}: {rate:.1%} ({r['hits']}/{r['total']})")
+        output["configs"][name] = {"hit_rate": round(rate, 4), "hits": r["hits"], "total": r["total"]}
+
+    out_path = Path("results/blend_optimizer_results.json")
+    out_path.write_text(json.dumps(output, indent=2), encoding="utf-8")
+    print(f"\nSaved: {out_path}")
 
 
 if __name__ == "__main__":

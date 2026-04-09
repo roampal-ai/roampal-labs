@@ -1,0 +1,54 @@
+{
+  "test": "tag_twolane",
+  "n_questions": 1537,
+  "db_clean": "archive/pre_fix_run/runs/01.EntityRouted",
+  "db_poison": "runs/er_tag_twolane_test (clone+inject)",
+  "configs": {
+    "clean_ce": {
+      "hit1": 0.149,
+      "hit8": 0.5075,
+      "mrr": 0.2361,
+      "hit1_count": 229,
+      "hit8_count": 780,
+      "total": 1537
+    },
+    "clean_tags": {
+      "hit1": 0.2101,
+      "hit8": 0.5654,
+      "mrr": 0.2981,
+      "hit1_count": 323,
+      "hit8_count": 869,
+      "total": 1537
+    },
+    "poison_ce": {
+      "hit1": 0.1555,
+      "hit8": 0.5433,
+      "mrr": 0.2565,
+      "hit1_count": 239,
+      "hit8_count": 835,
+      "total": 1537
+    },
+    "poison_tags": {
+      "hit1": 0.2303,
+      "hit8": 0.6129,
+      "mrr": 0.3235,
+      "hit1_count": 354,
+      "hit8_count": 942,
+      "total": 1537
+    }
+  },
+  "mcnemar": {
+    "clean_ce_vs_tags": {
+      "only_ce": 44,
+      "only_tags": 138,
+      "chi2": 47.522,
+      "p": 0.0
+    },
+    "poison_ce_vs_tags": {
+      "only_ce": 80,
+      "only_tags": 195,
+      "chi2": 47.2582,
+      "p": 0.0
+    }
+  }
+}

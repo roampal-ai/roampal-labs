@@ -19,6 +19,9 @@ results/*_output.txt
 # Temp test DBs (retrieval analysis scratch)
 runs/er_*
 runs/blend_*
+runs/isolation_poison_test/
+runs/evolving_test/
+runs/updater_test/
 
 # MiniMax regrade checkpoints
 results/*.checkpoint

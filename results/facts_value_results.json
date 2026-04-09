@@ -1,0 +1,77 @@
+{
+  "test": "facts_value",
+  "n_questions": 1537,
+  "db_path": "archive/pre_fix_run/runs/02.Wilson+CE",
+  "configs": {
+    "4sum_0fact": {
+      "hit_rate": 0.3396,
+      "mrr": 0.2877,
+      "hits": 522,
+      "total": 1537,
+      "n_summaries": 4,
+      "n_facts": 0
+    },
+    "4sum_1fact": {
+      "hit_rate": 0.6318,
+      "mrr": 0.3461,
+      "hits": 971,
+      "total": 1537,
+      "n_summaries": 4,
+      "n_facts": 1
+    },
+    "4sum_2fact": {
+      "hit_rate": 0.6682,
+      "mrr": 0.3522,
+      "hits": 1027,
+      "total": 1537,
+      "n_summaries": 4,
+      "n_facts": 2
+    },
+    "4sum_3fact": {
+      "hit_rate": 0.6747,
+      "mrr": 0.3531,
+      "hits": 1037,
+      "total": 1537,
+      "n_summaries": 4,
+      "n_facts": 3
+    },
+    "4sum_4fact": {
+      "hit_rate": 0.6845,
+      "mrr": 0.3543,
+      "hits": 1052,
+      "total": 1537,
+      "n_summaries": 4,
+      "n_facts": 4
+    },
+    "3sum_4fact": {
+      "hit_rate": 0.6799,
+      "mrr": 0.3693,
+      "hits": 1045,
+      "total": 1537,
+      "n_summaries": 3,
+      "n_facts": 4
+    },
+    "2sum_4fact": {
+      "hit_rate": 0.6721,
+      "mrr": 0.3937,
+      "hits": 1033,
+      "total": 1537,
+      "n_summaries": 2,
+      "n_facts": 4
+    },
+    "0sum_4fact": {
+      "hit_rate": 0.6252,
+      "mrr": 0.5759,
+      "hits": 961,
+      "total": 1537,
+      "n_summaries": 0,
+      "n_facts": 4
+    }
+  },
+  "mcnemar_4sum0fact_vs_4sum4fact": {
+    "only_sum": 0,
+    "only_sum_fact": 530,
+    "chi2": 528.0019,
+    "p": 0.0
+  }
+}

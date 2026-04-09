@@ -1,0 +1,47 @@
+{
+  "test": "blend_optimizer",
+  "n_questions": 500,
+  "db_path": "archive/pre_fix_run/runs/03.Reranker",
+  "configs": {
+    "pure_cosine": {
+      "hit_rate": 0.468,
+      "hits": 234,
+      "total": 500
+    },
+    "pure_ce": {
+      "hit_rate": 0.54,
+      "hits": 270,
+      "total": 500
+    },
+    "prod_wilson_only": {
+      "hit_rate": 0.466,
+      "hits": 233,
+      "total": 500
+    },
+    "prod_ce+wilson_60_40": {
+      "hit_rate": 0.54,
+      "hits": 270,
+      "total": 500
+    },
+    "ce+wilson_70_30": {
+      "hit_rate": 0.54,
+      "hits": 270,
+      "total": 500
+    },
+    "ce+wilson_80_20": {
+      "hit_rate": 0.54,
+      "hits": 270,
+      "total": 500
+    },
+    "ce+wilson_50_50": {
+      "hit_rate": 0.54,
+      "hits": 270,
+      "total": 500
+    },
+    "ce_only_rank": {
+      "hit_rate": 0.54,
+      "hits": 270,
+      "total": 500
+    }
+  }
+}

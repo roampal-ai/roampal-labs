@@ -169,3 +169,37 @@ for f in failures['not_in_db'][:5]:
     print(f'  [{f["cat"]}] Q: {f["q"]}')
     print(f'           GT: {f["gt"]}')
     print()
+
+# Save structured results
+import pathlib
+rank_dist = {}
+if in_facts > 0:
+    ranks = [f['rank'] for f in failures['in_facts_deep']]
+    rank_dist = {'3-5': sum(1 for r in ranks if r < 5),
+                 '6-10': sum(1 for r in ranks if 5 <= r < 10),
+                 '11-20': sum(1 for r in ranks if 10 <= r < 20),
+                 '21-50': sum(1 for r in ranks if 20 <= r < 50),
+                 '50+': sum(1 for r in ranks if r >= 50)}
+
+output = {
+    "test": "retrieval_failure_diagnosis",
+    "n_questions": total,
+    "db_path": "archive/pre_fix_run/runs/02.Wilson+CE",
+    "config": "4sum_2fact",
+    "summary": {
+        "hit": hit, "hit_rate": round(hit/total, 4),
+        "miss": total_miss, "miss_rate": round(total_miss/total, 4),
+        "not_retrievable": not_in_db, "not_retrievable_rate": round(not_in_db/total, 4),
+        "ranking_failure": ranking_problem, "ranking_rate": round(ranking_problem/total, 4),
+    },
+    "ranking_detail": {
+        "in_facts_deep": in_facts,
+        "in_summaries_deep": in_sums,
+        "in_both_deep": in_both,
+        "fact_rank_distribution": rank_dist,
+    },
+    "per_category": {cat: dict(cf) for cat, cf in category_failures.items()},
+}
+out_path = pathlib.Path("results/retrieval_failure_diagnosis_results.json")
+out_path.write_text(json.dumps(output, indent=2), encoding="utf-8")
+print(f'\nSaved: {out_path}')

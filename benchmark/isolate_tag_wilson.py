@@ -186,6 +186,16 @@ async def main():
         ('pure_ce', 'no_tags_wilson', 'Wilson only vs Pure CE'),
         ('tags_wilson_sort', 'tags_cosine_sort', 'Wilson sort vs Cosine sort (both tagged)'),
     ]
+    output = {"test": "isolate_tag_wilson_clean", "n_questions": total,
+              "db_path": "archive/pre_fix_run/runs/01.EntityRouted", "configs": {}, "mcnemar": {}}
+    for name, _, _ in configs:
+        r = results[name]
+        output["configs"][name] = {
+            "hit1": round(r["hit1"]/total, 4), "hit8": round(r["hit8"]/total, 4),
+            "mrr": round(float(np.mean(r["mrr"])), 4),
+            "hit1_count": r["hit1"], "hit8_count": r["hit8"], "total": total,
+        }
+
     print(f'\nMcNemar pairwise (Hit@1):')
     for a_name, b_name, label in pairs:
         a = [1 if m >= 1.0 else 0 for m in results[a_name]['mrr']]
@@ -198,8 +208,16 @@ async def main():
             p = 1-stats.chi2.cdf(chi2,1)
             winner = a_name if oa > ob else b_name
             print(f'  {label}: {a_name}={oa}, {b_name}={ob}, p={p:.4f} → {winner}')
+            output["mcnemar"][label] = {"a": a_name, "b": b_name, "a_only": oa, "b_only": ob,
+                                        "chi2": round(chi2, 4), "p": round(p, 6)}
         else:
             print(f'  {label}: IDENTICAL')
+            output["mcnemar"][label] = {"a": a_name, "b": b_name, "a_only": 0, "b_only": 0, "chi2": 0, "p": 1.0}
+
+    import pathlib
+    out_path = pathlib.Path("results/isolate_tag_wilson_clean_results.json")
+    out_path.write_text(json.dumps(output, indent=2), encoding="utf-8")
+    print(f'\nSaved: {out_path}')
 
 
 if __name__ == '__main__':

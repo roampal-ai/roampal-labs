@@ -150,5 +150,32 @@ for label, a_name, b_name in [('Clean: CE vs Tags', 'clean_ce', 'clean_tags'),
     else:
         print(f'{label}: IDENTICAL')
 
+# Save structured results
+output = {"test": "tag_twolane", "n_questions": total,
+          "db_clean": "archive/pre_fix_run/runs/01.EntityRouted",
+          "db_poison": "runs/er_tag_twolane_test (clone+inject)", "configs": {}, "mcnemar": {}}
+for n in configs:
+    output["configs"][n] = {
+        "hit1": round(hit1[n]/total, 4), "hit8": round(hit8[n]/total, 4),
+        "mrr": round(float(np.mean(mrr[n])), 4),
+        "hit1_count": hit1[n], "hit8_count": hit8[n], "total": total,
+    }
+for label, a_name, b_name in [('clean_ce_vs_tags', 'clean_ce', 'clean_tags'),
+                                ('poison_ce_vs_tags', 'poison_ce', 'poison_tags')]:
+    a = [1 if m >= 1.0 else 0 for m in mrr[a_name]]
+    b = [1 if m >= 1.0 else 0 for m in mrr[b_name]]
+    oa2 = sum(1 for x,y in zip(a,b) if x==1 and y==0)
+    ob2 = sum(1 for x,y in zip(a,b) if x==0 and y==1)
+    disc2 = oa2+ob2
+    if disc2 > 0:
+        chi2_v = (abs(oa2-ob2)-1)**2/disc2; p_v = 1-stats.chi2.cdf(chi2_v,1)
+        output["mcnemar"][label] = {"only_ce": oa2, "only_tags": ob2, "chi2": round(chi2_v, 4), "p": round(p_v, 6)}
+    else:
+        output["mcnemar"][label] = {"only_ce": 0, "only_tags": 0, "chi2": 0, "p": 1.0}
+import pathlib
+out_path = pathlib.Path("results/tag_twolane_results.json")
+out_path.write_text(json.dumps(output, indent=2), encoding="utf-8")
+print(f'\nSaved: {out_path}')
+
 del client, clean_client
 shutil.rmtree('runs/er_tag_twolane_test', ignore_errors=True)

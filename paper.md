@@ -1,26 +1,26 @@
 # Beyond Ingestion: What Conversational Memory Learning Reveals on a Corrected LoCoMo Benchmark
 
-**Authors:** Logan, Roampal AI
+**Author:** Logan Teague
 **Date:** April 2026
 
 ---
 
 ## Abstract
 
-The LoCoMo benchmark (1,986 questions across 5 categories) is the standard evaluation for long-term conversational memory systems. We identify and address ground truth gaps: 444 of 446 adversarial questions have no `answer` field — the original evaluation scores them by keyword matching ("no information available" in the response), bypassing ground truth comparison entirely. This makes adversarial questions incompatible with standard answer-vs-ground-truth grading used for the other 4 categories. We add ground truth answers (premise rejections) to enable uniform evaluation across all 5 categories. We also revert 3 non-adversarial answers that require inference beyond the conversation text. In total, 447 questions (22.5%) are affected. All 10 source conversations and all 1,986 questions are unchanged; only ground truth answers are modified. Repairs verified against source transcripts (0/200 sampled errors, 95% CI: 0-1.8%).
+The LoCoMo benchmark (1,986 questions across 5 categories) is the standard evaluation for long-term conversational memory systems. I identify and address ground truth gaps: 444 of 446 adversarial questions have no `answer` field — the original evaluation scores them by keyword matching ("no information available" in the response), bypassing ground truth comparison entirely. This makes adversarial questions incompatible with standard answer-vs-ground-truth grading used for the other 4 categories. I add ground truth answers (premise rejections) to enable uniform evaluation across all 5 categories. I also revert 3 non-adversarial answers that require inference beyond the conversation text. In total, 447 questions (22.5%) are affected. All 10 source conversations and all 1,986 questions are unchanged; only ground truth answers are modified. Repairs verified against source transcripts (0/200 sampled errors, 95% CI: 0-1.8%).
 
-On the corrected benchmark, we test a fundamentally different approach to memory: conversational learning. Rather than ingesting conversation transcripts (the standard approach), an LLM roleplays as 20 character roles (18 unique names; "John" appears in 3 separate conversations as different people) sharing 3,015 life facts through natural dialogue. A learning system responds, and the character reacts with confirmation or correction. Memories build organically through this exchange.
+On the corrected benchmark, I test a fundamentally different approach to memory: conversational learning. Rather than ingesting conversation transcripts (the standard approach), an LLM roleplays as 20 character roles (18 unique names; "John" appears in 3 separate conversations as different people) sharing 3,015 life facts through natural dialogue. A learning system responds, and the character reacts with confirmation or correction. Memories build organically through this exchange.
 
 Key findings on the corrected benchmark:
-- Conversational learning outperforms raw ingestion by 22 points (65.4% vs 43.1%, p<0.0001) despite a 2.9x larger memory database — memory precision beats database size
-- Swapping the local 20B model for GPT-4o-mini changes accuracy by 1.5-2.5 points (TagCascade: 76.6% vs 74.1%; CE-Only: 75.9% vs 74.4%, MiniMax-regraded, p=0.004). Architecture contributes 22+ points (p<0.0001) while the model contributes 1.5-2.5 — both significant, but architecture is roughly 10x larger
-- Wilson confidence scoring (a statistical lower bound on memory reliability) hurts retrieval at every stage tested (p<0.001 in all configurations) — removed entirely in favor of raw outcome scoring
+- Conversational learning outperforms raw ingestion by 23 points (76.6% vs 53.0%, MiniMax-regraded, p<0.0001) despite a 2.9x larger memory database — memory precision beats database size
+- Swapping the local 20B model for GPT-4o-mini changes accuracy by 1.5-2.5 points (TagCascade: 76.6% vs 74.1%, p=0.004; CE-Only: 75.9% vs 74.4%, p=0.085; MiniMax-regraded; memories created by the 20B — see Limitation #7). Architecture contributes 23+ points (p<0.0001) while the model contributes 1.5-2.5 — architecture is roughly 10x larger
+- Wilson confidence scoring (a statistical lower bound on memory reliability) hurts retrieval ranking at every stage tested (p<0.001 in all configurations) — removed from retrieval; still visible in memory metadata presented to the LLM (contribution not isolated, Section 5.4 Limitation #8)
 - Tag-scoped retrieval (entity-name routing before cross-encoder reranking) improves retrieval ranking (p<0.0001) but produces no statistically significant exam accuracy difference (p=0.618) — both architectures converge with 8 retrieval slots
 - System absorbs 1,135 adversarial poison memories with spoofed trust signals, losing only 2.6-4.2 points on LoCoMo
-- Non-adversarial accuracy ceiling is 98.4%; the 12.6-point gap from best system (85.8%) to ceiling is retrieval variance, not model capability
+- Non-adversarial accuracy ceiling is 98.4%; the 12.6-point gap from best system (85.8%) to ceiling is primarily retrieval variance — which 8 memories surface for each question — though model capability contributes a smaller effect (Section 4.6)
 - Dual-graded by local 20B (gpt-oss:20b, OpenAI's open-weight model via Ollama) and MiniMax M2.7 (independent cloud regrader) with 74-84% inter-grader agreement; all statistical tests use McNemar's test (paired per-question comparison on identical question sets)
 
-Published LoCoMo evaluations differ in judge model, scoring method (binary vs ternary), answer LLM, and category inclusion — SmartSearch reports a 14pp swing in full-context baseline between protocols alone. We do not compare raw scores across systems. Primary pipeline (conversation learning, exams, grading) runs entirely on a single NVIDIA RTX 5090 with no cloud dependencies. MiniMax M2.7 API used for independent post-hoc regrading; GPT-4o-mini API used for model swap validation. Code, data, corrections, and evaluation scripts are open-sourced.
+Published LoCoMo evaluations differ in judge model, scoring method (binary vs ternary), answer LLM, and category inclusion — SmartSearch reports a 14pp swing in full-context baseline between protocols alone. I do not compare raw scores across systems. Primary pipeline (conversation learning, exams, grading) runs entirely on a single NVIDIA RTX 5090 with no cloud dependencies. MiniMax M2.7 API used for independent post-hoc regrading; GPT-4o-mini API used for model swap validation. Code, data, corrections, and evaluation scripts are open-sourced.
 
 ---
 
@@ -30,7 +30,7 @@ Published LoCoMo evaluations differ in judge model, scoring method (binary vs te
 
 The LoCoMo benchmark (Maharana et al., 2024) evaluates long-term conversational memory across 10 conversations and 1,986 questions in 5 categories: single-hop (282), multi-hop (96), temporal (321), commonsense (841), and adversarial (446). It has become the standard evaluation for memory systems including MemMachine, Mem0, Zep, and SmartSearch.
 
-We found two issues affecting 447 questions (22.5%):
+I found two issues affecting 447 questions (22.5%):
 
 1. **444 adversarial questions lack ground truth answers for standard grading.** The original dataset uses two answer fields: `answer` (correct response) and `adversarial_answer` (premise-accepting wrong response used for multiple-choice prompt construction). On 444 of 446 adversarial questions, the `answer` field is entirely absent from the JSON. The original evaluation handles this by scoring adversarial questions differently: if the response contains "no information available" or "not mentioned," score 1; otherwise score 0. This keyword-matching approach bypasses ground truth comparison entirely, making adversarial evaluation incompatible with the answer-vs-ground-truth grading used for the other 4 categories. Published systems sidestep this by omitting the adversarial category and reporting on 4/5 categories only.
 
@@ -40,17 +40,17 @@ We found two issues affecting 447 questions (22.5%):
 
 The remaining 2 adversarial questions have both fields: `answer: "No"` and `adversarial_answer: "Yes"` — these are yes/no questions where the correct answer rejects the premise.
 
-We address these issues (Section 2.4) by adding premise-rejection ground truths to the 444 adversarial questions, enabling uniform answer-vs-ground-truth grading across all 5 categories. All 10 conversations, all 1,986 questions, and all non-adversarial ground truths are unchanged (3 unsupported answers reverted to empty, 5 typos corrected).
+I address these issues (Section 2.4) by adding premise-rejection ground truths to the 444 adversarial questions, enabling uniform answer-vs-ground-truth grading across all 5 categories. All 10 conversations, all 1,986 questions, and all non-adversarial ground truths are unchanged (3 unsupported answers reverted to empty, 5 typos corrected).
 
 ### 1.2 Evaluation Protocol Fragmentation
 
-Published LoCoMo scores are not directly comparable. Systems differ in answer LLM (GPT-4o-mini vs GPT-4.1-mini), judge model and prompt (binary 0/1 vs chain-of-thought rubric), answer prompt style (direct vs CoT), and dataset split (LoCoMo-10 vs LoCoMo-5). SmartSearch (arXiv:2603.15599) reports that the full-context baseline alone swings from 77.1% to 91.2% across evaluation frameworks — a 14 percentage point difference with no retrieval change. We report our numbers on our corrected exam under our evaluation protocol and do not compare raw scores across systems.
+Published LoCoMo scores are not directly comparable. Systems differ in answer LLM (GPT-4o-mini vs GPT-4.1-mini), judge model and prompt (binary 0/1 vs chain-of-thought rubric), answer prompt style (direct vs CoT), and dataset split (LoCoMo-10 vs LoCoMo-5). SmartSearch (arXiv:2603.15599) reports that the full-context baseline alone swings from 77.1% to 91.2% across evaluation frameworks — a 14 percentage point difference with no retrieval change. I report my numbers on my corrected exam under my evaluation protocol and do not compare raw scores across systems.
 
-### 1.3 Our Approach: Learning Instead of Ingesting
+### 1.3 Approach: Learning Instead of Ingesting
 
-Published memory systems ingest conversation transcripts — raw or fact-extracted — giving them access to all information at once (Mem0 uses structured memory extraction (arXiv:2504.19413); Zep builds temporal knowledge graphs (arXiv:2501.13956); MemMachine's ingestion method is not publicly documented). Real agents don't get data dumps. They learn through natural conversation, one exchange at a time, with incomplete and sometimes conflicting information.
+Published memory systems ingest conversation transcripts — raw or fact-extracted — giving them access to all information at once (Mem0 uses structured memory extraction (arXiv:2504.19413); Zep builds temporal knowledge graphs (arXiv:2501.13956); MemMachine uses episode-based ingestion with periodic profile consolidation (arXiv:2604.04853)). Real agents don't get data dumps. They learn through natural conversation, one exchange at a time, with incomplete and sometimes conflicting information.
 
-We test whether conversation-based learning can approach ingestion-based systems:
+I test whether conversation-based learning can approach ingestion-based systems:
 - An LLM roleplays 20 characters sharing 3,015 facts through natural dialogue
 - A learning system responds using retrieved memories; the character confirms or corrects
 - Memories build organically — no transcript ingestion, no scripted Q&A
@@ -65,41 +65,41 @@ We test whether conversation-based learning can approach ingestion-based systems
 
 ### 2.1 Memory Systems
 Published LoCoMo scores are included for context but are not directly comparable due to protocol differences (Section 1.2):
-- MemMachine v0.2: 87.5% on 4/5 categories, GPT-4o-mini, ingestion method not publicly documented (memmachine.ai)
+- MemMachine v0.2: 87.5% on 4/5 categories, GPT-4o-mini, episode-based ingestion with profile consolidation (arXiv:2604.04853)
 - Mem0: 66.9% self-reported (arXiv:2504.19413); 80% in MemMachine's re-evaluation with GPT-4.1-mini; GPT-4o-mini, structured memory extraction, 4/5 categories
 - Zep/Graphiti: 58-75% depending on evaluator — 75.1% self-reported, 58.4% per Mem0's re-evaluation; temporal knowledge graph (arXiv:2501.13956)
 - SmartSearch: 93.5% under EverMemOS protocol with GPT-4.1-mini; deterministic NER+CE+ColBERT; reports 14pp protocol sensitivity (arXiv:2603.15599)
 
-Published systems with documented methods ingest full conversation transcripts (raw or processed) and evaluate on 4 of 5 categories (omitting adversarial). Our system learns through conversation and evaluates on all 5 categories on the corrected benchmark.
+Published systems with documented methods ingest full conversation transcripts (raw or processed) and evaluate on 4 of 5 categories (omitting adversarial). The present system learns through conversation and evaluates on all 5 categories on the corrected benchmark.
 
 ### 2.2 Cross-Encoder Reranking
-Cross-encoders jointly encode query-document pairs to produce relevance scores, outperforming bi-encoder (cosine) retrieval at the cost of higher latency. We use ms-marco-MiniLM-L-6-v2 (22.7M parameters, English) to rerank candidate memories after initial cosine retrieval. Jacob et al. (arXiv:2411.11767) document CE degradation when the candidate pool is too large or noisy — motivating our fixed 40-candidate pool per lane.
+Cross-encoders jointly encode query-document pairs to produce relevance scores, outperforming bi-encoder (cosine) retrieval at the cost of higher latency. I use ms-marco-MiniLM-L-6-v2 (22.7M parameters, English) to rerank candidate memories after initial cosine retrieval. Jacob et al. (arXiv:2411.11767) document CE degradation when the candidate pool is too large or noisy — motivating the fixed 40-candidate pool per lane.
 
 ### 2.3 Wilson Scoring
-The Wilson score interval (Wilson, 1927) provides a conservative lower bound on a binomial proportion — widely used for ranking items with few observations (e.g., Reddit comment sorting). We initially applied it to memory reliability: each memory's outcome history (worked/failed/partial/unknown) defines a success rate (worked=1.0, partial=0.5, unknown=0.25, failed=0.0), and the Wilson lower bound estimates confidence in that rate given limited samples. The hypothesis was that Wilson scores would help retrieval by preferring proven-reliable memories. This hypothesis was tested extensively (Section 5.2) and **rejected** — Wilson scoring hurts retrieval at every stage, in every configuration, on both clean and poisoned data. Raw outcome scores drive lifecycle management (promotion/demotion/decay) without Wilson intervals.
+The Wilson score interval (Wilson, 1927) provides a conservative lower bound on a binomial proportion — widely used for ranking items with few observations (e.g., Reddit comment sorting). I initially applied it to memory reliability: each memory's outcome history (worked/failed/partial/unknown) defines a success rate (worked=1.0, partial=0.5, unknown=0.25, failed=0.0), and the Wilson lower bound estimates confidence in that rate given limited samples. The hypothesis was that Wilson scores would help retrieval by preferring proven-reliable memories. This hypothesis was tested extensively (Section 5.2) and **rejected** — Wilson scoring hurts retrieval at every stage, in every configuration, on both clean and poisoned data. Raw outcome scores drive lifecycle management (promotion/demotion/decay) without Wilson intervals.
 
 ### 2.4 LoCoMo Benchmark
 - 10 conversations, 1,986 questions, 5 categories
 - Known issues: 444 adversarial questions lack the `answer` field. The original eval scores adversarial by keyword matching ("no information available" in response), not ground truth comparison. The `adversarial_answer` field contains premise-accepting wrong content for multiple-choice prompt construction. Published systems omit adversarial entirely.
 
-**Differences Between Standard LoCoMo and Our Version**
+**Differences Between Standard LoCoMo and the Corrected Version**
 
-We use a corrected version of the LoCoMo exam that enables uniform answer-vs-ground-truth grading across all 5 categories. The 10 source conversations are unchanged — all modifications are to exam ground truth answers only. Exact diffs are published in the repository for full reproducibility.
+I use a corrected version of the LoCoMo exam that enables uniform answer-vs-ground-truth grading across all 5 categories. The 10 source conversations are unchanged — all modifications are to exam ground truth answers only. Exact diffs are published in the repository for full reproducibility.
 
-| What Changed | Count | Original State | Our Fix | Method |
+| What Changed | Count | Original State | Fix | Method |
 |-------------|-------|---------------|---------|--------|
 | Missing adversarial ground truths | 444 of 446 adversarial | `answer` field absent from JSON. Only `adversarial_answer` field exists, containing premise-accepting wrong answer (e.g., "LGBTQ+ counseling workshop" for a question about Melanie, who never attended one). Original eval code KeyErrors on these. | Added `ground_truth` field with premise-rejection answer. Each answer rejects the false premise without leaking the correct person's information | 10 independent Claude Sonnet 4.6 agents (one per conversation), first-sentence-only format, verified by Claude Opus 4.6 against source transcripts |
 | Unsupported answers | 3 of 1,986 non-adversarial | `answer` field contains claims requiring inference beyond transcript text (medical, geographic, or sports knowledge) | Reverted to empty — auto-wrong for all systems | Identified and verified by Claude Opus 4.6 against source transcripts |
 
-Note: 2 adversarial questions in the original have both `answer: "No"` and `adversarial_answer: "Yes"` — these are true-premise yes/no questions mislabeled as adversarial (Caroline's bowl, Oscar the pet). Additionally, 2 adversarial questions have true premises that our correction agents correctly identified and filled with factual answers rather than rejections (Gina's dance contest trophy, Jon's temp job). All 4 true-premise adversarial questions left as-is — 4/446 = 0.9%, negligible impact.
+Note: 2 adversarial questions in the original have both `answer: "No"` and `adversarial_answer: "Yes"` — these are true-premise yes/no questions mislabeled as adversarial (Caroline's bowl, Oscar the pet). Additionally, 2 adversarial questions have true premises that the correction agents correctly identified and filled with factual answers rather than rejections (Gina's dance contest trophy, Jon's temp job). All 4 true-premise adversarial questions left as-is — 4/446 = 0.9%, negligible impact.
 
 **Examples:**
 
-*Adversarial fix (name swap):* Q: "What kind of counseling workshop did Melanie attend?" Original: `answer` key missing, `adversarial_answer: "LGBTQ+ counseling workshop"` → Our fix: `ground_truth: "Melanie did not attend a counseling workshop."` (Melanie never attended a workshop — this is a name-swapped false premise; the counseling workshop belongs to Caroline)
+*Adversarial fix (name swap):* Q: "What kind of counseling workshop did Melanie attend?" Original: `answer` key missing, `adversarial_answer: "LGBTQ+ counseling workshop"` → Fix: `ground_truth: "Melanie did not attend a counseling workshop."` (Melanie never attended a workshop — this is a name-swapped false premise; the counseling workshop belongs to Caroline)
 
-*Adversarial fix (false premise):* Q: "What did Caroline realize after her charity race?" Original: `answer` key missing, `adversarial_answer: "self-care is important"` → Our fix: `ground_truth: "Caroline did not run a charity race."` (the charity race was run by a different character)
+*Adversarial fix (false premise):* Q: "What did Caroline realize after her charity race?" Original: `answer` key missing, `adversarial_answer: "self-care is important"` → Fix: `ground_truth: "Caroline did not run a charity race."` (the charity race was run by a different character)
 
-*Unsupported revert:* Q: "Which US state do Audrey and Andrew potentially live in?" Original: `answer: "Minnesota"` → Our fix: `ground_truth: ""` (no state is named in the transcript; ocean/beach references contradict landlocked Minnesota)
+*Unsupported revert:* Q: "Which US state do Audrey and Andrew potentially live in?" Original: `answer: "Minnesota"` → Fix: `ground_truth: ""` (no state is named in the transcript; ocean/beach references contradict landlocked Minnesota)
 
 **What is unchanged:**
 - All 10 source conversations (1,698 chunks) — identical to the original LoCoMo dataset
@@ -108,7 +108,7 @@ Note: 2 adversarial questions in the original have both `answer: "No"` and `adve
 - Question categories and distribution (single-hop 282, multi-hop 96, temporal 321, commonsense 841, adversarial 446)
 
 **Known remaining issues:**
-- 4 adversarial questions have true premises with factual answers (mislabeled as adversarial in the original dataset). 2 had `answer: "No"` in the original (Caroline's bowl, Oscar the pet). 2 were filled during our correction with factual answers because the premise is actually true (Gina's dance contest trophy, Jon's temp job). All 4 left as-is — 4/446 = 0.9%, negligible impact.
+- 4 adversarial questions have true premises with factual answers (mislabeled as adversarial in the original dataset). 2 had `answer: "No"` in the original (Caroline's bowl, Oscar the pet). 2 were filled during the correction with factual answers because the premise is actually true (Gina's dance contest trophy, Jon's temp job). All 4 left as-is — 4/446 = 0.9%, negligible impact.
 - 3 multi-hop questions reverted to empty ground truths (auto-wrong for all systems in all conditions). The original answers require specialized domain knowledge not present in the transcripts: diagnosing asthma from allergy mentions, prescribing specific exercises for basketball performance (the exercises are not mentioned in the conversation), and identifying Minnesota as a US state when no state is named and the transcript references ocean/beach activities. Impact: 3/1,986 = 0.15%, identical across all conditions.
 
 **Post-hoc verification:**
@@ -116,7 +116,7 @@ Ground truth corrections were produced by Claude Sonnet 4.6 and verified by Clau
 
 **Impact on comparability with published systems:**
 - Published systems (MemMachine, Mem0, Zep) evaluated on the original dataset, typically on 4/5 categories (omitting adversarial)
-- Our corrections primarily affect the adversarial category (444 of 447 substantive changes). Published systems already omit this category, so our corrections do not affect comparability on the 4 non-adversarial categories
+- The corrections primarily affect the adversarial category (444 of 447 substantive changes). Published systems already omit this category, so the corrections do not affect comparability on the 4 non-adversarial categories
 - The 3 non-adversarial answers reverted to empty affect multi-hop questions only (3/96 = 3.1% of multi-hop)
 - Per-category breakdowns are reported so readers can isolate directly comparable subsets
 - Hard exam (76 custom questions, Section 4.4) provides fully independent validation
@@ -165,15 +165,15 @@ Outcome scoring: worked +0.2, failed -0.3, partial +0.05, unknown -0.05 (matchin
                └──────┬───────┘
                       │
             score ≥ 0.7, uses ≥ 2
-                      │ PROMOTE
+                      │ PROMOTE (success resets to 0)
                       ▼
                ┌──────────────┐
                │   HISTORY    │  Proven useful
                │  short-term  │  Survived initial scoring
                └──────┬───────┘
                       │
-          score ≥ 0.9, uses ≥ 3, success ≥ 5
-                      │ PROMOTE
+          score ≥ 0.9, success ≥ 5
+                      │ PROMOTE (success resets to 0)
                       ▼
                ┌──────────────┐
                │   PATTERNS   │  Long-term knowledge
@@ -213,7 +213,7 @@ Approximately 1,508 turns per strategy to cover all 3,015 facts across 20 charac
 
 **Sliding window context:** An "exchange" is one full turn cycle: LLM B shares facts → LLM A responds → LLM B reacts → sidecar scores and extracts. LLM B sees the last 2 exchanges for conversational continuity. LLM A sees the last 4 exchanges as inline context + 8 retrieved memories (4 summaries + 4 facts). No conversation compaction or summarization of prior turns — only the fixed window plus retrieval.
 
-This is a deliberate production-matching constraint: in a real deployment, the AI assistant sees only recent messages plus what the memory system retrieves — not the full conversation history. We replicate this in the benchmark by limiting LLM A to a fixed sliding window plus retrieved memories. At exam time, all systems (including ours) provide only retrieved memories to the answering LLM — no full conversation in context. Each LoCoMo conversation spans 6-10 months of simulated time across 19-35 sessions — the benchmark tests retention over the kind of timeframe where real users would rely entirely on a memory system rather than scrolling back through chat history. The original LoCoMo paper defines a separate full-context baseline where the LLM sees the entire conversation (approximately 26K tokens); memory systems aim to approach this accuracy with far fewer tokens.
+This is a deliberate production-matching constraint: in a real deployment, the AI assistant sees only recent messages plus what the memory system retrieves — not the full conversation history. I replicate this in the benchmark by limiting LLM A to a fixed sliding window plus retrieved memories. At exam time, all systems (including the present system) provide only retrieved memories to the answering LLM — no full conversation in context. Each LoCoMo conversation spans 6-10 months of simulated time across 19-35 sessions — the benchmark tests retention over the kind of timeframe where real users would rely entirely on a memory system rather than scrolling back through chat history. The original LoCoMo paper defines a separate full-context baseline where the LLM sees the entire conversation (approximately 26K tokens); memory systems aim to approach this accuracy with far fewer tokens.
 
 ### 3.3.1 Dual Memory Architecture
 Exchange summaries capture *what happened* in each conversation turn — providing narrative context about interactions and events. Atomic facts capture *what is specifically true* — individual self-contained statements extracted from the character's information. Both are stored in the same collection with `type` metadata distinguishing them. Two-lane retrieval queries summaries and facts separately (4 slots each), ensuring both types contribute to every response.
@@ -240,7 +240,7 @@ Initial implementation used ChromaDB `$contains` on pipe-delimited tag strings, 
 3. LoCoMo exam, OFF (post-healing accuracy)
 4. Hard exam, OFF (post-healing reasoning)
 
-**Key design choice:** Poison memories are injected WITH fake outcome metadata and distributed across all three tiers (approximately 60% working, approximately 25% history, approximately 15% patterns) with tier-appropriate metadata (working: low uses/scores; history: moderate uses, score ≥0.7; patterns: high uses, success ≥5). This simulates a sophisticated adversarial attack where wrong facts have been in the system long enough to be promoted naturally. The system must overcome both wrong content AND spoofed trust signals across the full tier hierarchy through natural conversation feedback. Note: a harder test would inject poison and exam immediately with no conversation healing — measuring raw damage. Our test measures post-healing resilience: how much accuracy remains after conversation feedback has had a chance to identify and decay poison? If the system recovers from tier-distributed trust-spoofed poison through natural conversation, it can trivially handle natural misinformation (user error, model hallucination) which arrives without any trust history.
+**Key design choice:** Poison memories are injected WITH fake outcome metadata and distributed across all three tiers (approximately 60% working, approximately 25% history, approximately 15% patterns) with tier-appropriate metadata (working: low uses/scores; history: moderate uses, score ≥0.7; patterns: high uses, success ≥5). This simulates a sophisticated adversarial attack where wrong facts have been in the system long enough to be promoted naturally. The system must overcome both wrong content AND spoofed trust signals across the full tier hierarchy through natural conversation feedback. Note: a harder test would inject poison and exam immediately with no conversation healing — measuring raw damage. This test measures post-healing resilience: how much accuracy remains after conversation feedback has had a chance to identify and decay poison? If the system recovers from tier-distributed trust-spoofed poison through natural conversation, it can trivially handle natural misinformation (user error, model hallucination) which arrives without any trust history.
 
 **Known limitation:** Poison memories have realistic tier-level metadata but lack outcome histories proportional to their uses (e.g., a patterns-tier poison with 15 uses would realistically have 15 outcome entries). Their outcome histories contain 3 entries regardless of tier, which a careful inspection of metadata could distinguish from organic memories. In practice, this is unlikely to affect results — the LLM sees outcome summaries ([YYN]) not raw counts, and the retrieval system does not use outcome history length for ranking.
 
@@ -273,9 +273,9 @@ Per-conversation breakdown reported to identify conversation-specific effects
 
 ### 3.6 Outcome Score Formula
 - Raw outcome scoring (worked/failed/partial) drives tier lifecycle
-- Wilson confidence intervals were tested but proven harmful at all retrieval stages (Section 5.2.3) — removed entirely from architecture
+- Wilson confidence intervals were tested but proven harmful at all retrieval stages (Section 5.2.3) — removed from retrieval ranking. Wilson scores remain visible in memory metadata presented to the LLM (contribution not isolated; Limitation #8)
 
-### 3.7 What We Learned from Preliminary Experiments
+### 3.7 Lessons from Preliminary Experiments
 
 Early experiments used 404 scripted multi-fact questions (included in the repository as `exam_questions` in `locomo_full.json`) rather than natural conversation. These were dense flashcard-style queries packing 4-5 facts per question. Preliminary findings from iterative runs on this format:
 
@@ -382,7 +382,7 @@ The poison pipeline (Section 4.5) tests whether conversation-time learning can h
 
 **No-memory baseline:** gpt-oss:20b answering LoCoMo questions with zero retrieved context scores 6.0% overall (120/1986). Per-category: commonsense 8.1%, multi-hop 14.6%, adversarial 5.4%, single-hop 3.5%, temporal 1.2%. The model has near-zero parametric knowledge of LoCoMo's fictional characters. Every point above 6.0% comes from the memory system.
 
-**Retrieval context comparison:** The baseline retrieves 4 raw chunks (approximately 1,840 chars total, avg 460 chars/chunk) containing dialogue with speaker labels, timestamps, and conversational filler. Our strategies retrieve 4 summaries + 4 atomic facts (approximately 1,270 chars total, avg 224 chars/summary + 94 chars/fact). Despite receiving more raw text, the baseline's chunks mix multiple topics per memory, diluting relevance. Our system produces less text but higher signal density — each fact matches one specific query, each summary captures one exchange's key points.
+**Retrieval context comparison:** The baseline retrieves 4 raw chunks (approximately 1,840 chars total, avg 460 chars/chunk) containing dialogue with speaker labels, timestamps, and conversational filler. The learning strategies retrieve 4 summaries + 4 atomic facts (approximately 1,270 chars total, avg 224 chars/summary + 94 chars/fact). Despite receiving more raw text, the baseline's chunks mix multiple topics per memory, diluting relevance. The system produces less text but higher signal density — each fact matches one specific query, each summary captures one exchange's key points.
 
 
 **Conversation learning — final pipeline** (summaries + atomic facts):
@@ -395,7 +395,7 @@ The poison pipeline (Section 4.5) tests whether conversation-time learning can h
 - Dual memory: exchange summaries for continuity + atomic facts for recall
 - Each fact stored as its own memory with initial score 0.5 (default working tier)
 - Run on corrected data (fixed adversarial ground truths, corrected character sheets), with tag routing bug fixed (Section 3.3.2)
-- 4,931 learned memories vs 1,698 raw chunks — 2.9× larger database, yet +22 points higher accuracy
+- 4,931 learned memories vs 1,698 raw chunks — 2.9× larger database, yet +22 points higher accuracy (20B raw; +23 points MiniMax-regraded)
 
 ### 4.4 Hard Exam
 
@@ -463,7 +463,7 @@ Key findings:
 1. **LoCoMo resilience is strong**: -4.2pt (MiniMax) despite 1,135 tier-distributed poison memories with spoofed trust signals. The system retains 72.4% accuracy — still 19pt above the clean baseline (53.0%).
 2. **Tag defense is not statistically significant**: On LoCoMo, TagCascade loses 4.7pt vs CE-Only's 5.4pt — a 0.7pt difference, not statistically significant (Section 4.8). On the hard exam, TagCascade drops 11.8pt vs CE-Only's 5.3pt, but no hard exam comparison achieves significance at n=76.
 3. **Hard exam is more vulnerable**: -11.8pt on 20B (TagCascade), -5.3pt CE-Only. Hard questions require multi-memory reasoning; injected poison facts that achieve top-3 retrieval for their topic directly compete with correct memories on these complex queries. However, no hard exam comparison achieves statistical significance at n=76 (Section 4.8).
-4. **Adversarial category is unaffected** (+1.1pt, within noise): our poison memories modify factual details about the correct person (wrong dates, sentiments, specifics) while adversarial questions test false-premise rejection (name swaps). Because our poison does not attribute facts to the wrong person, it does not create evidence supporting false premises. A poison design that misattributed facts across characters could interact with adversarial questions differently.
+4. **Adversarial category is unaffected** (+1.1pt, within noise): the poison memories modify factual details about the correct person (wrong dates, sentiments, specifics) while adversarial questions test false-premise rejection (name swaps). Because the poison does not attribute facts to the wrong person, it does not create evidence supporting false premises. A poison design that misattributed facts across characters could interact with adversarial questions differently.
 5. **Non-adversarial takes the hit**: -5.8pt (85.8% → 80.0%), with temporal (-6.9pt) and single-hop (-6.4pt) most affected — these categories rely on retrieving a single specific correct fact, exactly where poison competes.
 
 Retrieval analysis: poison facts achieve cosine distances nearly identical to correct facts — effectively indistinguishable by embedding similarity alone. CE cannot tell them apart. Decay kills poison through accumulated "failed" scores (2-4 fails depending on starting tier → score drops below 0.1 → archived). Actual decay: TagCascade archived 154 poison memories, CE-Only archived 134, out of 1,135 injected. The remaining approximately 1,000 poison memories survived the conversation healing loop — either they were never retrieved (no opportunity to score "failed") or they were retrieved but not scored harshly enough to cross the decay threshold.
@@ -478,7 +478,7 @@ Same retrieval architecture and databases, different answering model. Isolates m
 |-----------|-------------|-------------|-------|
 | TagCascade clean | **76.6%** | 74.1% | -2.5 |
 | CE-Only clean | 75.9% | 74.4% | -1.5 |
-| TagCascade poison | 72.4% | 71.8% | -0.7 |
+| TagCascade poison | 72.4% | 71.8% | -0.6 |
 | CE-Only poison | **73.3%** | 72.0% | -1.3 |
 | Raw baseline | 53.0% | 51.9% | -1.1 |
 
@@ -494,21 +494,20 @@ Same retrieval architecture and databases, different answering model. Isolates m
 
 **Statistical test (McNemar's, paired per-question):**
 
-**Statistical test (McNemar's, paired per-question):**
-
 | Comparison | Grader | Discordant (20B>mini / mini>20B) | p-value |
 |-----------|--------|----------------------------------|---------|
 | TagCascade clean LoCoMo | 20B | 203 / 123 | **0.00001** |
 | CE-Only clean LoCoMo | 20B | 218 / 119 | **<0.00001** |
 | TagCascade clean LoCoMo | MiniMax | 162 / 113 | **0.004** |
+| CE-Only clean LoCoMo | MiniMax | 157 / 127 | 0.085 |
 
-The 20B significantly outperforms GPT-4o-mini under both graders. The gap narrows under independent MiniMax regrading (162 vs 113, p=0.004) compared to 20B grading (203 vs 123, p<0.0001) — consistent with cross-model grading bias.
+The 20B significantly outperforms GPT-4o-mini under both graders (p<0.0001). Under independent MiniMax regrading, TagCascade remains significant (p=0.004) but CE-Only does not (p=0.085) — the gap narrows with an independent grader, consistent with cross-model grading bias.
 
 **Key findings:**
 
 1. **Architecture value is model-independent.** Both models show the same +22pt lift from conversation learning over raw baseline (20B: 53.0% → 75.9%; 4o-mini: 51.9% → 74.4%).
 
-2. **Architecture dominates model choice.** Swapping the local 20B for GPT-4o-mini changes accuracy by 1.5-2.5 points (MiniMax-regraded, p=0.004), while the architecture contributes +22 points (p<0.0001). The model effect is real but roughly 10x smaller than the architecture effect.
+2. **Architecture dominates model choice.** Swapping the local 20B for GPT-4o-mini changes accuracy by 1.5-2.5 points (MiniMax-regraded; TagCascade p=0.004, CE-Only p=0.085), while the architecture contributes +22 points (p<0.0001). The model effect is smaller than the architecture effect by roughly 10x.
 
 3. **Hard exam results are mixed and not statistically significant** (n=76). 4o-mini scores higher on some conditions (CE-Only poison Hard: +5.3pt) and lower on others. No hard exam comparison achieves significance at this sample size.
 
@@ -533,7 +532,7 @@ The 20B significantly outperforms GPT-4o-mini under both graders. The gap narrow
 | CE-Only clean | 73.7% | 16 | 4 | 20 |
 | TagCascade poison | 75.0% | 16 | 3 | 19 |
 
-MiniMax M2.7 regrading overwhelmingly upgrades — 8:1 upgrade-to-downgrade ratio on LoCoMo exams. The 20B grader is systematically stricter, particularly on partial matches that MiniMax judges as correct. LoCoMo agreement ranges 82-84%; Hard exam agreement is lower (74-79%) due to small sample effects and harder judgment calls on multi-retrieval reasoning answers.
+MiniMax M2.7 regrading overwhelmingly upgrades — approximately 8:1 upgrade-to-downgrade ratio on LoCoMo exams. The 20B grader is systematically stricter, particularly on partial matches that MiniMax judges as correct. LoCoMo agreement ranges 82-84%; Hard exam agreement is lower (74-79%) due to small sample effects and harder judgment calls on multi-retrieval reasoning answers.
 
 ### 4.8 Statistical Significance
 
@@ -588,7 +587,7 @@ Cross-referencing per-question outcomes across 4 independent exam configurations
 | Level | Accuracy | Gap to next |
 |-------|----------|-------------|
 | Ceiling (any system correct) | 98.4% | — |
-| Best system (TagCascade 20B) | 85.8% | 12.6pt retrieval variance |
+| Best system (TagCascade 20B) | 85.8% | 12.6pt primarily retrieval variance |
 | Model swap (CE-Only 4o-mini) | 82.6% | 3.2pt model difference |
 | Raw baseline (20B) | 56.5% | 26.1pt architecture value |
 | No-memory baseline (20B) | 6.0% | 50.5pt memory system value |
@@ -632,7 +631,7 @@ McNemar's (summaries-only vs 4+4): **p<0.0001** — 530 questions where facts fo
 **Findings:**
 1. Summaries alone are insufficient for factual recall (34.0% Hit) — they pack multiple topics per memory, diluting cosine match precision.
 2. A single fact slot nearly doubles accuracy (+29.2 points) by providing a precise semantic match the summary lane misses.
-3. Facts alone (62.5%) outperform summaries alone (34.0%) by 28 points and achieve higher MRR (0.576 vs 0.288) — facts put the right answer first.
+3. Facts alone (62.5%) outperform summaries alone (34.0%) by 28.5 points and achieve higher MRR (0.576 vs 0.288) — facts put the right answer first.
 4. Summaries add value on top of facts: 4 facts only (62.5%) vs 4+4 (68.4%) = +5.9 points from summaries providing broader context.
 5. **Cost-optimized split: 4 summaries + 2 facts** captures 98% of the benefit (66.8% vs 68.4%). However, retrieval failure analysis (Section 5.1.3) showed 107 ranking failures recoverable with 4 fact slots. **Final choice: 4+4** to maximize retrieval ceiling and outcome scoring signal (8 memories scored per turn).
 
@@ -675,7 +674,7 @@ Rank distribution: 107 at rank 3-5 (just missed the 2-fact cutoff), 15 at 6-10, 
 
 ### 5.1.4 Memory Volume Management
 
-Atomic fact extraction produces high memory volume (approximately 3,000+ facts + approximately 500 summaries for 3,015 source facts). Deduplication at store time rejects memories with cosine similarity above a threshold to the closest existing memory, preventing exact or near-exact duplicates. Beyond dedup, we rely on the outcome-based lifecycle to manage quality: memories that prove useful in retrieval are promoted through tiers, while unused or unhelpful memories decay and are archived. This avoids the risk of lossy merging destroying specific details that retrieval needs.
+Atomic fact extraction produces high memory volume (approximately 3,000+ facts + approximately 500 summaries for 3,015 source facts). Deduplication at store time rejects memories with cosine similarity above a threshold to the closest existing memory, preventing exact or near-exact duplicates. Beyond dedup, I rely on the outcome-based lifecycle to manage quality: memories that prove useful in retrieval are promoted through tiers, while unused or unhelpful memories decay and are archived. This avoids the risk of lossy merging destroying specific details that retrieval needs.
 
 
 ### 5.2 Does Wilson Scoring Help Retrieval?
@@ -763,14 +762,14 @@ All retrieval components were tested on 1,537 non-adversarial LoCoMo questions. 
 | **Wilson blend** | -2.9 Hit@1 single-pool (p=0.0001), -3.2 Hit@1 two-lane (p<0.0001) | 50.6% vs 53.5% / 21.9% vs 25.1% | **Remove** |
 | **Wilson cascade sort** | **-4.3 Hit@1 clean (p=0.0000), -4.0 poison (p=0.0000)** | 23.0% vs 27.3% / 25.0% vs 29.0% (tags-first cascade) | **Remove** |
 | **Wilson-only** | -5.1 Hit@1 vs cosine (p<0.0001) | 30.6% vs 35.7% | **Remove** |
-| **Tags-first cascade** | **+1.9 Hit@1 clean (p=0.0000), +0.7 poison (p=0.25)** | 27.3% vs 25.4% / 29.0% vs 28.4% (vs pure CE) | **Keep** |
+| **Tags-first cascade** | **+1.9 Hit@1 clean (p=0.0000), +0.6 poison (p=0.25)** | 27.3% vs 25.4% / 29.0% vs 28.4% (vs pure CE) | **Keep** |
 | **Tags-first vs cosine-first** | **+1.5 Hit@1 clean (p=0.0003), +1.0 poison (p=0.012)** | 27.3% vs 25.8% / 29.0% vs 28.0% | **Tags-first wins** |
 | **Tag routing (two-lane clean)** | **+6.1 Hit@1 (p<0.0001)** | 21.0% vs 14.9% | **Keep** |
 | **Tag routing (two-lane poison)** | **+7.5 Hit@1 (p<0.0001)** | 23.0% vs 15.5% | **Keep — stronger under attack** |
 | **Nursery slot** | 0.0 Hit@1 (p=1.0) | Identical results | **Remove** |
 | **Wilson under poison** | +0.8 Hit@1 (p=0.39, ns) | 51.1% vs 50.3% | **No benefit** |
 
-**Why we are certain:**
+**Why this is certain:**
 1. **Wilson retrieval** was tested at every possible stage: blend scoring (3 conditions), cascade pre-sorting (2 architectures × 2 databases), and standalone. It hurts in every configuration (p<0.001). Wilson degrades CE's semantic judgment by overriding question-specific relevance with memory-level trust scores that cluster too tightly at scale to provide useful differentiation.
 
 2. **Tags-first cascade** significantly outperforms cosine-first approaches (p=0.0003 clean). Using an inverted index to enter via tag overlap — rather than post-filtering cosine results — gives CE a better candidate pool by pulling from the full tag-matched population regardless of embedding distance.
@@ -803,7 +802,7 @@ Wilson scoring hurts retrieval in every configuration tested — both architectu
 
 **Note on poison hit rates:** Retrieval hit rates on poisoned databases use keyword matching against the ground truth answer to determine if a "relevant" memory was retrieved. Because poison memories are semantically similar to correct facts (same entity names, similar topics), they may match keywords and be counted as hits. This means absolute hit rates on poison databases may be slightly inflated. However, the relative comparisons (tags vs no-tags, Wilson vs cosine) are valid because any inflation affects both conditions equally.
 
-Wilson has been removed from the retrieval architecture entirely. The final system uses no Wilson scoring anywhere — outcome scoring for lifecycle management uses raw scores, not Wilson confidence intervals.
+Wilson has been removed from the retrieval ranking entirely. The final system uses no Wilson scoring in retrieval — outcome scoring for lifecycle management uses raw scores, not Wilson confidence intervals. However, Wilson confidence remains visible in the metadata presented to the LLM alongside each retrieved memory (Section 3.3, Limitation #8); its contribution to answer accuracy was not isolated.
 
 **Important caveat:** The isolation test measures retrieval quality (Hit@1, Hit@8, MRR) — whether the correct memory appears in the top-k. It does not measure end-to-end answer accuracy, which depends on the LLM's ability to use retrieved memories to generate correct responses. Retrieval improvements do not always translate 1:1 to answer accuracy improvements. The full pipeline exam (Section 4) measures the end-to-end effect.
 
@@ -837,23 +836,23 @@ The hard exam is more vulnerable (-5.3 to -11.8pt on 20B), as complex reasoning 
 7. **Format familiarity confound in model swap** — the memory database was created by the 20B (conversation learning, fact extraction, sidecar scoring). The 20B sees memories in its own style at exam time; 4o-mini sees an unfamiliar format. The 1.5-2.5pt model gap may partially reflect format familiarity rather than pure model capability. A full pipeline re-run with 4o-mini as the conversation learner would control for this.
 8. **Metadata contribution not isolated** — every retrieved memory includes outcome metadata (score, Wilson confidence, use count, outcome history) visible to the answering LLM. No condition was tested with metadata stripped, so the contribution of metadata to answer accuracy is unknown. The LLM may use it to resolve conflicting memories, or it may ignore it entirely.
 9. **No specificity testing** — no unanswerable questions beyond the adversarial category. Systems are not penalized for hallucinating answers to questions with no stored evidence.
-10. **Poison attack is author-designed** — we designed the 1,135 poison memories, injected them, and measured resilience. Poison facts achieve cosine distances nearly identical to correct facts (effectively indistinguishable to embedding similarity), but no external red team validated the attack design. Metadata is simplified (3 outcome entries regardless of tier).
-11. **Exchange window constraint** — LLM A sees last 4 exchanges + 8 retrieved memories (no full conversation history). This is a deliberate production-matching constraint, not a limitation, but means our system operates with strictly less context than full-transcript ingestion systems.
+10. **Poison attack is author-designed** — I designed the 1,135 poison memories, injected them, and measured resilience. Poison facts achieve cosine distances nearly identical to correct facts (effectively indistinguishable to embedding similarity), but no external red team validated the attack design. Metadata is simplified (3 outcome entries regardless of tier).
+11. **Exchange window constraint** — LLM A sees last 4 exchanges + 8 retrieved memories (no full conversation history). This is a deliberate production-matching constraint, not a limitation, but means the system operates with strictly less context than full-transcript ingestion systems.
 12. **Temperature 0.7 for LLM B** (conversation variety), 0 for LLM A and exams (deterministic). Non-deterministic conversation generation means exact memory content varies across runs.
 
 ---
 
 ## 6. Conclusion
 
-A local 20B model with conversation-based learning and cross-encoder reranking achieves 85.8% on non-adversarial LoCoMo questions (MiniMax M2.7 regraded). For context, MemMachine reports 87.5% on 4/5 categories under a different evaluation protocol (GPT-4o-mini, different judge model and scoring method) — these scores are not directly comparable due to protocol fragmentation (Section 1.2), but suggest our architecture operates in a competitive range. Swapping the local 20B for GPT-4o-mini changes accuracy by 1.5-2.5 points (p=0.004), while the architecture contributes 22+ points (p<0.0001) — both significant, but the architecture effect dominates.
+A local 20B model with conversation-based learning and cross-encoder reranking achieves 85.8% on non-adversarial LoCoMo questions (MiniMax M2.7 regraded). For context, MemMachine reports 87.5% on 4/5 categories under a different evaluation protocol (GPT-4o-mini, different judge model and scoring method) — these scores are not directly comparable due to protocol fragmentation (Section 1.2), but suggest the architecture operates in a competitive range. Swapping the local 20B for GPT-4o-mini changes accuracy by 1.5-2.5 points (TagCascade p=0.004, CE-Only p=0.085, MiniMax-regraded), while the architecture contributes 22+ points (p<0.0001) — the architecture effect dominates.
 
 Four findings stand out:
 
 1. **Conversation learning works.** Memories formed through natural dialogue outperform raw ingestion by 22+ points (65.4% vs 43.1%, 20B; p<0.0001). The learning loop produces precise atomic facts that are better cosine targets than raw conversation chunks, despite generating a 2.9x larger database. This value is model-independent: GPT-4o-mini shows the same +22pt architecture lift (51.9% baseline → 74.4% learned).
 
-2. **Architecture dominates model choice.** GPT-4o-mini achieves 82.6% non-adversarial on our architecture vs 85.8% with the local 20B — a 3.2pt gap (p=0.004). The architecture contributes +22pt (p<0.0001) while the model contributes +2-3pt. Both are statistically significant, but the architecture effect is roughly 10x larger.
+2. **Architecture dominates model choice.** GPT-4o-mini achieves 82.6% non-adversarial on this architecture vs 85.8% with the local 20B — a 3.2pt gap (TagCascade p=0.004, CE-Only p=0.085, MiniMax-regraded; memories created by the 20B — Limitation #7). The architecture contributes +22pt (p<0.0001) while the model contributes +2-3pt. The architecture effect is roughly 10x larger.
 
-3. **Wilson scoring is harmful.** Tested at every retrieval stage — blend, cascade sort, standalone — Wilson actively degrades cross-encoder performance (p<0.001 in all configurations). Raw outcome scoring drives the lifecycle; Wilson confidence intervals add nothing. This is a structural incompatibility: CE needs query-specific relevance, Wilson provides query-independent trust.
+3. **Wilson scoring hurts retrieval ranking.** Tested at every retrieval stage — blend, cascade sort, standalone — Wilson actively degrades cross-encoder performance (p<0.001 in all configurations). Raw outcome scoring drives the lifecycle; Wilson confidence intervals add nothing to retrieval. This is a structural incompatibility: CE needs query-specific relevance, Wilson provides query-independent trust. Wilson confidence remains visible in memory metadata presented to the LLM, but its contribution to answer accuracy was not isolated (Limitation #8).
 
 4. **The system is resilient to poison, but the mechanism is not fully isolated.** Despite 1,135 adversarial memories with spoofed trust signals distributed across all three tiers, the system retains 72-73% LoCoMo accuracy — a 2.6-4.2pt degradation from clean. Three factors likely contribute: correct memories outnumbering poison (approximately 19% by volume), outcome scoring decaying 12-14% of poison, and visible metadata trust signals helping the LLM discount low-scored memories. The relative contribution of each was not isolated (Section 5.3). Tag routing does not provide statistically significant additional defense at the exam level (p=0.618), though it improves retrieval ranking (p<0.0001).
 
@@ -893,10 +892,16 @@ python -m benchmark.dashboard
 
 ---
 
+## Acknowledgments
+
+This research was conducted with the assistance of Claude (Anthropic), powered by the Roampal AI platform. Claude assisted with code development, data processing, ground truth correction, verification, and manuscript preparation.
+
+---
+
 ## References
 
 1. Maharana et al. "Evaluating Very Long-Term Conversational Memory of LLM Agents." ACL 2024.
-2. MemMachine v0.2. memmachine.ai, Dec 2025.
+2. MemMachine. "MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents." arXiv:2604.04853, Apr 2026.
 3. Mem0. arXiv:2504.19413, 2025.
 4. Zep/Graphiti. arXiv:2501.13956, 2025.
 5. SmartSearch. arXiv:2603.15599, Mar 2026.

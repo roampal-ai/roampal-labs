@@ -1,21 +1,23 @@
 # roampal-labs
 
-Research benchmark testing conversational memory learning on a corrected LoCoMo dataset. Instead of ingesting conversation transcripts (the standard approach), the system learns through simulated natural dialogue with 20 character roles sharing 3,015 life facts.
+**85.8% on LoCoMo (non-adversarial) | +23 points over raw ingestion | Single GPU, no cloud dependencies**
+
+Research benchmark testing conversational memory learning on a corrected LoCoMo dataset. Instead of ingesting conversation transcripts (the standard approach), the system learns through simulated natural dialogue with 20 character roles sharing 3,015 life facts. All evaluation is end-to-end answer accuracy — dual-graded by two independent models — not retrieval recall.
 
 **Paper:** [Beyond Ingestion: What Conversational Memory Learning Reveals on a Corrected LoCoMo Benchmark](paper.md)
 
 ## Key Findings
 
-- **Conversation learning beats ingestion by 22 points** (65.4% vs 43.1%, p<0.0001) — memories formed through dialogue are more precise retrieval targets than raw conversation chunks
-- **Architecture dominates model choice** — swapping a local 20B for GPT-4o-mini changes accuracy by 1.5-2.5 points (p=0.004); the retrieval architecture contributes 22+ points (p<0.0001)
-- **Wilson confidence scoring hurts retrieval** at every stage tested (p<0.001) — removed entirely in favor of raw outcome scoring
+- **Conversation learning beats ingestion by 23 points** (76.6% vs 53.0%, MiniMax-regraded, p<0.0001) — memories formed through dialogue are more precise retrieval targets than raw conversation chunks
+- **Architecture dominates model choice** — swapping a local 20B for GPT-4o-mini changes accuracy by 1.5-2.5 points (TagCascade p=0.004, CE-Only p=0.085, MiniMax-regraded; memories created by the 20B); the retrieval architecture contributes 23+ points (p<0.0001)
+- **Wilson confidence scoring hurts retrieval ranking** at every stage tested (p<0.001) — removed from retrieval; still visible in memory metadata (contribution not isolated)
 - **Tag routing helps retrieval ranking** (p<0.0001) **but not exam accuracy** (p=0.618) — both architectures converge with 8 retrieval slots
 - **Poison resilience**: 1,135 adversarial memories with spoofed trust signals cause only 2.6-4.2pt degradation
-- **98.4% non-adversarial ceiling** — the 12.6pt gap to best system (85.8%) is retrieval variance
+- **98.4% non-adversarial ceiling** — the 12.6pt gap to best system (85.8%) is primarily retrieval variance, with model capability contributing a smaller effect
 
 ## LoCoMo Benchmark Corrections
 
-444 of 446 adversarial questions in the original LoCoMo dataset have no `answer` field — the entire adversarial category is untestable under standard grading. We added premise-rejection ground truths to enable uniform evaluation across all 5 categories. 3 non-adversarial answers requiring external domain knowledge were reverted to empty. All 10 source conversations and all 1,986 questions are unchanged.
+444 of 446 adversarial questions in the original LoCoMo dataset have no `answer` field — the entire adversarial category is untestable under standard grading. I added premise-rejection ground truths to enable uniform evaluation across all 5 categories. 3 non-adversarial answers requiring external domain knowledge were reverted to empty. All 10 source conversations and all 1,986 questions are unchanged.
 
 See [paper.md Section 2.4](paper.md) for full details. Verified: 0/200 sampled errors (95% CI: 0-1.8%).
 
@@ -115,9 +117,9 @@ Apache 2.0. See [LICENSE](LICENSE).
 ## Citation
 
 ```
-@article{roampal2026beyond,
+@article{teague2026beyond,
   title={Beyond Ingestion: What Conversational Memory Learning Reveals on a Corrected LoCoMo Benchmark},
-  author={Logan and Roampal AI},
+  author={Teague, Logan},
   year={2026}
 }
 ```

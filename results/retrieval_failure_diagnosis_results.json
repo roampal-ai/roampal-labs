@@ -1,0 +1,58 @@
+{
+  "test": "retrieval_failure_diagnosis",
+  "n_questions": 1537,
+  "db_path": "archive/pre_fix_run/runs/02.Wilson+CE",
+  "config": "4sum_2fact",
+  "summary": {
+    "hit": 890,
+    "hit_rate": 0.5791,
+    "miss": 647,
+    "miss_rate": 0.4209,
+    "not_retrievable": 323,
+    "not_retrievable_rate": 0.2101,
+    "ranking_failure": 324,
+    "ranking_rate": 0.2108
+  },
+  "ranking_detail": {
+    "in_facts_deep": 160,
+    "in_summaries_deep": 57,
+    "in_both_deep": 107,
+    "fact_rank_distribution": {
+      "3-5": 107,
+      "6-10": 15,
+      "11-20": 13,
+      "21-50": 14,
+      "50+": 11
+    }
+  },
+  "per_category": {
+    "temporal": {
+      "hit": 191,
+      "not_in_db": 77,
+      "in_both_deep": 23,
+      "in_summaries_deep": 10,
+      "in_facts_deep": 20
+    },
+    "multi-hop": {
+      "not_in_db": 28,
+      "hit": 54,
+      "in_facts_deep": 9,
+      "in_both_deep": 1,
+      "in_summaries_deep": 1
+    },
+    "single-hop": {
+      "in_facts_deep": 19,
+      "hit": 149,
+      "in_both_deep": 21,
+      "not_in_db": 78,
+      "in_summaries_deep": 15
+    },
+    "commonsense": {
+      "hit": 496,
+      "not_in_db": 140,
+      "in_facts_deep": 112,
+      "in_both_deep": 62,
+      "in_summaries_deep": 31
+    }
+  }
+}

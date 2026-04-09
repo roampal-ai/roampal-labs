@@ -50,8 +50,6 @@ def render(state: dict):
     current_step = state.get("current_step", "")
     valid_groups = {
         "02.TagCascade", "03.CE-Only", "04.EntityRouter", "baseline_raw_repaired",
-        "gemma4_02.TagCascade_clean", "gemma4_02.TagCascade_poison",
-        "gemma4_03.CE-Only_clean", "gemma4_03.CE-Only_poison",
         "4omini_02.TagCascade_clean", "4omini_03.CE-Only_clean", "4omini_baseline",
         "4omini_02.TagCascade_poison", "4omini_03.CE-Only_poison",
         "no_memory",
