@@ -839,6 +839,23 @@ The hard exam is more vulnerable (-5.3 to -11.8pt on 20B), as complex reasoning 
 10. **Poison attack is author-designed** — I designed the 1,135 poison memories, injected them, and measured resilience. Poison facts achieve cosine distances nearly identical to correct facts (effectively indistinguishable to embedding similarity), but no external red team validated the attack design. Metadata is simplified (3 outcome entries regardless of tier).
 11. **Exchange window constraint** — LLM A sees last 4 exchanges + 8 retrieved memories (no full conversation history). This is a deliberate production-matching constraint, not a limitation, but means the system operates with strictly less context than full-transcript ingestion systems.
 12. **Temperature 0.7 for LLM B** (conversation variety), 0 for LLM A and exams (deterministic). Non-deterministic conversation generation means exact memory content varies across runs.
+13. **Raw ingestion baseline is deliberately minimal.** The ingestion baseline feeds 1,698 raw conversation chunks without processing — no fact extraction, no summarization, no memory structuring. This establishes a floor, not a ceiling, for ingestion-based approaches. Applying atomic fact extraction at ingestion time (processing the full transcript into precise memories without a conversation loop) would likely close some of the 22-point gap, since much of the conversational learning advantage comes from producing focused, single-fact memories that are better cosine targets than multi-topic chunks (Section 5.1.1). This comparison was not tested because the paper's contribution is the conversational learning loop itself — how an agent builds memory through natural dialogue with incomplete information — not optimizing ingestion pipelines. These are different use cases: batch-processing a known transcript vs. an agent learning incrementally from live conversation.
+
+### 5.5 Future Directions
+
+Several findings transfer beyond the conversational learning context tested here and motivate follow-up work.
+
+**Optimized ingestion (future work).** The retrieval slot analysis (Section 5.1.2) demonstrates that atomic facts provide a +29.2 point Hit Rate gain over summaries alone, and that single-fact memories are substantially better cosine targets than multi-topic chunks. These findings apply directly to ingestion-based systems: decomposing transcripts into atomic facts at ingestion time — without a conversation loop — should yield similar retrieval improvements. This paper tests conversational learning as its core contribution; a systematic comparison of ingestion strategies (raw chunks, fact-extracted, summarized, hybrid) is a separate investigation.
+
+**Lifecycle tuning (future work).** The outcome scoring system uses fixed thresholds for tier promotion, demotion, and decay (Section 3.3). These values were set heuristically — no systematic search was performed. Tuning the decay rate, promotion thresholds, and scoring weights (worked=1.0, partial=0.5, unknown=0.25, failed=0.0) could meaningfully change both clean accuracy and poison resilience. The interaction between lifecycle aggressiveness and memory database size (more aggressive decay = smaller DB = fewer candidates for retrieval) creates a tradeoff that was not explored.
+
+**Isolating poison resilience (future work).** The system retains 72-73% accuracy under 1,135 adversarial memories, but three contributing factors — numeric dilution, outcome decay, and visible metadata trust signals — were not isolated (Section 5.3). A controlled study varying each factor independently (immediate exam with no healing loop, stripped metadata, varying poison ratios) would identify which defense mechanisms are load-bearing and which are incidental. This has direct implications for production memory systems where adversarial input is expected.
+
+**Broader benchmark validation.** All results are on LoCoMo (corrected). Validating on LongMemEval or other multi-session benchmarks would test whether the conversational learning advantage generalizes beyond LoCoMo's 10-conversation structure.
+
+**Cross-entity retrieval.** The hard exam's weakest category is cross-entity inference (15-30%), which requires combining facts about multiple people in a single answer. Multi-hop retrieval strategies — issuing sub-queries per entity mentioned in the question, or graph-based traversal across tagged entities — could address this ceiling.
+
+**Human evaluation.** All grading is LLM-based (Limitation #4). Human evaluation on a stratified sample would validate both the grading methodology and the corrected adversarial ground truths.
 
 ---
 
